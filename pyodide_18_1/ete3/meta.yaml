@@ -1,0 +1,19 @@
+package:
+  name: ete3
+  version: 3.1.2
+source:
+  url: https://files.pythonhosted.org/packages/8d/ec/2273049ca13684998d7b6925d7c13fcd0b774453860e6f4904d5c4d0ae2d/ete3-3.1.2.tar.gz
+  sha256: 4fc987b8c529889d6608fab1101f1455cb5cbd42722788de6aea9c7d0a8e59e9
+test:
+  imports:
+  - ete3
+requirements:
+  run:
+    - six
+    - lxml
+    - numpy
+about:
+  home: http://etetoolkit.org
+  PyPi: https://pypi.org/project/ete3
+  summary: A Python Environment for (phylogenetic) Tree Exploration
+  license: GPLv3
