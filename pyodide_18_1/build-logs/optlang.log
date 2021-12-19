@@ -1,0 +1,307 @@
+running install
+running bdist_egg
+running egg_info
+writing src/optlang.egg-info/PKG-INFO
+writing dependency_links to src/optlang.egg-info/dependency_links.txt
+writing requirements to src/optlang.egg-info/requires.txt
+writing top-level names to src/optlang.egg-info/top_level.txt
+reading manifest file 'src/optlang.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*' found under directory 'slow_tests'
+adding license file 'LICENSE'
+writing manifest file 'src/optlang.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/optlang
+copying src/optlang/expression_parsing.py -> build/lib/optlang
+copying src/optlang/osqp_interface.py -> build/lib/optlang
+copying src/optlang/cplex_interface.py -> build/lib/optlang
+copying src/optlang/gurobi_interface.py -> build/lib/optlang
+copying src/optlang/coinor_cbc_interface.py -> build/lib/optlang
+copying src/optlang/scipy_interface.py -> build/lib/optlang
+copying src/optlang/_version.py -> build/lib/optlang
+copying src/optlang/util.py -> build/lib/optlang
+copying src/optlang/glpk_exact_interface.py -> build/lib/optlang
+copying src/optlang/interface.py -> build/lib/optlang
+copying src/optlang/__init__.py -> build/lib/optlang
+copying src/optlang/symbolics.py -> build/lib/optlang
+copying src/optlang/container.py -> build/lib/optlang
+copying src/optlang/glpk_interface.py -> build/lib/optlang
+copying src/optlang/exceptions.py -> build/lib/optlang
+copying src/optlang/inspyred_interface.py -> build/lib/optlang
+copying src/optlang/duality.py -> build/lib/optlang
+creating build/lib/optlang/tests
+copying src/optlang/tests/test_elements.py -> build/lib/optlang/tests
+copying src/optlang/tests/abstract_test_cases.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_netlib_glpk_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_netlib_gurobi_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_container.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_inspyred_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/__init__.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_io.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_util.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_glpk_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_scipy_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_netlib_glpk_exact_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_cplex_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_coinor_cbc_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_symbolics.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_change_solver.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_duality.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_expression_parsing.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_gurobi_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_osqp_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_netlib_cplex_interface.py -> build/lib/optlang/tests
+copying src/optlang/tests/test_glpk_exact_interface.py -> build/lib/optlang/tests
+creating build/lib/optlang/tests/data
+copying src/optlang/tests/data/__init__.py -> build/lib/optlang/tests/data
+copying src/optlang/tests/data/parse_the_final_netlib_results.py -> build/lib/optlang/tests/data
+UPDATING build/lib/optlang/_version.py
+set build/lib/optlang/_version.py to '1.5.2'
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/expression_parsing.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/osqp_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/cplex_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/gurobi_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/coinor_cbc_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/scipy_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/_version.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/util.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/glpk_exact_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/interface.py -> build/bdist.linux-x86_64/egg/optlang
+creating build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_elements.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/abstract_test_cases.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_netlib_glpk_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_netlib_gurobi_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_container.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_inspyred_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/__init__.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_io.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_util.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_glpk_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_scipy_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_netlib_glpk_exact_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_cplex_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_coinor_cbc_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_symbolics.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_change_solver.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_duality.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_expression_parsing.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_gurobi_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_osqp_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+creating build/bdist.linux-x86_64/egg/optlang/tests/data
+copying build/lib/optlang/tests/data/__init__.py -> build/bdist.linux-x86_64/egg/optlang/tests/data
+copying build/lib/optlang/tests/data/parse_the_final_netlib_results.py -> build/bdist.linux-x86_64/egg/optlang/tests/data
+copying build/lib/optlang/tests/test_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_netlib_cplex_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/tests/test_glpk_exact_interface.py -> build/bdist.linux-x86_64/egg/optlang/tests
+copying build/lib/optlang/__init__.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/symbolics.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/container.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/glpk_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/exceptions.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/inspyred_interface.py -> build/bdist.linux-x86_64/egg/optlang
+copying build/lib/optlang/duality.py -> build/bdist.linux-x86_64/egg/optlang
+byte-compiling build/bdist.linux-x86_64/egg/optlang/expression_parsing.py to expression_parsing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/osqp_interface.py to osqp_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/cplex_interface.py to cplex_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/gurobi_interface.py to gurobi_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/coinor_cbc_interface.py to coinor_cbc_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/scipy_interface.py to scipy_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/glpk_exact_interface.py to glpk_exact_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/interface.py to interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_elements.py to test_elements.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/abstract_test_cases.py to abstract_test_cases.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_netlib_glpk_interface.py to test_netlib_glpk_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_netlib_gurobi_interface.py to test_netlib_gurobi_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_container.py to test_container.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_inspyred_interface.py to test_inspyred_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_io.py to test_io.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_util.py to test_util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_glpk_interface.py to test_glpk_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_scipy_interface.py to test_scipy_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_netlib_glpk_exact_interface.py to test_netlib_glpk_exact_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_cplex_interface.py to test_cplex_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_coinor_cbc_interface.py to test_coinor_cbc_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_symbolics.py to test_symbolics.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_change_solver.py to test_change_solver.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_duality.py to test_duality.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_expression_parsing.py to test_expression_parsing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_gurobi_interface.py to test_gurobi_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_osqp_interface.py to test_osqp_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/data/parse_the_final_netlib_results.py to parse_the_final_netlib_results.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_interface.py to test_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_netlib_cplex_interface.py to test_netlib_cplex_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/tests/test_glpk_exact_interface.py to test_glpk_exact_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/symbolics.py to symbolics.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/container.py to container.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/glpk_interface.py to glpk_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/inspyred_interface.py to inspyred_interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/optlang/duality.py to duality.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/optlang.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/optlang-1.5.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing optlang-1.5.2-py3.9.egg
+Copying optlang-1.5.2-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding optlang 1.5.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/optlang-1.5.2-py3.9.egg
+Processing dependencies for optlang==1.5.2
+Searching for sympy==1.8
+Best match: sympy 1.8
+Processing sympy-1.8-py3.9.egg
+Adding sympy 1.8 to easy-install.pth file
+Installing isympy script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/sympy-1.8-py3.9.egg
+Searching for swiglpk==4.65.1
+Best match: swiglpk 4.65.1
+Adding swiglpk 4.65.1 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Searching for mpmath==1.2.1
+Best match: mpmath 1.2.1
+Processing mpmath-1.2.1-py3.9.egg
+Adding mpmath 1.2.1 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/mpmath-1.2.1-py3.9.egg
+Finished processing dependencies for optlang==1.5.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/expression_parsing.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/osqp_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/cplex_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/gurobi_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/coinor_cbc_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/scipy_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/_version.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/util.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/glpk_exact_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/interface.py -> install/lib/python3.9/site-packages/optlang
+creating install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_elements.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/abstract_test_cases.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_netlib_glpk_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_netlib_gurobi_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_container.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_inspyred_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/__init__.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_io.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_util.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_glpk_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_scipy_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_netlib_glpk_exact_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_cplex_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_coinor_cbc_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_symbolics.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_change_solver.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_duality.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_expression_parsing.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_gurobi_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_osqp_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+creating install/lib/python3.9/site-packages/optlang/tests/data
+copying build/lib/optlang/tests/data/__init__.py -> install/lib/python3.9/site-packages/optlang/tests/data
+copying build/lib/optlang/tests/data/parse_the_final_netlib_results.py -> install/lib/python3.9/site-packages/optlang/tests/data
+copying build/lib/optlang/tests/test_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_netlib_cplex_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/tests/test_glpk_exact_interface.py -> install/lib/python3.9/site-packages/optlang/tests
+copying build/lib/optlang/__init__.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/symbolics.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/container.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/glpk_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/exceptions.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/inspyred_interface.py -> install/lib/python3.9/site-packages/optlang
+copying build/lib/optlang/duality.py -> install/lib/python3.9/site-packages/optlang
+byte-compiling install/lib/python3.9/site-packages/optlang/expression_parsing.py to expression_parsing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/osqp_interface.py to osqp_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/cplex_interface.py to cplex_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/gurobi_interface.py to gurobi_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/coinor_cbc_interface.py to coinor_cbc_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/scipy_interface.py to scipy_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/glpk_exact_interface.py to glpk_exact_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/interface.py to interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_elements.py to test_elements.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/abstract_test_cases.py to abstract_test_cases.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_netlib_glpk_interface.py to test_netlib_glpk_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_netlib_gurobi_interface.py to test_netlib_gurobi_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_container.py to test_container.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_inspyred_interface.py to test_inspyred_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_io.py to test_io.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_util.py to test_util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_glpk_interface.py to test_glpk_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_scipy_interface.py to test_scipy_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_netlib_glpk_exact_interface.py to test_netlib_glpk_exact_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_cplex_interface.py to test_cplex_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_coinor_cbc_interface.py to test_coinor_cbc_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_symbolics.py to test_symbolics.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_change_solver.py to test_change_solver.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_duality.py to test_duality.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_expression_parsing.py to test_expression_parsing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_gurobi_interface.py to test_gurobi_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_osqp_interface.py to test_osqp_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/data/parse_the_final_netlib_results.py to parse_the_final_netlib_results.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_interface.py to test_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_netlib_cplex_interface.py to test_netlib_cplex_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/tests/test_glpk_exact_interface.py to test_glpk_exact_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/symbolics.py to symbolics.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/container.py to container.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/glpk_interface.py to glpk_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/inspyred_interface.py to inspyred_interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/optlang/duality.py to duality.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/optlang.egg-info/PKG-INFO
+writing dependency_links to src/optlang.egg-info/dependency_links.txt
+writing requirements to src/optlang.egg-info/requires.txt
+writing top-level names to src/optlang.egg-info/top_level.txt
+reading manifest file 'src/optlang.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*' found under directory 'slow_tests'
+adding license file 'LICENSE'
+writing manifest file 'src/optlang.egg-info/SOURCES.txt'
+Copying src/optlang.egg-info to install/lib/python3.9/site-packages/optlang-1.5.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 622655
+compressed package into 303211
+compressed in 104 ms
+[2021-12-18 06:06:50] Building package optlang...
+[2021-12-18 06:07:50] done building package optlang in 60.6 s.

@@ -1,0 +1,14 @@
+package:
+  name: pylev
+  version: 1.4.0
+source:
+  url: https://files.pythonhosted.org/packages/11/f2/404d2bfa30fb4ee7c7a7435d593f9f698b25d191cafec69dd0c726f02f11/pylev-1.4.0.tar.gz
+  sha256: 9e77e941042ad3a4cc305dcdf2b2dec1aec2fbe3dd9015d2698ad02b173006d1
+test:
+  imports:
+  - pylev
+about:
+  home: http://github.com/toastdriven/pylev
+  PyPi: https://pypi.org/project/pylev
+  summary: A pure Python Levenshtein implementation that's not freaking GPL'd.
+  license: ''

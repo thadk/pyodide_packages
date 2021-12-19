@@ -1,0 +1,99 @@
+running install
+running bdist_egg
+running egg_info
+writing src/MarkupSafe.egg-info/PKG-INFO
+writing dependency_links to src/MarkupSafe.egg-info/dependency_links.txt
+writing top-level names to src/MarkupSafe.egg-info/top_level.txt
+reading manifest file 'src/MarkupSafe.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.rst'
+writing manifest file 'src/MarkupSafe.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/markupsafe
+copying src/markupsafe/__init__.py -> build/lib.linux-x86_64-3.9/markupsafe
+copying src/markupsafe/_native.py -> build/lib.linux-x86_64-3.9/markupsafe
+copying src/markupsafe/_speedups.c -> build/lib.linux-x86_64-3.9/markupsafe
+copying src/markupsafe/_speedups.pyi -> build/lib.linux-x86_64-3.9/markupsafe
+copying src/markupsafe/py.typed -> build/lib.linux-x86_64-3.9/markupsafe
+running build_ext
+building 'markupsafe._speedups' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src/markupsafe
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c src/markupsafe/_speedups.c -o build/temp.linux-x86_64-3.9/src/markupsafe/_speedups.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/markupsafe/_speedups.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/markupsafe/_speedups.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.c -> build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/__init__.py -> build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_native.py -> build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.pyi -> build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/py.typed -> build/bdist.linux-x86_64/egg/markupsafe
+byte-compiling build/bdist.linux-x86_64/egg/markupsafe/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/markupsafe/_native.py to _native.cpython-39.pyc
+creating stub loader for markupsafe/_speedups.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/markupsafe/_speedups.py to _speedups.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/MarkupSafe.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/MarkupSafe.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/MarkupSafe.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/MarkupSafe.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+markupsafe.__pycache__._speedups.cpython-39: module references __file__
+creating dist
+creating 'dist/MarkupSafe-2.0.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing MarkupSafe-2.0.1-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/MarkupSafe-2.0.1-py3.9-linux-x86_64.egg
+Extracting MarkupSafe-2.0.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding MarkupSafe 2.0.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/MarkupSafe-2.0.1-py3.9-linux-x86_64.egg
+Processing dependencies for MarkupSafe==2.0.1
+Finished processing dependencies for MarkupSafe==2.0.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.c -> install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/__init__.py -> install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.so -> install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_native.py -> install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/_speedups.pyi -> install/lib/python3.9/site-packages/markupsafe
+copying build/lib.linux-x86_64-3.9/markupsafe/py.typed -> install/lib/python3.9/site-packages/markupsafe
+byte-compiling install/lib/python3.9/site-packages/markupsafe/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/markupsafe/_native.py to _native.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/MarkupSafe.egg-info/PKG-INFO
+writing dependency_links to src/MarkupSafe.egg-info/dependency_links.txt
+writing top-level names to src/MarkupSafe.egg-info/top_level.txt
+reading manifest file 'src/MarkupSafe.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.rst'
+writing manifest file 'src/MarkupSafe.egg-info/SOURCES.txt'
+Copying src/MarkupSafe.egg-info to install/lib/python3.9/site-packages/MarkupSafe-2.0.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/markupsafe/_speedups.c -o build/temp.linux-x86_64-3.9/src/markupsafe/_speedups.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/markupsafe/_speedups.o -o build/lib.linux-x86_64-3.9/markupsafe/_speedups.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 27756
+compressed package into 20090
+compressed in 77 ms
+[2021-12-18 04:02:34] Building package MarkupSafe...
+[2021-12-18 04:05:50] done building package MarkupSafe in 195.9 s.

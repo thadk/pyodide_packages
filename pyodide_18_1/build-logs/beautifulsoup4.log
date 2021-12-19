@@ -1,0 +1,181 @@
+running install
+running bdist_egg
+running egg_info
+writing beautifulsoup4.egg-info/PKG-INFO
+writing dependency_links to beautifulsoup4.egg-info/dependency_links.txt
+writing requirements to beautifulsoup4.egg-info/requires.txt
+writing top-level names to beautifulsoup4.egg-info/top_level.txt
+reading manifest file 'beautifulsoup4.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'COPYING.txt'
+writing manifest file 'beautifulsoup4.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/bs4
+copying bs4/formatter.py -> build/lib/bs4
+copying bs4/__init__.py -> build/lib/bs4
+copying bs4/element.py -> build/lib/bs4
+copying bs4/diagnose.py -> build/lib/bs4
+copying bs4/dammit.py -> build/lib/bs4
+copying bs4/testing.py -> build/lib/bs4
+creating build/lib/bs4/tests
+copying bs4/tests/test_tree.py -> build/lib/bs4/tests
+copying bs4/tests/test_soup.py -> build/lib/bs4/tests
+copying bs4/tests/test_lxml.py -> build/lib/bs4/tests
+copying bs4/tests/test_docs.py -> build/lib/bs4/tests
+copying bs4/tests/__init__.py -> build/lib/bs4/tests
+copying bs4/tests/test_builder_registry.py -> build/lib/bs4/tests
+copying bs4/tests/test_html5lib.py -> build/lib/bs4/tests
+copying bs4/tests/test_htmlparser.py -> build/lib/bs4/tests
+creating build/lib/bs4/builder
+copying bs4/builder/_htmlparser.py -> build/lib/bs4/builder
+copying bs4/builder/__init__.py -> build/lib/bs4/builder
+copying bs4/builder/_html5lib.py -> build/lib/bs4/builder
+copying bs4/builder/_lxml.py -> build/lib/bs4/builder
+/usr/local/lib/python3.9/site-packages/setuptools/lib2to3_ex.py:36: SetuptoolsDeprecationWarning: 2to3 support is deprecated. If the project still requires Python 2 support, please migrate to a single-codebase solution or employ an independent conversion process.
+  warnings.warn(
+Fixing build/lib/bs4/formatter.py build/lib/bs4/__init__.py build/lib/bs4/element.py build/lib/bs4/diagnose.py build/lib/bs4/dammit.py build/lib/bs4/testing.py build/lib/bs4/tests/test_tree.py build/lib/bs4/tests/test_soup.py build/lib/bs4/tests/test_lxml.py build/lib/bs4/tests/test_docs.py build/lib/bs4/tests/__init__.py build/lib/bs4/tests/test_builder_registry.py build/lib/bs4/tests/test_html5lib.py build/lib/bs4/tests/test_htmlparser.py build/lib/bs4/builder/_htmlparser.py build/lib/bs4/builder/__init__.py build/lib/bs4/builder/_html5lib.py build/lib/bs4/builder/_lxml.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+Fixing build/lib/bs4/formatter.py build/lib/bs4/__init__.py build/lib/bs4/element.py build/lib/bs4/diagnose.py build/lib/bs4/dammit.py build/lib/bs4/testing.py build/lib/bs4/tests/test_tree.py build/lib/bs4/tests/test_soup.py build/lib/bs4/tests/test_lxml.py build/lib/bs4/tests/test_docs.py build/lib/bs4/tests/__init__.py build/lib/bs4/tests/test_builder_registry.py build/lib/bs4/tests/test_html5lib.py build/lib/bs4/tests/test_htmlparser.py build/lib/bs4/builder/_htmlparser.py build/lib/bs4/builder/__init__.py build/lib/bs4/builder/_html5lib.py build/lib/bs4/builder/_lxml.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/bs4
+copying build/lib/bs4/formatter.py -> build/bdist.linux-x86_64/egg/bs4
+creating build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_tree.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_soup.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_lxml.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_docs.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/__init__.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_builder_registry.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_html5lib.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/tests/test_htmlparser.py -> build/bdist.linux-x86_64/egg/bs4/tests
+copying build/lib/bs4/__init__.py -> build/bdist.linux-x86_64/egg/bs4
+copying build/lib/bs4/element.py -> build/bdist.linux-x86_64/egg/bs4
+copying build/lib/bs4/diagnose.py -> build/bdist.linux-x86_64/egg/bs4
+copying build/lib/bs4/dammit.py -> build/bdist.linux-x86_64/egg/bs4
+copying build/lib/bs4/testing.py -> build/bdist.linux-x86_64/egg/bs4
+creating build/bdist.linux-x86_64/egg/bs4/builder
+copying build/lib/bs4/builder/_htmlparser.py -> build/bdist.linux-x86_64/egg/bs4/builder
+copying build/lib/bs4/builder/__init__.py -> build/bdist.linux-x86_64/egg/bs4/builder
+copying build/lib/bs4/builder/_html5lib.py -> build/bdist.linux-x86_64/egg/bs4/builder
+copying build/lib/bs4/builder/_lxml.py -> build/bdist.linux-x86_64/egg/bs4/builder
+byte-compiling build/bdist.linux-x86_64/egg/bs4/formatter.py to formatter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_tree.py to test_tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_soup.py to test_soup.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_lxml.py to test_lxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_docs.py to test_docs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_builder_registry.py to test_builder_registry.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_html5lib.py to test_html5lib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/tests/test_htmlparser.py to test_htmlparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/element.py to element.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/diagnose.py to diagnose.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/dammit.py to dammit.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/testing.py to testing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/builder/_htmlparser.py to _htmlparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/builder/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/builder/_html5lib.py to _html5lib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bs4/builder/_lxml.py to _lxml.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying beautifulsoup4.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying beautifulsoup4.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying beautifulsoup4.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying beautifulsoup4.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying beautifulsoup4.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+bs4.__pycache__.__init__.cpython-39: module references __file__
+creating dist
+creating 'dist/beautifulsoup4-4.9.3-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing beautifulsoup4-4.9.3-py3.9.egg
+creating /src/packages/.artifacts/lib/python/beautifulsoup4-4.9.3-py3.9.egg
+Extracting beautifulsoup4-4.9.3-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding beautifulsoup4 4.9.3 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/beautifulsoup4-4.9.3-py3.9.egg
+Processing dependencies for beautifulsoup4==4.9.3
+Searching for soupsieve==2.2.1
+Best match: soupsieve 2.2.1
+Processing soupsieve-2.2.1-py3.9.egg
+soupsieve 2.2.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/soupsieve-2.2.1-py3.9.egg
+Finished processing dependencies for beautifulsoup4==4.9.3
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/bs4
+copying build/lib/bs4/formatter.py -> install/lib/python3.9/site-packages/bs4
+creating install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_tree.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_soup.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_lxml.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_docs.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/__init__.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_builder_registry.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_html5lib.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/tests/test_htmlparser.py -> install/lib/python3.9/site-packages/bs4/tests
+copying build/lib/bs4/__init__.py -> install/lib/python3.9/site-packages/bs4
+copying build/lib/bs4/element.py -> install/lib/python3.9/site-packages/bs4
+copying build/lib/bs4/diagnose.py -> install/lib/python3.9/site-packages/bs4
+copying build/lib/bs4/dammit.py -> install/lib/python3.9/site-packages/bs4
+copying build/lib/bs4/testing.py -> install/lib/python3.9/site-packages/bs4
+creating install/lib/python3.9/site-packages/bs4/builder
+copying build/lib/bs4/builder/_htmlparser.py -> install/lib/python3.9/site-packages/bs4/builder
+copying build/lib/bs4/builder/__init__.py -> install/lib/python3.9/site-packages/bs4/builder
+copying build/lib/bs4/builder/_html5lib.py -> install/lib/python3.9/site-packages/bs4/builder
+copying build/lib/bs4/builder/_lxml.py -> install/lib/python3.9/site-packages/bs4/builder
+byte-compiling install/lib/python3.9/site-packages/bs4/formatter.py to formatter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_tree.py to test_tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_soup.py to test_soup.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_lxml.py to test_lxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_docs.py to test_docs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_builder_registry.py to test_builder_registry.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_html5lib.py to test_html5lib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/tests/test_htmlparser.py to test_htmlparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/element.py to element.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/diagnose.py to diagnose.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/dammit.py to dammit.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/testing.py to testing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/builder/_htmlparser.py to _htmlparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/builder/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/builder/_html5lib.py to _html5lib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bs4/builder/_lxml.py to _lxml.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing beautifulsoup4.egg-info/PKG-INFO
+writing dependency_links to beautifulsoup4.egg-info/dependency_links.txt
+writing requirements to beautifulsoup4.egg-info/requires.txt
+writing top-level names to beautifulsoup4.egg-info/top_level.txt
+reading manifest file 'beautifulsoup4.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'COPYING.txt'
+writing manifest file 'beautifulsoup4.egg-info/SOURCES.txt'
+Copying beautifulsoup4.egg-info to install/lib/python3.9/site-packages/beautifulsoup4-4.9.3-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 421910
+compressed package into 233593
+compressed in 218 ms
+[2021-08-12 03:20:58] Building package beautifulsoup4...
+[2021-08-12 03:22:12] done building package beautifulsoup4 in 73.8 s.

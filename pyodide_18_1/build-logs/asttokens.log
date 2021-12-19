@@ -1,0 +1,100 @@
+running install
+running bdist_egg
+running egg_info
+writing asttokens.egg-info/PKG-INFO
+writing dependency_links to asttokens.egg-info/dependency_links.txt
+writing requirements to asttokens.egg-info/requires.txt
+writing top-level names to asttokens.egg-info/top_level.txt
+reading manifest file 'asttokens.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'asttokens.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/asttokens
+copying asttokens/asttokens.py -> build/lib/asttokens
+copying asttokens/version.py -> build/lib/asttokens
+copying asttokens/util.py -> build/lib/asttokens
+copying asttokens/__init__.py -> build/lib/asttokens
+copying asttokens/mark_tokens.py -> build/lib/asttokens
+copying asttokens/line_numbers.py -> build/lib/asttokens
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/asttokens.py -> build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/version.py -> build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/util.py -> build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/__init__.py -> build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/mark_tokens.py -> build/bdist.linux-x86_64/egg/asttokens
+copying build/lib/asttokens/line_numbers.py -> build/bdist.linux-x86_64/egg/asttokens
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/asttokens.py to asttokens.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/mark_tokens.py to mark_tokens.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/asttokens/line_numbers.py to line_numbers.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying asttokens.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying asttokens.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying asttokens.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying asttokens.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying asttokens.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/asttokens-2.0.5-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing asttokens-2.0.5-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/asttokens-2.0.5-py3.9.egg' (and everything under it)
+Copying asttokens-2.0.5-py3.9.egg to /src/packages/.artifacts/lib/python
+asttokens 2.0.5 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/asttokens-2.0.5-py3.9.egg
+Processing dependencies for asttokens==2.0.5
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for asttokens==2.0.5
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/asttokens.py -> install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/version.py -> install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/util.py -> install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/__init__.py -> install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/mark_tokens.py -> install/lib/python3.9/site-packages/asttokens
+copying build/lib/asttokens/line_numbers.py -> install/lib/python3.9/site-packages/asttokens
+byte-compiling install/lib/python3.9/site-packages/asttokens/asttokens.py to asttokens.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/asttokens/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/asttokens/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/asttokens/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/asttokens/mark_tokens.py to mark_tokens.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/asttokens/line_numbers.py to line_numbers.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing asttokens.egg-info/PKG-INFO
+writing dependency_links to asttokens.egg-info/dependency_links.txt
+writing requirements to asttokens.egg-info/requires.txt
+writing top-level names to asttokens.egg-info/top_level.txt
+reading manifest file 'asttokens.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'asttokens.egg-info/SOURCES.txt'
+Copying asttokens.egg-info to install/lib/python3.9/site-packages/asttokens-2.0.5-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 44671
+compressed package into 31284
+compressed in 56 ms
+[2021-12-19 02:48:34] Building package asttokens...
+[2021-12-19 02:49:42] done building package asttokens in 68.8 s.

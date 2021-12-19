@@ -1,0 +1,105 @@
+running install
+running bdist_egg
+running egg_info
+writing soupsieve.egg-info/PKG-INFO
+writing dependency_links to soupsieve.egg-info/dependency_links.txt
+writing requirements to soupsieve.egg-info/requires.txt
+writing top-level names to soupsieve.egg-info/top_level.txt
+reading manifest file 'soupsieve.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.png' under directory 'docs/src/markdown'
+warning: no files found matching '*.gif' under directory 'docs/src/markdown'
+warning: no files found matching '*.html' under directory 'docs/src/markdown'
+warning: no files found matching '*.js' under directory 'docs/theme'
+warning: no files found matching '*.css' under directory 'docs/theme'
+warning: no previously-included files matching '*' found under directory 'site'
+adding license file 'LICENSE.md'
+writing manifest file 'soupsieve.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/soupsieve
+copying soupsieve/__meta__.py -> build/lib/soupsieve
+copying soupsieve/util.py -> build/lib/soupsieve
+copying soupsieve/css_types.py -> build/lib/soupsieve
+copying soupsieve/__init__.py -> build/lib/soupsieve
+copying soupsieve/css_parser.py -> build/lib/soupsieve
+copying soupsieve/css_match.py -> build/lib/soupsieve
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/__meta__.py -> build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/util.py -> build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/css_types.py -> build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/__init__.py -> build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/css_parser.py -> build/bdist.linux-x86_64/egg/soupsieve
+copying build/lib/soupsieve/css_match.py -> build/bdist.linux-x86_64/egg/soupsieve
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/__meta__.py to __meta__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/css_types.py to css_types.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/css_parser.py to css_parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/soupsieve/css_match.py to css_match.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying soupsieve.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying soupsieve.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying soupsieve.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying soupsieve.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying soupsieve.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/soupsieve-2.2.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing soupsieve-2.2.1-py3.9.egg
+Copying soupsieve-2.2.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding soupsieve 2.2.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/soupsieve-2.2.1-py3.9.egg
+Processing dependencies for soupsieve==2.2.1
+Finished processing dependencies for soupsieve==2.2.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/__meta__.py -> install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/util.py -> install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/css_types.py -> install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/__init__.py -> install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/css_parser.py -> install/lib/python3.9/site-packages/soupsieve
+copying build/lib/soupsieve/css_match.py -> install/lib/python3.9/site-packages/soupsieve
+byte-compiling install/lib/python3.9/site-packages/soupsieve/__meta__.py to __meta__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/soupsieve/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/soupsieve/css_types.py to css_types.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/soupsieve/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/soupsieve/css_parser.py to css_parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/soupsieve/css_match.py to css_match.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing soupsieve.egg-info/PKG-INFO
+writing dependency_links to soupsieve.egg-info/dependency_links.txt
+writing requirements to soupsieve.egg-info/requires.txt
+writing top-level names to soupsieve.egg-info/top_level.txt
+reading manifest file 'soupsieve.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.png' under directory 'docs/src/markdown'
+warning: no files found matching '*.gif' under directory 'docs/src/markdown'
+warning: no files found matching '*.html' under directory 'docs/src/markdown'
+warning: no files found matching '*.js' under directory 'docs/theme'
+warning: no files found matching '*.css' under directory 'docs/theme'
+warning: no previously-included files matching '*' found under directory 'site'
+adding license file 'LICENSE.md'
+writing manifest file 'soupsieve.egg-info/SOURCES.txt'
+Copying soupsieve.egg-info to install/lib/python3.9/site-packages/soupsieve-2.2.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 128769
+compressed package into 69233
+compressed in 168 ms
+[2021-08-12 03:17:15] Building package soupsieve...
+[2021-08-12 03:18:22] done building package soupsieve in 66.4 s.

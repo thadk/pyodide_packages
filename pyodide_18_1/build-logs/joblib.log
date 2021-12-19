@@ -1,0 +1,483 @@
+patching file setup.py
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'doc-files' will not be supported in future versions. Please use the underscore name 'doc_files' instead
+  warnings.warn(
+running install
+running bdist_egg
+running egg_info
+writing joblib.egg-info/PKG-INFO
+writing dependency_links to joblib.egg-info/dependency_links.txt
+writing top-level names to joblib.egg-info/top_level.txt
+reading manifest file 'joblib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.rst' under directory 'joblib'
+warning: no directories found matching 'doc/_static'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.swp' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'joblib.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/joblib
+copying joblib/disk.py -> build/lib/joblib
+copying joblib/_memory_helpers.py -> build/lib/joblib
+copying joblib/format_stack.py -> build/lib/joblib
+copying joblib/memory.py -> build/lib/joblib
+copying joblib/func_inspect.py -> build/lib/joblib
+copying joblib/__init__.py -> build/lib/joblib
+copying joblib/logger.py -> build/lib/joblib
+copying joblib/numpy_pickle_compat.py -> build/lib/joblib
+copying joblib/_multiprocessing_helpers.py -> build/lib/joblib
+copying joblib/numpy_pickle_utils.py -> build/lib/joblib
+copying joblib/backports.py -> build/lib/joblib
+copying joblib/numpy_pickle.py -> build/lib/joblib
+copying joblib/_compat.py -> build/lib/joblib
+copying joblib/my_exceptions.py -> build/lib/joblib
+copying joblib/parallel.py -> build/lib/joblib
+copying joblib/testing.py -> build/lib/joblib
+copying joblib/pool.py -> build/lib/joblib
+copying joblib/_parallel_backends.py -> build/lib/joblib
+copying joblib/hashing.py -> build/lib/joblib
+creating build/lib/joblib/test
+copying joblib/test/test_backports.py -> build/lib/joblib/test
+copying joblib/test/test_disk.py -> build/lib/joblib/test
+copying joblib/test/test_numpy_pickle_compat.py -> build/lib/joblib/test
+copying joblib/test/test_numpy_pickle.py -> build/lib/joblib/test
+copying joblib/test/__init__.py -> build/lib/joblib/test
+copying joblib/test/test_numpy_pickle_utils.py -> build/lib/joblib/test
+copying joblib/test/test_parallel.py -> build/lib/joblib/test
+copying joblib/test/common.py -> build/lib/joblib/test
+copying joblib/test/test_func_inspect.py -> build/lib/joblib/test
+copying joblib/test/test_memory.py -> build/lib/joblib/test
+copying joblib/test/test_hashing.py -> build/lib/joblib/test
+copying joblib/test/test_my_exceptions.py -> build/lib/joblib/test
+copying joblib/test/test_pool.py -> build/lib/joblib/test
+copying joblib/test/test_format_stack.py -> build/lib/joblib/test
+copying joblib/test/test_func_inspect_special_encoding.py -> build/lib/joblib/test
+copying joblib/test/test_logger.py -> build/lib/joblib/test
+copying joblib/test/test_testing.py -> build/lib/joblib/test
+creating build/lib/joblib/test/data
+copying joblib/test/data/create_numpy_pickle.py -> build/lib/joblib/test/data
+copying joblib/test/data/__init__.py -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_compressed_pickle_py33_np18.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2 -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.xz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.xz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.xz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.xz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.xz -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z -> build/lib/joblib/test/data
+copying joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z -> build/lib/joblib/test/data
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/disk.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/_memory_helpers.py -> build/bdist.linux-x86_64/egg/joblib
+creating build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_backports.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_disk.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle_compat.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/__init__.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle_utils.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_parallel.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/common.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_func_inspect.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_memory.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_hashing.py -> build/bdist.linux-x86_64/egg/joblib/test
+creating build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.xz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/create_numpy_pickle.py -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/__init__.py -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py33_np18.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.xz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2 -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.xz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.xz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.xz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz -> build/bdist.linux-x86_64/egg/joblib/test/data
+copying build/lib/joblib/test/test_my_exceptions.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_pool.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_format_stack.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_func_inspect_special_encoding.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_logger.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/test/test_testing.py -> build/bdist.linux-x86_64/egg/joblib/test
+copying build/lib/joblib/format_stack.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/memory.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/func_inspect.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/__init__.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/logger.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/numpy_pickle_compat.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/_multiprocessing_helpers.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/numpy_pickle_utils.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/backports.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/numpy_pickle.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/_compat.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/my_exceptions.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/parallel.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/testing.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/pool.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/_parallel_backends.py -> build/bdist.linux-x86_64/egg/joblib
+copying build/lib/joblib/hashing.py -> build/bdist.linux-x86_64/egg/joblib
+byte-compiling build/bdist.linux-x86_64/egg/joblib/disk.py to disk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/_memory_helpers.py to _memory_helpers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_backports.py to test_backports.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_disk.py to test_disk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_numpy_pickle_compat.py to test_numpy_pickle_compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_numpy_pickle.py to test_numpy_pickle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_numpy_pickle_utils.py to test_numpy_pickle_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_parallel.py to test_parallel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/common.py to common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_func_inspect.py to test_func_inspect.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_memory.py to test_memory.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_hashing.py to test_hashing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/data/create_numpy_pickle.py to create_numpy_pickle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_my_exceptions.py to test_my_exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_pool.py to test_pool.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_format_stack.py to test_format_stack.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_func_inspect_special_encoding.py to test_func_inspect_special_encoding.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_logger.py to test_logger.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/test/test_testing.py to test_testing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/format_stack.py to format_stack.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/memory.py to memory.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/func_inspect.py to func_inspect.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/logger.py to logger.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/numpy_pickle_compat.py to numpy_pickle_compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/_multiprocessing_helpers.py to _multiprocessing_helpers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/numpy_pickle_utils.py to numpy_pickle_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/backports.py to backports.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/numpy_pickle.py to numpy_pickle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/_compat.py to _compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/my_exceptions.py to my_exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/parallel.py to parallel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/testing.py to testing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/pool.py to pool.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/_parallel_backends.py to _parallel_backends.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/joblib/hashing.py to hashing.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying joblib.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying joblib.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying joblib.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying joblib.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+joblib.__pycache__.format_stack.cpython-39: module references __file__
+joblib.__pycache__.format_stack.cpython-39: module MAY be using inspect.getinnerframes
+joblib.__pycache__.format_stack.cpython-39: module MAY be using inspect.getouterframes
+joblib.__pycache__.func_inspect.cpython-39: module MAY be using inspect.getsourcefile
+joblib.test.__pycache__.test_func_inspect.cpython-39: module references __file__
+joblib.test.__pycache__.test_numpy_pickle.cpython-39: module references __file__
+creating dist
+creating 'dist/joblib-0.11-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing joblib-0.11-py3.9.egg
+creating /src/packages/.artifacts/lib/python/joblib-0.11-py3.9.egg
+Extracting joblib-0.11-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding joblib 0.11 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/joblib-0.11-py3.9.egg
+Processing dependencies for joblib==0.11
+Finished processing dependencies for joblib==0.11
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'doc-files' will not be supported in future versions. Please use the underscore name 'doc_files' instead
+  warnings.warn(
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/disk.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/_memory_helpers.py -> install/lib/python3.9/site-packages/joblib
+creating install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_backports.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_disk.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle_compat.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/__init__.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_numpy_pickle_utils.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_parallel.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/common.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_func_inspect.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_memory.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_hashing.py -> install/lib/python3.9/site-packages/joblib/test
+creating install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.xz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np16.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py35_np19.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_01.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_03.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_02.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/create_numpy_pickle.py -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.lzma -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py27_np17.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py34_np19.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py35_np19.pkl_04.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_04.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py33_np18.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.lzma -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_04.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_02.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/__init__.py -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_01.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_03.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np17.pkl_01.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_03.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.lzma -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py34_np19.pkl_02.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.8.4_compressed_pickle_py27_np17.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_compressed_pickle_py36_np111.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_compressed_pickle_py33_np18.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.lzma -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.lzma -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.11.0_pickle_py36_np111.pkl.xz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_01.npy.z -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.bz2 -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py34_np19.pkl.xz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_03.npy.z -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_04.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_02.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np16.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py35_np19.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_03.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py33_np18.pkl.xz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np16.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_01.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py27_np17.pkl.xz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_02.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py27_np16.pkl_04.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_03.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.4.dev0_compressed_cache_size_pickle_py35_np19.gz_02.npy.z -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_pickle_py35_np19.pkl.gzip -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.9.2_pickle_py33_np18.pkl_01.npy -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py27_np17.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/data/joblib_0.10.0_compressed_pickle_py34_np19.gz -> install/lib/python3.9/site-packages/joblib/test/data
+copying build/lib/joblib/test/test_my_exceptions.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_pool.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_format_stack.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_func_inspect_special_encoding.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_logger.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/test/test_testing.py -> install/lib/python3.9/site-packages/joblib/test
+copying build/lib/joblib/format_stack.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/memory.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/func_inspect.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/__init__.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/logger.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/numpy_pickle_compat.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/_multiprocessing_helpers.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/numpy_pickle_utils.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/backports.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/numpy_pickle.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/_compat.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/my_exceptions.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/parallel.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/testing.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/pool.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/_parallel_backends.py -> install/lib/python3.9/site-packages/joblib
+copying build/lib/joblib/hashing.py -> install/lib/python3.9/site-packages/joblib
+byte-compiling install/lib/python3.9/site-packages/joblib/disk.py to disk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/_memory_helpers.py to _memory_helpers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_backports.py to test_backports.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_disk.py to test_disk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_numpy_pickle_compat.py to test_numpy_pickle_compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_numpy_pickle.py to test_numpy_pickle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_numpy_pickle_utils.py to test_numpy_pickle_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_parallel.py to test_parallel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/common.py to common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_func_inspect.py to test_func_inspect.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_memory.py to test_memory.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_hashing.py to test_hashing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/data/create_numpy_pickle.py to create_numpy_pickle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_my_exceptions.py to test_my_exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_pool.py to test_pool.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_format_stack.py to test_format_stack.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_func_inspect_special_encoding.py to test_func_inspect_special_encoding.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_logger.py to test_logger.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/test/test_testing.py to test_testing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/format_stack.py to format_stack.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/memory.py to memory.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/func_inspect.py to func_inspect.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/logger.py to logger.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/numpy_pickle_compat.py to numpy_pickle_compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/_multiprocessing_helpers.py to _multiprocessing_helpers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/numpy_pickle_utils.py to numpy_pickle_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/backports.py to backports.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/numpy_pickle.py to numpy_pickle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/_compat.py to _compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/my_exceptions.py to my_exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/parallel.py to parallel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/testing.py to testing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/pool.py to pool.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/_parallel_backends.py to _parallel_backends.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/joblib/hashing.py to hashing.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing joblib.egg-info/PKG-INFO
+writing dependency_links to joblib.egg-info/dependency_links.txt
+writing top-level names to joblib.egg-info/top_level.txt
+reading manifest file 'joblib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.rst' under directory 'joblib'
+warning: no directories found matching 'doc/_static'
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.swp' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'joblib.egg-info/SOURCES.txt'
+Copying joblib.egg-info to install/lib/python3.9/site-packages/joblib-0.11-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 433653
+compressed package into 271512
+compressed in 144 ms
+[2021-12-18 02:03:37] Building package joblib...
+[2021-12-18 02:06:05] done building package joblib in 148.1 s.

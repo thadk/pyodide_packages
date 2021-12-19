@@ -1,0 +1,75 @@
+running install
+running bdist_egg
+running egg_info
+writing atomicwrites.egg-info/PKG-INFO
+writing dependency_links to atomicwrites.egg-info/dependency_links.txt
+writing top-level names to atomicwrites.egg-info/top_level.txt
+reading manifest file 'atomicwrites.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.py[cdo]' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'atomicwrites.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/atomicwrites
+copying atomicwrites/__init__.py -> build/lib/atomicwrites
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/atomicwrites
+copying build/lib/atomicwrites/__init__.py -> build/bdist.linux-x86_64/egg/atomicwrites
+byte-compiling build/bdist.linux-x86_64/egg/atomicwrites/__init__.py to __init__.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying atomicwrites.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying atomicwrites.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying atomicwrites.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying atomicwrites.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/atomicwrites-1.4.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing atomicwrites-1.4.0-py3.9.egg
+Copying atomicwrites-1.4.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding atomicwrites 1.4.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/atomicwrites-1.4.0-py3.9.egg
+Processing dependencies for atomicwrites==1.4.0
+Finished processing dependencies for atomicwrites==1.4.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/atomicwrites
+copying build/lib/atomicwrites/__init__.py -> install/lib/python3.9/site-packages/atomicwrites
+byte-compiling install/lib/python3.9/site-packages/atomicwrites/__init__.py to __init__.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing atomicwrites.egg-info/PKG-INFO
+writing dependency_links to atomicwrites.egg-info/dependency_links.txt
+writing top-level names to atomicwrites.egg-info/top_level.txt
+reading manifest file 'atomicwrites.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.py[cdo]' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'atomicwrites.egg-info/SOURCES.txt'
+Copying atomicwrites.egg-info to install/lib/python3.9/site-packages/atomicwrites-1.4.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 12716
+compressed package into 12554
+compressed in 62 ms
+[2021-12-18 04:11:09] Building package atomicwrites...
+[2021-12-18 04:12:19] done building package atomicwrites in 70.2 s.

@@ -1,0 +1,178 @@
+patching file dateutil/tz/tz.py
+patching file dateutil/rrule.py
+Hunk #2 succeeded at 106 (offset -1 lines).
+running install
+running bdist_egg
+running egg_info
+writing python_dateutil.egg-info/PKG-INFO
+writing dependency_links to python_dateutil.egg-info/dependency_links.txt
+writing requirements to python_dateutil.egg-info/requires.txt
+writing top-level names to python_dateutil.egg-info/top_level.txt
+reading manifest file 'python_dateutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'python_dateutil.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/dateutil
+copying dateutil/relativedelta.py -> build/lib/dateutil
+copying dateutil/_version.py -> build/lib/dateutil
+copying dateutil/_common.py -> build/lib/dateutil
+copying dateutil/__init__.py -> build/lib/dateutil
+copying dateutil/tzwin.py -> build/lib/dateutil
+copying dateutil/rrule.py -> build/lib/dateutil
+copying dateutil/utils.py -> build/lib/dateutil
+copying dateutil/easter.py -> build/lib/dateutil
+creating build/lib/dateutil/zoneinfo
+copying dateutil/zoneinfo/__init__.py -> build/lib/dateutil/zoneinfo
+copying dateutil/zoneinfo/rebuild.py -> build/lib/dateutil/zoneinfo
+creating build/lib/dateutil/parser
+copying dateutil/parser/isoparser.py -> build/lib/dateutil/parser
+copying dateutil/parser/__init__.py -> build/lib/dateutil/parser
+copying dateutil/parser/_parser.py -> build/lib/dateutil/parser
+creating build/lib/dateutil/tz
+copying dateutil/tz/_factories.py -> build/lib/dateutil/tz
+copying dateutil/tz/tz.py -> build/lib/dateutil/tz
+copying dateutil/tz/_common.py -> build/lib/dateutil/tz
+copying dateutil/tz/__init__.py -> build/lib/dateutil/tz
+copying dateutil/tz/win.py -> build/lib/dateutil/tz
+copying dateutil/zoneinfo/dateutil-zoneinfo.tar.gz -> build/lib/dateutil/zoneinfo
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/relativedelta.py -> build/bdist.linux-x86_64/egg/dateutil
+creating build/bdist.linux-x86_64/egg/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz -> build/bdist.linux-x86_64/egg/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/__init__.py -> build/bdist.linux-x86_64/egg/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/rebuild.py -> build/bdist.linux-x86_64/egg/dateutil/zoneinfo
+copying build/lib/dateutil/_version.py -> build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/_common.py -> build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/__init__.py -> build/bdist.linux-x86_64/egg/dateutil
+creating build/bdist.linux-x86_64/egg/dateutil/parser
+copying build/lib/dateutil/parser/isoparser.py -> build/bdist.linux-x86_64/egg/dateutil/parser
+copying build/lib/dateutil/parser/__init__.py -> build/bdist.linux-x86_64/egg/dateutil/parser
+copying build/lib/dateutil/parser/_parser.py -> build/bdist.linux-x86_64/egg/dateutil/parser
+copying build/lib/dateutil/tzwin.py -> build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/rrule.py -> build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/utils.py -> build/bdist.linux-x86_64/egg/dateutil
+copying build/lib/dateutil/easter.py -> build/bdist.linux-x86_64/egg/dateutil
+creating build/bdist.linux-x86_64/egg/dateutil/tz
+copying build/lib/dateutil/tz/_factories.py -> build/bdist.linux-x86_64/egg/dateutil/tz
+copying build/lib/dateutil/tz/tz.py -> build/bdist.linux-x86_64/egg/dateutil/tz
+copying build/lib/dateutil/tz/_common.py -> build/bdist.linux-x86_64/egg/dateutil/tz
+copying build/lib/dateutil/tz/__init__.py -> build/bdist.linux-x86_64/egg/dateutil/tz
+copying build/lib/dateutil/tz/win.py -> build/bdist.linux-x86_64/egg/dateutil/tz
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/relativedelta.py to relativedelta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/zoneinfo/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/zoneinfo/rebuild.py to rebuild.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/_common.py to _common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/parser/isoparser.py to isoparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/parser/_parser.py to _parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tzwin.py to tzwin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/rrule.py to rrule.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/easter.py to easter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tz/_factories.py to _factories.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tz/tz.py to tz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tz/_common.py to _common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tz/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dateutil/tz/win.py to win.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_dateutil.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/python_dateutil-2.8.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_dateutil-2.8.1-py3.9.egg
+Copying python_dateutil-2.8.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding python-dateutil 2.8.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/python_dateutil-2.8.1-py3.9.egg
+Processing dependencies for python-dateutil==2.8.1
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for python-dateutil==2.8.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/relativedelta.py -> install/lib/python3.9/site-packages/dateutil
+creating install/lib/python3.9/site-packages/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz -> install/lib/python3.9/site-packages/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/__init__.py -> install/lib/python3.9/site-packages/dateutil/zoneinfo
+copying build/lib/dateutil/zoneinfo/rebuild.py -> install/lib/python3.9/site-packages/dateutil/zoneinfo
+copying build/lib/dateutil/_version.py -> install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/_common.py -> install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/__init__.py -> install/lib/python3.9/site-packages/dateutil
+creating install/lib/python3.9/site-packages/dateutil/parser
+copying build/lib/dateutil/parser/isoparser.py -> install/lib/python3.9/site-packages/dateutil/parser
+copying build/lib/dateutil/parser/__init__.py -> install/lib/python3.9/site-packages/dateutil/parser
+copying build/lib/dateutil/parser/_parser.py -> install/lib/python3.9/site-packages/dateutil/parser
+copying build/lib/dateutil/tzwin.py -> install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/rrule.py -> install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/utils.py -> install/lib/python3.9/site-packages/dateutil
+copying build/lib/dateutil/easter.py -> install/lib/python3.9/site-packages/dateutil
+creating install/lib/python3.9/site-packages/dateutil/tz
+copying build/lib/dateutil/tz/_factories.py -> install/lib/python3.9/site-packages/dateutil/tz
+copying build/lib/dateutil/tz/tz.py -> install/lib/python3.9/site-packages/dateutil/tz
+copying build/lib/dateutil/tz/_common.py -> install/lib/python3.9/site-packages/dateutil/tz
+copying build/lib/dateutil/tz/__init__.py -> install/lib/python3.9/site-packages/dateutil/tz
+copying build/lib/dateutil/tz/win.py -> install/lib/python3.9/site-packages/dateutil/tz
+byte-compiling install/lib/python3.9/site-packages/dateutil/relativedelta.py to relativedelta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/zoneinfo/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/zoneinfo/rebuild.py to rebuild.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/_common.py to _common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/parser/isoparser.py to isoparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/parser/_parser.py to _parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tzwin.py to tzwin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/rrule.py to rrule.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/easter.py to easter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tz/_factories.py to _factories.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tz/tz.py to tz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tz/_common.py to _common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tz/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/dateutil/tz/win.py to win.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing python_dateutil.egg-info/PKG-INFO
+writing dependency_links to python_dateutil.egg-info/dependency_links.txt
+writing requirements to python_dateutil.egg-info/requires.txt
+writing top-level names to python_dateutil.egg-info/top_level.txt
+reading manifest file 'python_dateutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.py[co]' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'python_dateutil.egg-info/SOURCES.txt'
+Copying python_dateutil.egg-info to install/lib/python3.9/site-packages/python_dateutil-2.8.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 434160
+compressed package into 309010
+compressed in 184 ms
+[2021-12-18 01:54:03] Building package python-dateutil...
+[2021-12-18 01:55:26] done building package python-dateutil in 83.4 s.

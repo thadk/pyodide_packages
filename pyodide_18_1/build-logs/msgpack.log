@@ -1,0 +1,133 @@
+running install
+running bdist_egg
+running egg_info
+creating msgpack.egg-info
+writing msgpack.egg-info/PKG-INFO
+writing dependency_links to msgpack.egg-info/dependency_links.txt
+writing top-level names to msgpack.egg-info/top_level.txt
+writing manifest file 'msgpack.egg-info/SOURCES.txt'
+reading manifest file 'msgpack.egg-info/SOURCES.txt'
+adding license file 'COPYING'
+writing manifest file 'msgpack.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/msgpack
+copying msgpack/_version.py -> build/lib.linux-x86_64-3.9/msgpack
+copying msgpack/__init__.py -> build/lib.linux-x86_64-3.9/msgpack
+copying msgpack/exceptions.py -> build/lib.linux-x86_64-3.9/msgpack
+copying msgpack/fallback.py -> build/lib.linux-x86_64-3.9/msgpack
+copying msgpack/ext.py -> build/lib.linux-x86_64-3.9/msgpack
+running build_ext
+building 'msgpack._cmsgpack' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/msgpack
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -D__LITTLE_ENDIAN__=1 -I. -I/usr/local/include/python3.9 -c msgpack/_cmsgpack.cpp -o build/temp.linux-x86_64-3.9/msgpack/_cmsgpack.o
+c++ -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/msgpack/_cmsgpack.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/msgpack/_cmsgpack.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/_cmsgpack.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/_version.py -> build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/__init__.py -> build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/exceptions.py -> build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/fallback.py -> build/bdist.linux-x86_64/egg/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/ext.py -> build/bdist.linux-x86_64/egg/msgpack
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/fallback.py to fallback.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/ext.py to ext.cpython-39.pyc
+creating stub loader for msgpack/_cmsgpack.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/msgpack/_cmsgpack.py to _cmsgpack.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying msgpack.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying msgpack.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying msgpack.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying msgpack.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+msgpack.__pycache__._cmsgpack.cpython-39: module references __file__
+creating dist
+creating 'dist/msgpack-1.0.2-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing msgpack-1.0.2-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/msgpack-1.0.2-py3.9-linux-x86_64.egg
+Extracting msgpack-1.0.2-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding msgpack 1.0.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/msgpack-1.0.2-py3.9-linux-x86_64.egg
+Processing dependencies for msgpack==1.0.2
+Finished processing dependencies for msgpack==1.0.2
+In file included from msgpack/_cmsgpack.cpp:630:
+msgpack/unpack.h:141:11: warning: comparison of integers of different signs: 'unsigned int' and 'Py_ssize_t' (aka 'long') [-Wsign-compare]
+    if (n > u->max_array_len) {
+        ~ ^ ~~~~~~~~~~~~~~~~
+msgpack/unpack.h:176:11: warning: comparison of integers of different signs: 'unsigned int' and 'Py_ssize_t' (aka 'long') [-Wsign-compare]
+    if (n > u->max_map_len) {
+        ~ ^ ~~~~~~~~~~~~~~
+msgpack/unpack.h:234:11: warning: comparison of integers of different signs: 'unsigned int' and 'Py_ssize_t' (aka 'long') [-Wsign-compare]
+    if (l > u->max_str_len) {
+        ~ ^ ~~~~~~~~~~~~~~
+msgpack/unpack.h:254:11: warning: comparison of integers of different signs: 'unsigned int' and 'Py_ssize_t' (aka 'long') [-Wsign-compare]
+    if (l > u->max_bin_len) {
+        ~ ^ ~~~~~~~~~~~~~~
+msgpack/unpack.h:308:18: warning: comparison of integers of different signs: 'unsigned int' and 'Py_ssize_t' (aka 'long') [-Wsign-compare]
+    if (length-1 > u->max_ext_len) {
+        ~~~~~~~~ ^ ~~~~~~~~~~~~~~
+msgpack/_cmsgpack.cpp:4444:139: warning: variable '__pyx_v_ret' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+      __pyx_t_27 = PyErr_Format(__pyx_builtin_TypeError, ((char *)"can not serialize '%.200s' object"), Py_TYPE(__pyx_v_o)->tp_name); if (unlikely(__pyx_t_27 == ((PyObject *)NULL))) __PYX_ERR(0, 289, __pyx_L1_error)
+                                                                                                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+msgpack/_cmsgpack.cpp:818:23: note: expanded from macro 'unlikely'
+  #define unlikely(x) __builtin_expect(!!(x), 0)
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+msgpack/_cmsgpack.cpp:4455:15: note: uninitialized use occurs here
+    __pyx_r = __pyx_v_ret;
+              ^~~~~~~~~~~
+msgpack/_cmsgpack.cpp:4444:135: note: remove the 'if' if its condition is always true
+      __pyx_t_27 = PyErr_Format(__pyx_builtin_TypeError, ((char *)"can not serialize '%.200s' object"), Py_TYPE(__pyx_v_o)->tp_name); if (unlikely(__pyx_t_27 == ((PyObject *)NULL))) __PYX_ERR(0, 289, __pyx_L1_error)
+                                                                                                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+msgpack/_cmsgpack.cpp:2438:18: note: initialize the variable '__pyx_v_ret' to silence this warning
+  int __pyx_v_ret;
+                 ^
+                  = 0
+6 warnings generated.
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/_version.py -> install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/__init__.py -> install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/exceptions.py -> install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/_cmsgpack.so -> install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/fallback.py -> install/lib/python3.9/site-packages/msgpack
+copying build/lib.linux-x86_64-3.9/msgpack/ext.py -> install/lib/python3.9/site-packages/msgpack
+byte-compiling install/lib/python3.9/site-packages/msgpack/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/msgpack/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/msgpack/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/msgpack/fallback.py to fallback.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/msgpack/ext.py to ext.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing msgpack.egg-info/PKG-INFO
+writing dependency_links to msgpack.egg-info/dependency_links.txt
+writing top-level names to msgpack.egg-info/top_level.txt
+reading manifest file 'msgpack.egg-info/SOURCES.txt'
+adding license file 'COPYING'
+writing manifest file 'msgpack.egg-info/SOURCES.txt'
+Copying msgpack.egg-info to install/lib/python3.9/site-packages/msgpack-1.0.2-py3.9.egg-info
+running install_scripts
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -D__LITTLE_ENDIAN__=1 -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c msgpack/_cmsgpack.cpp -o build/temp.linux-x86_64-3.9/msgpack/_cmsgpack.o
+em++ -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/msgpack/_cmsgpack.o -o build/lib.linux-x86_64-3.9/msgpack/_cmsgpack.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 163857
+compressed package into 94950
+compressed in 72 ms
+[2021-12-18 04:17:23] Building package msgpack...
+[2021-12-18 04:20:25] done building package msgpack in 182.2 s.

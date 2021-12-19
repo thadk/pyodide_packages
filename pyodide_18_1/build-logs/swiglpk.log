@@ -1,0 +1,92 @@
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'include_package_data'
+  warnings.warn(msg)
+glpk.h found in source directory
+running install
+running build
+running build_ext
+building 'swiglpk._swiglpk' extension
+swigging swiglpk/glpk.i to swiglpk/glpk_wrap.c
+swig -python -o swiglpk/glpk_wrap.c swiglpk/glpk.i
+swiglpk/glpk_clean.h:1002: Warning 314: 'in' is a python keyword, renaming to '_in'
+swiglpk/glpk_clean.h:203: Warning 451: Setting a const char * variable may leak memory.
+creating build
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/swiglpk
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c swiglpk/glpk_wrap.c -o build/temp.linux-x86_64-3.9/swiglpk/glpk_wrap.o
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/swiglpk
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/swiglpk/glpk_wrap.o -L/usr/local/lib -lglpk -o build/lib.linux-x86_64-3.9/swiglpk/_swiglpk.cpython-39-x86_64-linux-gnu.so
+running build_py
+copying swiglpk/swiglpk.py -> build/lib.linux-x86_64-3.9/swiglpk
+copying swiglpk/__init__.py -> build/lib.linux-x86_64-3.9/swiglpk
+running install_lib
+creating /src/packages/.artifacts/lib/python/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/swiglpk.py -> /src/packages/.artifacts/lib/python/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/__init__.py -> /src/packages/.artifacts/lib/python/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/_swiglpk.cpython-39-x86_64-linux-gnu.so -> /src/packages/.artifacts/lib/python/swiglpk
+byte-compiling /src/packages/.artifacts/lib/python/swiglpk/swiglpk.py to swiglpk.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/swiglpk/__init__.py to __init__.cpython-39.pyc
+running install_egg_info
+Writing /src/packages/.artifacts/lib/python/swiglpk-4.65.1-py3.9.egg-info
+swiglpk/glpk_wrap.c:3070:7: warning: variable 'r' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+  if (args == NULL) {
+      ^~~~~~~~~~~~
+swiglpk/glpk_wrap.c:3082:14: note: uninitialized use occurs here
+  Py_XDECREF(r);
+             ^
+/src/cpython/installs/python-3.9.5/include/python3.9/object.h:501:51: note: expanded from macro 'Py_XDECREF'
+#define Py_XDECREF(op) _Py_XDECREF(_PyObject_CAST(op))
+                                                  ^~
+/src/cpython/installs/python-3.9.5/include/python3.9/object.h:112:41: note: expanded from macro '_PyObject_CAST'
+#define _PyObject_CAST(op) ((PyObject*)(op))
+                                        ^~
+swiglpk/glpk_wrap.c:3070:3: note: remove the 'if' if its condition is always false
+  if (args == NULL) {
+  ^~~~~~~~~~~~~~~~~~~
+swiglpk/glpk_wrap.c:3065:32: note: initialize the variable 'r' to silence this warning
+  PyObject *callback, *args, *r;
+                               ^
+                                = NULL
+1 warning generated.
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'include_package_data'
+  warnings.warn(msg)
+glpk.h found in source directory
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: option --old-and-unmanageable not recognized
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'test_suite'
+  warnings.warn(msg)
+/usr/local/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'include_package_data'
+  warnings.warn(msg)
+glpk.h found in source directory
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/swiglpk.py -> install/lib/python3.9/site-packages/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/__init__.py -> install/lib/python3.9/site-packages/swiglpk
+copying build/lib.linux-x86_64-3.9/swiglpk/_swiglpk.so -> install/lib/python3.9/site-packages/swiglpk
+byte-compiling install/lib/python3.9/site-packages/swiglpk/swiglpk.py to swiglpk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/swiglpk/__init__.py to __init__.cpython-39.pyc
+running install_egg_info
+Writing install/lib/python3.9/site-packages/swiglpk-4.65.1-py3.9.egg-info
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c swiglpk/glpk_wrap.c -o build/temp.linux-x86_64-3.9/swiglpk/glpk_wrap.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/glpk/build/glpk-4.65/src/.libs/ build/temp.linux-x86_64-3.9/swiglpk/glpk_wrap.o -lglpk -o build/lib.linux-x86_64-3.9/swiglpk/_swiglpk.cpython-39-x86_64-linux-gnu.so
+Warning: /usr/local/bin/python3 setup.py install --skip-build --prefix=install --old-and-unmanageable failed with distutils, possibly due to the use of distutils that does not support the --old-and-unmanageable argument. Re-trying the install without this argument.
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 1650810
+compressed package into 811377
+compressed in 203 ms
+[2021-12-18 03:50:22] Building package swiglpk...
+[2021-12-18 03:54:44] done building package swiglpk in 262.3 s.

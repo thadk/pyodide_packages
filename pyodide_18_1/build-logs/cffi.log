@@ -1,0 +1,218 @@
+patching file c/_cffi_backend.c
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+running install
+running bdist_egg
+running egg_info
+writing cffi.egg-info/PKG-INFO
+writing dependency_links to cffi.egg-info/dependency_links.txt
+writing entry points to cffi.egg-info/entry_points.txt
+writing requirements to cffi.egg-info/requires.txt
+writing top-level names to cffi.egg-info/top_level.txt
+reading manifest file 'cffi.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'cffi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/cffi
+copying cffi/backend_ctypes.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/error.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/setuptools_ext.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/__init__.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/cffi_opcode.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/vengine_gen.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/pkgconfig.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/model.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/ffiplatform.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/api.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/vengine_cpy.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/commontypes.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/lock.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/recompiler.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/cparser.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/verifier.py -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/_cffi_include.h -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/parse_c_type.h -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/_embedding.h -> build/lib.linux-x86_64-3.9/cffi
+copying cffi/_cffi_errors.h -> build/lib.linux-x86_64-3.9/cffi
+running build_ext
+building '_cffi_backend' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/c
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DUSE__THREAD -DHAVE_SYNC_SYNCHRONIZE -I/usr/include/ffi -I/usr/include/libffi -I/usr/local/include/python3.9 -c c/_cffi_backend.c -o build/temp.linux-x86_64-3.9/c/_cffi_backend.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/c/_cffi_backend.o -L/usr/local/lib -lffi -o build/lib.linux-x86_64-3.9/_cffi_backend.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-3.9/_cffi_backend.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_cffi_include.h -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/backend_ctypes.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/error.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/setuptools_ext.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_cffi_errors.h -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/__init__.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/cffi_opcode.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/vengine_gen.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/pkgconfig.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/model.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/ffiplatform.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/api.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/vengine_cpy.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_embedding.h -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/commontypes.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/lock.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/recompiler.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/cparser.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/verifier.py -> build/bdist.linux-x86_64/egg/cffi
+copying build/lib.linux-x86_64-3.9/cffi/parse_c_type.h -> build/bdist.linux-x86_64/egg/cffi
+byte-compiling build/bdist.linux-x86_64/egg/cffi/backend_ctypes.py to backend_ctypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/error.py to error.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/setuptools_ext.py to setuptools_ext.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/cffi_opcode.py to cffi_opcode.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/vengine_gen.py to vengine_gen.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/pkgconfig.py to pkgconfig.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/model.py to model.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/ffiplatform.py to ffiplatform.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/api.py to api.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/vengine_cpy.py to vengine_cpy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/commontypes.py to commontypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/lock.py to lock.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/recompiler.py to recompiler.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/cparser.py to cparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi/verifier.py to verifier.cpython-39.pyc
+creating stub loader for _cffi_backend.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/_cffi_backend.py to _cffi_backend.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/cffi-1.14.6-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cffi-1.14.6-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/cffi-1.14.6-py3.9-linux-x86_64.egg
+Extracting cffi-1.14.6-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding cffi 1.14.6 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cffi-1.14.6-py3.9-linux-x86_64.egg
+Processing dependencies for cffi==1.14.6
+Searching for pycparser==2.20
+Best match: pycparser 2.20
+Adding pycparser 2.20 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Finished processing dependencies for cffi==1.14.6
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+Package libffi was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libffi.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libffi' found
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_cffi_include.h -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/backend_ctypes.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/error.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/setuptools_ext.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_cffi_errors.h -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/__init__.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/cffi_opcode.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/vengine_gen.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/pkgconfig.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/model.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/ffiplatform.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/api.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/vengine_cpy.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/_embedding.h -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/commontypes.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/lock.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/recompiler.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/cparser.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/verifier.py -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/cffi/parse_c_type.h -> install/lib/python3.9/site-packages/cffi
+copying build/lib.linux-x86_64-3.9/_cffi_backend.so -> install/lib/python3.9/site-packages
+byte-compiling install/lib/python3.9/site-packages/cffi/backend_ctypes.py to backend_ctypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/error.py to error.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/setuptools_ext.py to setuptools_ext.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/cffi_opcode.py to cffi_opcode.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/vengine_gen.py to vengine_gen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/pkgconfig.py to pkgconfig.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/model.py to model.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/ffiplatform.py to ffiplatform.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/api.py to api.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/vengine_cpy.py to vengine_cpy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/commontypes.py to commontypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/lock.py to lock.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/recompiler.py to recompiler.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/cparser.py to cparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi/verifier.py to verifier.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing cffi.egg-info/PKG-INFO
+writing dependency_links to cffi.egg-info/dependency_links.txt
+writing entry points to cffi.egg-info/entry_points.txt
+writing requirements to cffi.egg-info/requires.txt
+writing top-level names to cffi.egg-info/top_level.txt
+reading manifest file 'cffi.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'cffi.egg-info/SOURCES.txt'
+Copying cffi.egg-info to install/lib/python3.9/site-packages/cffi-1.14.6-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DUSE__THREAD -DHAVE_SYNC_SYNCHRONIZE -I/src/cpython/installs/python-3.9.5/include/python3.9 -c c/_cffi_backend.c -o build/temp.linux-x86_64-3.9/c/_cffi_backend.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/c/_cffi_backend.o -o build/lib.linux-x86_64-3.9/_cffi_backend.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 516660
+compressed package into 296371
+compressed in 199 ms
+[2021-12-18 03:44:19] Building package cffi...
+[2021-12-18 03:49:50] done building package cffi in 330.7 s.

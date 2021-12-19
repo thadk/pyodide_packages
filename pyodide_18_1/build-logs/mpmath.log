@@ -1,0 +1,511 @@
+running install
+running bdist_egg
+running egg_info
+writing mpmath.egg-info/PKG-INFO
+writing dependency_links to mpmath.egg-info/dependency_links.txt
+writing requirements to mpmath.egg-info/requires.txt
+writing top-level names to mpmath.egg-info/top_level.txt
+reading manifest file 'mpmath.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'mpmath.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/mpmath
+copying mpmath/rational.py -> build/lib/mpmath
+copying mpmath/function_docs.py -> build/lib/mpmath
+copying mpmath/ctx_mp_python.py -> build/lib/mpmath
+copying mpmath/ctx_fp.py -> build/lib/mpmath
+copying mpmath/__init__.py -> build/lib/mpmath
+copying mpmath/visualization.py -> build/lib/mpmath
+copying mpmath/ctx_iv.py -> build/lib/mpmath
+copying mpmath/ctx_mp.py -> build/lib/mpmath
+copying mpmath/math2.py -> build/lib/mpmath
+copying mpmath/ctx_base.py -> build/lib/mpmath
+copying mpmath/identification.py -> build/lib/mpmath
+copying mpmath/usertools.py -> build/lib/mpmath
+creating build/lib/mpmath/libmp
+copying mpmath/libmp/backend.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libintmath.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libhyper.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/__init__.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/gammazeta.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libelefun.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libmpf.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libmpc.py -> build/lib/mpmath/libmp
+copying mpmath/libmp/libmpi.py -> build/lib/mpmath/libmp
+creating build/lib/mpmath/tests
+copying mpmath/tests/test_trig.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_bitwise.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_levin.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_linalg.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_compatibility.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_quad.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_calculus.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_rootfinding.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_pickle.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_elliptic.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_division.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_visualization.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_eigen_symmetric.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_power.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_eigen.py -> build/lib/mpmath/tests
+copying mpmath/tests/__init__.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_fp.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_convert.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_matrices.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_basic_ops.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_mpmath.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_str.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_interval.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_ode.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_hp.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_diff.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_summation.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_identify.py -> build/lib/mpmath/tests
+copying mpmath/tests/extratest_gamma.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_functions.py -> build/lib/mpmath/tests
+copying mpmath/tests/torture.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_gammazeta.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_special.py -> build/lib/mpmath/tests
+copying mpmath/tests/test_functions2.py -> build/lib/mpmath/tests
+copying mpmath/tests/extratest_zeta.py -> build/lib/mpmath/tests
+copying mpmath/tests/runtests.py -> build/lib/mpmath/tests
+creating build/lib/mpmath/functions
+copying mpmath/functions/zeta.py -> build/lib/mpmath/functions
+copying mpmath/functions/functions.py -> build/lib/mpmath/functions
+copying mpmath/functions/qfunctions.py -> build/lib/mpmath/functions
+copying mpmath/functions/zetazeros.py -> build/lib/mpmath/functions
+copying mpmath/functions/__init__.py -> build/lib/mpmath/functions
+copying mpmath/functions/elliptic.py -> build/lib/mpmath/functions
+copying mpmath/functions/hypergeometric.py -> build/lib/mpmath/functions
+copying mpmath/functions/factorials.py -> build/lib/mpmath/functions
+copying mpmath/functions/orthogonal.py -> build/lib/mpmath/functions
+copying mpmath/functions/expintegrals.py -> build/lib/mpmath/functions
+copying mpmath/functions/theta.py -> build/lib/mpmath/functions
+copying mpmath/functions/rszeta.py -> build/lib/mpmath/functions
+copying mpmath/functions/bessel.py -> build/lib/mpmath/functions
+creating build/lib/mpmath/calculus
+copying mpmath/calculus/inverselaplace.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/quadrature.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/optimization.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/__init__.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/calculus.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/polynomials.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/approximation.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/odes.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/differentiation.py -> build/lib/mpmath/calculus
+copying mpmath/calculus/extrapolation.py -> build/lib/mpmath/calculus
+creating build/lib/mpmath/matrices
+copying mpmath/matrices/matrices.py -> build/lib/mpmath/matrices
+copying mpmath/matrices/__init__.py -> build/lib/mpmath/matrices
+copying mpmath/matrices/calculus.py -> build/lib/mpmath/matrices
+copying mpmath/matrices/linalg.py -> build/lib/mpmath/matrices
+copying mpmath/matrices/eigen_symmetric.py -> build/lib/mpmath/matrices
+copying mpmath/matrices/eigen.py -> build/lib/mpmath/matrices
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/mpmath
+creating build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/backend.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libintmath.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libhyper.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/__init__.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/gammazeta.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libelefun.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpf.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpc.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpi.py -> build/bdist.linux-x86_64/egg/mpmath/libmp
+copying build/lib/mpmath/rational.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/function_docs.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/ctx_mp_python.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/ctx_fp.py -> build/bdist.linux-x86_64/egg/mpmath
+creating build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_trig.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_bitwise.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_levin.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_linalg.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_compatibility.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_quad.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_calculus.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_rootfinding.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_pickle.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_elliptic.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_division.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_visualization.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_eigen_symmetric.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_power.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_eigen.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/__init__.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_fp.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_convert.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_matrices.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_basic_ops.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_mpmath.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_str.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_interval.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_ode.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_hp.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_diff.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_summation.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_identify.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/extratest_gamma.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_functions.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/torture.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_gammazeta.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_special.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/test_functions2.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/extratest_zeta.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/tests/runtests.py -> build/bdist.linux-x86_64/egg/mpmath/tests
+copying build/lib/mpmath/__init__.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/visualization.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/ctx_iv.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/ctx_mp.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/math2.py -> build/bdist.linux-x86_64/egg/mpmath
+creating build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/zeta.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/functions.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/qfunctions.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/zetazeros.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/__init__.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/elliptic.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/hypergeometric.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/factorials.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/orthogonal.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/expintegrals.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/theta.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/rszeta.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/functions/bessel.py -> build/bdist.linux-x86_64/egg/mpmath/functions
+copying build/lib/mpmath/ctx_base.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/identification.py -> build/bdist.linux-x86_64/egg/mpmath
+copying build/lib/mpmath/usertools.py -> build/bdist.linux-x86_64/egg/mpmath
+creating build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/inverselaplace.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/quadrature.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/optimization.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/__init__.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/calculus.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/polynomials.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/approximation.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/odes.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/differentiation.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+copying build/lib/mpmath/calculus/extrapolation.py -> build/bdist.linux-x86_64/egg/mpmath/calculus
+creating build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/matrices.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/__init__.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/calculus.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/linalg.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/eigen_symmetric.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+copying build/lib/mpmath/matrices/eigen.py -> build/bdist.linux-x86_64/egg/mpmath/matrices
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/backend.py to backend.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libintmath.py to libintmath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libhyper.py to libhyper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/gammazeta.py to gammazeta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libelefun.py to libelefun.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libmpf.py to libmpf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libmpc.py to libmpc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/libmp/libmpi.py to libmpi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/rational.py to rational.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/function_docs.py to function_docs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/ctx_mp_python.py to ctx_mp_python.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/ctx_fp.py to ctx_fp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_trig.py to test_trig.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_bitwise.py to test_bitwise.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_levin.py to test_levin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_linalg.py to test_linalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_quad.py to test_quad.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_calculus.py to test_calculus.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_rootfinding.py to test_rootfinding.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_pickle.py to test_pickle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_elliptic.py to test_elliptic.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_division.py to test_division.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_visualization.py to test_visualization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_eigen_symmetric.py to test_eigen_symmetric.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_power.py to test_power.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_eigen.py to test_eigen.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_fp.py to test_fp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_convert.py to test_convert.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_matrices.py to test_matrices.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_basic_ops.py to test_basic_ops.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_mpmath.py to test_mpmath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_str.py to test_str.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_interval.py to test_interval.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_ode.py to test_ode.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_hp.py to test_hp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_diff.py to test_diff.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_summation.py to test_summation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_identify.py to test_identify.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/extratest_gamma.py to extratest_gamma.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_functions.py to test_functions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/torture.py to torture.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_gammazeta.py to test_gammazeta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_special.py to test_special.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/test_functions2.py to test_functions2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/extratest_zeta.py to extratest_zeta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/tests/runtests.py to runtests.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/visualization.py to visualization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/ctx_iv.py to ctx_iv.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/ctx_mp.py to ctx_mp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/math2.py to math2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/zeta.py to zeta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/functions.py to functions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/qfunctions.py to qfunctions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/zetazeros.py to zetazeros.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/elliptic.py to elliptic.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/hypergeometric.py to hypergeometric.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/factorials.py to factorials.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/orthogonal.py to orthogonal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/expintegrals.py to expintegrals.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/theta.py to theta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/rszeta.py to rszeta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/functions/bessel.py to bessel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/ctx_base.py to ctx_base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/identification.py to identification.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/usertools.py to usertools.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/inverselaplace.py to inverselaplace.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/quadrature.py to quadrature.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/optimization.py to optimization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/calculus.py to calculus.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/polynomials.py to polynomials.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/approximation.py to approximation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/odes.py to odes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/differentiation.py to differentiation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/calculus/extrapolation.py to extrapolation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/matrices.py to matrices.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/calculus.py to calculus.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/linalg.py to linalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/eigen_symmetric.py to eigen_symmetric.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/mpmath/matrices/eigen.py to eigen.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying mpmath.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mpmath.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mpmath.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mpmath.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying mpmath.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+mpmath.__pycache__.__init__.cpython-39: module MAY be using inspect.getsourcefile
+mpmath.tests.__pycache__.runtests.cpython-39: module references __file__
+creating dist
+creating 'dist/mpmath-1.2.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing mpmath-1.2.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/mpmath-1.2.1-py3.9.egg
+Extracting mpmath-1.2.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding mpmath 1.2.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/mpmath-1.2.1-py3.9.egg
+Processing dependencies for mpmath==1.2.1
+Finished processing dependencies for mpmath==1.2.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/mpmath
+creating install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/backend.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libintmath.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libhyper.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/__init__.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/gammazeta.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libelefun.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpf.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpc.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/libmp/libmpi.py -> install/lib/python3.9/site-packages/mpmath/libmp
+copying build/lib/mpmath/rational.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/function_docs.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/ctx_mp_python.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/ctx_fp.py -> install/lib/python3.9/site-packages/mpmath
+creating install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_trig.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_bitwise.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_levin.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_linalg.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_compatibility.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_quad.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_calculus.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_rootfinding.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_pickle.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_elliptic.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_division.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_visualization.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_eigen_symmetric.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_power.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_eigen.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/__init__.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_fp.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_convert.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_matrices.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_basic_ops.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_mpmath.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_str.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_interval.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_ode.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_hp.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_diff.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_summation.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_identify.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/extratest_gamma.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_functions.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/torture.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_gammazeta.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_special.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/test_functions2.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/extratest_zeta.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/tests/runtests.py -> install/lib/python3.9/site-packages/mpmath/tests
+copying build/lib/mpmath/__init__.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/visualization.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/ctx_iv.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/ctx_mp.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/math2.py -> install/lib/python3.9/site-packages/mpmath
+creating install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/zeta.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/functions.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/qfunctions.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/zetazeros.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/__init__.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/elliptic.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/hypergeometric.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/factorials.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/orthogonal.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/expintegrals.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/theta.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/rszeta.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/functions/bessel.py -> install/lib/python3.9/site-packages/mpmath/functions
+copying build/lib/mpmath/ctx_base.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/identification.py -> install/lib/python3.9/site-packages/mpmath
+copying build/lib/mpmath/usertools.py -> install/lib/python3.9/site-packages/mpmath
+creating install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/inverselaplace.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/quadrature.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/optimization.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/__init__.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/calculus.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/polynomials.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/approximation.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/odes.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/differentiation.py -> install/lib/python3.9/site-packages/mpmath/calculus
+copying build/lib/mpmath/calculus/extrapolation.py -> install/lib/python3.9/site-packages/mpmath/calculus
+creating install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/matrices.py -> install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/__init__.py -> install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/calculus.py -> install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/linalg.py -> install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/eigen_symmetric.py -> install/lib/python3.9/site-packages/mpmath/matrices
+copying build/lib/mpmath/matrices/eigen.py -> install/lib/python3.9/site-packages/mpmath/matrices
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/backend.py to backend.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libintmath.py to libintmath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libhyper.py to libhyper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/gammazeta.py to gammazeta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libelefun.py to libelefun.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libmpf.py to libmpf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libmpc.py to libmpc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/libmp/libmpi.py to libmpi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/rational.py to rational.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/function_docs.py to function_docs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/ctx_mp_python.py to ctx_mp_python.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/ctx_fp.py to ctx_fp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_trig.py to test_trig.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_bitwise.py to test_bitwise.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_levin.py to test_levin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_linalg.py to test_linalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_quad.py to test_quad.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_calculus.py to test_calculus.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_rootfinding.py to test_rootfinding.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_pickle.py to test_pickle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_elliptic.py to test_elliptic.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_division.py to test_division.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_visualization.py to test_visualization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_eigen_symmetric.py to test_eigen_symmetric.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_power.py to test_power.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_eigen.py to test_eigen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_fp.py to test_fp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_convert.py to test_convert.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_matrices.py to test_matrices.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_basic_ops.py to test_basic_ops.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_mpmath.py to test_mpmath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_str.py to test_str.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_interval.py to test_interval.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_ode.py to test_ode.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_hp.py to test_hp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_diff.py to test_diff.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_summation.py to test_summation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_identify.py to test_identify.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/extratest_gamma.py to extratest_gamma.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_functions.py to test_functions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/torture.py to torture.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_gammazeta.py to test_gammazeta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_special.py to test_special.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/test_functions2.py to test_functions2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/extratest_zeta.py to extratest_zeta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/tests/runtests.py to runtests.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/visualization.py to visualization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/ctx_iv.py to ctx_iv.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/ctx_mp.py to ctx_mp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/math2.py to math2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/zeta.py to zeta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/functions.py to functions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/qfunctions.py to qfunctions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/zetazeros.py to zetazeros.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/elliptic.py to elliptic.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/hypergeometric.py to hypergeometric.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/factorials.py to factorials.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/orthogonal.py to orthogonal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/expintegrals.py to expintegrals.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/theta.py to theta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/rszeta.py to rszeta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/functions/bessel.py to bessel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/ctx_base.py to ctx_base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/identification.py to identification.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/usertools.py to usertools.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/inverselaplace.py to inverselaplace.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/quadrature.py to quadrature.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/optimization.py to optimization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/calculus.py to calculus.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/polynomials.py to polynomials.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/approximation.py to approximation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/odes.py to odes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/differentiation.py to differentiation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/calculus/extrapolation.py to extrapolation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/matrices.py to matrices.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/calculus.py to calculus.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/linalg.py to linalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/eigen_symmetric.py to eigen_symmetric.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/mpmath/matrices/eigen.py to eigen.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing mpmath.egg-info/PKG-INFO
+writing dependency_links to mpmath.egg-info/dependency_links.txt
+writing requirements to mpmath.egg-info/requires.txt
+writing top-level names to mpmath.egg-info/top_level.txt
+reading manifest file 'mpmath.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'mpmath.egg-info/SOURCES.txt'
+Copying mpmath.egg-info to install/lib/python3.9/site-packages/mpmath-1.2.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 1932508
+compressed package into 1110723
+compressed in 142 ms
+[2021-12-18 04:21:06] Building package mpmath...
+[2021-12-18 04:22:44] done building package mpmath in 97.4 s.

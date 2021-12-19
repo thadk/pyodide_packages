@@ -1,0 +1,399 @@
+configure: ./configure CFLAGS=-fPIC --disable-dependency-tracking --disable-shared --without-python --with-libxml-src=/src/packages/libxml/build/libxml2-2.9.10 --without-crypto
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... /src/emsdk/emsdk/upstream/emscripten/emcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /src/emsdk/emsdk/upstream/emscripten/emcc accepts -g... yes
+checking for /src/emsdk/emsdk/upstream/emscripten/emcc option to accept ISO C89... none needed
+checking whether /src/emsdk/emsdk/upstream/emscripten/emcc understands -c and -o together... yes
+checking how to run the C preprocessor... /src/emsdk/emsdk/upstream/emscripten/emcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of /src/emsdk/emsdk/upstream/emscripten/emcc... none
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) /src/emsdk/emsdk/upstream/emscripten/emcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /src/emsdk/emsdk/upstream/emscripten/emcc accepts -g... (cached) yes
+checking for /src/emsdk/emsdk/upstream/emscripten/emcc option to accept ISO C89... (cached) none needed
+checking whether /src/emsdk/emsdk/upstream/emscripten/emcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... /src/emsdk/emsdk/upstream/emscripten/emcc -E
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ANSI C header files... (cached) yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by /src/emsdk/emsdk/upstream/emscripten/emcc... /src/emsdk/emsdk/upstream/emscripten/emcc
+checking if the linker (/src/emsdk/emsdk/upstream/emscripten/emcc) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /src/emsdk/emsdk/upstream/bin/llvm-nm
+checking the name lister (/src/emsdk/emsdk/upstream/bin/llvm-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /src/emsdk/emsdk/upstream/emscripten/emcc option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... /src/emsdk/emsdk/upstream/emscripten/emranlib
+checking command to parse /src/emsdk/emsdk/upstream/bin/llvm-nm output from /src/emsdk/emsdk/upstream/emscripten/emcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if /src/emsdk/emsdk/upstream/emscripten/emcc supports -fno-rtti -fno-exceptions... yes
+checking for /src/emsdk/emsdk/upstream/emscripten/emcc option to produce PIC... -fPIC -DPIC
+checking if /src/emsdk/emsdk/upstream/emscripten/emcc PIC flag -fPIC -DPIC works... yes
+checking if /src/emsdk/emsdk/upstream/emscripten/emcc static flag -static works... yes
+checking if /src/emsdk/emsdk/upstream/emscripten/emcc supports -c -o file.o... yes
+checking if /src/emsdk/emsdk/upstream/emscripten/emcc supports -c -o file.o... (cached) yes
+checking whether the /src/emsdk/emsdk/upstream/emscripten/emcc linker (/src/emsdk/emsdk/upstream/emscripten/emcc) supports shared libraries... emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 2.0.26 (5af6a110ee58ca4a6885fbcad830c92207fefea2)
+clang version 13.0.0 (https://github.com/llvm/llvm-project 31e75512174e1bdaa242ee5c7f30fe56e68c3748)
+Target: wasm32-unknown-emscripten
+Thread model: posix
+InstalledDir: /src/emsdk/emsdk/upstream/bin
+yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... no
+checking whether to build static libraries... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for string.h... (cached) yes
+checking how to pass version script to the linker (/src/emsdk/emsdk/upstream/emscripten/emcc)... none
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking xlocale.h usability... yes
+checking xlocale.h presence... yes
+checking for xlocale.h... yes
+checking for strxfrm_l... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking ansidecl.h usability... no
+checking ansidecl.h presence... no
+checking for ansidecl.h... no
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for stat... yes
+checking for _stat... no
+checking for pow... yes
+checking for floor... yes
+checking for fabs... yes
+checking for gettimeofday... yes
+checking for localtime... yes
+checking for localtime_r... yes
+checking for time... yes
+checking for gmtime... yes
+checking for gmtime_r... yes
+checking for ftime... yes
+checking for printf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+checking for clock_gettime... yes
+checking for perl... perl
+Disabling crypto support
+Enabling debugger
+checking for xml2-config... no
+checking whether shared libraries will be built (required for plugins)... no
+configure: WARNING: Disabling plugin support.
+configure: WARNING: Plugins require that shared libraries be built.
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libxslt.pc
+config.status: creating libexslt.pc
+config.status: creating libxslt/Makefile
+config.status: creating libxslt/xsltconfig.h
+config.status: creating libxslt/xsltwin32config.h
+config.status: creating libexslt/Makefile
+config.status: creating libexslt/exsltconfig.h
+config.status: creating xsltproc/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/docs/Makefile
+config.status: creating tests/REC1/Makefile
+config.status: creating tests/REC2/Makefile
+config.status: creating tests/REC/Makefile
+config.status: creating tests/general/Makefile
+config.status: creating tests/reports/Makefile
+config.status: creating tests/extensions/Makefile
+config.status: creating tests/namespaces/Makefile
+config.status: creating tests/keys/Makefile
+config.status: creating tests/numbers/Makefile
+config.status: creating tests/documents/Makefile
+config.status: creating tests/xmlspec/Makefile
+config.status: creating tests/multiple/Makefile
+config.status: creating tests/xinclude/Makefile
+config.status: creating tests/XSLTMark/Makefile
+config.status: creating tests/docbook/Makefile
+config.status: creating tests/exslt/Makefile
+config.status: creating tests/exslt/common/Makefile
+config.status: creating tests/exslt/functions/Makefile
+config.status: creating tests/exslt/math/Makefile
+config.status: creating tests/exslt/saxon/Makefile
+config.status: creating tests/exslt/sets/Makefile
+config.status: creating tests/exslt/strings/Makefile
+config.status: creating tests/exslt/date/Makefile
+config.status: creating tests/exslt/dynamic/Makefile
+config.status: creating tests/exslt/crypto/Makefile
+config.status: creating tests/plugins/Makefile
+config.status: creating doc/Makefile
+config.status: creating xslt-config
+config.status: creating libxslt.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make: make -j 4
+make[1]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33'
+make  all-recursive
+make[2]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33'
+Making all in libxslt
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/libxslt'
+  CC       xsltlocale.lo
+  CC       xslt.lo
+  CC       xsltutils.lo
+  CC       attrvt.lo
+  CC       pattern.lo
+  CC       variables.lo
+  CC       templates.lo
+  CC       keys.lo
+  CC       functions.lo
+  CC       numbers.lo
+  CC       extensions.lo
+  CC       extra.lo
+  CC       namespaces.lo
+  CC       attributes.lo
+  CC       imports.lo
+  CC       documents.lo
+  CC       preproc.lo
+  CC       transform.lo
+  CC       security.lo
+  CCLD     libxslt.la
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/libxslt'
+Making all in libexslt
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/libexslt'
+  CC       exslt.lo
+  CC       crypto.lo
+  CC       math.lo
+  CC       common.lo
+  CC       strings.lo
+  CC       functions.lo
+  CC       sets.lo
+  CC       date.lo
+  CC       saxon.lo
+  CC       dynamic.lo
+  CCLD     libexslt.la
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/libexslt'
+Making all in xsltproc
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/xsltproc'
+  CC       xsltproc.o
+  CC       testThreads.o
+  CCLD     testThreads
+  CCLD     xsltproc
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/xsltproc'
+Making all in doc
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/doc'
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/doc'
+Making all in tests
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests'
+Making all in docs
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/docs'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/docs'
+Making all in REC1
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC1'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC1'
+Making all in REC2
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC2'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC2'
+Making all in REC
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/REC'
+Making all in general
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/general'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/general'
+Making all in namespaces
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/namespaces'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/namespaces'
+Making all in keys
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/keys'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/keys'
+Making all in numbers
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/numbers'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/numbers'
+Making all in documents
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/documents'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/documents'
+Making all in extensions
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/extensions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/extensions'
+Making all in reports
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/reports'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/reports'
+Making all in xmlspec
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/xmlspec'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/xmlspec'
+Making all in multiple
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/multiple'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/multiple'
+Making all in xinclude
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/xinclude'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/xinclude'
+Making all in XSLTMark
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/XSLTMark'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/XSLTMark'
+Making all in docbook
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/docbook'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/docbook'
+Making all in exslt
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt'
+Making all in common
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/common'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/common'
+Making all in functions
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/functions'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/functions'
+Making all in math
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/math'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/math'
+Making all in saxon
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/saxon'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/saxon'
+Making all in sets
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/sets'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/sets'
+Making all in strings
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/strings'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/strings'
+Making all in dynamic
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/dynamic'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/dynamic'
+Making all in date
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/date'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt/date'
+make[5]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt'
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/exslt'
+Making all in plugins
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/plugins'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests/plugins'
+make[4]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33/tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests'
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33/tests'
+make[3]: Entering directory '/src/packages/libxslt/build/libxslt-1.1.33'
+sed -e 's?\@XSLT_LIBDIR\@?-L/usr/local/lib?g' \
+    -e 's?\@XSLT_INCLUDEDIR\@?-I/usr/local/include?g' \
+    -e 's?\@VERSION\@?1.1.33?g' \
+    -e 's?\@XSLT_LIBS\@?-lxslt -L/src/packages/libxml/build/libxml2-2.9.10 -L/usr/local/lib -lxml2 -L/src/packages/zlib/build/zlib-1.2.11//lib -lz -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/lib -lm  ?g' \
+       < ./xsltConf.sh.in > xsltConf.tmp \
+&& mv xsltConf.tmp xsltConf.sh
+make[3]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33'
+make[2]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33'
+make[1]: Leaving directory '/src/packages/libxslt/build/libxslt-1.1.33'
+[2021-08-12 04:02:53] Building package libxslt...
+[2021-08-12 04:17:50] done building package libxslt in 896.9 s.

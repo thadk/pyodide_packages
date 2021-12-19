@@ -1,0 +1,124 @@
+running install
+running bdist_egg
+running egg_info
+writing jsonpickle.egg-info/PKG-INFO
+writing dependency_links to jsonpickle.egg-info/dependency_links.txt
+writing requirements to jsonpickle.egg-info/requires.txt
+writing top-level names to jsonpickle.egg-info/top_level.txt
+reading manifest file 'jsonpickle.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'jsonpickle.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/jsonpickle
+copying jsonpickle/tags.py -> build/lib/jsonpickle
+copying jsonpickle/unpickler.py -> build/lib/jsonpickle
+copying jsonpickle/backend.py -> build/lib/jsonpickle
+copying jsonpickle/version.py -> build/lib/jsonpickle
+copying jsonpickle/compat.py -> build/lib/jsonpickle
+copying jsonpickle/util.py -> build/lib/jsonpickle
+copying jsonpickle/handlers.py -> build/lib/jsonpickle
+copying jsonpickle/__init__.py -> build/lib/jsonpickle
+copying jsonpickle/pickler.py -> build/lib/jsonpickle
+creating build/lib/jsonpickle/ext
+copying jsonpickle/ext/pandas.py -> build/lib/jsonpickle/ext
+copying jsonpickle/ext/__init__.py -> build/lib/jsonpickle/ext
+copying jsonpickle/ext/numpy.py -> build/lib/jsonpickle/ext
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/tags.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/unpickler.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/backend.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/version.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/compat.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/util.py -> build/bdist.linux-x86_64/egg/jsonpickle
+creating build/bdist.linux-x86_64/egg/jsonpickle/ext
+copying build/lib/jsonpickle/ext/pandas.py -> build/bdist.linux-x86_64/egg/jsonpickle/ext
+copying build/lib/jsonpickle/ext/__init__.py -> build/bdist.linux-x86_64/egg/jsonpickle/ext
+copying build/lib/jsonpickle/ext/numpy.py -> build/bdist.linux-x86_64/egg/jsonpickle/ext
+copying build/lib/jsonpickle/handlers.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/__init__.py -> build/bdist.linux-x86_64/egg/jsonpickle
+copying build/lib/jsonpickle/pickler.py -> build/bdist.linux-x86_64/egg/jsonpickle
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/tags.py to tags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/unpickler.py to unpickler.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/backend.py to backend.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/compat.py to compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/ext/pandas.py to pandas.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/ext/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/ext/numpy.py to numpy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/handlers.py to handlers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jsonpickle/pickler.py to pickler.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying jsonpickle.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying jsonpickle.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying jsonpickle.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying jsonpickle.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying jsonpickle.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/jsonpickle-2.0.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing jsonpickle-2.0.0-py3.9.egg
+Copying jsonpickle-2.0.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding jsonpickle 2.0.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/jsonpickle-2.0.0-py3.9.egg
+Processing dependencies for jsonpickle==2.0.0
+Finished processing dependencies for jsonpickle==2.0.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/tags.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/unpickler.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/backend.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/version.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/compat.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/util.py -> install/lib/python3.9/site-packages/jsonpickle
+creating install/lib/python3.9/site-packages/jsonpickle/ext
+copying build/lib/jsonpickle/ext/pandas.py -> install/lib/python3.9/site-packages/jsonpickle/ext
+copying build/lib/jsonpickle/ext/__init__.py -> install/lib/python3.9/site-packages/jsonpickle/ext
+copying build/lib/jsonpickle/ext/numpy.py -> install/lib/python3.9/site-packages/jsonpickle/ext
+copying build/lib/jsonpickle/handlers.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/__init__.py -> install/lib/python3.9/site-packages/jsonpickle
+copying build/lib/jsonpickle/pickler.py -> install/lib/python3.9/site-packages/jsonpickle
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/tags.py to tags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/unpickler.py to unpickler.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/backend.py to backend.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/ext/pandas.py to pandas.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/ext/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/ext/numpy.py to numpy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/handlers.py to handlers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jsonpickle/pickler.py to pickler.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing jsonpickle.egg-info/PKG-INFO
+writing dependency_links to jsonpickle.egg-info/dependency_links.txt
+writing requirements to jsonpickle.egg-info/requires.txt
+writing top-level names to jsonpickle.egg-info/top_level.txt
+reading manifest file 'jsonpickle.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'jsonpickle.egg-info/SOURCES.txt'
+Copying jsonpickle.egg-info to install/lib/python3.9/site-packages/jsonpickle-2.0.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 119185
+compressed package into 71719
+compressed in 76 ms
+[2021-12-19 02:57:40] Building package jsonpickle...
+[2021-12-19 02:58:50] done building package jsonpickle in 69.5 s.

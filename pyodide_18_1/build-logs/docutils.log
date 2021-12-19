@@ -1,0 +1,1068 @@
+running install
+running bdist_egg
+running egg_info
+writing docutils.egg-info/PKG-INFO
+writing dependency_links to docutils.egg-info/dependency_links.txt
+writing top-level names to docutils.egg-info/top_level.txt
+reading manifest file 'docutils.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'test/alltests.out'
+warning: no previously-included files found matching 'test/record.txt'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+adding license file 'COPYING.txt'
+writing manifest file 'docutils.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/docutils
+copying docutils/io.py -> build/lib/docutils
+copying docutils/frontend.py -> build/lib/docutils
+copying docutils/__init__.py -> build/lib/docutils
+copying docutils/core.py -> build/lib/docutils
+copying docutils/examples.py -> build/lib/docutils
+copying docutils/nodes.py -> build/lib/docutils
+copying docutils/statemachine.py -> build/lib/docutils
+creating build/lib/docutils/languages
+copying docutils/languages/he.py -> build/lib/docutils/languages
+copying docutils/languages/ja.py -> build/lib/docutils/languages
+copying docutils/languages/af.py -> build/lib/docutils/languages
+copying docutils/languages/ko.py -> build/lib/docutils/languages
+copying docutils/languages/pl.py -> build/lib/docutils/languages
+copying docutils/languages/gl.py -> build/lib/docutils/languages
+copying docutils/languages/lv.py -> build/lib/docutils/languages
+copying docutils/languages/__init__.py -> build/lib/docutils/languages
+copying docutils/languages/ru.py -> build/lib/docutils/languages
+copying docutils/languages/fi.py -> build/lib/docutils/languages
+copying docutils/languages/lt.py -> build/lib/docutils/languages
+copying docutils/languages/fr.py -> build/lib/docutils/languages
+copying docutils/languages/nl.py -> build/lib/docutils/languages
+copying docutils/languages/cs.py -> build/lib/docutils/languages
+copying docutils/languages/sv.py -> build/lib/docutils/languages
+copying docutils/languages/en.py -> build/lib/docutils/languages
+copying docutils/languages/zh_cn.py -> build/lib/docutils/languages
+copying docutils/languages/pt_br.py -> build/lib/docutils/languages
+copying docutils/languages/zh_tw.py -> build/lib/docutils/languages
+copying docutils/languages/eo.py -> build/lib/docutils/languages
+copying docutils/languages/es.py -> build/lib/docutils/languages
+copying docutils/languages/sk.py -> build/lib/docutils/languages
+copying docutils/languages/it.py -> build/lib/docutils/languages
+copying docutils/languages/ar.py -> build/lib/docutils/languages
+copying docutils/languages/ca.py -> build/lib/docutils/languages
+copying docutils/languages/de.py -> build/lib/docutils/languages
+copying docutils/languages/fa.py -> build/lib/docutils/languages
+copying docutils/languages/da.py -> build/lib/docutils/languages
+creating build/lib/docutils/parsers
+copying docutils/parsers/recommonmark_wrapper.py -> build/lib/docutils/parsers
+copying docutils/parsers/null.py -> build/lib/docutils/parsers
+copying docutils/parsers/__init__.py -> build/lib/docutils/parsers
+creating build/lib/docutils/parsers/rst
+copying docutils/parsers/rst/roles.py -> build/lib/docutils/parsers/rst
+copying docutils/parsers/rst/tableparser.py -> build/lib/docutils/parsers/rst
+copying docutils/parsers/rst/__init__.py -> build/lib/docutils/parsers/rst
+copying docutils/parsers/rst/states.py -> build/lib/docutils/parsers/rst
+creating build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/misc.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/body.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/references.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/html.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/__init__.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/admonitions.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/images.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/parts.py -> build/lib/docutils/parsers/rst/directives
+copying docutils/parsers/rst/directives/tables.py -> build/lib/docutils/parsers/rst/directives
+creating build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/he.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/ja.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/af.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/ko.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/pl.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/gl.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/lv.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/__init__.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/ru.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/fi.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/lt.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/fr.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/nl.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/cs.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/sv.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/en.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/zh_cn.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/pt_br.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/zh_tw.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/eo.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/es.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/sk.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/it.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/ar.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/ca.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/de.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/fa.py -> build/lib/docutils/parsers/rst/languages
+copying docutils/parsers/rst/languages/da.py -> build/lib/docutils/parsers/rst/languages
+creating build/lib/docutils/readers
+copying docutils/readers/standalone.py -> build/lib/docutils/readers
+copying docutils/readers/pep.py -> build/lib/docutils/readers
+copying docutils/readers/__init__.py -> build/lib/docutils/readers
+copying docutils/readers/doctree.py -> build/lib/docutils/readers
+creating build/lib/docutils/transforms
+copying docutils/transforms/misc.py -> build/lib/docutils/transforms
+copying docutils/transforms/frontmatter.py -> build/lib/docutils/transforms
+copying docutils/transforms/references.py -> build/lib/docutils/transforms
+copying docutils/transforms/__init__.py -> build/lib/docutils/transforms
+copying docutils/transforms/writer_aux.py -> build/lib/docutils/transforms
+copying docutils/transforms/peps.py -> build/lib/docutils/transforms
+copying docutils/transforms/parts.py -> build/lib/docutils/transforms
+copying docutils/transforms/components.py -> build/lib/docutils/transforms
+copying docutils/transforms/universal.py -> build/lib/docutils/transforms
+creating build/lib/docutils/utils
+copying docutils/utils/roman.py -> build/lib/docutils/utils
+copying docutils/utils/punctuation_chars.py -> build/lib/docutils/utils
+copying docutils/utils/smartquotes.py -> build/lib/docutils/utils
+copying docutils/utils/urischemes.py -> build/lib/docutils/utils
+copying docutils/utils/error_reporting.py -> build/lib/docutils/utils
+copying docutils/utils/__init__.py -> build/lib/docutils/utils
+copying docutils/utils/code_analyzer.py -> build/lib/docutils/utils
+creating build/lib/docutils/utils/math
+copying docutils/utils/math/latex2mathml.py -> build/lib/docutils/utils/math
+copying docutils/utils/math/unichar2tex.py -> build/lib/docutils/utils/math
+copying docutils/utils/math/tex2unichar.py -> build/lib/docutils/utils/math
+copying docutils/utils/math/math2html.py -> build/lib/docutils/utils/math
+copying docutils/utils/math/__init__.py -> build/lib/docutils/utils/math
+copying docutils/utils/math/tex2mathml_extern.py -> build/lib/docutils/utils/math
+creating build/lib/docutils/writers
+copying docutils/writers/manpage.py -> build/lib/docutils/writers
+copying docutils/writers/pseudoxml.py -> build/lib/docutils/writers
+copying docutils/writers/null.py -> build/lib/docutils/writers
+copying docutils/writers/__init__.py -> build/lib/docutils/writers
+copying docutils/writers/_html_base.py -> build/lib/docutils/writers
+copying docutils/writers/docutils_xml.py -> build/lib/docutils/writers
+creating build/lib/docutils/writers/html4css1
+copying docutils/writers/html4css1/__init__.py -> build/lib/docutils/writers/html4css1
+creating build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/__init__.py -> build/lib/docutils/writers/html5_polyglot
+creating build/lib/docutils/writers/pep_html
+copying docutils/writers/pep_html/__init__.py -> build/lib/docutils/writers/pep_html
+creating build/lib/docutils/writers/s5_html
+copying docutils/writers/s5_html/__init__.py -> build/lib/docutils/writers/s5_html
+creating build/lib/docutils/writers/latex2e
+copying docutils/writers/latex2e/__init__.py -> build/lib/docutils/writers/latex2e
+creating build/lib/docutils/writers/xetex
+copying docutils/writers/xetex/__init__.py -> build/lib/docutils/writers/xetex
+creating build/lib/docutils/writers/odf_odt
+copying docutils/writers/odf_odt/__init__.py -> build/lib/docutils/writers/odf_odt
+copying docutils/writers/odf_odt/pygmentsformatter.py -> build/lib/docutils/writers/odf_odt
+creating build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/README.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamsa.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamsb.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamsc.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamsn.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamso.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isoamsr.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isobox.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isocyr1.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isocyr2.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isodia.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isogrk1.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isogrk2.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isogrk3.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isogrk4-wide.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isogrk4.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isolat1.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isolat2.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomfrk-wide.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomfrk.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomopf-wide.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomopf.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomscr-wide.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isomscr.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isonum.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isopub.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/isotech.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/mmlalias.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/mmlextra-wide.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/mmlextra.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/s5defs.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/xhtml1-lat1.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/xhtml1-special.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/parsers/rst/include/xhtml1-symbol.txt -> build/lib/docutils/parsers/rst/include
+copying docutils/writers/html4css1/html4css1.css -> build/lib/docutils/writers/html4css1
+copying docutils/writers/html4css1/template.txt -> build/lib/docutils/writers/html4css1
+copying docutils/writers/html5_polyglot/math.css -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/minimal.css -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/plain.css -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/responsive.css -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/template.txt -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/html5_polyglot/tuftig.css -> build/lib/docutils/writers/html5_polyglot
+copying docutils/writers/pep_html/pep.css -> build/lib/docutils/writers/pep_html
+copying docutils/writers/pep_html/template.txt -> build/lib/docutils/writers/pep_html
+creating build/lib/docutils/writers/s5_html/themes
+copying docutils/writers/s5_html/themes/README.txt -> build/lib/docutils/writers/s5_html/themes
+creating build/lib/docutils/writers/s5_html/themes/big-black
+copying docutils/writers/s5_html/themes/big-black/__base__ -> build/lib/docutils/writers/s5_html/themes/big-black
+copying docutils/writers/s5_html/themes/big-black/framing.css -> build/lib/docutils/writers/s5_html/themes/big-black
+copying docutils/writers/s5_html/themes/big-black/pretty.css -> build/lib/docutils/writers/s5_html/themes/big-black
+creating build/lib/docutils/writers/s5_html/themes/big-white
+copying docutils/writers/s5_html/themes/big-white/framing.css -> build/lib/docutils/writers/s5_html/themes/big-white
+copying docutils/writers/s5_html/themes/big-white/pretty.css -> build/lib/docutils/writers/s5_html/themes/big-white
+creating build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/blank.gif -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/framing.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/iepngfix.htc -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/opera.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/outline.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/pretty.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/print.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/s5-core.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/slides.css -> build/lib/docutils/writers/s5_html/themes/default
+copying docutils/writers/s5_html/themes/default/slides.js -> build/lib/docutils/writers/s5_html/themes/default
+creating build/lib/docutils/writers/s5_html/themes/medium-black
+copying docutils/writers/s5_html/themes/medium-black/__base__ -> build/lib/docutils/writers/s5_html/themes/medium-black
+copying docutils/writers/s5_html/themes/medium-black/pretty.css -> build/lib/docutils/writers/s5_html/themes/medium-black
+creating build/lib/docutils/writers/s5_html/themes/medium-white
+copying docutils/writers/s5_html/themes/medium-white/framing.css -> build/lib/docutils/writers/s5_html/themes/medium-white
+copying docutils/writers/s5_html/themes/medium-white/pretty.css -> build/lib/docutils/writers/s5_html/themes/medium-white
+creating build/lib/docutils/writers/s5_html/themes/small-black
+copying docutils/writers/s5_html/themes/small-black/__base__ -> build/lib/docutils/writers/s5_html/themes/small-black
+copying docutils/writers/s5_html/themes/small-black/pretty.css -> build/lib/docutils/writers/s5_html/themes/small-black
+creating build/lib/docutils/writers/s5_html/themes/small-white
+copying docutils/writers/s5_html/themes/small-white/framing.css -> build/lib/docutils/writers/s5_html/themes/small-white
+copying docutils/writers/s5_html/themes/small-white/pretty.css -> build/lib/docutils/writers/s5_html/themes/small-white
+copying docutils/writers/latex2e/default.tex -> build/lib/docutils/writers/latex2e
+copying docutils/writers/latex2e/docutils.sty -> build/lib/docutils/writers/latex2e
+copying docutils/writers/latex2e/titlepage.tex -> build/lib/docutils/writers/latex2e
+copying docutils/writers/latex2e/titlingpage.tex -> build/lib/docutils/writers/latex2e
+copying docutils/writers/latex2e/xelatex.tex -> build/lib/docutils/writers/latex2e
+copying docutils/writers/odf_odt/styles.odt -> build/lib/docutils/writers/odf_odt
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/docutils
+creating build/bdist.linux-x86_64/egg/docutils/parsers
+copying build/lib/docutils/parsers/recommonmark_wrapper.py -> build/bdist.linux-x86_64/egg/docutils/parsers
+copying build/lib/docutils/parsers/null.py -> build/bdist.linux-x86_64/egg/docutils/parsers
+creating build/bdist.linux-x86_64/egg/docutils/parsers/rst
+creating build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/misc.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/body.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/references.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/html.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/__init__.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/admonitions.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/images.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/parts.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/tables.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/roles.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst
+creating build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isonum.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isolat1.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isobox.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isolat2.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsr.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlalias.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isotech.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsa.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsc.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsb.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomfrk.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk1.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk3.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-special.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk2.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/s5defs.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk4.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-lat1.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isopub.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk4-wide.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isodia.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlextra.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isocyr2.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomopf-wide.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isocyr1.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/README.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamso.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsn.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomscr.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomfrk-wide.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlextra-wide.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomopf.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomscr-wide.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-symbol.txt -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/tableparser.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst
+copying build/lib/docutils/parsers/rst/__init__.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst
+creating build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/he.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ja.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/af.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ko.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/pl.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/gl.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/lv.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/__init__.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ru.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fi.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/lt.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fr.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/nl.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/cs.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/sv.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/en.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/zh_cn.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/pt_br.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/zh_tw.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/eo.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/es.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/sk.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/it.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ar.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ca.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/de.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fa.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/da.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/states.py -> build/bdist.linux-x86_64/egg/docutils/parsers/rst
+copying build/lib/docutils/parsers/__init__.py -> build/bdist.linux-x86_64/egg/docutils/parsers
+creating build/bdist.linux-x86_64/egg/docutils/writers
+copying build/lib/docutils/writers/manpage.py -> build/bdist.linux-x86_64/egg/docutils/writers
+creating build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/responsive.css -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/template.txt -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/minimal.css -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/plain.css -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/math.css -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/tuftig.css -> build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/pseudoxml.py -> build/bdist.linux-x86_64/egg/docutils/writers
+creating build/bdist.linux-x86_64/egg/docutils/writers/xetex
+copying build/lib/docutils/writers/xetex/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/xetex
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html
+copying build/lib/docutils/writers/s5_html/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-black
+copying build/lib/docutils/writers/s5_html/themes/small-black/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-black
+copying build/lib/docutils/writers/s5_html/themes/small-black/__base__ -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-black
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-white
+copying build/lib/docutils/writers/s5_html/themes/small-white/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-white
+copying build/lib/docutils/writers/s5_html/themes/small-white/framing.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/small-white
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-black
+copying build/lib/docutils/writers/s5_html/themes/medium-black/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-black
+copying build/lib/docutils/writers/s5_html/themes/medium-black/__base__ -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-black
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/framing.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/__base__ -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-black
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/s5-core.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/slides.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/iepngfix.htc -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/framing.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/blank.gif -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/print.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/slides.js -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/opera.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/outline.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/default
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-white
+copying build/lib/docutils/writers/s5_html/themes/big-white/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-white
+copying build/lib/docutils/writers/s5_html/themes/big-white/framing.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/big-white
+creating build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/medium-white/pretty.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/medium-white/framing.css -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/README.txt -> build/bdist.linux-x86_64/egg/docutils/writers/s5_html/themes
+copying build/lib/docutils/writers/null.py -> build/bdist.linux-x86_64/egg/docutils/writers
+copying build/lib/docutils/writers/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers
+creating build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/xelatex.tex -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/default.tex -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/docutils.sty -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/titlepage.tex -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/titlingpage.tex -> build/bdist.linux-x86_64/egg/docutils/writers/latex2e
+creating build/bdist.linux-x86_64/egg/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/styles.odt -> build/bdist.linux-x86_64/egg/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/pygmentsformatter.py -> build/bdist.linux-x86_64/egg/docutils/writers/odf_odt
+copying build/lib/docutils/writers/_html_base.py -> build/bdist.linux-x86_64/egg/docutils/writers
+copying build/lib/docutils/writers/docutils_xml.py -> build/bdist.linux-x86_64/egg/docutils/writers
+creating build/bdist.linux-x86_64/egg/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/template.txt -> build/bdist.linux-x86_64/egg/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/pep.css -> build/bdist.linux-x86_64/egg/docutils/writers/pep_html
+creating build/bdist.linux-x86_64/egg/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/html4css1.css -> build/bdist.linux-x86_64/egg/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/__init__.py -> build/bdist.linux-x86_64/egg/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/template.txt -> build/bdist.linux-x86_64/egg/docutils/writers/html4css1
+copying build/lib/docutils/io.py -> build/bdist.linux-x86_64/egg/docutils
+copying build/lib/docutils/frontend.py -> build/bdist.linux-x86_64/egg/docutils
+copying build/lib/docutils/__init__.py -> build/bdist.linux-x86_64/egg/docutils
+copying build/lib/docutils/core.py -> build/bdist.linux-x86_64/egg/docutils
+creating build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/roman.py -> build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/punctuation_chars.py -> build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/smartquotes.py -> build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/urischemes.py -> build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/error_reporting.py -> build/bdist.linux-x86_64/egg/docutils/utils
+copying build/lib/docutils/utils/__init__.py -> build/bdist.linux-x86_64/egg/docutils/utils
+creating build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/latex2mathml.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/unichar2tex.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/tex2unichar.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/math2html.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/__init__.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/math/tex2mathml_extern.py -> build/bdist.linux-x86_64/egg/docutils/utils/math
+copying build/lib/docutils/utils/code_analyzer.py -> build/bdist.linux-x86_64/egg/docutils/utils
+creating build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/he.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/ja.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/af.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/ko.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/pl.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/gl.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/lv.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/__init__.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/ru.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/fi.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/lt.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/fr.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/nl.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/cs.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/sv.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/en.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/zh_cn.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/pt_br.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/zh_tw.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/eo.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/es.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/sk.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/it.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/ar.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/ca.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/de.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/fa.py -> build/bdist.linux-x86_64/egg/docutils/languages
+copying build/lib/docutils/languages/da.py -> build/bdist.linux-x86_64/egg/docutils/languages
+creating build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/misc.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/frontmatter.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/references.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/__init__.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/writer_aux.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/peps.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/parts.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/components.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/transforms/universal.py -> build/bdist.linux-x86_64/egg/docutils/transforms
+copying build/lib/docutils/examples.py -> build/bdist.linux-x86_64/egg/docutils
+creating build/bdist.linux-x86_64/egg/docutils/readers
+copying build/lib/docutils/readers/standalone.py -> build/bdist.linux-x86_64/egg/docutils/readers
+copying build/lib/docutils/readers/pep.py -> build/bdist.linux-x86_64/egg/docutils/readers
+copying build/lib/docutils/readers/__init__.py -> build/bdist.linux-x86_64/egg/docutils/readers
+copying build/lib/docutils/readers/doctree.py -> build/bdist.linux-x86_64/egg/docutils/readers
+copying build/lib/docutils/nodes.py -> build/bdist.linux-x86_64/egg/docutils
+copying build/lib/docutils/statemachine.py -> build/bdist.linux-x86_64/egg/docutils
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/recommonmark_wrapper.py to recommonmark_wrapper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/null.py to null.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/misc.py to misc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/body.py to body.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/references.py to references.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/html.py to html.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/admonitions.py to admonitions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/images.py to images.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/parts.py to parts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/directives/tables.py to tables.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/roles.py to roles.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/tableparser.py to tableparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/he.py to he.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/ja.py to ja.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/af.py to af.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/ko.py to ko.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/pl.py to pl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/gl.py to gl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/lv.py to lv.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/ru.py to ru.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/fi.py to fi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/lt.py to lt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/fr.py to fr.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/nl.py to nl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/cs.py to cs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/sv.py to sv.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/en.py to en.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/zh_cn.py to zh_cn.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/pt_br.py to pt_br.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/zh_tw.py to zh_tw.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/eo.py to eo.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/es.py to es.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/sk.py to sk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/it.py to it.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/ar.py to ar.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/ca.py to ca.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/de.py to de.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/fa.py to fa.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/languages/da.py to da.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/rst/states.py to states.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/parsers/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/manpage.py to manpage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/html5_polyglot/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/pseudoxml.py to pseudoxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/xetex/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/s5_html/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/null.py to null.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/latex2e/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/odf_odt/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/odf_odt/pygmentsformatter.py to pygmentsformatter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/_html_base.py to _html_base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/docutils_xml.py to docutils_xml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/pep_html/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/writers/html4css1/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/io.py to io.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/frontend.py to frontend.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/roman.py to roman.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/punctuation_chars.py to punctuation_chars.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/smartquotes.py to smartquotes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/urischemes.py to urischemes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/error_reporting.py to error_reporting.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/latex2mathml.py to latex2mathml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/unichar2tex.py to unichar2tex.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/tex2unichar.py to tex2unichar.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/math2html.py to math2html.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/math/tex2mathml_extern.py to tex2mathml_extern.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/utils/code_analyzer.py to code_analyzer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/he.py to he.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/ja.py to ja.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/af.py to af.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/ko.py to ko.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/pl.py to pl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/gl.py to gl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/lv.py to lv.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/ru.py to ru.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/fi.py to fi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/lt.py to lt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/fr.py to fr.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/nl.py to nl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/cs.py to cs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/sv.py to sv.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/en.py to en.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/zh_cn.py to zh_cn.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/pt_br.py to pt_br.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/zh_tw.py to zh_tw.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/eo.py to eo.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/es.py to es.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/sk.py to sk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/it.py to it.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/ar.py to ar.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/ca.py to ca.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/de.py to de.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/fa.py to fa.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/languages/da.py to da.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/misc.py to misc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/frontmatter.py to frontmatter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/references.py to references.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/writer_aux.py to writer_aux.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/peps.py to peps.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/parts.py to parts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/components.py to components.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/transforms/universal.py to universal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/examples.py to examples.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/readers/standalone.py to standalone.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/readers/pep.py to pep.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/readers/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/readers/doctree.py to doctree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/nodes.py to nodes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/docutils/statemachine.py to statemachine.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.9
+copying and adjusting tools/rst2html.py -> build/scripts-3.9
+copying and adjusting tools/rst2html4.py -> build/scripts-3.9
+copying and adjusting tools/rst2html5.py -> build/scripts-3.9
+copying and adjusting tools/rst2s5.py -> build/scripts-3.9
+copying and adjusting tools/rst2latex.py -> build/scripts-3.9
+copying and adjusting tools/rst2xetex.py -> build/scripts-3.9
+copying and adjusting tools/rst2man.py -> build/scripts-3.9
+copying and adjusting tools/rst2xml.py -> build/scripts-3.9
+copying and adjusting tools/rst2pseudoxml.py -> build/scripts-3.9
+copying and adjusting tools/rstpep2html.py -> build/scripts-3.9
+copying and adjusting tools/rst2odt.py -> build/scripts-3.9
+copying and adjusting tools/rst2odt_prepstyles.py -> build/scripts-3.9
+changing mode of build/scripts-3.9/rst2html.py from 644 to 755
+changing mode of build/scripts-3.9/rst2html4.py from 644 to 755
+changing mode of build/scripts-3.9/rst2html5.py from 644 to 755
+changing mode of build/scripts-3.9/rst2s5.py from 644 to 755
+changing mode of build/scripts-3.9/rst2latex.py from 644 to 755
+changing mode of build/scripts-3.9/rst2xetex.py from 644 to 755
+changing mode of build/scripts-3.9/rst2man.py from 644 to 755
+changing mode of build/scripts-3.9/rst2xml.py from 644 to 755
+changing mode of build/scripts-3.9/rst2pseudoxml.py from 644 to 755
+changing mode of build/scripts-3.9/rstpep2html.py from 644 to 755
+changing mode of build/scripts-3.9/rst2odt.py from 644 to 755
+changing mode of build/scripts-3.9/rst2odt_prepstyles.py from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2xetex.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2latex.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2odt_prepstyles.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2html4.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2html5.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2xml.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2odt.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2pseudoxml.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2s5.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2html.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rst2man.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rstpep2html.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2xetex.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2latex.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2odt_prepstyles.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2html4.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2html5.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2xml.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2odt.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2pseudoxml.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2s5.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2html.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rst2man.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rstpep2html.py to 755
+copying docutils.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/SOURCES.html -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/dependency_links.html -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/top_level.html -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying docutils.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+docutils.parsers.rst.directives.__pycache__.misc.cpython-39: module references __file__
+docutils.writers.html4css1.__pycache__.__init__.cpython-39: module references __file__
+docutils.writers.html5_polyglot.__pycache__.__init__.cpython-39: module references __file__
+docutils.writers.latex2e.__pycache__.__init__.cpython-39: module references __file__
+docutils.writers.odf_odt.__pycache__.__init__.cpython-39: module references __file__
+docutils.writers.pep_html.__pycache__.__init__.cpython-39: module references __file__
+docutils.writers.s5_html.__pycache__.__init__.cpython-39: module references __file__
+creating dist
+creating 'dist/docutils-0.17.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing docutils-0.17.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/docutils-0.17.1-py3.9.egg
+Extracting docutils-0.17.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding docutils 0.17.1 to easy-install.pth file
+Installing rst2xetex.py script to /src/packages/.artifacts/bin
+Installing rst2latex.py script to /src/packages/.artifacts/bin
+Installing rst2odt_prepstyles.py script to /src/packages/.artifacts/bin
+Installing rst2html4.py script to /src/packages/.artifacts/bin
+Installing rst2html5.py script to /src/packages/.artifacts/bin
+Installing rst2xml.py script to /src/packages/.artifacts/bin
+Installing rst2odt.py script to /src/packages/.artifacts/bin
+Installing rst2pseudoxml.py script to /src/packages/.artifacts/bin
+Installing rst2s5.py script to /src/packages/.artifacts/bin
+Installing rst2html.py script to /src/packages/.artifacts/bin
+Installing rst2man.py script to /src/packages/.artifacts/bin
+Installing rstpep2html.py script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/docutils-0.17.1-py3.9.egg
+Processing dependencies for docutils==0.17.1
+Finished processing dependencies for docutils==0.17.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/docutils
+creating install/lib/python3.9/site-packages/docutils/parsers
+copying build/lib/docutils/parsers/recommonmark_wrapper.py -> install/lib/python3.9/site-packages/docutils/parsers
+copying build/lib/docutils/parsers/null.py -> install/lib/python3.9/site-packages/docutils/parsers
+creating install/lib/python3.9/site-packages/docutils/parsers/rst
+creating install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/misc.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/body.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/references.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/html.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/__init__.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/admonitions.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/images.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/parts.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/directives/tables.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/directives
+copying build/lib/docutils/parsers/rst/roles.py -> install/lib/python3.9/site-packages/docutils/parsers/rst
+creating install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isonum.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isolat1.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isobox.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isolat2.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsr.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlalias.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isotech.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsa.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsc.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsb.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomfrk.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk1.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk3.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-special.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk2.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/s5defs.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk4.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-lat1.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isopub.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isogrk4-wide.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isodia.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlextra.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isocyr2.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomopf-wide.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isocyr1.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/README.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamso.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isoamsn.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomscr.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomfrk-wide.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/mmlextra-wide.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomopf.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/isomscr-wide.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/include/xhtml1-symbol.txt -> install/lib/python3.9/site-packages/docutils/parsers/rst/include
+copying build/lib/docutils/parsers/rst/tableparser.py -> install/lib/python3.9/site-packages/docutils/parsers/rst
+copying build/lib/docutils/parsers/rst/__init__.py -> install/lib/python3.9/site-packages/docutils/parsers/rst
+creating install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/he.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ja.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/af.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ko.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/pl.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/gl.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/lv.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/__init__.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ru.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fi.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/lt.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fr.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/nl.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/cs.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/sv.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/en.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/zh_cn.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/pt_br.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/zh_tw.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/eo.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/es.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/sk.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/it.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ar.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/ca.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/de.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/fa.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/languages/da.py -> install/lib/python3.9/site-packages/docutils/parsers/rst/languages
+copying build/lib/docutils/parsers/rst/states.py -> install/lib/python3.9/site-packages/docutils/parsers/rst
+copying build/lib/docutils/parsers/__init__.py -> install/lib/python3.9/site-packages/docutils/parsers
+creating install/lib/python3.9/site-packages/docutils/writers
+copying build/lib/docutils/writers/manpage.py -> install/lib/python3.9/site-packages/docutils/writers
+creating install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/responsive.css -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/template.txt -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/minimal.css -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/plain.css -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/math.css -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/html5_polyglot/tuftig.css -> install/lib/python3.9/site-packages/docutils/writers/html5_polyglot
+copying build/lib/docutils/writers/pseudoxml.py -> install/lib/python3.9/site-packages/docutils/writers
+creating install/lib/python3.9/site-packages/docutils/writers/xetex
+copying build/lib/docutils/writers/xetex/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/xetex
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html
+copying build/lib/docutils/writers/s5_html/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/s5_html
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-black
+copying build/lib/docutils/writers/s5_html/themes/small-black/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-black
+copying build/lib/docutils/writers/s5_html/themes/small-black/__base__ -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-black
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-white
+copying build/lib/docutils/writers/s5_html/themes/small-white/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-white
+copying build/lib/docutils/writers/s5_html/themes/small-white/framing.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/small-white
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-black
+copying build/lib/docutils/writers/s5_html/themes/medium-black/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-black
+copying build/lib/docutils/writers/s5_html/themes/medium-black/__base__ -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-black
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/framing.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-black
+copying build/lib/docutils/writers/s5_html/themes/big-black/__base__ -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-black
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/s5-core.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/slides.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/iepngfix.htc -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/framing.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/blank.gif -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/print.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/slides.js -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/opera.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+copying build/lib/docutils/writers/s5_html/themes/default/outline.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/default
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-white
+copying build/lib/docutils/writers/s5_html/themes/big-white/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-white
+copying build/lib/docutils/writers/s5_html/themes/big-white/framing.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/big-white
+creating install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/medium-white/pretty.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/medium-white/framing.css -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes/medium-white
+copying build/lib/docutils/writers/s5_html/themes/README.txt -> install/lib/python3.9/site-packages/docutils/writers/s5_html/themes
+copying build/lib/docutils/writers/null.py -> install/lib/python3.9/site-packages/docutils/writers
+copying build/lib/docutils/writers/__init__.py -> install/lib/python3.9/site-packages/docutils/writers
+creating install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/xelatex.tex -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/default.tex -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/docutils.sty -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/titlepage.tex -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+copying build/lib/docutils/writers/latex2e/titlingpage.tex -> install/lib/python3.9/site-packages/docutils/writers/latex2e
+creating install/lib/python3.9/site-packages/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/styles.odt -> install/lib/python3.9/site-packages/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/odf_odt
+copying build/lib/docutils/writers/odf_odt/pygmentsformatter.py -> install/lib/python3.9/site-packages/docutils/writers/odf_odt
+copying build/lib/docutils/writers/_html_base.py -> install/lib/python3.9/site-packages/docutils/writers
+copying build/lib/docutils/writers/docutils_xml.py -> install/lib/python3.9/site-packages/docutils/writers
+creating install/lib/python3.9/site-packages/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/template.txt -> install/lib/python3.9/site-packages/docutils/writers/pep_html
+copying build/lib/docutils/writers/pep_html/pep.css -> install/lib/python3.9/site-packages/docutils/writers/pep_html
+creating install/lib/python3.9/site-packages/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/html4css1.css -> install/lib/python3.9/site-packages/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/__init__.py -> install/lib/python3.9/site-packages/docutils/writers/html4css1
+copying build/lib/docutils/writers/html4css1/template.txt -> install/lib/python3.9/site-packages/docutils/writers/html4css1
+copying build/lib/docutils/io.py -> install/lib/python3.9/site-packages/docutils
+copying build/lib/docutils/frontend.py -> install/lib/python3.9/site-packages/docutils
+copying build/lib/docutils/__init__.py -> install/lib/python3.9/site-packages/docutils
+copying build/lib/docutils/core.py -> install/lib/python3.9/site-packages/docutils
+creating install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/roman.py -> install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/punctuation_chars.py -> install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/smartquotes.py -> install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/urischemes.py -> install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/error_reporting.py -> install/lib/python3.9/site-packages/docutils/utils
+copying build/lib/docutils/utils/__init__.py -> install/lib/python3.9/site-packages/docutils/utils
+creating install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/latex2mathml.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/unichar2tex.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/tex2unichar.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/math2html.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/__init__.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/math/tex2mathml_extern.py -> install/lib/python3.9/site-packages/docutils/utils/math
+copying build/lib/docutils/utils/code_analyzer.py -> install/lib/python3.9/site-packages/docutils/utils
+creating install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/he.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/ja.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/af.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/ko.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/pl.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/gl.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/lv.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/__init__.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/ru.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/fi.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/lt.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/fr.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/nl.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/cs.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/sv.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/en.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/zh_cn.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/pt_br.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/zh_tw.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/eo.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/es.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/sk.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/it.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/ar.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/ca.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/de.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/fa.py -> install/lib/python3.9/site-packages/docutils/languages
+copying build/lib/docutils/languages/da.py -> install/lib/python3.9/site-packages/docutils/languages
+creating install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/misc.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/frontmatter.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/references.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/__init__.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/writer_aux.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/peps.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/parts.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/components.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/transforms/universal.py -> install/lib/python3.9/site-packages/docutils/transforms
+copying build/lib/docutils/examples.py -> install/lib/python3.9/site-packages/docutils
+creating install/lib/python3.9/site-packages/docutils/readers
+copying build/lib/docutils/readers/standalone.py -> install/lib/python3.9/site-packages/docutils/readers
+copying build/lib/docutils/readers/pep.py -> install/lib/python3.9/site-packages/docutils/readers
+copying build/lib/docutils/readers/__init__.py -> install/lib/python3.9/site-packages/docutils/readers
+copying build/lib/docutils/readers/doctree.py -> install/lib/python3.9/site-packages/docutils/readers
+copying build/lib/docutils/nodes.py -> install/lib/python3.9/site-packages/docutils
+copying build/lib/docutils/statemachine.py -> install/lib/python3.9/site-packages/docutils
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/recommonmark_wrapper.py to recommonmark_wrapper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/null.py to null.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/misc.py to misc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/body.py to body.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/references.py to references.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/html.py to html.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/admonitions.py to admonitions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/images.py to images.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/parts.py to parts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/directives/tables.py to tables.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/roles.py to roles.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/tableparser.py to tableparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/he.py to he.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/ja.py to ja.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/af.py to af.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/ko.py to ko.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/pl.py to pl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/gl.py to gl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/lv.py to lv.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/ru.py to ru.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/fi.py to fi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/lt.py to lt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/fr.py to fr.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/nl.py to nl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/cs.py to cs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/sv.py to sv.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/en.py to en.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/zh_cn.py to zh_cn.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/pt_br.py to pt_br.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/zh_tw.py to zh_tw.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/eo.py to eo.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/es.py to es.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/sk.py to sk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/it.py to it.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/ar.py to ar.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/ca.py to ca.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/de.py to de.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/fa.py to fa.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/languages/da.py to da.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/rst/states.py to states.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/parsers/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/manpage.py to manpage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/html5_polyglot/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/pseudoxml.py to pseudoxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/xetex/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/s5_html/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/null.py to null.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/latex2e/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/odf_odt/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/odf_odt/pygmentsformatter.py to pygmentsformatter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/_html_base.py to _html_base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/docutils_xml.py to docutils_xml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/pep_html/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/writers/html4css1/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/io.py to io.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/frontend.py to frontend.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/roman.py to roman.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/punctuation_chars.py to punctuation_chars.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/smartquotes.py to smartquotes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/urischemes.py to urischemes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/error_reporting.py to error_reporting.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/latex2mathml.py to latex2mathml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/unichar2tex.py to unichar2tex.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/tex2unichar.py to tex2unichar.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/math2html.py to math2html.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/math/tex2mathml_extern.py to tex2mathml_extern.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/utils/code_analyzer.py to code_analyzer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/he.py to he.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/ja.py to ja.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/af.py to af.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/ko.py to ko.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/pl.py to pl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/gl.py to gl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/lv.py to lv.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/ru.py to ru.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/fi.py to fi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/lt.py to lt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/fr.py to fr.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/nl.py to nl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/cs.py to cs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/sv.py to sv.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/en.py to en.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/zh_cn.py to zh_cn.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/pt_br.py to pt_br.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/zh_tw.py to zh_tw.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/eo.py to eo.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/es.py to es.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/sk.py to sk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/it.py to it.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/ar.py to ar.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/ca.py to ca.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/de.py to de.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/fa.py to fa.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/languages/da.py to da.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/misc.py to misc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/frontmatter.py to frontmatter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/references.py to references.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/writer_aux.py to writer_aux.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/peps.py to peps.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/parts.py to parts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/components.py to components.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/transforms/universal.py to universal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/examples.py to examples.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/readers/standalone.py to standalone.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/readers/pep.py to pep.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/readers/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/readers/doctree.py to doctree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/nodes.py to nodes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/docutils/statemachine.py to statemachine.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing docutils.egg-info/PKG-INFO
+writing dependency_links to docutils.egg-info/dependency_links.txt
+writing top-level names to docutils.egg-info/top_level.txt
+reading manifest file 'docutils.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'test/alltests.out'
+warning: no previously-included files found matching 'test/record.txt'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+adding license file 'COPYING.txt'
+writing manifest file 'docutils.egg-info/SOURCES.txt'
+Copying docutils.egg-info to install/lib/python3.9/site-packages/docutils-0.17.1-py3.9.egg-info
+running install_scripts
+creating install/bin
+copying build/scripts-3.9/rst2xetex.py -> install/bin
+copying build/scripts-3.9/rst2latex.py -> install/bin
+copying build/scripts-3.9/rst2odt_prepstyles.py -> install/bin
+copying build/scripts-3.9/rst2html4.py -> install/bin
+copying build/scripts-3.9/rst2html5.py -> install/bin
+copying build/scripts-3.9/rst2xml.py -> install/bin
+copying build/scripts-3.9/rst2odt.py -> install/bin
+copying build/scripts-3.9/rst2pseudoxml.py -> install/bin
+copying build/scripts-3.9/rst2s5.py -> install/bin
+copying build/scripts-3.9/rst2html.py -> install/bin
+copying build/scripts-3.9/rst2man.py -> install/bin
+copying build/scripts-3.9/rstpep2html.py -> install/bin
+changing mode of install/bin/rst2xetex.py to 755
+changing mode of install/bin/rst2latex.py to 755
+changing mode of install/bin/rst2odt_prepstyles.py to 755
+changing mode of install/bin/rst2html4.py to 755
+changing mode of install/bin/rst2html5.py to 755
+changing mode of install/bin/rst2xml.py to 755
+changing mode of install/bin/rst2odt.py to 755
+changing mode of install/bin/rst2pseudoxml.py to 755
+changing mode of install/bin/rst2s5.py to 755
+changing mode of install/bin/rst2html.py to 755
+changing mode of install/bin/rst2man.py to 755
+changing mode of install/bin/rstpep2html.py to 755
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 2001665
+compressed package into 1066647
+compressed in 174 ms
+[2021-12-18 08:24:04] Building package docutils...
+[2021-12-18 08:26:05] done building package docutils in 121.0 s.

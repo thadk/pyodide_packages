@@ -1,0 +1,341 @@
+running install
+running bdist_egg
+running egg_info
+writing bleach.egg-info/PKG-INFO
+writing dependency_links to bleach.egg-info/dependency_links.txt
+writing requirements to bleach.egg-info/requires.txt
+writing top-level names to bleach.egg-info/top_level.txt
+reading manifest file 'bleach.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.json' under directory 'bleach'
+adding license file 'LICENSE'
+writing manifest file 'bleach.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/bleach
+copying bleach/linkifier.py -> build/lib/bleach
+copying bleach/html5lib_shim.py -> build/lib/bleach
+copying bleach/sanitizer.py -> build/lib/bleach
+copying bleach/__init__.py -> build/lib/bleach
+copying bleach/utils.py -> build/lib/bleach
+copying bleach/callbacks.py -> build/lib/bleach
+creating build/lib/bleach/_vendor
+copying bleach/_vendor/__init__.py -> build/lib/bleach/_vendor
+creating build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/_inputstream.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/_ihatexml.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/constants.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/html5parser.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/__init__.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/serializer.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/_tokenizer.py -> build/lib/bleach/_vendor/html5lib
+copying bleach/_vendor/html5lib/_utils.py -> build/lib/bleach/_vendor/html5lib
+creating build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/sanitizer.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/inject_meta_charset.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/__init__.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/base.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/alphabeticalattributes.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/optionaltags.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/lint.py -> build/lib/bleach/_vendor/html5lib/filters
+copying bleach/_vendor/html5lib/filters/whitespace.py -> build/lib/bleach/_vendor/html5lib/filters
+creating build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/etree_lxml.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/__init__.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/etree.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/genshi.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/base.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+copying bleach/_vendor/html5lib/treewalkers/dom.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+creating build/lib/bleach/_vendor/html5lib/treebuilders
+copying bleach/_vendor/html5lib/treebuilders/etree_lxml.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+copying bleach/_vendor/html5lib/treebuilders/__init__.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+copying bleach/_vendor/html5lib/treebuilders/etree.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+copying bleach/_vendor/html5lib/treebuilders/base.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+copying bleach/_vendor/html5lib/treebuilders/dom.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+creating build/lib/bleach/_vendor/html5lib/_trie
+copying bleach/_vendor/html5lib/_trie/_base.py -> build/lib/bleach/_vendor/html5lib/_trie
+copying bleach/_vendor/html5lib/_trie/__init__.py -> build/lib/bleach/_vendor/html5lib/_trie
+copying bleach/_vendor/html5lib/_trie/py.py -> build/lib/bleach/_vendor/html5lib/_trie
+creating build/lib/bleach/_vendor/html5lib/treeadapters
+copying bleach/_vendor/html5lib/treeadapters/sax.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+copying bleach/_vendor/html5lib/treeadapters/__init__.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+copying bleach/_vendor/html5lib/treeadapters/genshi.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+copying bleach/_vendor/README.rst -> build/lib/bleach/_vendor
+copying bleach/_vendor/pip_install_vendor.sh -> build/lib/bleach/_vendor
+copying bleach/_vendor/vendor.txt -> build/lib/bleach/_vendor
+creating build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/INSTALLER -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/METADATA -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/RECORD -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/WHEEL -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+copying bleach/_vendor/html5lib-1.1.dist-info/top_level.txt -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/bleach
+copying build/lib/bleach/linkifier.py -> build/bdist.linux-x86_64/egg/bleach
+copying build/lib/bleach/html5lib_shim.py -> build/bdist.linux-x86_64/egg/bleach
+copying build/lib/bleach/sanitizer.py -> build/bdist.linux-x86_64/egg/bleach
+creating build/bdist.linux-x86_64/egg/bleach/_vendor
+copying build/lib/bleach/_vendor/vendor.txt -> build/bdist.linux-x86_64/egg/bleach/_vendor
+copying build/lib/bleach/_vendor/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/sanitizer.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/inject_meta_charset.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/base.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/alphabeticalattributes.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/optionaltags.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/lint.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/whitespace.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/etree_lxml.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/etree.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/genshi.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/base.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/dom.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/etree_lxml.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/etree.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/base.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/dom.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/_inputstream.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_ihatexml.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/constants.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/html5parser.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/_base.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/py.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/sax.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/__init__.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/genshi.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/serializer.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_tokenizer.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_utils.py -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/pip_install_vendor.sh -> build/bdist.linux-x86_64/egg/bleach/_vendor
+creating build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/RECORD -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/WHEEL -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/top_level.txt -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/INSTALLER -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/METADATA -> build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/README.rst -> build/bdist.linux-x86_64/egg/bleach/_vendor
+copying build/lib/bleach/__init__.py -> build/bdist.linux-x86_64/egg/bleach
+copying build/lib/bleach/utils.py -> build/bdist.linux-x86_64/egg/bleach
+copying build/lib/bleach/callbacks.py -> build/bdist.linux-x86_64/egg/bleach
+byte-compiling build/bdist.linux-x86_64/egg/bleach/linkifier.py to linkifier.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/html5lib_shim.py to html5lib_shim.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/inject_meta_charset.py to inject_meta_charset.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/alphabeticalattributes.py to alphabeticalattributes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/optionaltags.py to optionaltags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/lint.py to lint.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/filters/whitespace.py to whitespace.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/etree.py to etree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/genshi.py to genshi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treewalkers/dom.py to dom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders/etree.py to etree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treebuilders/dom.py to dom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_inputstream.py to _inputstream.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_ihatexml.py to _ihatexml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/constants.py to constants.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie/_base.py to _base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_trie/py.py to py.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters/sax.py to sax.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/treeadapters/genshi.py to genshi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/serializer.py to serializer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_tokenizer.py to _tokenizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/_vendor/html5lib/_utils.py to _utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bleach/callbacks.py to callbacks.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying bleach.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/bleach-3.3.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing bleach-3.3.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/bleach-3.3.0-py3.9.egg
+Extracting bleach-3.3.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding bleach 3.3.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/bleach-3.3.0-py3.9.egg
+Processing dependencies for bleach==3.3.0
+Searching for webencodings==0.5.1
+Best match: webencodings 0.5.1
+Processing webencodings-0.5.1-py3.9.egg
+webencodings 0.5.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/webencodings-0.5.1-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Searching for packaging==21.0
+Best match: packaging 21.0
+Processing packaging-21.0-py3.9.egg
+packaging 21.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/packaging-21.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Finished processing dependencies for bleach==3.3.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/bleach
+copying build/lib/bleach/linkifier.py -> install/lib/python3.9/site-packages/bleach
+copying build/lib/bleach/html5lib_shim.py -> install/lib/python3.9/site-packages/bleach
+copying build/lib/bleach/sanitizer.py -> install/lib/python3.9/site-packages/bleach
+creating install/lib/python3.9/site-packages/bleach/_vendor
+copying build/lib/bleach/_vendor/vendor.txt -> install/lib/python3.9/site-packages/bleach/_vendor
+copying build/lib/bleach/_vendor/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/sanitizer.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/inject_meta_charset.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/base.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/alphabeticalattributes.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/optionaltags.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/lint.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+copying build/lib/bleach/_vendor/html5lib/filters/whitespace.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/etree_lxml.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/etree.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/genshi.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/base.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+copying build/lib/bleach/_vendor/html5lib/treewalkers/dom.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/etree_lxml.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/etree.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/base.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/treebuilders/dom.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders
+copying build/lib/bleach/_vendor/html5lib/_inputstream.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_ihatexml.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/constants.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/html5parser.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/_base.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie
+copying build/lib/bleach/_vendor/html5lib/_trie/py.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/sax.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/__init__.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/treeadapters/genshi.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters
+copying build/lib/bleach/_vendor/html5lib/serializer.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_tokenizer.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/html5lib/_utils.py -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib
+copying build/lib/bleach/_vendor/pip_install_vendor.sh -> install/lib/python3.9/site-packages/bleach/_vendor
+creating install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/RECORD -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/WHEEL -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/top_level.txt -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/INSTALLER -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/METADATA -> install/lib/python3.9/site-packages/bleach/_vendor/html5lib-1.1.dist-info
+copying build/lib/bleach/_vendor/README.rst -> install/lib/python3.9/site-packages/bleach/_vendor
+copying build/lib/bleach/__init__.py -> install/lib/python3.9/site-packages/bleach
+copying build/lib/bleach/utils.py -> install/lib/python3.9/site-packages/bleach
+copying build/lib/bleach/callbacks.py -> install/lib/python3.9/site-packages/bleach
+byte-compiling install/lib/python3.9/site-packages/bleach/linkifier.py to linkifier.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/html5lib_shim.py to html5lib_shim.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/inject_meta_charset.py to inject_meta_charset.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/alphabeticalattributes.py to alphabeticalattributes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/optionaltags.py to optionaltags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/lint.py to lint.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/filters/whitespace.py to whitespace.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/etree.py to etree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/genshi.py to genshi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treewalkers/dom.py to dom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders/etree.py to etree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treebuilders/dom.py to dom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_inputstream.py to _inputstream.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_ihatexml.py to _ihatexml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/constants.py to constants.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie/_base.py to _base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_trie/py.py to py.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters/sax.py to sax.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/treeadapters/genshi.py to genshi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/serializer.py to serializer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_tokenizer.py to _tokenizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/_vendor/html5lib/_utils.py to _utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/bleach/callbacks.py to callbacks.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing bleach.egg-info/PKG-INFO
+writing dependency_links to bleach.egg-info/dependency_links.txt
+writing requirements to bleach.egg-info/requires.txt
+writing top-level names to bleach.egg-info/top_level.txt
+reading manifest file 'bleach.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.json' under directory 'bleach'
+adding license file 'LICENSE'
+writing manifest file 'bleach.egg-info/SOURCES.txt'
+Copying bleach.egg-info to install/lib/python3.9/site-packages/bleach-3.3.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 601253
+compressed package into 297907
+compressed in 116 ms
+[2021-12-18 08:13:35] Building package bleach...
+[2021-12-18 08:15:03] done building package bleach in 88.6 s.

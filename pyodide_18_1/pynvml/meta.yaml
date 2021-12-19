@@ -1,0 +1,14 @@
+package:
+  name: pynvml
+  version: 11.4.1
+source:
+  url: https://files.pythonhosted.org/packages/63/4f/a9d35c8bc45af9b5128e66d9af8099c91431db574cc90da0071ad432d110/pynvml-11.4.1.tar.gz
+  sha256: b2e4a33b80569d093b513f5804db0c7f40cfc86f15a013ae7a8e99c5e175d5dd
+test:
+  imports:
+  - pynvml
+about:
+  home: http://www.nvidia.com/
+  PyPi: https://pypi.org/project/pynvml
+  summary: Python Bindings for the NVIDIA Management Library
+  license: BSD

@@ -1,0 +1,14 @@
+package:
+  name: gcsfs
+  version: 2021.11.1
+source:
+  url: https://files.pythonhosted.org/packages/a6/36/29226da7327d7b4c03ddef496daec7718a5f4bcc4b5ec1265cbee6fa3073/gcsfs-2021.11.1.tar.gz
+  sha256: cc03c5ab7190cf4dddb67be0016f3cb2148743935061da5ef142ea86149814dd
+test:
+  imports:
+  - gcsfs
+about:
+  home: https://github.com/fsspec/gcsfs
+  PyPi: https://pypi.org/project/gcsfs
+  summary: Convenient Filesystem interface over GCS
+  license: BSD

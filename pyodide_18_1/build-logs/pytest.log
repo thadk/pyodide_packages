@@ -1,0 +1,453 @@
+running install
+running bdist_egg
+running egg_info
+writing src/pytest.egg-info/PKG-INFO
+writing dependency_links to src/pytest.egg-info/dependency_links.txt
+writing entry points to src/pytest.egg-info/entry_points.txt
+writing requirements to src/pytest.egg-info/requires.txt
+writing top-level names to src/pytest.egg-info/top_level.txt
+reading manifest file 'src/pytest.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/pytest.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/_pytest
+copying src/_pytest/skipping.py -> build/lib/_pytest
+copying src/_pytest/store.py -> build/lib/_pytest
+copying src/_pytest/logging.py -> build/lib/_pytest
+copying src/_pytest/unittest.py -> build/lib/_pytest
+copying src/_pytest/runner.py -> build/lib/_pytest
+copying src/_pytest/helpconfig.py -> build/lib/_pytest
+copying src/_pytest/pastebin.py -> build/lib/_pytest
+copying src/_pytest/compat.py -> build/lib/_pytest
+copying src/_pytest/_version.py -> build/lib/_pytest
+copying src/_pytest/terminal.py -> build/lib/_pytest
+copying src/_pytest/warnings.py -> build/lib/_pytest
+copying src/_pytest/pytester_assertions.py -> build/lib/_pytest
+copying src/_pytest/deprecated.py -> build/lib/_pytest
+copying src/_pytest/recwarn.py -> build/lib/_pytest
+copying src/_pytest/tmpdir.py -> build/lib/_pytest
+copying src/_pytest/__init__.py -> build/lib/_pytest
+copying src/_pytest/debugging.py -> build/lib/_pytest
+copying src/_pytest/python_api.py -> build/lib/_pytest
+copying src/_pytest/_argcomplete.py -> build/lib/_pytest
+copying src/_pytest/unraisableexception.py -> build/lib/_pytest
+copying src/_pytest/capture.py -> build/lib/_pytest
+copying src/_pytest/hookspec.py -> build/lib/_pytest
+copying src/_pytest/timing.py -> build/lib/_pytest
+copying src/_pytest/pytester.py -> build/lib/_pytest
+copying src/_pytest/faulthandler.py -> build/lib/_pytest
+copying src/_pytest/outcomes.py -> build/lib/_pytest
+copying src/_pytest/stepwise.py -> build/lib/_pytest
+copying src/_pytest/junitxml.py -> build/lib/_pytest
+copying src/_pytest/python.py -> build/lib/_pytest
+copying src/_pytest/reports.py -> build/lib/_pytest
+copying src/_pytest/doctest.py -> build/lib/_pytest
+copying src/_pytest/setuponly.py -> build/lib/_pytest
+copying src/_pytest/nose.py -> build/lib/_pytest
+copying src/_pytest/nodes.py -> build/lib/_pytest
+copying src/_pytest/threadexception.py -> build/lib/_pytest
+copying src/_pytest/main.py -> build/lib/_pytest
+copying src/_pytest/monkeypatch.py -> build/lib/_pytest
+copying src/_pytest/setupplan.py -> build/lib/_pytest
+copying src/_pytest/pathlib.py -> build/lib/_pytest
+copying src/_pytest/freeze_support.py -> build/lib/_pytest
+copying src/_pytest/fixtures.py -> build/lib/_pytest
+copying src/_pytest/cacheprovider.py -> build/lib/_pytest
+copying src/_pytest/warning_types.py -> build/lib/_pytest
+creating build/lib/_pytest/_code
+copying src/_pytest/_code/code.py -> build/lib/_pytest/_code
+copying src/_pytest/_code/__init__.py -> build/lib/_pytest/_code
+copying src/_pytest/_code/source.py -> build/lib/_pytest/_code
+creating build/lib/_pytest/_io
+copying src/_pytest/_io/wcwidth.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/saferepr.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/terminalwriter.py -> build/lib/_pytest/_io
+copying src/_pytest/_io/__init__.py -> build/lib/_pytest/_io
+creating build/lib/_pytest/assertion
+copying src/_pytest/assertion/truncate.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/util.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/__init__.py -> build/lib/_pytest/assertion
+copying src/_pytest/assertion/rewrite.py -> build/lib/_pytest/assertion
+creating build/lib/_pytest/config
+copying src/_pytest/config/__init__.py -> build/lib/_pytest/config
+copying src/_pytest/config/findpaths.py -> build/lib/_pytest/config
+copying src/_pytest/config/exceptions.py -> build/lib/_pytest/config
+copying src/_pytest/config/argparsing.py -> build/lib/_pytest/config
+creating build/lib/_pytest/mark
+copying src/_pytest/mark/__init__.py -> build/lib/_pytest/mark
+copying src/_pytest/mark/structures.py -> build/lib/_pytest/mark
+copying src/_pytest/mark/expression.py -> build/lib/_pytest/mark
+creating build/lib/pytest
+copying src/pytest/collect.py -> build/lib/pytest
+copying src/pytest/__init__.py -> build/lib/pytest
+copying src/pytest/__main__.py -> build/lib/pytest
+copying src/_pytest/py.typed -> build/lib/_pytest
+copying src/pytest/py.typed -> build/lib/pytest
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pytest
+copying build/lib/pytest/collect.py -> build/bdist.linux-x86_64/egg/pytest
+copying build/lib/pytest/__init__.py -> build/bdist.linux-x86_64/egg/pytest
+copying build/lib/pytest/py.typed -> build/bdist.linux-x86_64/egg/pytest
+copying build/lib/pytest/__main__.py -> build/bdist.linux-x86_64/egg/pytest
+creating build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/skipping.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/store.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/logging.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/unittest.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/runner.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/helpconfig.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/pastebin.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/compat.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/_version.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/terminal.py -> build/bdist.linux-x86_64/egg/_pytest
+creating build/bdist.linux-x86_64/egg/_pytest/config
+copying build/lib/_pytest/config/__init__.py -> build/bdist.linux-x86_64/egg/_pytest/config
+copying build/lib/_pytest/config/findpaths.py -> build/bdist.linux-x86_64/egg/_pytest/config
+copying build/lib/_pytest/config/exceptions.py -> build/bdist.linux-x86_64/egg/_pytest/config
+copying build/lib/_pytest/config/argparsing.py -> build/bdist.linux-x86_64/egg/_pytest/config
+copying build/lib/_pytest/warnings.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/pytester_assertions.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/deprecated.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/recwarn.py -> build/bdist.linux-x86_64/egg/_pytest
+creating build/bdist.linux-x86_64/egg/_pytest/mark
+copying build/lib/_pytest/mark/__init__.py -> build/bdist.linux-x86_64/egg/_pytest/mark
+copying build/lib/_pytest/mark/structures.py -> build/bdist.linux-x86_64/egg/_pytest/mark
+copying build/lib/_pytest/mark/expression.py -> build/bdist.linux-x86_64/egg/_pytest/mark
+copying build/lib/_pytest/tmpdir.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/__init__.py -> build/bdist.linux-x86_64/egg/_pytest
+creating build/bdist.linux-x86_64/egg/_pytest/_code
+copying build/lib/_pytest/_code/code.py -> build/bdist.linux-x86_64/egg/_pytest/_code
+copying build/lib/_pytest/_code/__init__.py -> build/bdist.linux-x86_64/egg/_pytest/_code
+copying build/lib/_pytest/_code/source.py -> build/bdist.linux-x86_64/egg/_pytest/_code
+copying build/lib/_pytest/debugging.py -> build/bdist.linux-x86_64/egg/_pytest
+creating build/bdist.linux-x86_64/egg/_pytest/assertion
+copying build/lib/_pytest/assertion/truncate.py -> build/bdist.linux-x86_64/egg/_pytest/assertion
+copying build/lib/_pytest/assertion/util.py -> build/bdist.linux-x86_64/egg/_pytest/assertion
+copying build/lib/_pytest/assertion/__init__.py -> build/bdist.linux-x86_64/egg/_pytest/assertion
+copying build/lib/_pytest/assertion/rewrite.py -> build/bdist.linux-x86_64/egg/_pytest/assertion
+copying build/lib/_pytest/python_api.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/_argcomplete.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/unraisableexception.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/capture.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/hookspec.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/timing.py -> build/bdist.linux-x86_64/egg/_pytest
+creating build/bdist.linux-x86_64/egg/_pytest/_io
+copying build/lib/_pytest/_io/wcwidth.py -> build/bdist.linux-x86_64/egg/_pytest/_io
+copying build/lib/_pytest/_io/saferepr.py -> build/bdist.linux-x86_64/egg/_pytest/_io
+copying build/lib/_pytest/_io/terminalwriter.py -> build/bdist.linux-x86_64/egg/_pytest/_io
+copying build/lib/_pytest/_io/__init__.py -> build/bdist.linux-x86_64/egg/_pytest/_io
+copying build/lib/_pytest/pytester.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/faulthandler.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/outcomes.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/stepwise.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/junitxml.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/python.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/reports.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/py.typed -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/doctest.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/setuponly.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/nose.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/nodes.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/threadexception.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/main.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/monkeypatch.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/setupplan.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/pathlib.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/freeze_support.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/fixtures.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/cacheprovider.py -> build/bdist.linux-x86_64/egg/_pytest
+copying build/lib/_pytest/warning_types.py -> build/bdist.linux-x86_64/egg/_pytest
+byte-compiling build/bdist.linux-x86_64/egg/pytest/collect.py to collect.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pytest/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pytest/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/skipping.py to skipping.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/store.py to store.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/logging.py to logging.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/unittest.py to unittest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/runner.py to runner.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/helpconfig.py to helpconfig.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/pastebin.py to pastebin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/compat.py to compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/terminal.py to terminal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/config/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/config/findpaths.py to findpaths.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/config/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/config/argparsing.py to argparsing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/warnings.py to warnings.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/pytester_assertions.py to pytester_assertions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/deprecated.py to deprecated.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/recwarn.py to recwarn.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/mark/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/mark/structures.py to structures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/mark/expression.py to expression.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/tmpdir.py to tmpdir.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_code/code.py to code.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_code/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_code/source.py to source.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/debugging.py to debugging.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/assertion/truncate.py to truncate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/assertion/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/assertion/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/assertion/rewrite.py to rewrite.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/python_api.py to python_api.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_argcomplete.py to _argcomplete.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/unraisableexception.py to unraisableexception.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/capture.py to capture.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/hookspec.py to hookspec.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/timing.py to timing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_io/wcwidth.py to wcwidth.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_io/saferepr.py to saferepr.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_io/terminalwriter.py to terminalwriter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/_io/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/pytester.py to pytester.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/faulthandler.py to faulthandler.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/outcomes.py to outcomes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/stepwise.py to stepwise.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/junitxml.py to junitxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/python.py to python.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/reports.py to reports.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/doctest.py to doctest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/setuponly.py to setuponly.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/nose.py to nose.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/nodes.py to nodes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/threadexception.py to threadexception.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/main.py to main.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/monkeypatch.py to monkeypatch.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/setupplan.py to setupplan.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/pathlib.py to pathlib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/freeze_support.py to freeze_support.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/fixtures.py to fixtures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/cacheprovider.py to cacheprovider.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_pytest/warning_types.py to warning_types.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/pytest.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/pytest-6.2.4-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pytest-6.2.4-py3.9.egg
+creating /src/packages/.artifacts/lib/python/pytest-6.2.4-py3.9.egg
+Extracting pytest-6.2.4-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding pytest 6.2.4 to easy-install.pth file
+Installing py.test script to /src/packages/.artifacts/bin
+Installing pytest script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/pytest-6.2.4-py3.9.egg
+Processing dependencies for pytest==6.2.4
+Searching for toml==0.10.2
+Best match: toml 0.10.2
+Adding toml 0.10.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for py==1.10.0
+Best match: py 1.10.0
+Adding py 1.10.0 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for pluggy==0.13.1
+Best match: pluggy 0.13.1
+Processing pluggy-0.13.1-py3.9.egg
+Adding pluggy 0.13.1 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/pluggy-0.13.1-py3.9.egg
+Searching for packaging==21.0
+Best match: packaging 21.0
+Processing packaging-21.0-py3.9.egg
+packaging 21.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/packaging-21.0-py3.9.egg
+Searching for iniconfig==1.1.1
+Best match: iniconfig 1.1.1
+Removing iniconfig 0.0.0 from easy-install.pth file
+Adding iniconfig 1.1.1 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for attrs==21.2.0
+Best match: attrs 21.2.0
+Processing attrs-21.2.0-py3.9.egg
+attrs 21.2.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/attrs-21.2.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Finished processing dependencies for pytest==6.2.4
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pytest
+copying build/lib/pytest/collect.py -> install/lib/python3.9/site-packages/pytest
+copying build/lib/pytest/__init__.py -> install/lib/python3.9/site-packages/pytest
+copying build/lib/pytest/py.typed -> install/lib/python3.9/site-packages/pytest
+copying build/lib/pytest/__main__.py -> install/lib/python3.9/site-packages/pytest
+creating install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/skipping.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/store.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/logging.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/unittest.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/runner.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/helpconfig.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/pastebin.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/compat.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/_version.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/terminal.py -> install/lib/python3.9/site-packages/_pytest
+creating install/lib/python3.9/site-packages/_pytest/config
+copying build/lib/_pytest/config/__init__.py -> install/lib/python3.9/site-packages/_pytest/config
+copying build/lib/_pytest/config/findpaths.py -> install/lib/python3.9/site-packages/_pytest/config
+copying build/lib/_pytest/config/exceptions.py -> install/lib/python3.9/site-packages/_pytest/config
+copying build/lib/_pytest/config/argparsing.py -> install/lib/python3.9/site-packages/_pytest/config
+copying build/lib/_pytest/warnings.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/pytester_assertions.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/deprecated.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/recwarn.py -> install/lib/python3.9/site-packages/_pytest
+creating install/lib/python3.9/site-packages/_pytest/mark
+copying build/lib/_pytest/mark/__init__.py -> install/lib/python3.9/site-packages/_pytest/mark
+copying build/lib/_pytest/mark/structures.py -> install/lib/python3.9/site-packages/_pytest/mark
+copying build/lib/_pytest/mark/expression.py -> install/lib/python3.9/site-packages/_pytest/mark
+copying build/lib/_pytest/tmpdir.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/__init__.py -> install/lib/python3.9/site-packages/_pytest
+creating install/lib/python3.9/site-packages/_pytest/_code
+copying build/lib/_pytest/_code/code.py -> install/lib/python3.9/site-packages/_pytest/_code
+copying build/lib/_pytest/_code/__init__.py -> install/lib/python3.9/site-packages/_pytest/_code
+copying build/lib/_pytest/_code/source.py -> install/lib/python3.9/site-packages/_pytest/_code
+copying build/lib/_pytest/debugging.py -> install/lib/python3.9/site-packages/_pytest
+creating install/lib/python3.9/site-packages/_pytest/assertion
+copying build/lib/_pytest/assertion/truncate.py -> install/lib/python3.9/site-packages/_pytest/assertion
+copying build/lib/_pytest/assertion/util.py -> install/lib/python3.9/site-packages/_pytest/assertion
+copying build/lib/_pytest/assertion/__init__.py -> install/lib/python3.9/site-packages/_pytest/assertion
+copying build/lib/_pytest/assertion/rewrite.py -> install/lib/python3.9/site-packages/_pytest/assertion
+copying build/lib/_pytest/python_api.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/_argcomplete.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/unraisableexception.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/capture.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/hookspec.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/timing.py -> install/lib/python3.9/site-packages/_pytest
+creating install/lib/python3.9/site-packages/_pytest/_io
+copying build/lib/_pytest/_io/wcwidth.py -> install/lib/python3.9/site-packages/_pytest/_io
+copying build/lib/_pytest/_io/saferepr.py -> install/lib/python3.9/site-packages/_pytest/_io
+copying build/lib/_pytest/_io/terminalwriter.py -> install/lib/python3.9/site-packages/_pytest/_io
+copying build/lib/_pytest/_io/__init__.py -> install/lib/python3.9/site-packages/_pytest/_io
+copying build/lib/_pytest/pytester.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/faulthandler.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/outcomes.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/stepwise.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/junitxml.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/python.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/reports.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/py.typed -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/doctest.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/setuponly.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/nose.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/nodes.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/threadexception.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/main.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/monkeypatch.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/setupplan.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/pathlib.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/freeze_support.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/fixtures.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/cacheprovider.py -> install/lib/python3.9/site-packages/_pytest
+copying build/lib/_pytest/warning_types.py -> install/lib/python3.9/site-packages/_pytest
+byte-compiling install/lib/python3.9/site-packages/pytest/collect.py to collect.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pytest/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pytest/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/skipping.py to skipping.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/store.py to store.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/logging.py to logging.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/unittest.py to unittest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/runner.py to runner.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/helpconfig.py to helpconfig.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/pastebin.py to pastebin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/terminal.py to terminal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/config/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/config/findpaths.py to findpaths.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/config/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/config/argparsing.py to argparsing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/warnings.py to warnings.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/pytester_assertions.py to pytester_assertions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/deprecated.py to deprecated.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/recwarn.py to recwarn.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/mark/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/mark/structures.py to structures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/mark/expression.py to expression.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/tmpdir.py to tmpdir.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_code/code.py to code.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_code/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_code/source.py to source.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/debugging.py to debugging.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/assertion/truncate.py to truncate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/assertion/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/assertion/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/assertion/rewrite.py to rewrite.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/python_api.py to python_api.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_argcomplete.py to _argcomplete.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/unraisableexception.py to unraisableexception.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/capture.py to capture.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/hookspec.py to hookspec.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/timing.py to timing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_io/wcwidth.py to wcwidth.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_io/saferepr.py to saferepr.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_io/terminalwriter.py to terminalwriter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/_io/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/pytester.py to pytester.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/faulthandler.py to faulthandler.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/outcomes.py to outcomes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/stepwise.py to stepwise.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/junitxml.py to junitxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/python.py to python.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/reports.py to reports.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/doctest.py to doctest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/setuponly.py to setuponly.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/nose.py to nose.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/nodes.py to nodes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/threadexception.py to threadexception.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/main.py to main.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/monkeypatch.py to monkeypatch.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/setupplan.py to setupplan.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/pathlib.py to pathlib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/freeze_support.py to freeze_support.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/fixtures.py to fixtures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/cacheprovider.py to cacheprovider.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/_pytest/warning_types.py to warning_types.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/pytest.egg-info/PKG-INFO
+writing dependency_links to src/pytest.egg-info/dependency_links.txt
+writing entry points to src/pytest.egg-info/entry_points.txt
+writing requirements to src/pytest.egg-info/requires.txt
+writing top-level names to src/pytest.egg-info/top_level.txt
+reading manifest file 'src/pytest.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/pytest.egg-info/SOURCES.txt'
+Copying src/pytest.egg-info to install/lib/python3.9/site-packages/pytest-6.2.4-py3.9.egg-info
+running install_scripts
+Installing py.test script to install/bin
+Installing pytest script to install/bin
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 981723
+compressed package into 568062
+compressed in 122 ms
+[2021-12-18 08:12:47] Building package pytest...
+[2021-12-18 08:14:55] done building package pytest in 127.5 s.

@@ -1,0 +1,67 @@
+running install
+running bdist_egg
+running egg_info
+writing six.egg-info/PKG-INFO
+writing dependency_links to six.egg-info/dependency_links.txt
+writing top-level names to six.egg-info/top_level.txt
+reading manifest file 'six.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'documentation/_build'
+adding license file 'LICENSE'
+writing manifest file 'six.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+copying six.py -> build/lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib/six.py -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/six.py to six.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying six.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying six.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying six.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying six.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+__pycache__.six.cpython-39: module references __path__
+creating dist
+creating 'dist/six-1.16.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing six-1.16.0-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Extracting six-1.16.0-py3.9.egg to /src/packages/.artifacts/lib/python
+six 1.16.0 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Processing dependencies for six==1.16.0
+Finished processing dependencies for six==1.16.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+copying build/lib/six.py -> install/lib/python3.9/site-packages
+byte-compiling install/lib/python3.9/site-packages/six.py to six.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing six.egg-info/PKG-INFO
+writing dependency_links to six.egg-info/dependency_links.txt
+writing top-level names to six.egg-info/top_level.txt
+reading manifest file 'six.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'documentation/_build'
+adding license file 'LICENSE'
+writing manifest file 'six.egg-info/SOURCES.txt'
+Copying six.egg-info to install/lib/python3.9/site-packages/six-1.16.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 36624
+compressed package into 22764
+compressed in 201 ms
+[2021-08-12 03:14:46] Building package six...
+[2021-08-12 03:16:02] done building package six in 76.1 s.

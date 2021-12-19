@@ -1,0 +1,671 @@
+running install
+running bdist_egg
+running egg_info
+creating nlopt.egg-info
+writing nlopt.egg-info/PKG-INFO
+writing dependency_links to nlopt.egg-info/dependency_links.txt
+writing requirements to nlopt.egg-info/requires.txt
+writing top-level names to nlopt.egg-info/top_level.txt
+writing manifest file 'nlopt.egg-info/SOURCES.txt'
+reading manifest file 'nlopt.egg-info/SOURCES.txt'
+adding license file 'COPYING'
+adding license file 'AUTHORS'
+writing manifest file 'nlopt.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+configure: cmake -LAH -DNLOPT_GUILE=OFF -DNLOPT_MATLAB=OFF -DNLOPT_OCTAVE=OFF . -DCMAKE_TOOLCHAIN_FILE=/src/emsdk/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/src/emsdk/emsdk/node/14.15.5_64bit/bin/node
+-- NLopt version 2.7.0
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for getopt.h
+-- Looking for getopt.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for stdlib.h
+-- Looking for stdlib.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for syscall
+-- Looking for syscall - not found
+-- Looking for isinf
+-- Looking for isinf - not found
+-- Looking for isnan
+-- Looking for isnan - not found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for qsort_r
+-- Looking for qsort_r - not found
+-- Looking for time
+-- Looking for time - found
+-- Looking for copysign
+-- Looking for copysign - found
+-- Looking for getopt
+-- Looking for getopt - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of unsigned int
+-- Check size of unsigned int - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Looking for sqrt in m
+-- Looking for sqrt in m - found
+-- Looking for fpclassify
+-- Looking for fpclassify - TRUE
+-- Performing Test HAVE_THREAD_LOCAL_STORAGE
+-- Performing Test HAVE_THREAD_LOCAL_STORAGE - Success
+-- Performing Test HAVE_THREAD_LOCAL_STORAGE
+-- Performing Test HAVE_THREAD_LOCAL_STORAGE - Failed
+-- Looking for __cplusplus
+-- Looking for __cplusplus - found
+-- Performing Test SUPPORTS_STDCXX11
+-- Performing Test SUPPORTS_STDCXX11 - Success
+CMake Warning (dev) at CMakeLists.txt:243 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found PythonInterp: /usr/local/bin/python (found version "3.9.5") 
+-- Could NOT find PythonLibs (missing: PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is exact version "3.9.5")
+-- Found NumPy: /src/packages/.artifacts/lib/python/numpy/core/include (found version "1.17.5") 
+-- Found SWIG: /usr/bin/swig3.0 (found version "3.0.12") 
+CMake Warning (dev) at /src/packages/nlopt/build/nlopt-2.7.0/CMakeTmp/UNDEFINED_SYMBOLS_ALLOWED/CMakeLists.txt:3 (add_library):
+  ADD_LIBRARY called with SHARED option but the target platform does not
+  support dynamic linking.  Building a STATIC library instead.  This may lead
+  to problems.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Performing Test UNDEFINED_SYMBOLS_ALLOWED - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /src/packages/nlopt/build/nlopt-2.7.0
+-- Cache values
+// Build NLopt as a shared library
+BUILD_SHARED_LIBS:BOOL=ON
+
+// Emscripten ar
+CMAKE_AR:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emar
+
+// Build type
+CMAKE_BUILD_TYPE:STRING=Release
+
+// Enable/Disable color output during build.
+CMAKE_COLOR_MAKEFILE:BOOL=ON
+
+// Emscripten em++
+CMAKE_CXX_COMPILER:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/em++
+
+// Emscripten ar
+CMAKE_CXX_COMPILER_AR:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emar
+
+// Emscripten ranlib
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emranlib
+
+// Flags used by the CXX compiler during all build types.
+CMAKE_CXX_FLAGS:STRING=
+
+// Flags used by the CXX compiler during DEBUG builds.
+CMAKE_CXX_FLAGS_DEBUG:STRING=-g
+
+// Flags used by the CXX compiler during MINSIZEREL builds.
+CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+// Flags used by the CXX compiler during RELEASE builds.
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+// Flags used by the CXX compiler during RELWITHDEBINFO builds.
+CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+// Emscripten emcc
+CMAKE_C_COMPILER:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emcc
+
+// Emscripten ar
+CMAKE_C_COMPILER_AR:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emar
+
+// Emscripten ranlib
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emranlib
+
+// Flags used by the C compiler during all build types.
+CMAKE_C_FLAGS:STRING=
+
+// Flags used by the C compiler during DEBUG builds.
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+// Flags used by the C compiler during MINSIZEREL builds.
+CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
+
+// Flags used by the C compiler during RELEASE builds.
+CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+// Flags used by the C compiler during RELWITHDEBINFO builds.
+CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+// Flags used by the linker during all build types.
+CMAKE_EXE_LINKER_FLAGS:STRING=
+
+// Flags used by the linker during DEBUG builds.
+CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
+
+// Flags used by the linker during MINSIZEREL builds.
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
+
+// Flags used by the linker during RELEASE builds.
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
+
+// Flags used by the linker during RELWITHDEBINFO builds.
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+// Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+
+// User executables (bin)
+CMAKE_INSTALL_BINDIR:PATH=bin
+
+// Read-only architecture-independent data (DATAROOTDIR)
+CMAKE_INSTALL_DATADIR:PATH=
+
+// Read-only architecture-independent data root (share)
+CMAKE_INSTALL_DATAROOTDIR:PATH=share
+
+// Documentation root (DATAROOTDIR/doc/PROJECT_NAME)
+CMAKE_INSTALL_DOCDIR:PATH=
+
+// C header files (include)
+CMAKE_INSTALL_INCLUDEDIR:PATH=include
+
+// Info documentation (DATAROOTDIR/info)
+CMAKE_INSTALL_INFODIR:PATH=
+
+// Object code libraries (lib)
+CMAKE_INSTALL_LIBDIR:PATH=lib
+
+// Program executables (libexec)
+CMAKE_INSTALL_LIBEXECDIR:PATH=libexec
+
+// Locale-dependent data (DATAROOTDIR/locale)
+CMAKE_INSTALL_LOCALEDIR:PATH=
+
+// Modifiable single-machine data (var)
+CMAKE_INSTALL_LOCALSTATEDIR:PATH=var
+
+// Man documentation (DATAROOTDIR/man)
+CMAKE_INSTALL_MANDIR:PATH=
+
+// C header files for non-gcc (/usr/include)
+CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
+
+// Install path prefix, prepended onto install directories.
+CMAKE_INSTALL_PREFIX:PATH=/src/emsdk/emsdk/upstream/emscripten/cache/sysroot
+
+// Run-time variable data (LOCALSTATEDIR/run)
+CMAKE_INSTALL_RUNSTATEDIR:PATH=
+
+// System admin executables (sbin)
+CMAKE_INSTALL_SBINDIR:PATH=sbin
+
+// Modifiable architecture-independent data (com)
+CMAKE_INSTALL_SHAREDSTATEDIR:PATH=com
+
+// Read-only single-machine data (etc)
+CMAKE_INSTALL_SYSCONFDIR:PATH=etc
+
+// Path to a program.
+CMAKE_LINKER:FILEPATH=/src/tools/ld
+
+// Path to a program.
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
+
+// Flags used by the linker during the creation of modules during all build types.
+CMAKE_MODULE_LINKER_FLAGS:STRING=
+
+// Flags used by the linker during the creation of modules during DEBUG builds.
+CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
+
+// Flags used by the linker during the creation of modules during MINSIZEREL builds.
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
+
+// Flags used by the linker during the creation of modules during RELEASE builds.
+CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
+
+// Flags used by the linker during the creation of modules during RELWITHDEBINFO builds.
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+// Path to a program.
+CMAKE_NM:FILEPATH=/usr/bin/nm
+
+// Path to a program.
+CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
+
+// Path to a program.
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+
+// Emscripten ranlib
+CMAKE_RANLIB:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/emranlib
+
+// Flags used by the linker during the creation of shared libraries during all build types.
+CMAKE_SHARED_LINKER_FLAGS:STRING=
+
+// Flags used by the linker during the creation of shared libraries during DEBUG builds.
+CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
+
+// Flags used by the linker during the creation of shared libraries during MINSIZEREL builds.
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
+
+// Flags used by the linker during the creation of shared libraries during RELEASE builds.
+CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
+
+// Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds.
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+// If set, runtime paths are not added when installing shared libraries, but are added when building.
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+
+// If set, runtime paths are not added when using shared libraries.
+CMAKE_SKIP_RPATH:BOOL=NO
+
+// Flags used by the linker during the creation of static libraries during all build types.
+CMAKE_STATIC_LINKER_FLAGS:STRING=
+
+// Flags used by the linker during the creation of static libraries during DEBUG builds.
+CMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=
+
+// Flags used by the linker during the creation of static libraries during MINSIZEREL builds.
+CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL:STRING=
+
+// Flags used by the linker during the creation of static libraries during RELEASE builds.
+CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
+
+// Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds.
+CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+
+// Path to a program.
+CMAKE_STRIP:FILEPATH=/usr/bin/strip
+
+// The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/src/emsdk/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+
+// If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo.
+CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+// Enable to build Debian packages
+CPACK_BINARY_DEB:BOOL=OFF
+
+// Enable to build FreeBSD packages
+CPACK_BINARY_FREEBSD:BOOL=OFF
+
+// Enable to build IFW packages
+CPACK_BINARY_IFW:BOOL=OFF
+
+// Enable to build NSIS packages
+CPACK_BINARY_NSIS:BOOL=OFF
+
+// Enable to build RPM packages
+CPACK_BINARY_RPM:BOOL=OFF
+
+// Enable to build STGZ packages
+CPACK_BINARY_STGZ:BOOL=OFF
+
+// Enable to build TBZ2 packages
+CPACK_BINARY_TBZ2:BOOL=ON
+
+// Enable to build TGZ packages
+CPACK_BINARY_TGZ:BOOL=ON
+
+// Enable to build TXZ packages
+CPACK_BINARY_TXZ:BOOL=OFF
+
+// Enable to build TZ packages
+CPACK_BINARY_TZ:BOOL=OFF
+
+// If true, we are targeting Emscripten output.
+EMSCRIPTEN:BOOL=1
+
+// Force C/C++ compiler
+EMSCRIPTEN_FORCE_COMPILERS:BOOL=ON
+
+// If set, static library targets generate LLVM bitcode files (.bc). If disabled (default), UNIX ar archives (.a) are generated.
+EMSCRIPTEN_GENERATE_BITCODE_STATIC_LIBRARIES:BOOL=OFF
+
+// Installation directory for executables
+INSTALL_BIN_DIR:PATH=bin
+
+// Installation directory for cmake config files
+INSTALL_CMAKE_DIR:PATH=lib/cmake/nlopt
+
+// Installation directory for data files
+INSTALL_DATA_DIR:PATH=share/nlopt
+
+// Installation directory for header files
+INSTALL_INCLUDE_DIR:PATH=include
+
+// Installation directory for libraries
+INSTALL_LIB_DIR:PATH=lib
+
+// Installation directory for man documentation
+INSTALL_MAN_DIR:PATH=share/man
+
+// enable cxx routines
+NLOPT_CXX:BOOL=ON
+
+// enable fortran tests
+NLOPT_FORTRAN:BOOL=OFF
+
+// build guile bindings
+NLOPT_GUILE:BOOL=OFF
+
+// build matlab bindings
+NLOPT_MATLAB:BOOL=OFF
+
+// build octave bindings
+NLOPT_OCTAVE:BOOL=OFF
+
+// build python bindings
+NLOPT_PYTHON:BOOL=ON
+
+// use SWIG to build bindings
+NLOPT_SWIG:BOOL=ON
+
+// build unit tests
+NLOPT_TESTS:BOOL=ON
+
+// Path to a program.
+PYTHON_EXECUTABLE:FILEPATH=/usr/local/bin/python
+
+// Path to a library.
+PYTHON_LIBRARY:FILEPATH=PYTHON_LIBRARY-NOTFOUND
+
+// Path to a library.
+PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
+
+// Path to a library.
+PYTHON_LIBRARY_RELEASE:FILEPATH=PYTHON_LIBRARY_RELEASE-NOTFOUND
+
+// Path to a file.
+SWIG_DIR:PATH=/usr/share/swig3.0
+
+// Path to a program.
+SWIG_EXECUTABLE:FILEPATH=/usr/bin/swig3.0
+
+// Swig version
+SWIG_VERSION:STRING=3.0.12
+
+// Thread local keyword
+THREADLOCAL:STRING=__thread
+
+// check thread local keyword
+WITH_THREADLOCAL:BOOL=ON
+
+configure: cmake -DAPI_SOURCE_DIR=./src/api -P ./cmake/generate-cpp.cmake -DCMAKE_TOOLCHAIN_FILE=/src/emsdk/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake -DCMAKE_CROSSCOMPILING_EMULATOR=/src/emsdk/emsdk/node/14.15.5_64bit/bin/node
+running build_ext
+building 'nlopt._nlopt' extension
+swigging src/swig/nlopt.i to src/swig/nlopt_wrap.cpp
+swig -python -c++ -interface _nlopt -outdir ./nlopt -o src/swig/nlopt_wrap.cpp src/swig/nlopt.i
+creating build
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src/algs
+creating build/temp.linux-x86_64-3.9/src/algs/ags
+creating build/temp.linux-x86_64-3.9/src/algs/auglag
+creating build/temp.linux-x86_64-3.9/src/algs/bobyqa
+creating build/temp.linux-x86_64-3.9/src/algs/cdirect
+creating build/temp.linux-x86_64-3.9/src/algs/cobyla
+creating build/temp.linux-x86_64-3.9/src/algs/crs
+creating build/temp.linux-x86_64-3.9/src/algs/direct
+creating build/temp.linux-x86_64-3.9/src/algs/esch
+creating build/temp.linux-x86_64-3.9/src/algs/isres
+creating build/temp.linux-x86_64-3.9/src/algs/luksan
+creating build/temp.linux-x86_64-3.9/src/algs/mlsl
+creating build/temp.linux-x86_64-3.9/src/algs/mma
+creating build/temp.linux-x86_64-3.9/src/algs/neldermead
+creating build/temp.linux-x86_64-3.9/src/algs/newuoa
+creating build/temp.linux-x86_64-3.9/src/algs/praxis
+creating build/temp.linux-x86_64-3.9/src/algs/slsqp
+creating build/temp.linux-x86_64-3.9/src/algs/stogo
+creating build/temp.linux-x86_64-3.9/src/api
+creating build/temp.linux-x86_64-3.9/src/swig
+creating build/temp.linux-x86_64-3.9/src/util
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/ags/ags.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/ags.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/ags/evolvent.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/evolvent.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/ags/local_optimizer.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/local_optimizer.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/ags/solver.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/solver.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/auglag/auglag.c -o build/temp.linux-x86_64-3.9/src/algs/auglag/auglag.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/bobyqa/bobyqa.c -o build/temp.linux-x86_64-3.9/src/algs/bobyqa/bobyqa.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/cdirect/cdirect.c -o build/temp.linux-x86_64-3.9/src/algs/cdirect/cdirect.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/cdirect/hybrid.c -o build/temp.linux-x86_64-3.9/src/algs/cdirect/hybrid.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/cobyla/cobyla.c -o build/temp.linux-x86_64-3.9/src/algs/cobyla/cobyla.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/crs/crs.c -o build/temp.linux-x86_64-3.9/src/algs/crs/crs.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/direct/DIRect.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRect.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/direct/DIRserial.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRserial.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/direct/DIRsubrout.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRsubrout.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/direct/direct_wrap.c -o build/temp.linux-x86_64-3.9/src/algs/direct/direct_wrap.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/esch/esch.c -o build/temp.linux-x86_64-3.9/src/algs/esch/esch.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/isres/isres.c -o build/temp.linux-x86_64-3.9/src/algs/isres/isres.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/luksan/mssubs.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/mssubs.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/luksan/plip.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/plip.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/luksan/plis.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/plis.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/luksan/pnet.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/pnet.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/luksan/pssubs.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/pssubs.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/mlsl/mlsl.c -o build/temp.linux-x86_64-3.9/src/algs/mlsl/mlsl.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/mma/ccsa_quadratic.c -o build/temp.linux-x86_64-3.9/src/algs/mma/ccsa_quadratic.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/mma/mma.c -o build/temp.linux-x86_64-3.9/src/algs/mma/mma.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/neldermead/nldrmd.c -o build/temp.linux-x86_64-3.9/src/algs/neldermead/nldrmd.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/neldermead/sbplx.c -o build/temp.linux-x86_64-3.9/src/algs/neldermead/sbplx.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/newuoa/newuoa.c -o build/temp.linux-x86_64-3.9/src/algs/newuoa/newuoa.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/praxis/praxis.c -o build/temp.linux-x86_64-3.9/src/algs/praxis/praxis.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/slsqp/slsqp.c -o build/temp.linux-x86_64-3.9/src/algs/slsqp/slsqp.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/stogo/global.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/global.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/stogo/linalg.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/linalg.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/stogo/local.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/local.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/stogo/stogo.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/stogo.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/algs/stogo/tools.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/tools.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/api/deprecated.c -o build/temp.linux-x86_64-3.9/src/api/deprecated.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/api/f77api.c -o build/temp.linux-x86_64-3.9/src/api/f77api.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/api/general.c -o build/temp.linux-x86_64-3.9/src/api/general.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/api/optimize.c -o build/temp.linux-x86_64-3.9/src/api/optimize.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/api/options.c -o build/temp.linux-x86_64-3.9/src/api/options.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/swig/nlopt_wrap.cpp -o build/temp.linux-x86_64-3.9/src/swig/nlopt_wrap.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/mt19937ar.c -o build/temp.linux-x86_64-3.9/src/util/mt19937ar.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/qsort_r.c -o build/temp.linux-x86_64-3.9/src/util/qsort_r.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/redblack.c -o build/temp.linux-x86_64-3.9/src/util/redblack.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/rescale.c -o build/temp.linux-x86_64-3.9/src/util/rescale.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/sobolseq.c -o build/temp.linux-x86_64-3.9/src/util/sobolseq.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/stop.c -o build/temp.linux-x86_64-3.9/src/util/stop.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c src/util/timer.c -o build/temp.linux-x86_64-3.9/src/util/timer.o
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/nlopt
+c++ -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/algs/ags/ags.o build/temp.linux-x86_64-3.9/src/algs/ags/evolvent.o build/temp.linux-x86_64-3.9/src/algs/ags/local_optimizer.o build/temp.linux-x86_64-3.9/src/algs/ags/solver.o build/temp.linux-x86_64-3.9/src/algs/auglag/auglag.o build/temp.linux-x86_64-3.9/src/algs/bobyqa/bobyqa.o build/temp.linux-x86_64-3.9/src/algs/cdirect/cdirect.o build/temp.linux-x86_64-3.9/src/algs/cdirect/hybrid.o build/temp.linux-x86_64-3.9/src/algs/cobyla/cobyla.o build/temp.linux-x86_64-3.9/src/algs/crs/crs.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRect.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRserial.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRsubrout.o build/temp.linux-x86_64-3.9/src/algs/direct/direct_wrap.o build/temp.linux-x86_64-3.9/src/algs/esch/esch.o build/temp.linux-x86_64-3.9/src/algs/isres/isres.o build/temp.linux-x86_64-3.9/src/algs/luksan/mssubs.o build/temp.linux-x86_64-3.9/src/algs/luksan/plip.o build/temp.linux-x86_64-3.9/src/algs/luksan/plis.o build/temp.linux-x86_64-3.9/src/algs/luksan/pnet.o build/temp.linux-x86_64-3.9/src/algs/luksan/pssubs.o build/temp.linux-x86_64-3.9/src/algs/mlsl/mlsl.o build/temp.linux-x86_64-3.9/src/algs/mma/ccsa_quadratic.o build/temp.linux-x86_64-3.9/src/algs/mma/mma.o build/temp.linux-x86_64-3.9/src/algs/neldermead/nldrmd.o build/temp.linux-x86_64-3.9/src/algs/neldermead/sbplx.o build/temp.linux-x86_64-3.9/src/algs/newuoa/newuoa.o build/temp.linux-x86_64-3.9/src/algs/praxis/praxis.o build/temp.linux-x86_64-3.9/src/algs/slsqp/slsqp.o build/temp.linux-x86_64-3.9/src/algs/stogo/global.o build/temp.linux-x86_64-3.9/src/algs/stogo/linalg.o build/temp.linux-x86_64-3.9/src/algs/stogo/local.o build/temp.linux-x86_64-3.9/src/algs/stogo/stogo.o build/temp.linux-x86_64-3.9/src/algs/stogo/tools.o build/temp.linux-x86_64-3.9/src/api/deprecated.o build/temp.linux-x86_64-3.9/src/api/f77api.o build/temp.linux-x86_64-3.9/src/api/general.o build/temp.linux-x86_64-3.9/src/api/optimize.o build/temp.linux-x86_64-3.9/src/api/options.o build/temp.linux-x86_64-3.9/src/swig/nlopt_wrap.o build/temp.linux-x86_64-3.9/src/util/mt19937ar.o build/temp.linux-x86_64-3.9/src/util/qsort_r.o build/temp.linux-x86_64-3.9/src/util/redblack.o build/temp.linux-x86_64-3.9/src/util/rescale.o build/temp.linux-x86_64-3.9/src/util/sobolseq.o build/temp.linux-x86_64-3.9/src/util/stop.o build/temp.linux-x86_64-3.9/src/util/timer.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/nlopt/_nlopt.cpython-39-x86_64-linux-gnu.so
+copying nlopt/nlopt.py -> build/lib.linux-x86_64-3.9/nlopt
+copying nlopt/__init__.py -> build/lib.linux-x86_64-3.9/nlopt
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/nlopt.py -> build/bdist.linux-x86_64/egg/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/__init__.py -> build/bdist.linux-x86_64/egg/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/_nlopt.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/nlopt
+byte-compiling build/bdist.linux-x86_64/egg/nlopt/nlopt.py to nlopt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nlopt/__init__.py to __init__.cpython-39.pyc
+creating stub loader for nlopt/_nlopt.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/nlopt/_nlopt.py to _nlopt.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nlopt.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/nlopt-2.7.0-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nlopt-2.7.0-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/nlopt-2.7.0-py3.9-linux-x86_64.egg
+Extracting nlopt-2.7.0-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding nlopt 2.7.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/nlopt-2.7.0-py3.9-linux-x86_64.egg
+Processing dependencies for nlopt==2.7.0
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Finished processing dependencies for nlopt==2.7.0
+In file included from src/algs/ags/solver.cc:8:
+In file included from ./src/algs/ags/solver.hpp:10:
+In file included from ./src/algs/ags/data_types.hpp:11:
+In file included from /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string:511:
+In file included from /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/string_view:179:
+In file included from /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/__string:57:
+In file included from /src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/algorithm:653:
+/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:2613:9: warning: destructor called on non-final '(anonymous namespace)::ProblemInternal' that has virtual functions but non-virtual destructor [-Wdelete-non-abstract-non-virtual-dtor]
+        __get_elem()->~_Tp();
+        ^
+/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:2588:14: note: in instantiation of member function 'std::__shared_ptr_emplace<(anonymous namespace)::ProblemInternal, std::allocator<(anonymous namespace)::ProblemInternal>>::__on_zero_shared' requested here
+    explicit __shared_ptr_emplace(_Alloc __a, _Args&& ...__args)
+             ^
+/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:3360:55: note: in instantiation of function template specialization 'std::__shared_ptr_emplace<(anonymous namespace)::ProblemInternal, std::allocator<(anonymous namespace)::ProblemInternal>>::__shared_ptr_emplace<const std::vector<std::function<double (const double *)>> &, const std::vector<double> &, const std::vector<double> &>' requested here
+    ::new ((void*)_VSTD::addressof(*__guard.__get())) _ControlBlock(__a, _VSTD::forward<_Args>(__args)...);
+                                                      ^
+/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:3369:19: note: in instantiation of function template specialization 'std::allocate_shared<(anonymous namespace)::ProblemInternal, std::allocator<(anonymous namespace)::ProblemInternal>, const std::vector<std::function<double (const double *)>> &, const std::vector<double> &, const std::vector<double> &, void>' requested here
+    return _VSTD::allocate_shared<_Tp>(allocator<_Tp>(), _VSTD::forward<_Args>(__args)...);
+                  ^
+src/algs/ags/solver.cc:87:19: note: in instantiation of function template specialization 'std::make_shared<(anonymous namespace)::ProblemInternal, const std::vector<std::function<double (const double *)>> &, const std::vector<double> &, const std::vector<double> &, void>' requested here
+  mProblem = std::make_shared<ProblemInternal>(functions, leftBound, rightBound);
+                  ^
+/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/include/c++/v1/memory:2613:24: note: qualify call to silence this warning
+        __get_elem()->~_Tp();
+                       ^
+1 warning generated.
+src/algs/direct/DIRect.c:71:19: warning: variable 'newtosample' set but not used [-Wunused-but-set-variable]
+    integer pos1, newtosample;
+                  ^
+1 warning generated.
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/ags/ags.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/ags.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/ags/evolvent.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/evolvent.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/ags/local_optimizer.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/local_optimizer.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/ags/solver.cc -o build/temp.linux-x86_64-3.9/src/algs/ags/solver.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/auglag/auglag.c -o build/temp.linux-x86_64-3.9/src/algs/auglag/auglag.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/bobyqa/bobyqa.c -o build/temp.linux-x86_64-3.9/src/algs/bobyqa/bobyqa.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/cdirect/cdirect.c -o build/temp.linux-x86_64-3.9/src/algs/cdirect/cdirect.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/cdirect/hybrid.c -o build/temp.linux-x86_64-3.9/src/algs/cdirect/hybrid.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/cobyla/cobyla.c -o build/temp.linux-x86_64-3.9/src/algs/cobyla/cobyla.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/crs/crs.c -o build/temp.linux-x86_64-3.9/src/algs/crs/crs.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/direct/DIRect.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRect.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/direct/DIRserial.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRserial.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/direct/DIRsubrout.c -o build/temp.linux-x86_64-3.9/src/algs/direct/DIRsubrout.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/direct/direct_wrap.c -o build/temp.linux-x86_64-3.9/src/algs/direct/direct_wrap.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/esch/esch.c -o build/temp.linux-x86_64-3.9/src/algs/esch/esch.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/isres/isres.c -o build/temp.linux-x86_64-3.9/src/algs/isres/isres.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/luksan/mssubs.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/mssubs.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/luksan/plip.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/plip.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/luksan/plis.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/plis.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/luksan/pnet.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/pnet.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/luksan/pssubs.c -o build/temp.linux-x86_64-3.9/src/algs/luksan/pssubs.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/mlsl/mlsl.c -o build/temp.linux-x86_64-3.9/src/algs/mlsl/mlsl.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/mma/ccsa_quadratic.c -o build/temp.linux-x86_64-3.9/src/algs/mma/ccsa_quadratic.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/mma/mma.c -o build/temp.linux-x86_64-3.9/src/algs/mma/mma.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/neldermead/nldrmd.c -o build/temp.linux-x86_64-3.9/src/algs/neldermead/nldrmd.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/neldermead/sbplx.c -o build/temp.linux-x86_64-3.9/src/algs/neldermead/sbplx.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/newuoa/newuoa.c -o build/temp.linux-x86_64-3.9/src/algs/newuoa/newuoa.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/praxis/praxis.c -o build/temp.linux-x86_64-3.9/src/algs/praxis/praxis.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/slsqp/slsqp.c -o build/temp.linux-x86_64-3.9/src/algs/slsqp/slsqp.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/stogo/global.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/global.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/stogo/linalg.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/linalg.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/stogo/local.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/local.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/stogo/stogo.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/stogo.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/algs/stogo/tools.cc -o build/temp.linux-x86_64-3.9/src/algs/stogo/tools.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/api/deprecated.c -o build/temp.linux-x86_64-3.9/src/api/deprecated.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/api/f77api.c -o build/temp.linux-x86_64-3.9/src/api/f77api.o
+src/swig/nlopt_wrap.cpp:5012:22: warning: 'PyEval_CallObjectWithKeywords' is deprecated [-Wdeprecated-declarations]
+  PyObject *result = PyEval_CallObject((PyObject *) f, arglist);
+                     ^
+/src/cpython/installs/python-3.9.5/include/python3.9/ceval.h:24:5: note: expanded from macro 'PyEval_CallObject'
+    PyEval_CallObjectWithKeywords(callable, arg, (PyObject *)NULL)
+    ^
+/src/cpython/installs/python-3.9.5/include/python3.9/ceval.h:17:1: note: 'PyEval_CallObjectWithKeywords' has been explicitly marked deprecated here
+Py_DEPRECATED(3.9) PyAPI_FUNC(PyObject *) PyEval_CallObjectWithKeywords(
+^
+/src/cpython/installs/python-3.9.5/include/python3.9/pyport.h:508:54: note: expanded from macro 'Py_DEPRECATED'
+#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                     ^
+src/swig/nlopt_wrap.cpp:5049:19: warning: 'PyEval_CallObjectWithKeywords' is deprecated [-Wdeprecated-declarations]
+  PyObject *res = PyEval_CallObject((PyObject *) f, arglist);
+                  ^
+/src/cpython/installs/python-3.9.5/include/python3.9/ceval.h:24:5: note: expanded from macro 'PyEval_CallObject'
+    PyEval_CallObjectWithKeywords(callable, arg, (PyObject *)NULL)
+    ^
+/src/cpython/installs/python-3.9.5/include/python3.9/ceval.h:17:1: note: 'PyEval_CallObjectWithKeywords' has been explicitly marked deprecated here
+Py_DEPRECATED(3.9) PyAPI_FUNC(PyObject *) PyEval_CallObjectWithKeywords(
+^
+/src/cpython/installs/python-3.9.5/include/python3.9/pyport.h:508:54: note: expanded from macro 'Py_DEPRECATED'
+#define Py_DEPRECATED(VERSION_UNUSED) __attribute__((__deprecated__))
+                                                     ^
+2 warnings generated.
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/api/general.c -o build/temp.linux-x86_64-3.9/src/api/general.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/api/optimize.c -o build/temp.linux-x86_64-3.9/src/api/optimize.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/api/options.c -o build/temp.linux-x86_64-3.9/src/api/options.o
+em++ -O2 -g -fPIC -std=c++11 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/swig/nlopt_wrap.cpp -o build/temp.linux-x86_64-3.9/src/swig/nlopt_wrap.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/mt19937ar.c -o build/temp.linux-x86_64-3.9/src/util/mt19937ar.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/qsort_r.c -o build/temp.linux-x86_64-3.9/src/util/qsort_r.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/redblack.c -o build/temp.linux-x86_64-3.9/src/util/redblack.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/rescale.c -o build/temp.linux-x86_64-3.9/src/util/rescale.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/sobolseq.c -o build/temp.linux-x86_64-3.9/src/util/sobolseq.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/stop.c -o build/temp.linux-x86_64-3.9/src/util/stop.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I./src/util -I./ -I./src/api -I./src/algs/praxis -I./src/algs/direct -I./src/algs/stogo -I./src/algs/ags -I./src/algs/cdirect -I./src/algs/luksan -I./src/algs/crs -I./src/algs/mlsl -I./src/algs/mma -I./src/algs/cobyla -I./src/algs/newuoa -I./src/algs/neldermead -I./src/algs/auglag -I./src/algs/bobyqa -I./src/algs/isres -I./src/algs/esch -I./src/algs/slsqp -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/util/timer.c -o build/temp.linux-x86_64-3.9/src/util/timer.o
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/nlopt.py -> install/lib/python3.9/site-packages/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/__init__.py -> install/lib/python3.9/site-packages/nlopt
+copying build/lib.linux-x86_64-3.9/nlopt/_nlopt.so -> install/lib/python3.9/site-packages/nlopt
+byte-compiling install/lib/python3.9/site-packages/nlopt/nlopt.py to nlopt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nlopt/__init__.py to __init__.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing nlopt.egg-info/PKG-INFO
+writing dependency_links to nlopt.egg-info/dependency_links.txt
+writing requirements to nlopt.egg-info/requires.txt
+writing top-level names to nlopt.egg-info/top_level.txt
+reading manifest file 'nlopt.egg-info/SOURCES.txt'
+adding license file 'COPYING'
+adding license file 'AUTHORS'
+writing manifest file 'nlopt.egg-info/SOURCES.txt'
+Copying nlopt.egg-info to install/lib/python3.9/site-packages/nlopt-2.7.0-py3.9.egg-info
+running install_scripts
+em++ -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/algs/ags/ags.o build/temp.linux-x86_64-3.9/src/algs/ags/evolvent.o build/temp.linux-x86_64-3.9/src/algs/ags/local_optimizer.o build/temp.linux-x86_64-3.9/src/algs/ags/solver.o build/temp.linux-x86_64-3.9/src/algs/auglag/auglag.o build/temp.linux-x86_64-3.9/src/algs/bobyqa/bobyqa.o build/temp.linux-x86_64-3.9/src/algs/cdirect/cdirect.o build/temp.linux-x86_64-3.9/src/algs/cdirect/hybrid.o build/temp.linux-x86_64-3.9/src/algs/cobyla/cobyla.o build/temp.linux-x86_64-3.9/src/algs/crs/crs.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRect.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRserial.o build/temp.linux-x86_64-3.9/src/algs/direct/DIRsubrout.o build/temp.linux-x86_64-3.9/src/algs/direct/direct_wrap.o build/temp.linux-x86_64-3.9/src/algs/esch/esch.o build/temp.linux-x86_64-3.9/src/algs/isres/isres.o build/temp.linux-x86_64-3.9/src/algs/luksan/mssubs.o build/temp.linux-x86_64-3.9/src/algs/luksan/plip.o build/temp.linux-x86_64-3.9/src/algs/luksan/plis.o build/temp.linux-x86_64-3.9/src/algs/luksan/pnet.o build/temp.linux-x86_64-3.9/src/algs/luksan/pssubs.o build/temp.linux-x86_64-3.9/src/algs/mlsl/mlsl.o build/temp.linux-x86_64-3.9/src/algs/mma/ccsa_quadratic.o build/temp.linux-x86_64-3.9/src/algs/mma/mma.o build/temp.linux-x86_64-3.9/src/algs/neldermead/nldrmd.o build/temp.linux-x86_64-3.9/src/algs/neldermead/sbplx.o build/temp.linux-x86_64-3.9/src/algs/newuoa/newuoa.o build/temp.linux-x86_64-3.9/src/algs/praxis/praxis.o build/temp.linux-x86_64-3.9/src/algs/slsqp/slsqp.o build/temp.linux-x86_64-3.9/src/algs/stogo/global.o build/temp.linux-x86_64-3.9/src/algs/stogo/linalg.o build/temp.linux-x86_64-3.9/src/algs/stogo/local.o build/temp.linux-x86_64-3.9/src/algs/stogo/stogo.o build/temp.linux-x86_64-3.9/src/algs/stogo/tools.o build/temp.linux-x86_64-3.9/src/api/deprecated.o build/temp.linux-x86_64-3.9/src/api/f77api.o build/temp.linux-x86_64-3.9/src/api/general.o build/temp.linux-x86_64-3.9/src/api/optimize.o build/temp.linux-x86_64-3.9/src/api/options.o build/temp.linux-x86_64-3.9/src/swig/nlopt_wrap.o build/temp.linux-x86_64-3.9/src/util/mt19937ar.o build/temp.linux-x86_64-3.9/src/util/qsort_r.o build/temp.linux-x86_64-3.9/src/util/redblack.o build/temp.linux-x86_64-3.9/src/util/rescale.o build/temp.linux-x86_64-3.9/src/util/sobolseq.o build/temp.linux-x86_64-3.9/src/util/stop.o build/temp.linux-x86_64-3.9/src/util/timer.o -o build/lib.linux-x86_64-3.9/nlopt/_nlopt.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 585308
+compressed package into 340692
+compressed in 130 ms
+[2021-12-18 05:03:46] Building package nlopt...
+[2021-12-18 06:06:34] done building package nlopt in 3767.8 s.

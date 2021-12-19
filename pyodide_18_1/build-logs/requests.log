@@ -1,0 +1,175 @@
+running install
+running bdist_egg
+running egg_info
+writing requests.egg-info/PKG-INFO
+writing dependency_links to requests.egg-info/dependency_links.txt
+writing requirements to requests.egg-info/requires.txt
+writing top-level names to requests.egg-info/top_level.txt
+reading manifest file 'requests.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'requests.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/requests
+copying requests/cookies.py -> build/lib/requests
+copying requests/auth.py -> build/lib/requests
+copying requests/sessions.py -> build/lib/requests
+copying requests/hooks.py -> build/lib/requests
+copying requests/compat.py -> build/lib/requests
+copying requests/models.py -> build/lib/requests
+copying requests/certs.py -> build/lib/requests
+copying requests/__init__.py -> build/lib/requests
+copying requests/status_codes.py -> build/lib/requests
+copying requests/packages.py -> build/lib/requests
+copying requests/__version__.py -> build/lib/requests
+copying requests/api.py -> build/lib/requests
+copying requests/_internal_utils.py -> build/lib/requests
+copying requests/utils.py -> build/lib/requests
+copying requests/exceptions.py -> build/lib/requests
+copying requests/structures.py -> build/lib/requests
+copying requests/help.py -> build/lib/requests
+copying requests/adapters.py -> build/lib/requests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/cookies.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/auth.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/sessions.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/hooks.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/compat.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/models.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/certs.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/__init__.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/status_codes.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/packages.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/__version__.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/api.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/_internal_utils.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/utils.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/exceptions.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/structures.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/help.py -> build/bdist.linux-x86_64/egg/requests
+copying build/lib/requests/adapters.py -> build/bdist.linux-x86_64/egg/requests
+byte-compiling build/bdist.linux-x86_64/egg/requests/cookies.py to cookies.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/auth.py to auth.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/sessions.py to sessions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/hooks.py to hooks.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/compat.py to compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/models.py to models.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/certs.py to certs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/status_codes.py to status_codes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/packages.py to packages.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/__version__.py to __version__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/api.py to api.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/_internal_utils.py to _internal_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/structures.py to structures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/help.py to help.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests/adapters.py to adapters.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/requests-2.26.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing requests-2.26.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/requests-2.26.0-py3.9.egg
+Extracting requests-2.26.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding requests 2.26.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/requests-2.26.0-py3.9.egg
+Processing dependencies for requests==2.26.0
+Searching for idna==3.2
+Best match: idna 3.2
+Adding idna 3.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for charset-normalizer==2.0.3
+Best match: charset-normalizer 2.0.3
+Adding charset-normalizer 2.0.3 to easy-install.pth file
+Installing normalizer script to /src/packages/.artifacts/bin
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for certifi==2021.5.30
+Best match: certifi 2021.5.30
+Adding certifi 2021.5.30 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for urllib3==1.26.6
+Best match: urllib3 1.26.6
+Adding urllib3 1.26.6 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Finished processing dependencies for requests==2.26.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/requests
+copying build/lib/requests/cookies.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/auth.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/sessions.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/hooks.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/compat.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/models.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/certs.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/__init__.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/status_codes.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/packages.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/__version__.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/api.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/_internal_utils.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/utils.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/exceptions.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/structures.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/help.py -> install/lib/python3.9/site-packages/requests
+copying build/lib/requests/adapters.py -> install/lib/python3.9/site-packages/requests
+byte-compiling install/lib/python3.9/site-packages/requests/cookies.py to cookies.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/auth.py to auth.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/sessions.py to sessions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/hooks.py to hooks.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/models.py to models.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/certs.py to certs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/status_codes.py to status_codes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/packages.py to packages.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/__version__.py to __version__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/api.py to api.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/_internal_utils.py to _internal_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/structures.py to structures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/help.py to help.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/requests/adapters.py to adapters.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing requests.egg-info/PKG-INFO
+writing dependency_links to requests.egg-info/dependency_links.txt
+writing requirements to requests.egg-info/requires.txt
+writing top-level names to requests.egg-info/top_level.txt
+reading manifest file 'requests.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'requests.egg-info/SOURCES.txt'
+Copying requests.egg-info to install/lib/python3.9/site-packages/requests-2.26.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 183147
+compressed package into 111654
+compressed in 78 ms
+[2021-12-19 01:42:04] Building package requests...
+[2021-12-19 01:43:02] done building package requests in 58.0 s.

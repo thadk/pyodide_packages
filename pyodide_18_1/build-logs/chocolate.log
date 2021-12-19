@@ -1,0 +1,66 @@
+running install
+running bdist_egg
+running egg_info
+writing chocolate.egg-info/PKG-INFO
+writing dependency_links to chocolate.egg-info/dependency_links.txt
+writing top-level names to chocolate.egg-info/top_level.txt
+reading manifest file 'chocolate.egg-info/SOURCES.txt'
+writing manifest file 'chocolate.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/chocolate
+copying chocolate/__init__.py -> build/lib/chocolate
+copying chocolate/filter.py -> build/lib/chocolate
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/chocolate
+copying build/lib/chocolate/__init__.py -> build/bdist.linux-x86_64/egg/chocolate
+copying build/lib/chocolate/filter.py -> build/bdist.linux-x86_64/egg/chocolate
+byte-compiling build/bdist.linux-x86_64/egg/chocolate/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chocolate/filter.py to filter.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying chocolate.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying chocolate.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying chocolate.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying chocolate.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/chocolate-0.0.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing chocolate-0.0.2-py3.9.egg
+Copying chocolate-0.0.2-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding chocolate 0.0.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/chocolate-0.0.2-py3.9.egg
+Processing dependencies for chocolate==0.0.2
+Finished processing dependencies for chocolate==0.0.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/chocolate
+copying build/lib/chocolate/__init__.py -> install/lib/python3.9/site-packages/chocolate
+copying build/lib/chocolate/filter.py -> install/lib/python3.9/site-packages/chocolate
+byte-compiling install/lib/python3.9/site-packages/chocolate/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/chocolate/filter.py to filter.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing chocolate.egg-info/PKG-INFO
+writing dependency_links to chocolate.egg-info/dependency_links.txt
+writing top-level names to chocolate.egg-info/top_level.txt
+reading manifest file 'chocolate.egg-info/SOURCES.txt'
+writing manifest file 'chocolate.egg-info/SOURCES.txt'
+Copying chocolate.egg-info to install/lib/python3.9/site-packages/chocolate-0.0.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 1776
+compressed package into 5339
+compressed in 10 ms
+[2021-12-19 02:51:55] Building package chocolate...
+[2021-12-19 02:52:58] done building package chocolate in 62.4 s.

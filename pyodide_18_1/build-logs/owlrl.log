@@ -1,0 +1,184 @@
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running bdist_egg
+running egg_info
+writing owlrl.egg-info/PKG-INFO
+writing dependency_links to owlrl.egg-info/dependency_links.txt
+writing requirements to owlrl.egg-info/requires.txt
+writing top-level names to owlrl.egg-info/top_level.txt
+reading manifest file 'owlrl.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.md'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.md' under directory 'docs'
+adding license file 'LICENSE.txt'
+writing manifest file 'owlrl.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/owlrl
+copying ./owlrl/CombinedClosure.py -> build/lib/owlrl
+copying ./owlrl/OWLRLExtras.py -> build/lib/owlrl
+copying ./owlrl/__init__.py -> build/lib/owlrl
+copying ./owlrl/OWLRL.py -> build/lib/owlrl
+copying ./owlrl/RestrictedDatatype.py -> build/lib/owlrl
+copying ./owlrl/XsdDatatypes.py -> build/lib/owlrl
+copying ./owlrl/RDFSClosure.py -> build/lib/owlrl
+copying ./owlrl/DatatypeHandling.py -> build/lib/owlrl
+copying ./owlrl/Closure.py -> build/lib/owlrl
+copying ./owlrl/Namespaces.py -> build/lib/owlrl
+copying ./owlrl/AxiomaticTriples.py -> build/lib/owlrl
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/CombinedClosure.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/OWLRLExtras.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/__init__.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/OWLRL.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/RestrictedDatatype.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/XsdDatatypes.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/RDFSClosure.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/DatatypeHandling.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/Closure.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/Namespaces.py -> build/bdist.linux-x86_64/egg/owlrl
+copying build/lib/owlrl/AxiomaticTriples.py -> build/bdist.linux-x86_64/egg/owlrl
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/CombinedClosure.py to CombinedClosure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/OWLRLExtras.py to OWLRLExtras.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/OWLRL.py to OWLRL.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/RestrictedDatatype.py to RestrictedDatatype.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/XsdDatatypes.py to XsdDatatypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/RDFSClosure.py to RDFSClosure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/DatatypeHandling.py to DatatypeHandling.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/Closure.py to Closure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/Namespaces.py to Namespaces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/owlrl/AxiomaticTriples.py to AxiomaticTriples.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.9
+copying and adjusting scripts/owlrl -> build/scripts-3.9
+copying and adjusting scripts/RDFConvertService -> build/scripts-3.9
+changing mode of build/scripts-3.9/owlrl from 644 to 755
+changing mode of build/scripts-3.9/RDFConvertService from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/RDFConvertService -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/owlrl -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/RDFConvertService to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/owlrl to 755
+copying owlrl.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying owlrl.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying owlrl.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying owlrl.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying owlrl.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/owlrl-6.0.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing owlrl-6.0.2-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/owlrl-6.0.2-py3.9.egg' (and everything under it)
+Copying owlrl-6.0.2-py3.9.egg to /src/packages/.artifacts/lib/python
+owlrl 6.0.2 is already the active version in easy-install.pth
+Installing RDFConvertService script to /src/packages/.artifacts/bin
+Installing owlrl script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/owlrl-6.0.2-py3.9.egg
+Processing dependencies for owlrl==6.0.2
+Searching for rdflib==6.0.2
+Best match: rdflib 6.0.2
+Processing rdflib-6.0.2-py3.9.egg
+rdflib 6.0.2 is already the active version in easy-install.pth
+Installing csv2rdf script to /src/packages/.artifacts/bin
+Installing rdf2dot script to /src/packages/.artifacts/bin
+Installing rdfgraphisomorphism script to /src/packages/.artifacts/bin
+Installing rdfpipe script to /src/packages/.artifacts/bin
+Installing rdfs2dot script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/rdflib-6.0.2-py3.9.egg
+Searching for setuptools==57.1.0
+Best match: setuptools 57.1.0
+Processing setuptools-57.1.0-py3.9.egg
+setuptools 57.1.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/setuptools-57.1.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Searching for isodate==0.6.1
+Best match: isodate 0.6.1
+Processing isodate-0.6.1-py3.9.egg
+isodate 0.6.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/isodate-0.6.1-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for owlrl==6.0.2
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/CombinedClosure.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/OWLRLExtras.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/__init__.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/OWLRL.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/RestrictedDatatype.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/XsdDatatypes.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/RDFSClosure.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/DatatypeHandling.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/Closure.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/Namespaces.py -> install/lib/python3.9/site-packages/owlrl
+copying build/lib/owlrl/AxiomaticTriples.py -> install/lib/python3.9/site-packages/owlrl
+byte-compiling install/lib/python3.9/site-packages/owlrl/CombinedClosure.py to CombinedClosure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/OWLRLExtras.py to OWLRLExtras.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/OWLRL.py to OWLRL.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/RestrictedDatatype.py to RestrictedDatatype.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/XsdDatatypes.py to XsdDatatypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/RDFSClosure.py to RDFSClosure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/DatatypeHandling.py to DatatypeHandling.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/Closure.py to Closure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/Namespaces.py to Namespaces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/owlrl/AxiomaticTriples.py to AxiomaticTriples.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing owlrl.egg-info/PKG-INFO
+writing dependency_links to owlrl.egg-info/dependency_links.txt
+writing requirements to owlrl.egg-info/requires.txt
+writing top-level names to owlrl.egg-info/top_level.txt
+reading manifest file 'owlrl.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.md'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.md' under directory 'docs'
+adding license file 'LICENSE.txt'
+writing manifest file 'owlrl.egg-info/SOURCES.txt'
+Copying owlrl.egg-info to install/lib/python3.9/site-packages/owlrl-6.0.2-py3.9.egg-info
+running install_scripts
+creating install/bin
+copying build/scripts-3.9/RDFConvertService -> install/bin
+copying build/scripts-3.9/owlrl -> install/bin
+changing mode of install/bin/RDFConvertService to 755
+changing mode of install/bin/owlrl to 755
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 203315
+compressed package into 110480
+compressed in 154 ms
+[2021-12-19 02:59:23] Building package owlrl...
+[2021-12-19 03:00:25] done building package owlrl in 61.8 s.

@@ -1,0 +1,14 @@
+package:
+  name: requests
+  version: 2.26.0
+source:
+  url: https://files.pythonhosted.org/packages/e7/01/3569e0b535fb2e4a6c384bdbed00c55b9d78b5084e0fb7f4d0bf523d7670/requests-2.26.0.tar.gz
+  sha256: b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7
+test:
+  imports:
+  - requests
+about:
+  home: https://requests.readthedocs.io
+  PyPi: https://pypi.org/project/requests
+  summary: Python HTTP for Humans.
+  license: Apache 2.0

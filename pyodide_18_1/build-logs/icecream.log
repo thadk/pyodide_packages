@@ -1,0 +1,122 @@
+running install
+running bdist_egg
+running egg_info
+writing icecream.egg-info/PKG-INFO
+writing dependency_links to icecream.egg-info/dependency_links.txt
+writing requirements to icecream.egg-info/requires.txt
+writing top-level names to icecream.egg-info/top_level.txt
+reading manifest file 'icecream.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'icecream.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/icecream
+copying icecream/coloring.py -> build/lib/icecream
+copying icecream/builtins.py -> build/lib/icecream
+copying icecream/__init__.py -> build/lib/icecream
+copying icecream/__version__.py -> build/lib/icecream
+copying icecream/icecream.py -> build/lib/icecream
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/icecream
+copying build/lib/icecream/coloring.py -> build/bdist.linux-x86_64/egg/icecream
+copying build/lib/icecream/builtins.py -> build/bdist.linux-x86_64/egg/icecream
+copying build/lib/icecream/__init__.py -> build/bdist.linux-x86_64/egg/icecream
+copying build/lib/icecream/__version__.py -> build/bdist.linux-x86_64/egg/icecream
+copying build/lib/icecream/icecream.py -> build/bdist.linux-x86_64/egg/icecream
+byte-compiling build/bdist.linux-x86_64/egg/icecream/coloring.py to coloring.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/icecream/builtins.py to builtins.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/icecream/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/icecream/__version__.py to __version__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/icecream/icecream.py to icecream.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying icecream.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying icecream.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying icecream.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying icecream.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying icecream.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+icecream.__pycache__.__init__.cpython-39: module references __file__
+icecream.__pycache__.icecream.cpython-39: module MAY be using inspect.getframeinfo
+creating dist
+creating 'dist/icecream-2.1.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing icecream-2.1.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/icecream-2.1.1-py3.9.egg
+Extracting icecream-2.1.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding icecream 2.1.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/icecream-2.1.1-py3.9.egg
+Processing dependencies for icecream==2.1.1
+Searching for asttokens==2.0.5
+Best match: asttokens 2.0.5
+Processing asttokens-2.0.5-py3.9.egg
+asttokens 2.0.5 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/asttokens-2.0.5-py3.9.egg
+Searching for executing==0.8.2
+Best match: executing 0.8.2
+Processing executing-0.8.2-py3.9.egg
+executing 0.8.2 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/executing-0.8.2-py3.9.egg
+Searching for Pygments==2.9.0
+Best match: Pygments 2.9.0
+Processing Pygments-2.9.0-py3.9.egg
+Pygments 2.9.0 is already the active version in easy-install.pth
+Installing pygmentize script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/Pygments-2.9.0-py3.9.egg
+Searching for colorama==0.4.4
+Best match: colorama 0.4.4
+Processing colorama-0.4.4-py3.9.egg
+colorama 0.4.4 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/colorama-0.4.4-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for icecream==2.1.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/icecream
+copying build/lib/icecream/coloring.py -> install/lib/python3.9/site-packages/icecream
+copying build/lib/icecream/builtins.py -> install/lib/python3.9/site-packages/icecream
+copying build/lib/icecream/__init__.py -> install/lib/python3.9/site-packages/icecream
+copying build/lib/icecream/__version__.py -> install/lib/python3.9/site-packages/icecream
+copying build/lib/icecream/icecream.py -> install/lib/python3.9/site-packages/icecream
+byte-compiling install/lib/python3.9/site-packages/icecream/coloring.py to coloring.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/icecream/builtins.py to builtins.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/icecream/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/icecream/__version__.py to __version__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/icecream/icecream.py to icecream.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing icecream.egg-info/PKG-INFO
+writing dependency_links to icecream.egg-info/dependency_links.txt
+writing requirements to icecream.egg-info/requires.txt
+writing top-level names to icecream.egg-info/top_level.txt
+reading manifest file 'icecream.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'icecream.egg-info/SOURCES.txt'
+Copying icecream.egg-info to install/lib/python3.9/site-packages/icecream-2.1.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 16610
+compressed package into 13342
+compressed in 29 ms
+[2021-12-19 02:53:51] Building package icecream...
+[2021-12-19 02:54:43] done building package icecream in 52.0 s.

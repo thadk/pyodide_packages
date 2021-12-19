@@ -1,0 +1,15 @@
+package:
+  name: smart_open
+  version: 5.2.1
+source:
+  url: https://files.pythonhosted.org/packages/53/9e/7a25cefbe4b51ea9bf883999c359dd761d32dcd2f764b70805278bb20bde/smart_open-5.2.1.tar.gz
+  sha256: 75abf758717a92a8f53aa96953f0c245c8cedf8e1e4184903db3659b419d4c17
+test:
+  imports:
+  - smart_open
+about:
+  home: https://github.com/piskvorky/smart_open
+  PyPi: https://pypi.org/project/smart_open
+  summary: Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip,
+    bz2...)
+  license: MIT

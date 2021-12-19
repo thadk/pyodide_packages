@@ -1,0 +1,208 @@
+running install
+running bdist_egg
+running egg_info
+writing src/Jinja2.egg-info/PKG-INFO
+writing dependency_links to src/Jinja2.egg-info/dependency_links.txt
+writing entry points to src/Jinja2.egg-info/entry_points.txt
+writing requirements to src/Jinja2.egg-info/requires.txt
+writing top-level names to src/Jinja2.egg-info/top_level.txt
+reading manifest file 'src/Jinja2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.rst'
+writing manifest file 'src/Jinja2.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/jinja2
+copying src/jinja2/compiler.py -> build/lib/jinja2
+copying src/jinja2/async_utils.py -> build/lib/jinja2
+copying src/jinja2/constants.py -> build/lib/jinja2
+copying src/jinja2/loaders.py -> build/lib/jinja2
+copying src/jinja2/__init__.py -> build/lib/jinja2
+copying src/jinja2/idtracking.py -> build/lib/jinja2
+copying src/jinja2/runtime.py -> build/lib/jinja2
+copying src/jinja2/parser.py -> build/lib/jinja2
+copying src/jinja2/sandbox.py -> build/lib/jinja2
+copying src/jinja2/visitor.py -> build/lib/jinja2
+copying src/jinja2/utils.py -> build/lib/jinja2
+copying src/jinja2/debug.py -> build/lib/jinja2
+copying src/jinja2/lexer.py -> build/lib/jinja2
+copying src/jinja2/environment.py -> build/lib/jinja2
+copying src/jinja2/_identifier.py -> build/lib/jinja2
+copying src/jinja2/optimizer.py -> build/lib/jinja2
+copying src/jinja2/exceptions.py -> build/lib/jinja2
+copying src/jinja2/defaults.py -> build/lib/jinja2
+copying src/jinja2/nativetypes.py -> build/lib/jinja2
+copying src/jinja2/nodes.py -> build/lib/jinja2
+copying src/jinja2/tests.py -> build/lib/jinja2
+copying src/jinja2/bccache.py -> build/lib/jinja2
+copying src/jinja2/filters.py -> build/lib/jinja2
+copying src/jinja2/ext.py -> build/lib/jinja2
+copying src/jinja2/meta.py -> build/lib/jinja2
+copying src/jinja2/py.typed -> build/lib/jinja2
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/compiler.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/async_utils.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/constants.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/loaders.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/__init__.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/idtracking.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/runtime.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/parser.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/sandbox.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/visitor.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/utils.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/debug.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/lexer.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/environment.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/py.typed -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/_identifier.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/optimizer.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/exceptions.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/defaults.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/nativetypes.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/nodes.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/tests.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/bccache.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/filters.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/ext.py -> build/bdist.linux-x86_64/egg/jinja2
+copying build/lib/jinja2/meta.py -> build/bdist.linux-x86_64/egg/jinja2
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/compiler.py to compiler.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/async_utils.py to async_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/constants.py to constants.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/loaders.py to loaders.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/idtracking.py to idtracking.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/runtime.py to runtime.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/parser.py to parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/sandbox.py to sandbox.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/visitor.py to visitor.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/debug.py to debug.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/lexer.py to lexer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/environment.py to environment.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/_identifier.py to _identifier.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/optimizer.py to optimizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/defaults.py to defaults.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/nativetypes.py to nativetypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/nodes.py to nodes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/tests.py to tests.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/bccache.py to bccache.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/filters.py to filters.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/ext.py to ext.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/jinja2/meta.py to meta.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Jinja2.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+jinja2.__pycache__.environment.cpython-39: module references __file__
+jinja2.__pycache__.loaders.cpython-39: module references __path__
+creating dist
+creating 'dist/Jinja2-3.0.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Jinja2-3.0.1-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/Jinja2-3.0.1-py3.9.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/Jinja2-3.0.1-py3.9.egg
+Extracting Jinja2-3.0.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Jinja2 3.0.1 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/Jinja2-3.0.1-py3.9.egg
+Processing dependencies for Jinja2==3.0.1
+Searching for MarkupSafe==2.0.1
+Best match: MarkupSafe 2.0.1
+Processing MarkupSafe-2.0.1-py3.9-linux-x86_64.egg
+MarkupSafe 2.0.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/MarkupSafe-2.0.1-py3.9-linux-x86_64.egg
+Finished processing dependencies for Jinja2==3.0.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/compiler.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/async_utils.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/constants.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/loaders.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/__init__.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/idtracking.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/runtime.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/parser.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/sandbox.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/visitor.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/utils.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/debug.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/lexer.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/environment.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/py.typed -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/_identifier.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/optimizer.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/exceptions.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/defaults.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/nativetypes.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/nodes.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/tests.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/bccache.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/filters.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/ext.py -> install/lib/python3.9/site-packages/jinja2
+copying build/lib/jinja2/meta.py -> install/lib/python3.9/site-packages/jinja2
+byte-compiling install/lib/python3.9/site-packages/jinja2/compiler.py to compiler.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/async_utils.py to async_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/constants.py to constants.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/loaders.py to loaders.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/idtracking.py to idtracking.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/runtime.py to runtime.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/parser.py to parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/sandbox.py to sandbox.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/visitor.py to visitor.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/debug.py to debug.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/lexer.py to lexer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/environment.py to environment.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/_identifier.py to _identifier.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/optimizer.py to optimizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/defaults.py to defaults.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/nativetypes.py to nativetypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/nodes.py to nodes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/tests.py to tests.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/bccache.py to bccache.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/filters.py to filters.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/ext.py to ext.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/jinja2/meta.py to meta.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/Jinja2.egg-info/PKG-INFO
+writing dependency_links to src/Jinja2.egg-info/dependency_links.txt
+writing entry points to src/Jinja2.egg-info/entry_points.txt
+writing requirements to src/Jinja2.egg-info/requires.txt
+writing top-level names to src/Jinja2.egg-info/top_level.txt
+reading manifest file 'src/Jinja2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE.rst'
+writing manifest file 'src/Jinja2.egg-info/SOURCES.txt'
+Copying src/Jinja2.egg-info to install/lib/python3.9/site-packages/Jinja2-3.0.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 492703
+compressed package into 283388
+compressed in 162 ms
+[2021-12-19 03:00:05] Building package jinja2...
+[2021-12-19 03:01:23] done building package jinja2 in 78.1 s.

@@ -1,0 +1,233 @@
+running install
+running bdist_egg
+running egg_info
+writing tqdm.egg-info/PKG-INFO
+writing dependency_links to tqdm.egg-info/dependency_links.txt
+writing entry points to tqdm.egg-info/entry_points.txt
+writing requirements to tqdm.egg-info/requires.txt
+writing top-level names to tqdm.egg-info/top_level.txt
+reading manifest file 'tqdm.egg-info/SOURCES.txt'
+adding license file 'LICENCE'
+writing manifest file 'tqdm.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/tqdm
+copying tqdm/version.py -> build/lib/tqdm
+copying tqdm/_main.py -> build/lib/tqdm
+copying tqdm/_monitor.py -> build/lib/tqdm
+copying tqdm/keras.py -> build/lib/tqdm
+copying tqdm/_tqdm_gui.py -> build/lib/tqdm
+copying tqdm/asyncio.py -> build/lib/tqdm
+copying tqdm/_dist_ver.py -> build/lib/tqdm
+copying tqdm/std.py -> build/lib/tqdm
+copying tqdm/_tqdm_notebook.py -> build/lib/tqdm
+copying tqdm/__init__.py -> build/lib/tqdm
+copying tqdm/rich.py -> build/lib/tqdm
+copying tqdm/tk.py -> build/lib/tqdm
+copying tqdm/cli.py -> build/lib/tqdm
+copying tqdm/dask.py -> build/lib/tqdm
+copying tqdm/utils.py -> build/lib/tqdm
+copying tqdm/_tqdm.py -> build/lib/tqdm
+copying tqdm/_tqdm_pandas.py -> build/lib/tqdm
+copying tqdm/autonotebook.py -> build/lib/tqdm
+copying tqdm/notebook.py -> build/lib/tqdm
+copying tqdm/gui.py -> build/lib/tqdm
+copying tqdm/__main__.py -> build/lib/tqdm
+copying tqdm/_utils.py -> build/lib/tqdm
+copying tqdm/auto.py -> build/lib/tqdm
+creating build/lib/tqdm/contrib
+copying tqdm/contrib/logging.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/concurrent.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/bells.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/telegram.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/discord.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/__init__.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/itertools.py -> build/lib/tqdm/contrib
+copying tqdm/contrib/utils_worker.py -> build/lib/tqdm/contrib
+copying tqdm/completion.sh -> build/lib/tqdm
+copying tqdm/tqdm.1 -> build/lib/tqdm
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/version.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_main.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_monitor.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/keras.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_tqdm_gui.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/asyncio.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_dist_ver.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/std.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_tqdm_notebook.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/__init__.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/rich.py -> build/bdist.linux-x86_64/egg/tqdm
+creating build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/logging.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/concurrent.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/bells.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/telegram.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/discord.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/__init__.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/itertools.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/contrib/utils_worker.py -> build/bdist.linux-x86_64/egg/tqdm/contrib
+copying build/lib/tqdm/tk.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/cli.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/dask.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/utils.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_tqdm.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/completion.sh -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_tqdm_pandas.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/autonotebook.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/tqdm.1 -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/notebook.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/gui.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/__main__.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/_utils.py -> build/bdist.linux-x86_64/egg/tqdm
+copying build/lib/tqdm/auto.py -> build/bdist.linux-x86_64/egg/tqdm
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_main.py to _main.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_monitor.py to _monitor.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/keras.py to keras.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_tqdm_gui.py to _tqdm_gui.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/asyncio.py to asyncio.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_dist_ver.py to _dist_ver.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/std.py to std.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_tqdm_notebook.py to _tqdm_notebook.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/rich.py to rich.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/logging.py to logging.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/concurrent.py to concurrent.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/bells.py to bells.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/telegram.py to telegram.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/discord.py to discord.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/itertools.py to itertools.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/contrib/utils_worker.py to utils_worker.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/tk.py to tk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/cli.py to cli.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/dask.py to dask.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_tqdm.py to _tqdm.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_tqdm_pandas.py to _tqdm_pandas.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/autonotebook.py to autonotebook.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/notebook.py to notebook.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/gui.py to gui.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/_utils.py to _utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tqdm/auto.py to auto.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying tqdm.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+tqdm.__pycache__.version.cpython-39: module references __file__
+creating dist
+creating 'dist/tqdm-4.62.3-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing tqdm-4.62.3-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/tqdm-4.62.3-py3.9.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/tqdm-4.62.3-py3.9.egg
+Extracting tqdm-4.62.3-py3.9.egg to /src/packages/.artifacts/lib/python
+tqdm 4.62.3 is already the active version in easy-install.pth
+Installing tqdm script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/tqdm-4.62.3-py3.9.egg
+Processing dependencies for tqdm==4.62.3
+Finished processing dependencies for tqdm==4.62.3
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/version.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_main.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_monitor.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/keras.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_tqdm_gui.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/asyncio.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_dist_ver.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/std.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_tqdm_notebook.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/__init__.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/rich.py -> install/lib/python3.9/site-packages/tqdm
+creating install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/logging.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/concurrent.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/bells.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/telegram.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/discord.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/__init__.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/itertools.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/contrib/utils_worker.py -> install/lib/python3.9/site-packages/tqdm/contrib
+copying build/lib/tqdm/tk.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/cli.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/dask.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/utils.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_tqdm.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/completion.sh -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_tqdm_pandas.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/autonotebook.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/tqdm.1 -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/notebook.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/gui.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/__main__.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/_utils.py -> install/lib/python3.9/site-packages/tqdm
+copying build/lib/tqdm/auto.py -> install/lib/python3.9/site-packages/tqdm
+byte-compiling install/lib/python3.9/site-packages/tqdm/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_main.py to _main.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_monitor.py to _monitor.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/keras.py to keras.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_tqdm_gui.py to _tqdm_gui.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/asyncio.py to asyncio.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_dist_ver.py to _dist_ver.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/std.py to std.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_tqdm_notebook.py to _tqdm_notebook.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/rich.py to rich.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/logging.py to logging.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/concurrent.py to concurrent.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/bells.py to bells.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/telegram.py to telegram.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/discord.py to discord.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/itertools.py to itertools.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/contrib/utils_worker.py to utils_worker.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/tk.py to tk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/cli.py to cli.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/dask.py to dask.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_tqdm.py to _tqdm.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_tqdm_pandas.py to _tqdm_pandas.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/autonotebook.py to autonotebook.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/notebook.py to notebook.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/gui.py to gui.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/_utils.py to _utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tqdm/auto.py to auto.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing tqdm.egg-info/PKG-INFO
+writing dependency_links to tqdm.egg-info/dependency_links.txt
+writing entry points to tqdm.egg-info/entry_points.txt
+writing requirements to tqdm.egg-info/requires.txt
+writing top-level names to tqdm.egg-info/top_level.txt
+reading manifest file 'tqdm.egg-info/SOURCES.txt'
+adding license file 'LICENCE'
+writing manifest file 'tqdm.egg-info/SOURCES.txt'
+Copying tqdm.egg-info to install/lib/python3.9/site-packages/tqdm-4.62.3-py3.9.egg-info
+running install_scripts
+Installing tqdm script to install/bin
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 217651
+compressed package into 134566
+compressed in 58 ms
+[2021-12-19 02:47:37] Building package tqdm...
+[2021-12-19 02:48:54] done building package tqdm in 77.0 s.

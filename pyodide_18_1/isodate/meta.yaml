@@ -1,0 +1,17 @@
+package:
+  name: isodate
+  version: 0.6.1
+source:
+  url: https://files.pythonhosted.org/packages/db/7a/c0a56c7d56c7fa723988f122fa1f1ccf8c5c4ccc48efad0d214b49e5b1af/isodate-0.6.1.tar.gz
+  sha256: 48c5881de7e8b0a0d648cb024c8062dc84e7b840ed81e864c7614fd3c127bde9
+test:
+  imports:
+  - isodate
+requirements:
+  run:
+    - six
+about:
+  home: https://github.com/gweis/isodate/
+  PyPi: https://pypi.org/project/isodate
+  summary: An ISO 8601 date/time/duration parser and formatter
+  license: BSD

@@ -1,0 +1,240 @@
+patching file zarr/__init__.py
+patching file zarr/sync.py
+patching file setup.py
+running install
+running bdist_egg
+running egg_info
+writing zarr.egg-info/PKG-INFO
+writing dependency_links to zarr.egg-info/dependency_links.txt
+writing requirements to zarr.egg-info/requires.txt
+writing top-level names to zarr.egg-info/top_level.txt
+reading manifest file 'zarr.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'zarr.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/zarr
+copying ./zarr/sync.py -> build/lib/zarr
+copying ./zarr/convenience.py -> build/lib/zarr
+copying ./zarr/version.py -> build/lib/zarr
+copying ./zarr/creation.py -> build/lib/zarr
+copying ./zarr/util.py -> build/lib/zarr
+copying ./zarr/codecs.py -> build/lib/zarr
+copying ./zarr/__init__.py -> build/lib/zarr
+copying ./zarr/core.py -> build/lib/zarr
+copying ./zarr/meta_v1.py -> build/lib/zarr
+copying ./zarr/hierarchy.py -> build/lib/zarr
+copying ./zarr/storage.py -> build/lib/zarr
+copying ./zarr/errors.py -> build/lib/zarr
+copying ./zarr/n5.py -> build/lib/zarr
+copying ./zarr/indexing.py -> build/lib/zarr
+copying ./zarr/attrs.py -> build/lib/zarr
+copying ./zarr/meta.py -> build/lib/zarr
+creating build/lib/zarr/tests
+copying ./zarr/tests/test_sync.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_convenience.py -> build/lib/zarr/tests
+copying ./zarr/tests/util.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_core.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_attrs.py -> build/lib/zarr/tests
+copying ./zarr/tests/__init__.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_util.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_creation.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_indexing.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_storage.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_meta.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_hierarchy.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_filters.py -> build/lib/zarr/tests
+copying ./zarr/tests/test_info.py -> build/lib/zarr/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/sync.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/convenience.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/version.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/creation.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/util.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/codecs.py -> build/bdist.linux-x86_64/egg/zarr
+creating build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_sync.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_convenience.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/util.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_core.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_attrs.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/__init__.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_util.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_creation.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_indexing.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_storage.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_meta.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_hierarchy.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_filters.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/tests/test_info.py -> build/bdist.linux-x86_64/egg/zarr/tests
+copying build/lib/zarr/__init__.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/core.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/meta_v1.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/hierarchy.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/storage.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/errors.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/n5.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/indexing.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/attrs.py -> build/bdist.linux-x86_64/egg/zarr
+copying build/lib/zarr/meta.py -> build/bdist.linux-x86_64/egg/zarr
+byte-compiling build/bdist.linux-x86_64/egg/zarr/sync.py to sync.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/convenience.py to convenience.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/creation.py to creation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/codecs.py to codecs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_sync.py to test_sync.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_convenience.py to test_convenience.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_core.py to test_core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_attrs.py to test_attrs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_util.py to test_util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_creation.py to test_creation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_indexing.py to test_indexing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_storage.py to test_storage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_meta.py to test_meta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_hierarchy.py to test_hierarchy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_filters.py to test_filters.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/tests/test_info.py to test_info.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/meta_v1.py to meta_v1.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/hierarchy.py to hierarchy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/storage.py to storage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/errors.py to errors.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/n5.py to n5.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/indexing.py to indexing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/attrs.py to attrs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zarr/meta.py to meta.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying zarr.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying zarr.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying zarr.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying zarr.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying zarr.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/zarr-2.8.3-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing zarr-2.8.3-py3.9.egg
+Copying zarr-2.8.3-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding zarr 2.8.3 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/zarr-2.8.3-py3.9.egg
+Processing dependencies for zarr==2.8.3
+Searching for numcodecs==0.8.0
+Best match: numcodecs 0.8.0
+Processing numcodecs-0.8.0-py3.9-linux-x86_64.egg
+Adding numcodecs 0.8.0 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/numcodecs-0.8.0-py3.9-linux-x86_64.egg
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Searching for asciitree==0.3.3
+Best match: asciitree 0.3.3
+Processing asciitree-0.3.3-py3.9.egg
+Adding asciitree 0.3.3 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/asciitree-0.3.3-py3.9.egg
+Finished processing dependencies for zarr==2.8.3
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/sync.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/convenience.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/version.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/creation.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/util.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/codecs.py -> install/lib/python3.9/site-packages/zarr
+creating install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_sync.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_convenience.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/util.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_core.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_attrs.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/__init__.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_util.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_creation.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_indexing.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_storage.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_meta.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_hierarchy.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_filters.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/tests/test_info.py -> install/lib/python3.9/site-packages/zarr/tests
+copying build/lib/zarr/__init__.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/core.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/meta_v1.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/hierarchy.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/storage.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/errors.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/n5.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/indexing.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/attrs.py -> install/lib/python3.9/site-packages/zarr
+copying build/lib/zarr/meta.py -> install/lib/python3.9/site-packages/zarr
+byte-compiling install/lib/python3.9/site-packages/zarr/sync.py to sync.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/convenience.py to convenience.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/creation.py to creation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/codecs.py to codecs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_sync.py to test_sync.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_convenience.py to test_convenience.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_core.py to test_core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_attrs.py to test_attrs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_util.py to test_util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_creation.py to test_creation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_indexing.py to test_indexing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_storage.py to test_storage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_meta.py to test_meta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_hierarchy.py to test_hierarchy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_filters.py to test_filters.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/tests/test_info.py to test_info.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/meta_v1.py to meta_v1.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/hierarchy.py to hierarchy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/storage.py to storage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/errors.py to errors.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/n5.py to n5.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/indexing.py to indexing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/attrs.py to attrs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/zarr/meta.py to meta.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing zarr.egg-info/PKG-INFO
+writing dependency_links to zarr.egg-info/dependency_links.txt
+writing requirements to zarr.egg-info/requires.txt
+writing top-level names to zarr.egg-info/top_level.txt
+reading manifest file 'zarr.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'zarr.egg-info/SOURCES.txt'
+Copying zarr.egg-info to install/lib/python3.9/site-packages/zarr-2.8.3-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 837679
+compressed package into 392189
+compressed in 122 ms
+[2021-12-18 07:58:17] Building package zarr...
+[2021-12-18 08:02:32] done building package zarr in 254.6 s.

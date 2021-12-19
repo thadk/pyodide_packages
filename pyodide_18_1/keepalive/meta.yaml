@@ -1,0 +1,14 @@
+package:
+  name: keepalive
+  version: '0.5'
+source:
+  url: https://files.pythonhosted.org/packages/6a/11/8eaf21d74b06cfabd42ca9d2b7b216e071faa416753faeb3322f1863f585/keepalive-0.5.tar.gz
+  sha256: 3c6b96f9062a5a76022f0c9d41e9ef5552d80b1cadd4fccc1bf8f183ba1d1ec1
+test:
+  imports:
+  - keepalive
+about:
+  home: https://github.com/wikier/keepalive
+  PyPi: https://pypi.org/project/keepalive
+  summary: urllib keepalive support for python
+  license: GNU LGPL

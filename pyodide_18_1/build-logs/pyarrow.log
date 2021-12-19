@@ -1,0 +1,259 @@
+running install
+running bdist_egg
+running egg_info
+writing pyarrow.egg-info/PKG-INFO
+writing dependency_links to pyarrow.egg-info/dependency_links.txt
+writing entry points to pyarrow.egg-info/entry_points.txt
+writing requirements to pyarrow.egg-info/requires.txt
+writing top-level names to pyarrow.egg-info/top_level.txt
+reading manifest file 'pyarrow.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '../LICENSE.txt'
+warning: no files found matching '../NOTICE.txt'
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '#*' found anywhere in distribution
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '.DS_Store' found anywhere in distribution
+no previously-included directories found matching '.asv'
+writing manifest file 'pyarrow.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/orc.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_generated_version.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/compat.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/benchmark.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/parquet.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/ipc.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/util.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/flight.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/cffi.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/filesystem.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/__init__.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/plasma.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/types.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/dataset.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/cuda.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/feather.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/pandas_compat.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/fs.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/csv.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/jvm.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/hdfs.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/json.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/serialization.py -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/compute.py -> build/lib.linux-x86_64-3.9/pyarrow
+creating build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_tensor.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_ipc.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/conftest.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_convert_builtin.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_misc.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_gandiva.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/strategies.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_adhoc_memory_leak.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/arrow_7980.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/util.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_orc.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_table.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_array.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_deprecations.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_serialization_deprecated.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/__init__.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_io.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_util.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_cuda_numba_interop.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_cffi.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_schema.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_jvm.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_plasma_tf_op.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_fs.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_filesystem.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/pandas_threaded_import.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/pandas_examples.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_cython.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_sparse_tensor.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_dataset.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_builder.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_cuda.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_extension_type.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_feather.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_pandas.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_memory.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_flight.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_json.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_serialization.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_compute.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_hdfs.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/deserialize_buffer.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_strategies.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_csv.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_plasma.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_scalars.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/test_types.py -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/__init__.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_compute.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_compute.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_csv.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_csv.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_cuda.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_cuda.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_dataset.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_dataset.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_dataset_orc.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_feather.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_flight.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_fs.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_fs.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_hdfs.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_hdfsio.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_json.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_orc.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_orc.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_parquet.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_parquet.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_plasma.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/_s3fs.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/array.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/benchmark.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/builder.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/compat.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/config.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/error.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/gandiva.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/io.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/ipc.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/lib.pxd -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/lib.pyx -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/memory.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/pandas-shim.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/public-api.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/scalar.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/serialization.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/table.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/tensor.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+copying pyarrow/types.pxi -> build/lib.linux-x86_64-3.9/pyarrow
+creating build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/__init__.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/common.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow_cuda.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow_dataset.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow_feather.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow_flight.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libarrow_fs.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libgandiva.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+copying pyarrow/includes/libplasma.pxd -> build/lib.linux-x86_64-3.9/pyarrow/includes
+creating build/lib.linux-x86_64-3.9/pyarrow/tensorflow
+copying pyarrow/tensorflow/plasma_op.cc -> build/lib.linux-x86_64-3.9/pyarrow/tensorflow
+creating build/lib.linux-x86_64-3.9/pyarrow/vendored
+copying pyarrow/vendored/__init__.py -> build/lib.linux-x86_64-3.9/pyarrow/vendored
+copying pyarrow/vendored/version.py -> build/lib.linux-x86_64-3.9/pyarrow/vendored
+copying pyarrow/tests/bound_function_visit_strings.pyx -> build/lib.linux-x86_64-3.9/pyarrow/tests
+copying pyarrow/tests/pyarrow_cython_example.pyx -> build/lib.linux-x86_64-3.9/pyarrow/tests
+creating build/lib.linux-x86_64-3.9/pyarrow/tests/data
+creating build/lib.linux-x86_64-3.9/pyarrow/tests/data/feather
+copying pyarrow/tests/data/feather/v0.17.0.version=2-compression=lz4.feather -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/feather
+creating build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/README.md -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.emptyFile.jsn.gz -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.emptyFile.orc -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.test1.jsn.gz -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.test1.orc -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.testDate1900.jsn.gz -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/TestOrcFile.testDate1900.orc -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/decimal.jsn.gz -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+copying pyarrow/tests/data/orc/decimal.orc -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/orc
+creating build/lib.linux-x86_64-3.9/pyarrow/tests/data/parquet
+copying pyarrow/tests/data/parquet/v0.7.1.all-named-index.parquet -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/parquet
+copying pyarrow/tests/data/parquet/v0.7.1.column-metadata-handling.parquet -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/parquet
+copying pyarrow/tests/data/parquet/v0.7.1.parquet -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/parquet
+copying pyarrow/tests/data/parquet/v0.7.1.some-named-index.parquet -> build/lib.linux-x86_64-3.9/pyarrow/tests/data/parquet
+creating build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/common.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/conftest.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_basic.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_compliant_nested_type.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_data_types.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_dataset.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_datetime.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_metadata.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_pandas.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_parquet_file.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+copying pyarrow/tests/parquet/test_parquet_writer.py -> build/lib.linux-x86_64-3.9/pyarrow/tests/parquet
+running build_ext
+creating /src/packages/pyarrow/build/pyarrow-6.0.1/build/temp.linux-x86_64-3.9
+-- Running cmake for pyarrow
+cmake -DPYTHON_EXECUTABLE=/usr/local/bin/python3 -DPython3_EXECUTABLE=/usr/local/bin/python3  -DPYARROW_BUILD_CUDA=off -DPYARROW_BUILD_FLIGHT=off -DPYARROW_BUILD_GANDIVA=off -DPYARROW_BUILD_DATASET=off -DPYARROW_BUILD_ORC=off -DPYARROW_BUILD_PARQUET=off -DPYARROW_BUILD_PLASMA=off -DPYARROW_BUILD_S3=off -DPYARROW_BUILD_HDFS=off -DPYARROW_USE_TENSORFLOW=off -DPYARROW_BUNDLE_ARROW_CPP=off -DPYARROW_BUNDLE_BOOST=off -DPYARROW_GENERATE_COVERAGE=off -DPYARROW_BOOST_USE_SHARED=on -DPYARROW_PARQUET_USE_SHARED=on -DCMAKE_BUILD_TYPE=release /src/packages/pyarrow/build/pyarrow-6.0.1
+-- The C compiler identification is GNU 8.3.0
+-- The CXX compiler identification is GNU 8.3.0
+-- Check for working C compiler: /src/tools/cc
+-- Check for working C compiler: /src/tools/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /src/tools/c++
+-- Check for working CXX compiler: /src/tools/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- System processor: x86_64
+-- Performing Test CXX_SUPPORTS_SSE4_2
+-- Performing Test CXX_SUPPORTS_SSE4_2 - Success
+-- Performing Test CXX_SUPPORTS_AVX2
+-- Performing Test CXX_SUPPORTS_AVX2 - Success
+-- Performing Test CXX_SUPPORTS_AVX512
+-- Performing Test CXX_SUPPORTS_AVX512 - Success
+-- Arrow build warning level: PRODUCTION
+Using ld linker
+Configured for RELEASE build (set with cmake -DCMAKE_BUILD_TYPE={release,debug,...})
+-- Build Type: RELEASE
+-- Generator: Unix Makefiles
+-- Build output directory: /src/packages/pyarrow/build/pyarrow-6.0.1/build/temp.linux-x86_64-3.9/release
+-- Found PythonInterp: /usr/local/bin/python3 (found version "3.9.5") 
+CMake Error at cmake_modules/FindPythonLibsNew.cmake:129 (math):
+  math cannot parse the expression: " * 8": syntax error, unexpected
+  exp_TIMES, expecting exp_PLUS or exp_MINUS or exp_OPENPARENT or exp_NUMBER
+  (2).
+Call Stack (most recent call first):
+  cmake_modules/FindPython3Alt.cmake:30 (find_package)
+  CMakeLists.txt:215 (find_package)
+
+
+CMake Error at cmake_modules/FindPythonLibsNew.cmake:130 (message):
+  Python config failure: Python is 64-bit, chosen compiler is ERROR-bit
+Call Stack (most recent call first):
+  cmake_modules/FindPython3Alt.cmake:30 (find_package)
+  CMakeLists.txt:215 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/src/packages/pyarrow/build/pyarrow-6.0.1/build/temp.linux-x86_64-3.9/CMakeFiles/CMakeOutput.log".
+error: command '/usr/bin/cmake' failed with exit code 1
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 50, in <module>
+    main()
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 44, in main
+    args.func(args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 353, in main
+    build_package(path, args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 288, in build_package
+    compile(path, srcpath, pkg, args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 147, in compile
+    subprocess.run(
+  File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/local/bin/python3', '-m', 'pyodide_build', 'pywasmcross', '--cflags', '-O2 -g -fPIC ', '--cxxflags', ' ', '--ldflags', '-s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/  -s SIDE_MODULE=1 ', '--target', '/src/cpython/installs/python-3.9.5', '--install-dir', '/src/packages/.artifacts', '--replace-libs', '']' returned non-zero exit status 1.
+[2021-12-19 04:04:43] Building package pyarrow...
+[2021-12-19 04:19:07] done building package pyarrow in 864.5 s.

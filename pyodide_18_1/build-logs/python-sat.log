@@ -1,0 +1,988 @@
+patching file cardenc/pycard.cc
+patching file solvers/pysolvers.cc
+Hunk #2 succeeded at 512 (offset 18 lines).
+patching file setup.py
+patching file solvers/prepare.py
+patching file solvers/cadical/Makefile
+patching file solvers/cadical/build.hpp
+patching file solvers/cadical/cadical.hpp
+patching file solvers/cadical/contract.hpp
+patching file solvers/cadical/file.hpp
+patching file solvers/cadical/file0.cpp
+patching file solvers/cadical/make-build-header.sh
+patching file solvers/cadical/resources.cpp
+patching file solvers/cadical/signal.cpp
+patching file solvers/cadical/solver.cpp
+patching file solvers/cadical/version.cpp
+patching file solvers/glucose30/Makefile
+patching file solvers/glucose30/core/BoundedQueue.h
+patching file solvers/glucose30/core/Solver.cc
+patching file solvers/glucose30/core/Solver.h
+patching file solvers/glucose30/core/SolverTypes.h
+patching file solvers/glucose30/mtl/Alg.h
+patching file solvers/glucose30/mtl/Alloc.h
+patching file solvers/glucose30/mtl/Heap.h
+patching file solvers/glucose30/mtl/IntTypes.h
+patching file solvers/glucose30/mtl/Map.h
+patching file solvers/glucose30/mtl/Queue.h
+patching file solvers/glucose30/mtl/Sort.h
+patching file solvers/glucose30/mtl/Vec.h
+patching file solvers/glucose30/mtl/XAlloc.h
+patching file solvers/glucose30/utils/Options.cc
+patching file solvers/glucose30/utils/Options.h
+patching file solvers/glucose30/utils/ParseUtils.h
+patching file solvers/glucose30/utils/System.cc
+patching file solvers/glucose30/utils/System.h
+patching file solvers/glucose41/Makefile
+patching file solvers/glucose41/core/BoundedQueue.h
+patching file solvers/glucose41/core/Solver.cc
+patching file solvers/glucose41/core/Solver.h
+patching file solvers/glucose41/core/SolverStats.h
+patching file solvers/glucose41/core/SolverTypes.h
+patching file solvers/glucose41/mtl/Alg.h
+patching file solvers/glucose41/mtl/Alloc.h
+patching file solvers/glucose41/mtl/Clone.h
+patching file solvers/glucose41/mtl/Heap.h
+patching file solvers/glucose41/mtl/IntTypes.h
+patching file solvers/glucose41/mtl/Map.h
+patching file solvers/glucose41/mtl/Queue.h
+patching file solvers/glucose41/mtl/Sort.h
+patching file solvers/glucose41/mtl/Vec.h
+patching file solvers/glucose41/mtl/VecThreads.h
+patching file solvers/glucose41/mtl/XAlloc.h
+patching file solvers/glucose41/utils/Options.cc
+patching file solvers/glucose41/utils/Options.h
+patching file solvers/glucose41/utils/ParseUtils.h
+patching file solvers/glucose41/utils/System.cc
+patching file solvers/glucose41/utils/System.h
+patching file solvers/maplechrono/Makefile
+patching file solvers/maplechrono/core/Solver.cc
+patching file solvers/maplechrono/core/Solver.h
+patching file solvers/maplechrono/core/SolverTypes.h
+patching file solvers/maplechrono/mtl/Alg.h
+patching file solvers/maplechrono/mtl/Alloc.h
+patching file solvers/maplechrono/mtl/Heap.h
+patching file solvers/maplechrono/mtl/IntTypes.h
+patching file solvers/maplechrono/mtl/Map.h
+patching file solvers/maplechrono/mtl/Queue.h
+patching file solvers/maplechrono/mtl/Sort.h
+patching file solvers/maplechrono/mtl/Vec.h
+patching file solvers/maplechrono/mtl/XAlloc.h
+patching file solvers/maplechrono/utils/Options.cc
+patching file solvers/maplechrono/utils/Options.h
+patching file solvers/maplechrono/utils/ParseUtils.h
+patching file solvers/maplechrono/utils/System.cc
+patching file solvers/maplechrono/utils/System.h
+patching file solvers/maplecm/Makefile
+patching file solvers/maplecm/core/Solver.cc
+patching file solvers/maplecm/core/Solver.h
+patching file solvers/maplecm/core/SolverTypes.h
+patching file solvers/maplecm/mtl/Alg.h
+patching file solvers/maplecm/mtl/Alloc.h
+patching file solvers/maplecm/mtl/Heap.h
+patching file solvers/maplecm/mtl/IntTypes.h
+patching file solvers/maplecm/mtl/Map.h
+patching file solvers/maplecm/mtl/Queue.h
+patching file solvers/maplecm/mtl/Sort.h
+patching file solvers/maplecm/mtl/Vec.h
+patching file solvers/maplecm/mtl/XAlloc.h
+patching file solvers/maplecm/utils/Options.cc
+patching file solvers/maplecm/utils/Options.h
+patching file solvers/maplecm/utils/ParseUtils.h
+patching file solvers/maplecm/utils/System.cc
+patching file solvers/maplecm/utils/System.h
+patching file solvers/maplesat/Makefile
+patching file solvers/maplesat/core/Solver.cc
+patching file solvers/maplesat/core/Solver.h
+patching file solvers/maplesat/core/SolverTypes.h
+patching file solvers/maplesat/mtl/Alg.h
+patching file solvers/maplesat/mtl/Alloc.h
+patching file solvers/maplesat/mtl/Heap.h
+patching file solvers/maplesat/mtl/IntTypes.h
+patching file solvers/maplesat/mtl/Map.h
+patching file solvers/maplesat/mtl/Queue.h
+patching file solvers/maplesat/mtl/Sort.h
+patching file solvers/maplesat/mtl/Vec.h
+patching file solvers/maplesat/mtl/XAlloc.h
+patching file solvers/maplesat/utils/Options.cc
+patching file solvers/maplesat/utils/Options.h
+patching file solvers/maplesat/utils/ParseUtils.h
+patching file solvers/maplesat/utils/System.cc
+patching file solvers/maplesat/utils/System.h
+patching file solvers/minicard/Makefile
+patching file solvers/minicard/core/Solver.cc
+patching file solvers/minicard/core/Solver.h
+patching file solvers/minicard/core/SolverTypes.h
+patching file solvers/minicard/mtl/Alg.h
+patching file solvers/minicard/mtl/Alloc.h
+patching file solvers/minicard/mtl/Heap.h
+patching file solvers/minicard/mtl/IntTypes.h
+patching file solvers/minicard/mtl/Map.h
+patching file solvers/minicard/mtl/Queue.h
+patching file solvers/minicard/mtl/Sort.h
+patching file solvers/minicard/mtl/Vec.h
+patching file solvers/minicard/mtl/XAlloc.h
+patching file solvers/minicard/utils/Options.cc
+patching file solvers/minicard/utils/Options.h
+patching file solvers/minicard/utils/ParseUtils.h
+patching file solvers/minicard/utils/System.cc
+patching file solvers/minicard/utils/System.h
+patching file solvers/minisat22/Makefile
+patching file solvers/minisat22/core/Solver.cc
+patching file solvers/minisat22/core/Solver.h
+patching file solvers/minisat22/core/SolverTypes.h
+patching file solvers/minisat22/libminisat22.a
+patching file solvers/minisat22/mtl/Alg.h
+patching file solvers/minisat22/mtl/Alloc.h
+patching file solvers/minisat22/mtl/Heap.h
+patching file solvers/minisat22/mtl/IntTypes.h
+patching file solvers/minisat22/mtl/Map.h
+patching file solvers/minisat22/mtl/Queue.h
+patching file solvers/minisat22/mtl/Sort.h
+patching file solvers/minisat22/mtl/Vec.h
+patching file solvers/minisat22/mtl/XAlloc.h
+patching file solvers/minisat22/utils/Options.cc
+patching file solvers/minisat22/utils/Options.h
+patching file solvers/minisat22/utils/ParseUtils.h
+patching file solvers/minisat22/utils/System.cc
+patching file solvers/minisat22/utils/System.h
+patching file solvers/minisatgh/Makefile
+patching file solvers/minisatgh/core/Solver.cc
+patching file solvers/minisatgh/core/Solver.h
+patching file solvers/minisatgh/core/SolverTypes.h
+patching file solvers/minisatgh/mtl/Alg.h
+patching file solvers/minisatgh/mtl/Alloc.h
+patching file solvers/minisatgh/mtl/Heap.h
+patching file solvers/minisatgh/mtl/IntMap.h
+patching file solvers/minisatgh/mtl/IntTypes.h
+patching file solvers/minisatgh/mtl/Map.h
+patching file solvers/minisatgh/mtl/Queue.h
+patching file solvers/minisatgh/mtl/Rnd.h
+patching file solvers/minisatgh/mtl/Sort.h
+patching file solvers/minisatgh/mtl/Vec.h
+patching file solvers/minisatgh/mtl/XAlloc.h
+patching file solvers/minisatgh/utils/Options.cc
+patching file solvers/minisatgh/utils/Options.h
+patching file solvers/minisatgh/utils/ParseUtils.h
+patching file solvers/minisatgh/utils/System.cc
+patching file solvers/minisatgh/utils/System.h
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'license-file' will not be supported in future versions. Please use the underscore name 'license_file' instead
+  warnings.warn(
+preparing cadical
+not downloading solvers/cadical.tar.gz since it exists locally
+extracting solvers/cadical.tar.gz
+adapting cadical's files
+patching cadical
+preparing glucose30
+not downloading solvers/glucose30.tar.gz since it exists locally
+extracting solvers/glucose30.tar.gz
+adapting glucose30's files
+patching glucose30
+preparing glucose41
+not downloading solvers/glucose41.tar.gz since it exists locally
+extracting solvers/glucose41.tar.gz
+adapting glucose41's files
+patching glucose41
+preparing maplechrono
+not downloading solvers/maplechrono.zip since it exists locally
+extracting solvers/maplechrono.zip
+adapting maplechrono's files
+patching maplechrono
+preparing maplecm
+not downloading solvers/maplecm.zip since it exists locally
+extracting solvers/maplecm.zip
+adapting maplecm's files
+patching maplecm
+preparing maplesat
+not downloading solvers/maplesat.zip since it exists locally
+extracting solvers/maplesat.zip
+adapting maplesat's files
+patching maplesat
+preparing minicard
+not downloading solvers/minicard.tar.gz since it exists locally
+extracting solvers/minicard.tar.gz
+adapting minicard's files
+patching minicard
+preparing minisat22
+not downloading solvers/minisat22.tar.gz since it exists locally
+extracting solvers/minisat22.tar.gz
+adapting minisat22's files
+patching minisat22
+preparing minisatgh
+not downloading solvers/minisatgh.zip since it exists locally
+extracting solvers/minisatgh.zip
+adapting minisatgh's files
+patching minisatgh
+running install
+running bdist_egg
+running egg_info
+writing python_sat.egg-info/PKG-INFO
+writing dependency_links to python_sat.egg-info/dependency_links.txt
+writing requirements to python_sat.egg-info/requires.txt
+writing top-level names to python_sat.egg-info/top_level.txt
+reading manifest file 'python_sat.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'python_sat.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/pysat
+copying pysat/pb.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/_fileio.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/formula.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/__init__.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/solvers.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/card.py -> build/lib.linux-x86_64-3.9/pysat
+copying pysat/_utils.py -> build/lib.linux-x86_64-3.9/pysat
+creating build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/models.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/lbx.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/musx.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/hitman.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/rc2.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/__init__.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/fm.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/mcsls.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/lsu.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/genhard.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/sudoku.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/hornify.py -> build/lib.linux-x86_64-3.9/pysat/examples
+copying examples/usage.py -> build/lib.linux-x86_64-3.9/pysat/examples
+running build_ext
+building 'pycard' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/cardenc
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Icardenc -I/usr/local/include/python3.9 -c cardenc/pycard.cc -o build/temp.linux-x86_64-3.9/cardenc/pycard.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET
+c++ -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cardenc/pycard.o -L/usr/local/lib -lstdc++ -o build/lib.linux-x86_64-3.9/pycard.cpython-39-x86_64-linux-gnu.so
+building 'pysolvers' extension
+creating build/temp.linux-x86_64-3.9/solvers
+creating build/temp.linux-x86_64-3.9/solvers/cadical
+creating build/temp.linux-x86_64-3.9/solvers/glucose30
+creating build/temp.linux-x86_64-3.9/solvers/glucose30/core
+creating build/temp.linux-x86_64-3.9/solvers/glucose30/utils
+creating build/temp.linux-x86_64-3.9/solvers/glucose41
+creating build/temp.linux-x86_64-3.9/solvers/glucose41/core
+creating build/temp.linux-x86_64-3.9/solvers/glucose41/utils
+creating build/temp.linux-x86_64-3.9/solvers/maplechrono
+creating build/temp.linux-x86_64-3.9/solvers/maplechrono/core
+creating build/temp.linux-x86_64-3.9/solvers/maplechrono/utils
+creating build/temp.linux-x86_64-3.9/solvers/maplecm
+creating build/temp.linux-x86_64-3.9/solvers/maplecm/core
+creating build/temp.linux-x86_64-3.9/solvers/maplecm/utils
+creating build/temp.linux-x86_64-3.9/solvers/maplesat
+creating build/temp.linux-x86_64-3.9/solvers/maplesat/core
+creating build/temp.linux-x86_64-3.9/solvers/maplesat/utils
+creating build/temp.linux-x86_64-3.9/solvers/minicard
+creating build/temp.linux-x86_64-3.9/solvers/minicard/core
+creating build/temp.linux-x86_64-3.9/solvers/minicard/utils
+creating build/temp.linux-x86_64-3.9/solvers/minisat22
+creating build/temp.linux-x86_64-3.9/solvers/minisat22/core
+creating build/temp.linux-x86_64-3.9/solvers/minisat22/utils
+creating build/temp.linux-x86_64-3.9/solvers/minisatgh
+creating build/temp.linux-x86_64-3.9/solvers/minisatgh/core
+creating build/temp.linux-x86_64-3.9/solvers/minisatgh/utils
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/analyze.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/analyze.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/arena.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/arena.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/assume.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/assume.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/averages.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/averages.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/backtrack.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/backtrack.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/backward.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/backward.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/bins.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/bins.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/block.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/block.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/ccadical.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ccadical.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/checker.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/checker.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/clause.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/clause.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/collect.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/collect.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/compact.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/compact.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/config.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/config.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/cover.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/cover.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/decide.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/decide.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/decompose.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/decompose.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/deduplicate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/deduplicate.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/elim.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/elim.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/ema.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ema.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/extend.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/extend.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/external.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/external.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/file0.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/file0.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/flags.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/flags.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/format.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/format.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/gates.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/gates.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/instantiate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/instantiate.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/internal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/internal.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/ipasir.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ipasir.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/limit.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/limit.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/logging.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/logging.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/lucky.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/lucky.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/message.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/message.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/minimize.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/minimize.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/occs.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/occs.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/options.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/parse.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/parse.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/phases.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/phases.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/probe.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/probe.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/profile.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/profile.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/proof.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/proof.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/propagate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/propagate.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/queue.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/queue.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/random.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/random.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/reduce.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/reduce.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/rephase.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/rephase.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/report.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/report.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/resources.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/resources.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/restart.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/restart.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/restore.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/restore.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/score.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/score.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/signal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/signal.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/solution.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/solution.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/solver.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/stats.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/stats.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/subsume.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/subsume.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/terminal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/terminal.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/ternary.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ternary.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/tracer.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/tracer.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/transred.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/transred.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/util.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/util.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/var.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/var.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/version.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/version.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/vivify.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/vivify.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/walk.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/walk.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/cadical/watch.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/watch.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose30/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose30/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose30/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose41/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose41/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/glucose41/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplechrono/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplechrono/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplechrono/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplecm/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplecm/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplecm/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplesat/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplesat/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/maplesat/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minicard/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minicard/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minicard/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisat22/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisat22/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisat22/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisatgh/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/core/Solver.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisatgh/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/Options.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/minisatgh/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/System.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Isolvers -I/usr/local/include/python3.9 -c solvers/pysolvers.cc -o build/temp.linux-x86_64-3.9/solvers/pysolvers.o -std=c++11 -O3 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+c++ -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/solvers/cadical/analyze.o build/temp.linux-x86_64-3.9/solvers/cadical/arena.o build/temp.linux-x86_64-3.9/solvers/cadical/assume.o build/temp.linux-x86_64-3.9/solvers/cadical/averages.o build/temp.linux-x86_64-3.9/solvers/cadical/backtrack.o build/temp.linux-x86_64-3.9/solvers/cadical/backward.o build/temp.linux-x86_64-3.9/solvers/cadical/bins.o build/temp.linux-x86_64-3.9/solvers/cadical/block.o build/temp.linux-x86_64-3.9/solvers/cadical/ccadical.o build/temp.linux-x86_64-3.9/solvers/cadical/checker.o build/temp.linux-x86_64-3.9/solvers/cadical/clause.o build/temp.linux-x86_64-3.9/solvers/cadical/collect.o build/temp.linux-x86_64-3.9/solvers/cadical/compact.o build/temp.linux-x86_64-3.9/solvers/cadical/config.o build/temp.linux-x86_64-3.9/solvers/cadical/cover.o build/temp.linux-x86_64-3.9/solvers/cadical/decide.o build/temp.linux-x86_64-3.9/solvers/cadical/decompose.o build/temp.linux-x86_64-3.9/solvers/cadical/deduplicate.o build/temp.linux-x86_64-3.9/solvers/cadical/elim.o build/temp.linux-x86_64-3.9/solvers/cadical/ema.o build/temp.linux-x86_64-3.9/solvers/cadical/extend.o build/temp.linux-x86_64-3.9/solvers/cadical/external.o build/temp.linux-x86_64-3.9/solvers/cadical/file0.o build/temp.linux-x86_64-3.9/solvers/cadical/flags.o build/temp.linux-x86_64-3.9/solvers/cadical/format.o build/temp.linux-x86_64-3.9/solvers/cadical/gates.o build/temp.linux-x86_64-3.9/solvers/cadical/instantiate.o build/temp.linux-x86_64-3.9/solvers/cadical/internal.o build/temp.linux-x86_64-3.9/solvers/cadical/ipasir.o build/temp.linux-x86_64-3.9/solvers/cadical/limit.o build/temp.linux-x86_64-3.9/solvers/cadical/logging.o build/temp.linux-x86_64-3.9/solvers/cadical/lucky.o build/temp.linux-x86_64-3.9/solvers/cadical/message.o build/temp.linux-x86_64-3.9/solvers/cadical/minimize.o build/temp.linux-x86_64-3.9/solvers/cadical/occs.o build/temp.linux-x86_64-3.9/solvers/cadical/options.o build/temp.linux-x86_64-3.9/solvers/cadical/parse.o build/temp.linux-x86_64-3.9/solvers/cadical/phases.o build/temp.linux-x86_64-3.9/solvers/cadical/probe.o build/temp.linux-x86_64-3.9/solvers/cadical/profile.o build/temp.linux-x86_64-3.9/solvers/cadical/proof.o build/temp.linux-x86_64-3.9/solvers/cadical/propagate.o build/temp.linux-x86_64-3.9/solvers/cadical/queue.o build/temp.linux-x86_64-3.9/solvers/cadical/random.o build/temp.linux-x86_64-3.9/solvers/cadical/reduce.o build/temp.linux-x86_64-3.9/solvers/cadical/rephase.o build/temp.linux-x86_64-3.9/solvers/cadical/report.o build/temp.linux-x86_64-3.9/solvers/cadical/resources.o build/temp.linux-x86_64-3.9/solvers/cadical/restart.o build/temp.linux-x86_64-3.9/solvers/cadical/restore.o build/temp.linux-x86_64-3.9/solvers/cadical/score.o build/temp.linux-x86_64-3.9/solvers/cadical/signal.o build/temp.linux-x86_64-3.9/solvers/cadical/solution.o build/temp.linux-x86_64-3.9/solvers/cadical/solver.o build/temp.linux-x86_64-3.9/solvers/cadical/stats.o build/temp.linux-x86_64-3.9/solvers/cadical/subsume.o build/temp.linux-x86_64-3.9/solvers/cadical/terminal.o build/temp.linux-x86_64-3.9/solvers/cadical/ternary.o build/temp.linux-x86_64-3.9/solvers/cadical/tracer.o build/temp.linux-x86_64-3.9/solvers/cadical/transred.o build/temp.linux-x86_64-3.9/solvers/cadical/util.o build/temp.linux-x86_64-3.9/solvers/cadical/var.o build/temp.linux-x86_64-3.9/solvers/cadical/version.o build/temp.linux-x86_64-3.9/solvers/cadical/vivify.o build/temp.linux-x86_64-3.9/solvers/cadical/walk.o build/temp.linux-x86_64-3.9/solvers/cadical/watch.o build/temp.linux-x86_64-3.9/solvers/glucose30/core/Solver.o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/Options.o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/System.o build/temp.linux-x86_64-3.9/solvers/glucose41/core/Solver.o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/Options.o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplechrono/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplecm/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplesat/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/System.o build/temp.linux-x86_64-3.9/solvers/minicard/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minicard/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minicard/utils/System.o build/temp.linux-x86_64-3.9/solvers/minisat22/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/System.o build/temp.linux-x86_64-3.9/solvers/minisatgh/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/System.o build/temp.linux-x86_64-3.9/solvers/pysolvers.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/pysolvers.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/pb.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/_fileio.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/formula.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/__init__.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/solvers.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pysat/card.py -> build/bdist.linux-x86_64/egg/pysat
+creating build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/models.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/lbx.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/musx.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/hitman.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/rc2.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/__init__.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/fm.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/mcsls.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/lsu.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/genhard.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/sudoku.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/hornify.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/usage.py -> build/bdist.linux-x86_64/egg/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/_utils.py -> build/bdist.linux-x86_64/egg/pysat
+copying build/lib.linux-x86_64-3.9/pycard.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-3.9/pysolvers.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/pysat/pb.py to pb.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/_fileio.py to _fileio.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/formula.py to formula.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/solvers.py to solvers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/card.py to card.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/models.py to models.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/lbx.py to lbx.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/musx.py to musx.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/hitman.py to hitman.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/rc2.py to rc2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/fm.py to fm.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/mcsls.py to mcsls.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/lsu.py to lsu.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/genhard.py to genhard.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/sudoku.py to sudoku.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/hornify.py to hornify.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/examples/usage.py to usage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysat/_utils.py to _utils.cpython-39.pyc
+creating stub loader for pycard.cpython-39-x86_64-linux-gnu.so
+creating stub loader for pysolvers.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/pycard.py to pycard.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pysolvers.py to pysolvers.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.9
+copying and adjusting examples/fm.py -> build/scripts-3.9
+copying and adjusting examples/genhard.py -> build/scripts-3.9
+copying and adjusting examples/lbx.py -> build/scripts-3.9
+copying and adjusting examples/lsu.py -> build/scripts-3.9
+copying and adjusting examples/mcsls.py -> build/scripts-3.9
+copying and adjusting examples/models.py -> build/scripts-3.9
+copying and adjusting examples/musx.py -> build/scripts-3.9
+copying and adjusting examples/rc2.py -> build/scripts-3.9
+changing mode of build/scripts-3.9/fm.py from 644 to 755
+changing mode of build/scripts-3.9/genhard.py from 644 to 755
+changing mode of build/scripts-3.9/lbx.py from 644 to 755
+changing mode of build/scripts-3.9/lsu.py from 644 to 755
+changing mode of build/scripts-3.9/mcsls.py from 644 to 755
+changing mode of build/scripts-3.9/models.py from 644 to 755
+changing mode of build/scripts-3.9/musx.py from 644 to 755
+changing mode of build/scripts-3.9/rc2.py from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/models.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/lbx.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/musx.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/rc2.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/fm.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/mcsls.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/lsu.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/genhard.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/models.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/lbx.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/musx.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rc2.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/fm.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/mcsls.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/lsu.py to 755
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/genhard.py to 755
+copying python_sat.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_sat.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_sat.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_sat.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_sat.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+__pycache__.pycard.cpython-39: module references __file__
+__pycache__.pysolvers.cpython-39: module references __file__
+creating dist
+creating 'dist/python_sat-0.1.6.dev6-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_sat-0.1.6.dev6-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/python_sat-0.1.6.dev6-py3.9-linux-x86_64.egg
+Extracting python_sat-0.1.6.dev6-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding python-sat 0.1.6.dev6 to easy-install.pth file
+Installing models.py script to /src/packages/.artifacts/bin
+Installing lbx.py script to /src/packages/.artifacts/bin
+Installing musx.py script to /src/packages/.artifacts/bin
+Installing rc2.py script to /src/packages/.artifacts/bin
+Installing fm.py script to /src/packages/.artifacts/bin
+Installing mcsls.py script to /src/packages/.artifacts/bin
+Installing lsu.py script to /src/packages/.artifacts/bin
+Installing genhard.py script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/python_sat-0.1.6.dev6-py3.9-linux-x86_64.egg
+Processing dependencies for python-sat==0.1.6.dev6
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for python-sat==0.1.6.dev6
+solvers/cadical/collect.cpp:156:11: warning: variable 'collected_bytes' set but not used [-Wunused-but-set-variable]
+  int64_t collected_bytes = 0, collected_clauses = 0;
+          ^
+solvers/cadical/collect.cpp:205:33: warning: variable 'collected_bytes' set but not used [-Wunused-but-set-variable]
+  size_t collected_clauses = 0, collected_bytes = 0;
+                                ^
+2 warnings generated.
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Icardenc -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cardenc/pycard.cc -o build/temp.linux-x86_64-3.9/cardenc/pycard.o -std=c++11 -Wall -Wno-deprecated -DQUIET
+em++ -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cardenc/pycard.o -lstdc++ -o build/lib.linux-x86_64-3.9/pycard.cpython-39-x86_64-linux-gnu.so
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/analyze.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/analyze.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/arena.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/arena.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/assume.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/assume.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/averages.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/averages.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/backtrack.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/backtrack.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/backward.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/backward.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/bins.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/bins.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/block.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/block.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/ccadical.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ccadical.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/checker.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/checker.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/clause.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/clause.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/collect.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/collect.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/compact.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/compact.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/config.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/config.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/cover.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/cover.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/decide.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/decide.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/decompose.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/decompose.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/deduplicate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/deduplicate.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/elim.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/elim.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/ema.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ema.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/extend.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/extend.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/external.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/external.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/file0.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/file0.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/flags.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/flags.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/format.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/format.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/gates.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/gates.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/instantiate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/instantiate.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/internal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/internal.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/ipasir.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ipasir.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/limit.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/limit.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/logging.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/logging.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/lucky.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/lucky.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/message.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/message.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/minimize.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/minimize.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/occs.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/occs.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/options.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/parse.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/parse.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/phases.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/phases.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/probe.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/probe.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/profile.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/profile.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/proof.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/proof.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/propagate.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/propagate.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/queue.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/queue.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/random.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/random.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/reduce.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/reduce.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/rephase.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/rephase.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/report.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/report.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/resources.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/resources.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/restart.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/restart.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/restore.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/restore.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/score.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/score.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/signal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/signal.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/solution.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/solution.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/solver.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/stats.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/stats.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+solvers/glucose30/core/Solver.cc:340:5: warning: misleading indentation; statement is not part of the previous 'if' [-Wmisleading-indentation]
+    for (int i = 0; i < c.size(); i++)
+    ^
+solvers/glucose30/core/Solver.cc:336:3: note: previous statement is here
+  if(incremental)  // Check clauses with many selectors is too time consuming
+  ^
+1 warning generated.
+solvers/glucose30/utils/Options.cc:65:9: warning: misleading indentation; statement is not part of the previous 'if' [-Wmisleading-indentation]
+        sort(Option::getOptionList(), Option::OptionLt());
+        ^
+solvers/glucose30/utils/Options.cc:62:5: note: previous statement is here
+    if (usage != NULL)
+    ^
+1 warning generated.
+solvers/glucose41/core/Solver.cc:775:49: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                if(chanseokStrategy && nblevels <= coLBDBound) {
+                                       ~~~~~~~~ ^  ~~~~~~~~~~
+solvers/glucose41/core/Solver.cc:1469:24: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+            if(c.lbd() <= coLBDBound) {
+               ~~~~~~~ ^  ~~~~~~~~~~
+solvers/glucose41/core/Solver.cc:1615:49: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                if(chanseokStrategy && nblevels <= coLBDBound) {
+                                       ~~~~~~~~ ^  ~~~~~~~~~~
+3 warnings generated.
+solvers/glucose41/utils/Options.cc:66:9: warning: misleading indentation; statement is not part of the previous 'if' [-Wmisleading-indentation]
+        sort(Option::getOptionList(), Option::OptionLt());
+        ^
+solvers/glucose41/utils/Options.cc:63:5: note: previous statement is here
+    if (usage != NULL)
+    ^
+1 warning generated.
+solvers/maplechrono/core/Solver.cc:395:21: warning: variable 'afterSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+                    ^
+solvers/maplechrono/core/Solver.cc:395:9: warning: variable 'beforeSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+        ^
+solvers/maplechrono/core/Solver.cc:454:9: warning: variable 'beforeSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+        ^
+solvers/maplechrono/core/Solver.cc:454:21: warning: variable 'afterSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+                    ^
+solvers/maplechrono/core/Solver.cc:530:34: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                    if (nblevels < c.lbd()){
+                        ~~~~~~~~ ^ ~~~~~~~
+solvers/maplechrono/core/Solver.cc:565:9: warning: variable 'beforeSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+        ^
+solvers/maplechrono/core/Solver.cc:565:21: warning: variable 'afterSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+                    ^
+solvers/maplechrono/core/Solver.cc:669:34: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                    if (nblevels < c.lbd()){
+                        ~~~~~~~~ ^ ~~~~~~~
+solvers/maplechrono/core/Solver.cc:690:9: warning: variable 'beforeSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+        ^
+solvers/maplechrono/core/Solver.cc:690:21: warning: variable 'afterSize' set but not used [-Wunused-but-set-variable]
+    int beforeSize, afterSize;
+                    ^
+solvers/maplechrono/core/Solver.cc:795:34: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                    if (nblevels < c.lbd()){
+                        ~~~~~~~~ ^ ~~~~~~~
+solvers/maplechrono/core/Solver.cc:1915:19: warning: comparison of integers of different signs: 'uint64_t' (aka 'unsigned long long') and 'long' [-Wsign-compare]
+    if (conflicts >= curSimplify * nbconfbeforesimplify){
+        ~~~~~~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+solvers/maplechrono/core/Solver.cc:1956:57: warning: comparison of integers of different signs: 'int' and 'uint64_t' (aka 'unsigned long long') [-Wsign-compare]
+            if ((confl_to_chrono < 0 || confl_to_chrono <= conflicts) && chrono > -1 && (decisionLevel() - backtrack_level) >= chrono)
+                                        ~~~~~~~~~~~~~~~ ^  ~~~~~~~~~
+13 warnings generated.
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/subsume.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/subsume.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/terminal.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/terminal.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/ternary.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/ternary.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/tracer.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/tracer.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/transred.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/transred.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/util.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/util.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/var.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/var.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/version.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/version.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/vivify.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/vivify.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/walk.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/walk.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/cadical/watch.cpp -o build/temp.linux-x86_64-3.9/solvers/cadical/watch.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose30/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose30/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose30/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose41/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose41/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/glucose41/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplechrono/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+solvers/maplecm/core/Solver.cc:549:34: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                    if (nblevels < c.lbd()){
+                        ~~~~~~~~ ^ ~~~~~~~
+solvers/maplecm/core/Solver.cc:628:34: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                    if (nblevels < c.lbd()){
+                        ~~~~~~~~ ^ ~~~~~~~
+solvers/maplecm/core/Solver.cc:687:12: warning: variable 'avg' set but not used [-Wunused-but-set-variable]
+    double avg;
+           ^
+solvers/maplecm/core/Solver.cc:734:38: warning: comparison of integers of different signs: 'unsigned int' and 'int' [-Wsign-compare]
+                        if (nblevels < c.lbd()){
+                            ~~~~~~~~ ^ ~~~~~~~
+solvers/maplecm/core/Solver.cc:850:12: warning: variable 'avg' set but not used [-Wunused-but-set-variable]
+    double avg;
+           ^
+5 warnings generated.
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplechrono/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplechrono/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplecm/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplecm/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplecm/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplesat/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplesat/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/maplesat/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minicard/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minicard/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minicard/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minicard/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisat22/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisat22/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisat22/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisatgh/core/Solver.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/core/Solver.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisatgh/utils/Options.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/Options.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/minisatgh/utils/System.cc -o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/System.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+em++ -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Isolvers -I/src/cpython/installs/python-3.9.5/include/python3.9 -c solvers/pysolvers.cc -o build/temp.linux-x86_64-3.9/solvers/pysolvers.o -std=c++11 -Wall -Wno-deprecated -DQUIET -DWITH_CADICAL -DWITH_GLUCOSE30 -DWITH_GLUCOSE41 -DWITH_MAPLECHRONO -DWITH_MAPLECM -DWITH_MAPLESAT -DWITH_MINICARD -DWITH_MINISAT22 -DWITH_MINISATGH
+patching file solvers/cadical/Makefile
+patching file solvers/cadical/build.hpp
+patching file solvers/cadical/cadical.hpp
+patching file solvers/cadical/contract.hpp
+patching file solvers/cadical/file.hpp
+patching file solvers/cadical/file0.cpp
+patching file solvers/cadical/make-build-header.sh
+patching file solvers/cadical/resources.cpp
+patching file solvers/cadical/signal.cpp
+patching file solvers/cadical/solver.cpp
+patching file solvers/cadical/version.cpp
+patching file solvers/glucose30/Makefile
+patching file solvers/glucose30/core/BoundedQueue.h
+patching file solvers/glucose30/core/Solver.cc
+patching file solvers/glucose30/core/Solver.h
+patching file solvers/glucose30/core/SolverTypes.h
+patching file solvers/glucose30/mtl/Alg.h
+patching file solvers/glucose30/mtl/Alloc.h
+patching file solvers/glucose30/mtl/Heap.h
+patching file solvers/glucose30/mtl/IntTypes.h
+patching file solvers/glucose30/mtl/Map.h
+patching file solvers/glucose30/mtl/Queue.h
+patching file solvers/glucose30/mtl/Sort.h
+patching file solvers/glucose30/mtl/Vec.h
+patching file solvers/glucose30/mtl/XAlloc.h
+patching file solvers/glucose30/utils/Options.cc
+patching file solvers/glucose30/utils/Options.h
+patching file solvers/glucose30/utils/ParseUtils.h
+patching file solvers/glucose30/utils/System.cc
+patching file solvers/glucose30/utils/System.h
+patching file solvers/glucose41/Makefile
+patching file solvers/glucose41/core/BoundedQueue.h
+patching file solvers/glucose41/core/Solver.cc
+patching file solvers/glucose41/core/Solver.h
+patching file solvers/glucose41/core/SolverStats.h
+patching file solvers/glucose41/core/SolverTypes.h
+patching file solvers/glucose41/mtl/Alg.h
+patching file solvers/glucose41/mtl/Alloc.h
+patching file solvers/glucose41/mtl/Clone.h
+patching file solvers/glucose41/mtl/Heap.h
+patching file solvers/glucose41/mtl/IntTypes.h
+patching file solvers/glucose41/mtl/Map.h
+patching file solvers/glucose41/mtl/Queue.h
+patching file solvers/glucose41/mtl/Sort.h
+patching file solvers/glucose41/mtl/Vec.h
+patching file solvers/glucose41/mtl/VecThreads.h
+patching file solvers/glucose41/mtl/XAlloc.h
+patching file solvers/glucose41/utils/Options.cc
+patching file solvers/glucose41/utils/Options.h
+patching file solvers/glucose41/utils/ParseUtils.h
+patching file solvers/glucose41/utils/System.cc
+patching file solvers/glucose41/utils/System.h
+patching file solvers/maplechrono/Makefile
+patching file solvers/maplechrono/core/Solver.cc
+patching file solvers/maplechrono/core/Solver.h
+patching file solvers/maplechrono/core/SolverTypes.h
+patching file solvers/maplechrono/mtl/Alg.h
+patching file solvers/maplechrono/mtl/Alloc.h
+patching file solvers/maplechrono/mtl/Heap.h
+patching file solvers/maplechrono/mtl/IntTypes.h
+patching file solvers/maplechrono/mtl/Map.h
+patching file solvers/maplechrono/mtl/Queue.h
+patching file solvers/maplechrono/mtl/Sort.h
+patching file solvers/maplechrono/mtl/Vec.h
+patching file solvers/maplechrono/mtl/XAlloc.h
+patching file solvers/maplechrono/utils/Options.cc
+patching file solvers/maplechrono/utils/Options.h
+patching file solvers/maplechrono/utils/ParseUtils.h
+patching file solvers/maplechrono/utils/System.cc
+patching file solvers/maplechrono/utils/System.h
+patching file solvers/maplecm/Makefile
+patching file solvers/maplecm/core/Solver.cc
+patching file solvers/maplecm/core/Solver.h
+patching file solvers/maplecm/core/SolverTypes.h
+patching file solvers/maplecm/mtl/Alg.h
+patching file solvers/maplecm/mtl/Alloc.h
+patching file solvers/maplecm/mtl/Heap.h
+patching file solvers/maplecm/mtl/IntTypes.h
+patching file solvers/maplecm/mtl/Map.h
+patching file solvers/maplecm/mtl/Queue.h
+patching file solvers/maplecm/mtl/Sort.h
+patching file solvers/maplecm/mtl/Vec.h
+patching file solvers/maplecm/mtl/XAlloc.h
+patching file solvers/maplecm/utils/Options.cc
+patching file solvers/maplecm/utils/Options.h
+patching file solvers/maplecm/utils/ParseUtils.h
+patching file solvers/maplecm/utils/System.cc
+patching file solvers/maplecm/utils/System.h
+patching file solvers/maplesat/Makefile
+patching file solvers/maplesat/core/Solver.cc
+patching file solvers/maplesat/core/Solver.h
+patching file solvers/maplesat/core/SolverTypes.h
+patching file solvers/maplesat/mtl/Alg.h
+patching file solvers/maplesat/mtl/Alloc.h
+patching file solvers/maplesat/mtl/Heap.h
+patching file solvers/maplesat/mtl/IntTypes.h
+patching file solvers/maplesat/mtl/Map.h
+patching file solvers/maplesat/mtl/Queue.h
+patching file solvers/maplesat/mtl/Sort.h
+patching file solvers/maplesat/mtl/Vec.h
+patching file solvers/maplesat/mtl/XAlloc.h
+patching file solvers/maplesat/utils/Options.cc
+patching file solvers/maplesat/utils/Options.h
+patching file solvers/maplesat/utils/ParseUtils.h
+patching file solvers/maplesat/utils/System.cc
+patching file solvers/maplesat/utils/System.h
+patching file solvers/minicard/Makefile
+patching file solvers/minicard/core/Solver.cc
+patching file solvers/minicard/core/Solver.h
+patching file solvers/minicard/core/SolverTypes.h
+patching file solvers/minicard/mtl/Alg.h
+patching file solvers/minicard/mtl/Alloc.h
+patching file solvers/minicard/mtl/Heap.h
+patching file solvers/minicard/mtl/IntTypes.h
+patching file solvers/minicard/mtl/Map.h
+patching file solvers/minicard/mtl/Queue.h
+patching file solvers/minicard/mtl/Sort.h
+patching file solvers/minicard/mtl/Vec.h
+patching file solvers/minicard/mtl/XAlloc.h
+patching file solvers/minicard/utils/Options.cc
+patching file solvers/minicard/utils/Options.h
+patching file solvers/minicard/utils/ParseUtils.h
+patching file solvers/minicard/utils/System.cc
+patching file solvers/minicard/utils/System.h
+patching file solvers/minisat22/Makefile
+patching file solvers/minisat22/core/Solver.cc
+patching file solvers/minisat22/core/Solver.h
+patching file solvers/minisat22/core/SolverTypes.h
+patching file solvers/minisat22/libminisat22.a
+patching file solvers/minisat22/mtl/Alg.h
+patching file solvers/minisat22/mtl/Alloc.h
+patching file solvers/minisat22/mtl/Heap.h
+patching file solvers/minisat22/mtl/IntTypes.h
+patching file solvers/minisat22/mtl/Map.h
+patching file solvers/minisat22/mtl/Queue.h
+patching file solvers/minisat22/mtl/Sort.h
+patching file solvers/minisat22/mtl/Vec.h
+patching file solvers/minisat22/mtl/XAlloc.h
+patching file solvers/minisat22/utils/Options.cc
+patching file solvers/minisat22/utils/Options.h
+patching file solvers/minisat22/utils/ParseUtils.h
+patching file solvers/minisat22/utils/System.cc
+patching file solvers/minisat22/utils/System.h
+patching file solvers/minisatgh/Makefile
+patching file solvers/minisatgh/core/Solver.cc
+patching file solvers/minisatgh/core/Solver.h
+patching file solvers/minisatgh/core/SolverTypes.h
+patching file solvers/minisatgh/mtl/Alg.h
+patching file solvers/minisatgh/mtl/Alloc.h
+patching file solvers/minisatgh/mtl/Heap.h
+patching file solvers/minisatgh/mtl/IntMap.h
+patching file solvers/minisatgh/mtl/IntTypes.h
+patching file solvers/minisatgh/mtl/Map.h
+patching file solvers/minisatgh/mtl/Queue.h
+patching file solvers/minisatgh/mtl/Rnd.h
+patching file solvers/minisatgh/mtl/Sort.h
+patching file solvers/minisatgh/mtl/Vec.h
+patching file solvers/minisatgh/mtl/XAlloc.h
+patching file solvers/minisatgh/utils/Options.cc
+patching file solvers/minisatgh/utils/Options.h
+patching file solvers/minisatgh/utils/ParseUtils.h
+patching file solvers/minisatgh/utils/System.cc
+patching file solvers/minisatgh/utils/System.h
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'license-file' will not be supported in future versions. Please use the underscore name 'license_file' instead
+  warnings.warn(
+preparing cadical
+not downloading solvers/cadical.tar.gz since it exists locally
+extracting solvers/cadical.tar.gz
+adapting cadical's files
+patching cadical
+preparing glucose30
+not downloading solvers/glucose30.tar.gz since it exists locally
+extracting solvers/glucose30.tar.gz
+adapting glucose30's files
+patching glucose30
+preparing glucose41
+not downloading solvers/glucose41.tar.gz since it exists locally
+extracting solvers/glucose41.tar.gz
+adapting glucose41's files
+patching glucose41
+preparing maplechrono
+not downloading solvers/maplechrono.zip since it exists locally
+extracting solvers/maplechrono.zip
+adapting maplechrono's files
+patching maplechrono
+preparing maplecm
+not downloading solvers/maplecm.zip since it exists locally
+extracting solvers/maplecm.zip
+adapting maplecm's files
+patching maplecm
+preparing maplesat
+not downloading solvers/maplesat.zip since it exists locally
+extracting solvers/maplesat.zip
+adapting maplesat's files
+patching maplesat
+preparing minicard
+not downloading solvers/minicard.tar.gz since it exists locally
+extracting solvers/minicard.tar.gz
+adapting minicard's files
+patching minicard
+preparing minisat22
+not downloading solvers/minisat22.tar.gz since it exists locally
+extracting solvers/minisat22.tar.gz
+adapting minisat22's files
+patching minisat22
+preparing minisatgh
+not downloading solvers/minisatgh.zip since it exists locally
+extracting solvers/minisatgh.zip
+adapting minisatgh's files
+patching minisatgh
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/pb.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/_fileio.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/formula.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/__init__.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/solvers.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysat/card.py -> install/lib/python3.9/site-packages/pysat
+creating install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/models.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/lbx.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/musx.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/hitman.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/rc2.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/__init__.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/fm.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/mcsls.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/lsu.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/genhard.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/sudoku.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/hornify.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/examples/usage.py -> install/lib/python3.9/site-packages/pysat/examples
+copying build/lib.linux-x86_64-3.9/pysat/_utils.py -> install/lib/python3.9/site-packages/pysat
+copying build/lib.linux-x86_64-3.9/pysolvers.so -> install/lib/python3.9/site-packages
+copying build/lib.linux-x86_64-3.9/pycard.so -> install/lib/python3.9/site-packages
+byte-compiling install/lib/python3.9/site-packages/pysat/pb.py to pb.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/_fileio.py to _fileio.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/formula.py to formula.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/solvers.py to solvers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/card.py to card.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/models.py to models.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/lbx.py to lbx.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/musx.py to musx.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/hitman.py to hitman.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/rc2.py to rc2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/fm.py to fm.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/mcsls.py to mcsls.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/lsu.py to lsu.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/genhard.py to genhard.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/sudoku.py to sudoku.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/hornify.py to hornify.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/examples/usage.py to usage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pysat/_utils.py to _utils.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing python_sat.egg-info/PKG-INFO
+writing dependency_links to python_sat.egg-info/dependency_links.txt
+writing requirements to python_sat.egg-info/requires.txt
+writing top-level names to python_sat.egg-info/top_level.txt
+reading manifest file 'python_sat.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'python_sat.egg-info/SOURCES.txt'
+Copying python_sat.egg-info to install/lib/python3.9/site-packages/python_sat-0.1.6.dev6-py3.9.egg-info
+running install_scripts
+creating install/bin
+copying build/scripts-3.9/models.py -> install/bin
+copying build/scripts-3.9/lbx.py -> install/bin
+copying build/scripts-3.9/musx.py -> install/bin
+copying build/scripts-3.9/rc2.py -> install/bin
+copying build/scripts-3.9/fm.py -> install/bin
+copying build/scripts-3.9/mcsls.py -> install/bin
+copying build/scripts-3.9/lsu.py -> install/bin
+copying build/scripts-3.9/genhard.py -> install/bin
+changing mode of install/bin/models.py to 755
+changing mode of install/bin/lbx.py to 755
+changing mode of install/bin/musx.py to 755
+changing mode of install/bin/rc2.py to 755
+changing mode of install/bin/fm.py to 755
+changing mode of install/bin/mcsls.py to 755
+changing mode of install/bin/lsu.py to 755
+changing mode of install/bin/genhard.py to 755
+em++ -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/solvers/cadical/analyze.o build/temp.linux-x86_64-3.9/solvers/cadical/arena.o build/temp.linux-x86_64-3.9/solvers/cadical/assume.o build/temp.linux-x86_64-3.9/solvers/cadical/averages.o build/temp.linux-x86_64-3.9/solvers/cadical/backtrack.o build/temp.linux-x86_64-3.9/solvers/cadical/backward.o build/temp.linux-x86_64-3.9/solvers/cadical/bins.o build/temp.linux-x86_64-3.9/solvers/cadical/block.o build/temp.linux-x86_64-3.9/solvers/cadical/ccadical.o build/temp.linux-x86_64-3.9/solvers/cadical/checker.o build/temp.linux-x86_64-3.9/solvers/cadical/clause.o build/temp.linux-x86_64-3.9/solvers/cadical/collect.o build/temp.linux-x86_64-3.9/solvers/cadical/compact.o build/temp.linux-x86_64-3.9/solvers/cadical/config.o build/temp.linux-x86_64-3.9/solvers/cadical/cover.o build/temp.linux-x86_64-3.9/solvers/cadical/decide.o build/temp.linux-x86_64-3.9/solvers/cadical/decompose.o build/temp.linux-x86_64-3.9/solvers/cadical/deduplicate.o build/temp.linux-x86_64-3.9/solvers/cadical/elim.o build/temp.linux-x86_64-3.9/solvers/cadical/ema.o build/temp.linux-x86_64-3.9/solvers/cadical/extend.o build/temp.linux-x86_64-3.9/solvers/cadical/external.o build/temp.linux-x86_64-3.9/solvers/cadical/file0.o build/temp.linux-x86_64-3.9/solvers/cadical/flags.o build/temp.linux-x86_64-3.9/solvers/cadical/format.o build/temp.linux-x86_64-3.9/solvers/cadical/gates.o build/temp.linux-x86_64-3.9/solvers/cadical/instantiate.o build/temp.linux-x86_64-3.9/solvers/cadical/internal.o build/temp.linux-x86_64-3.9/solvers/cadical/ipasir.o build/temp.linux-x86_64-3.9/solvers/cadical/limit.o build/temp.linux-x86_64-3.9/solvers/cadical/logging.o build/temp.linux-x86_64-3.9/solvers/cadical/lucky.o build/temp.linux-x86_64-3.9/solvers/cadical/message.o build/temp.linux-x86_64-3.9/solvers/cadical/minimize.o build/temp.linux-x86_64-3.9/solvers/cadical/occs.o build/temp.linux-x86_64-3.9/solvers/cadical/options.o build/temp.linux-x86_64-3.9/solvers/cadical/parse.o build/temp.linux-x86_64-3.9/solvers/cadical/phases.o build/temp.linux-x86_64-3.9/solvers/cadical/probe.o build/temp.linux-x86_64-3.9/solvers/cadical/profile.o build/temp.linux-x86_64-3.9/solvers/cadical/proof.o build/temp.linux-x86_64-3.9/solvers/cadical/propagate.o build/temp.linux-x86_64-3.9/solvers/cadical/queue.o build/temp.linux-x86_64-3.9/solvers/cadical/random.o build/temp.linux-x86_64-3.9/solvers/cadical/reduce.o build/temp.linux-x86_64-3.9/solvers/cadical/rephase.o build/temp.linux-x86_64-3.9/solvers/cadical/report.o build/temp.linux-x86_64-3.9/solvers/cadical/resources.o build/temp.linux-x86_64-3.9/solvers/cadical/restart.o build/temp.linux-x86_64-3.9/solvers/cadical/restore.o build/temp.linux-x86_64-3.9/solvers/cadical/score.o build/temp.linux-x86_64-3.9/solvers/cadical/signal.o build/temp.linux-x86_64-3.9/solvers/cadical/solution.o build/temp.linux-x86_64-3.9/solvers/cadical/solver.o build/temp.linux-x86_64-3.9/solvers/cadical/stats.o build/temp.linux-x86_64-3.9/solvers/cadical/subsume.o build/temp.linux-x86_64-3.9/solvers/cadical/terminal.o build/temp.linux-x86_64-3.9/solvers/cadical/ternary.o build/temp.linux-x86_64-3.9/solvers/cadical/tracer.o build/temp.linux-x86_64-3.9/solvers/cadical/transred.o build/temp.linux-x86_64-3.9/solvers/cadical/util.o build/temp.linux-x86_64-3.9/solvers/cadical/var.o build/temp.linux-x86_64-3.9/solvers/cadical/version.o build/temp.linux-x86_64-3.9/solvers/cadical/vivify.o build/temp.linux-x86_64-3.9/solvers/cadical/walk.o build/temp.linux-x86_64-3.9/solvers/cadical/watch.o build/temp.linux-x86_64-3.9/solvers/glucose30/core/Solver.o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/Options.o build/temp.linux-x86_64-3.9/solvers/glucose30/utils/System.o build/temp.linux-x86_64-3.9/solvers/glucose41/core/Solver.o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/Options.o build/temp.linux-x86_64-3.9/solvers/glucose41/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplechrono/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplechrono/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplecm/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplecm/utils/System.o build/temp.linux-x86_64-3.9/solvers/maplesat/core/Solver.o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/Options.o build/temp.linux-x86_64-3.9/solvers/maplesat/utils/System.o build/temp.linux-x86_64-3.9/solvers/minicard/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minicard/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minicard/utils/System.o build/temp.linux-x86_64-3.9/solvers/minisat22/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minisat22/utils/System.o build/temp.linux-x86_64-3.9/solvers/minisatgh/core/Solver.o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/Options.o build/temp.linux-x86_64-3.9/solvers/minisatgh/utils/System.o build/temp.linux-x86_64-3.9/solvers/pysolvers.o -o build/lib.linux-x86_64-3.9/pysolvers.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 1517978
+compressed package into 921654
+compressed in 149 ms
+[2021-12-18 06:36:43] Building package python-sat...
+[2021-12-18 07:55:48] done building package python-sat in 4745.8 s.

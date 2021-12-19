@@ -1,0 +1,77 @@
+running install
+running bdist_egg
+running egg_info
+writing executing.egg-info/PKG-INFO
+writing dependency_links to executing.egg-info/dependency_links.txt
+writing top-level names to executing.egg-info/top_level.txt
+reading manifest file 'executing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'executing.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/executing
+copying executing/version.py -> build/lib/executing
+copying executing/__init__.py -> build/lib/executing
+copying executing/executing.py -> build/lib/executing
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/executing
+copying build/lib/executing/version.py -> build/bdist.linux-x86_64/egg/executing
+copying build/lib/executing/__init__.py -> build/bdist.linux-x86_64/egg/executing
+copying build/lib/executing/executing.py -> build/bdist.linux-x86_64/egg/executing
+byte-compiling build/bdist.linux-x86_64/egg/executing/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/executing/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/executing/executing.py to executing.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying executing.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying executing.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying executing.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying executing.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying executing.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/executing-0.8.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing executing-0.8.2-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/executing-0.8.2-py3.9.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/executing-0.8.2-py3.9.egg
+Extracting executing-0.8.2-py3.9.egg to /src/packages/.artifacts/lib/python
+executing 0.8.2 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/executing-0.8.2-py3.9.egg
+Processing dependencies for executing==0.8.2
+Finished processing dependencies for executing==0.8.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/executing
+copying build/lib/executing/version.py -> install/lib/python3.9/site-packages/executing
+copying build/lib/executing/__init__.py -> install/lib/python3.9/site-packages/executing
+copying build/lib/executing/executing.py -> install/lib/python3.9/site-packages/executing
+byte-compiling install/lib/python3.9/site-packages/executing/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/executing/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/executing/executing.py to executing.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing executing.egg-info/PKG-INFO
+writing dependency_links to executing.egg-info/dependency_links.txt
+writing top-level names to executing.egg-info/top_level.txt
+reading manifest file 'executing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'executing.egg-info/SOURCES.txt'
+Copying executing.egg-info to install/lib/python3.9/site-packages/executing-0.8.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 48119
+compressed package into 32068
+compressed in 69 ms
+[2021-12-19 02:49:31] Building package executing...
+[2021-12-19 02:50:36] done building package executing in 64.3 s.

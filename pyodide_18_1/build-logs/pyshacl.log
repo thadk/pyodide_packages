@@ -1,0 +1,1674 @@
+running install
+running bdist_egg
+running egg_info
+creating pyshacl.egg-info
+writing pyshacl.egg-info/PKG-INFO
+writing dependency_links to pyshacl.egg-info/dependency_links.txt
+writing entry points to pyshacl.egg-info/entry_points.txt
+writing requirements to pyshacl.egg-info/requires.txt
+writing top-level names to pyshacl.egg-info/top_level.txt
+writing manifest file 'pyshacl.egg-info/SOURCES.txt'
+package init file 'benchmarks/__init__.py' not found (or not a regular file)
+package init file 'examples/__init__.py' not found (or not a regular file)
+package init file 'pyshacl/assets/__init__.py' not found (or not a regular file)
+reading manifest file 'pyshacl.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.md' under directory 'docs'
+adding license file 'LICENSE.txt'
+writing manifest file 'pyshacl.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/benchmarks
+copying benchmarks/benchmark.py -> build/lib/benchmarks
+creating build/lib/examples
+copying examples/advanced.py -> build/lib/examples
+copying examples/two_file_example.py -> build/lib/examples
+copying examples/example.py -> build/lib/examples
+creating build/lib/pyshacl
+copying pyshacl/pytypes.py -> build/lib/pyshacl
+copying pyshacl/__init__.py -> build/lib/pyshacl
+copying pyshacl/consts.py -> build/lib/pyshacl
+copying pyshacl/validate.py -> build/lib/pyshacl
+copying pyshacl/cli.py -> build/lib/pyshacl
+copying pyshacl/target.py -> build/lib/pyshacl
+copying pyshacl/shape.py -> build/lib/pyshacl
+copying pyshacl/errors.py -> build/lib/pyshacl
+copying pyshacl/shapes_graph.py -> build/lib/pyshacl
+copying pyshacl/parameter.py -> build/lib/pyshacl
+copying pyshacl/__main__.py -> build/lib/pyshacl
+creating build/lib/pyshacl/assets
+copying pyshacl/assets/make_builtin.py -> build/lib/pyshacl/assets
+creating build/lib/pyshacl/constraints
+copying pyshacl/constraints/__init__.py -> build/lib/pyshacl/constraints
+copying pyshacl/constraints/constraint_component.py -> build/lib/pyshacl/constraints
+creating build/lib/pyshacl/constraints/advanced
+copying pyshacl/constraints/advanced/__init__.py -> build/lib/pyshacl/constraints/advanced
+creating build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/value_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/string_based_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/cardinality_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/__init__.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/shape_based_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/value_range_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/logical_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/property_pair_constraints.py -> build/lib/pyshacl/constraints/core
+copying pyshacl/constraints/core/other_constraints.py -> build/lib/pyshacl/constraints/core
+creating build/lib/pyshacl/constraints/sparql
+copying pyshacl/constraints/sparql/sparql_based_constraints.py -> build/lib/pyshacl/constraints/sparql
+copying pyshacl/constraints/sparql/__init__.py -> build/lib/pyshacl/constraints/sparql
+copying pyshacl/constraints/sparql/sparql_based_constraint_components.py -> build/lib/pyshacl/constraints/sparql
+creating build/lib/pyshacl/extras
+copying pyshacl/extras/__init__.py -> build/lib/pyshacl/extras
+creating build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/constraint.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/__init__.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/rules.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/context.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/loader.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/js_executable.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/constraint_component.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/target.py -> build/lib/pyshacl/extras/js
+copying pyshacl/extras/js/function.py -> build/lib/pyshacl/extras/js
+creating build/lib/pyshacl/functions
+copying pyshacl/functions/shacl_function.py -> build/lib/pyshacl/functions
+copying pyshacl/functions/__init__.py -> build/lib/pyshacl/functions
+creating build/lib/pyshacl/helper
+copying pyshacl/helper/expression_helper.py -> build/lib/pyshacl/helper
+copying pyshacl/helper/__init__.py -> build/lib/pyshacl/helper
+copying pyshacl/helper/sparql_query_helper.py -> build/lib/pyshacl/helper
+creating build/lib/pyshacl/inference
+copying pyshacl/inference/__init__.py -> build/lib/pyshacl/inference
+copying pyshacl/inference/custom_rdfs_closure.py -> build/lib/pyshacl/inference
+creating build/lib/pyshacl/monkey
+copying pyshacl/monkey/__init__.py -> build/lib/pyshacl/monkey
+copying pyshacl/monkey/memory2.py -> build/lib/pyshacl/monkey
+creating build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/pytypes.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/stringify.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/__init__.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/consts.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/load.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/compare.py -> build/lib/pyshacl/rdfutil
+copying pyshacl/rdfutil/clone.py -> build/lib/pyshacl/rdfutil
+creating build/lib/pyshacl/rules
+copying pyshacl/rules/__init__.py -> build/lib/pyshacl/rules
+copying pyshacl/rules/shacl_rule.py -> build/lib/pyshacl/rules
+creating build/lib/pyshacl/rules/sparql
+copying pyshacl/rules/sparql/__init__.py -> build/lib/pyshacl/rules/sparql
+creating build/lib/pyshacl/rules/triple
+copying pyshacl/rules/triple/__init__.py -> build/lib/pyshacl/rules/triple
+creating build/lib/test
+copying test/test_dash_validate.py -> build/lib/test
+copying test/test_schema_org.py -> build/lib/test
+copying test/test_advanced.py -> build/lib/test
+copying test/test_sht_validate.py -> build/lib/test
+copying test/__init__.py -> build/lib/test
+copying test/test_cmdline.py -> build/lib/test
+copying test/test_extra.py -> build/lib/test
+copying test/implementation_report.py -> build/lib/test
+copying test/helpers.py -> build/lib/test
+creating build/lib/test/issues
+copying test/issues/test_026.py -> build/lib/test/issues
+copying test/issues/test_012.py -> build/lib/test/issues
+copying test/issues/test_96.py -> build/lib/test/issues
+copying test/issues/test_036.py -> build/lib/test/issues
+copying test/issues/bad_test_070.py -> build/lib/test/issues
+copying test/issues/test_062.py -> build/lib/test/issues
+copying test/issues/test_076.py -> build/lib/test/issues
+copying test/issues/test_008.py -> build/lib/test/issues
+copying test/issues/test_079.py -> build/lib/test/issues
+copying test/issues/test_038.py -> build/lib/test/issues
+copying test/issues/__init__.py -> build/lib/test/issues
+copying test/issues/test_w3_list1.py -> build/lib/test/issues
+copying test/issues/test_108.py -> build/lib/test/issues
+copying test/issues/test_009.py -> build/lib/test/issues
+copying test/issues/test_058.py -> build/lib/test/issues
+copying test/issues/test_098.py -> build/lib/test/issues
+copying test/issues/test_w3_list2.py -> build/lib/test/issues
+copying test/issues/test_014.py -> build/lib/test/issues
+copying test/issues/test_071.py -> build/lib/test/issues
+copying test/issues/issue_102.py -> build/lib/test/issues
+copying test/issues/test_087.py -> build/lib/test/issues
+creating build/lib/test/issues/test_029
+copying test/issues/test_029/__init__.py -> build/lib/test/issues/test_029
+creating build/lib/test/issues/test_040
+copying test/issues/test_040/__init__.py -> build/lib/test/issues/test_040
+creating build/lib/test/test_js
+copying test/test_js/test_js_constraint_path_component.py -> build/lib/test/test_js
+copying test/test_js/conftest.py -> build/lib/test/test_js
+copying test/test_js/test_js_constraint.py -> build/lib/test/test_js
+copying test/test_js/test_js_rules.py -> build/lib/test/test_js
+copying test/test_js/__init__.py -> build/lib/test/test_js
+copying test/test_js/test_js_constraint_component.py -> build/lib/test/test_js
+copying test/test_js/test_js_target_type.py -> build/lib/test/test_js
+copying test/test_js/test_js_target.py -> build/lib/test/test_js
+copying test/test_js/test_js_function.py -> build/lib/test/test_js
+copying pyshacl/pyshacl-cli.spec -> build/lib/pyshacl
+copying pyshacl/assets/shacl.pickle -> build/lib/pyshacl/assets
+copying pyshacl/assets/schema.ttl -> build/lib/pyshacl/assets
+copying pyshacl/assets/schema.pickle -> build/lib/pyshacl/assets
+copying pyshacl/assets/shacl.ttl -> build/lib/pyshacl/assets
+copying pyshacl/assets/shacl-shacl.pickle -> build/lib/pyshacl/assets
+copying pyshacl/assets/shacl-shacl.ttl -> build/lib/pyshacl/assets
+creating build/lib/test/resources
+creating build/lib/test/resources/cmdline_tests
+copying test/resources/cmdline_tests/d1.jsonld -> build/lib/test/resources/cmdline_tests
+copying test/resources/cmdline_tests/s1.ttl -> build/lib/test/resources/cmdline_tests
+copying test/resources/cmdline_tests/o1.ttl -> build/lib/test/resources/cmdline_tests
+copying test/resources/cmdline_tests/d2.ttl -> build/lib/test/resources/cmdline_tests
+copying test/resources/cmdline_tests/d1.ttl -> build/lib/test/resources/cmdline_tests
+creating build/lib/test/resources/dash_tests
+creating build/lib/test/resources/dash_tests/core
+creating build/lib/test/resources/dash_tests/core/complex
+copying test/resources/dash_tests/core/complex/personexample.test.ttl -> build/lib/test/resources/dash_tests/core/complex
+creating build/lib/test/resources/dash_tests/core/misc
+copying test/resources/dash_tests/core/misc/deactivated-002.test.ttl -> build/lib/test/resources/dash_tests/core/misc
+copying test/resources/dash_tests/core/misc/severity-001.test.ttl -> build/lib/test/resources/dash_tests/core/misc
+copying test/resources/dash_tests/core/misc/deactivated-001.test.ttl -> build/lib/test/resources/dash_tests/core/misc
+copying test/resources/dash_tests/core/misc/severity-002.test.ttl -> build/lib/test/resources/dash_tests/core/misc
+creating build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/minInclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/datatype-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/not-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/pattern-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/class-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/and-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/xone-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/disjoint-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/closed-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/minLength-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/maxExclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/hasValue-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/pattern-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/node-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/class-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/not-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/equals-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/datatype-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/nodeKind-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/maxInclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/in-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/maxLength-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/or-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/minExclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/languageIn-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/closed-002.test.ttl -> build/lib/test/resources/dash_tests/core/node
+copying test/resources/dash_tests/core/node/and-001.test.ttl -> build/lib/test/resources/dash_tests/core/node
+creating build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-sequence-002.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-complex-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-inverse-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-alternative-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-oneOrMore-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-zeroOrOne-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-sequence-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-zeroOrMore-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+copying test/resources/dash_tests/core/path/path-sequence-duplicate-001.test.ttl -> build/lib/test/resources/dash_tests/core/path
+creating build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/qualifiedValueShapesDisjoint-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/datatype-003.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/minCount-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/datatype-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/maxCount-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/pattern-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/class-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/node-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/property-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/xone-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/disjoint-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/uniqueLang-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/minExclusive-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/minLength-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/maxExclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/hasValue-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/lessThanOrEquals-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/lessThan-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/maxCount-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/pattern-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/node-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/not-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/equals-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/or-datatypes-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/minCount-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/datatype-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/nodeKind-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/maxInclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/qualifiedValueShape-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/in-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/maxLength-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/or-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/lessThan-002.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/minExclusive-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/languageIn-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/and-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+copying test/resources/dash_tests/core/property/qualifiedMinCountDisjoint-001.test.ttl -> build/lib/test/resources/dash_tests/core/property
+creating build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetClassImplicit-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetSubjectsOf-002.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetClass-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetSubjectsOf-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetNode-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/multipleTargets-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+copying test/resources/dash_tests/core/targets/targetObjectsOf-001.test.ttl -> build/lib/test/resources/dash_tests/core/targets
+creating build/lib/test/resources/dash_tests/expression
+copying test/resources/dash_tests/expression/booleans-001.test.ttl -> build/lib/test/resources/dash_tests/expression
+creating build/lib/test/resources/dash_tests/function
+copying test/resources/dash_tests/function/callSPARQLFunction.test.ttl -> build/lib/test/resources/dash_tests/function
+copying test/resources/dash_tests/function/simpleSPARQLFunction.test.ttl -> build/lib/test/resources/dash_tests/function
+creating build/lib/test/resources/dash_tests/rules
+creating build/lib/test/resources/dash_tests/rules/sparql
+copying test/resources/dash_tests/rules/sparql/rectangle.test.ttl -> build/lib/test/resources/dash_tests/rules/sparql
+copying test/resources/dash_tests/rules/sparql/classify-square.test.ttl -> build/lib/test/resources/dash_tests/rules/sparql
+creating build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/rectangle.test.ttl -> build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/schema2person.test.ttl -> build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/person.ttl -> build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/square.test.ttl -> build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/functions-permutations.test.ttl -> build/lib/test/resources/dash_tests/rules/triple
+copying test/resources/dash_tests/rules/triple/person2schema.test.ttl -> build/lib/test/resources/dash_tests/rules/triple
+creating build/lib/test/resources/dash_tests/shapedefs
+copying test/resources/dash_tests/shapedefs/anon-shape-002.test.ttl -> build/lib/test/resources/dash_tests/shapedefs
+copying test/resources/dash_tests/shapedefs/anon-shape-001.test.ttl -> build/lib/test/resources/dash_tests/shapedefs
+creating build/lib/test/resources/dash_tests/sparql
+creating build/lib/test/resources/dash_tests/sparql/component
+copying test/resources/dash_tests/sparql/component/propertyValidator-select-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/component
+copying test/resources/dash_tests/sparql/component/nodeValidator-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/component
+copying test/resources/dash_tests/sparql/component/optional-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/component
+copying test/resources/dash_tests/sparql/component/validator-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/component
+creating build/lib/test/resources/dash_tests/sparql/node
+copying test/resources/dash_tests/sparql/node/sparql-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/node
+copying test/resources/dash_tests/sparql/node/sparql-002.test.ttl -> build/lib/test/resources/dash_tests/sparql/node
+copying test/resources/dash_tests/sparql/node/prefixes-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/node
+creating build/lib/test/resources/dash_tests/sparql/property
+copying test/resources/dash_tests/sparql/property/sparql-001.test.ttl -> build/lib/test/resources/dash_tests/sparql/property
+creating build/lib/test/resources/dash_tests/target
+copying test/resources/dash_tests/target/sparqlTarget-001.test.ttl -> build/lib/test/resources/dash_tests/target
+copying test/resources/dash_tests/target/sparqlTargetType-001.test.ttl -> build/lib/test/resources/dash_tests/target
+creating build/lib/test/resources/js
+copying test/resources/js/multiply.js -> build/lib/test/resources/js
+copying test/resources/js/hasMaxCount.js -> build/lib/test/resources/js
+copying test/resources/js/findThings.js -> build/lib/test/resources/js
+copying test/resources/js/findBornIn.js -> build/lib/test/resources/js
+copying test/resources/js/germanLabel.js -> build/lib/test/resources/js
+copying test/resources/js/rectangle.js -> build/lib/test/resources/js
+copying test/resources/js/hasMaxLength.js -> build/lib/test/resources/js
+creating build/lib/test/resources/sht_tests
+copying test/resources/sht_tests/manifest.ttl -> build/lib/test/resources/sht_tests
+creating build/lib/test/resources/sht_tests/core
+copying test/resources/sht_tests/core/manifest.ttl -> build/lib/test/resources/sht_tests/core
+creating build/lib/test/resources/sht_tests/core/complex
+copying test/resources/sht_tests/core/complex/manifest.ttl -> build/lib/test/resources/sht_tests/core/complex
+copying test/resources/sht_tests/core/complex/shacl-shacl-data-shapes.ttl -> build/lib/test/resources/sht_tests/core/complex
+copying test/resources/sht_tests/core/complex/personexample.ttl -> build/lib/test/resources/sht_tests/core/complex
+copying test/resources/sht_tests/core/complex/shacl-shacl.ttl -> build/lib/test/resources/sht_tests/core/complex
+creating build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/message-001.ttl -> build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/manifest.ttl -> build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/severity-001.ttl -> build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/severity-002.ttl -> build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/deactivated-002.ttl -> build/lib/test/resources/sht_tests/core/misc
+copying test/resources/sht_tests/core/misc/deactivated-001.ttl -> build/lib/test/resources/sht_tests/core/misc
+creating build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/pattern-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/not-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/xone-duplicate-shapes.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/qualified-001-shapes.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/pattern-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/not-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/minLength-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/nodeKind-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/manifest.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/disjoint-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/xone-duplicate.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/maxLength-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/closed-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/closed-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/datatype-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/class-003.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/class-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/and-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/datatype-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/languageIn-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/class-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/and-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/qualified-001-data.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/hasValue-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/maxExclusive-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/equals-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/xone-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/node-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/maxInclusive-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/in-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/or-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/xone-duplicate-data.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/minExclusive-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/minInclusive-001.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/minInclusive-003.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/minInclusive-002.ttl -> build/lib/test/resources/sht_tests/core/node
+copying test/resources/sht_tests/core/node/qualified-001.ttl -> build/lib/test/resources/sht_tests/core/node
+creating build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-sequence-002.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-sequence-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-oneOrMore-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/manifest.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-inverse-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-unused-001-shapes.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-complex-002-shapes.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-zeroOrOne-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-unused-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-complex-002.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-complex-002-data.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-alternative-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-complex-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-strange-002.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-strange-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-zeroOrMore-001.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-unused-001-data.ttl -> build/lib/test/resources/sht_tests/core/path
+copying test/resources/sht_tests/core/path/path-sequence-duplicate-001.ttl -> build/lib/test/resources/sht_tests/core/path
+creating build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/pattern-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/lessThanOrEquals-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/not-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-ill-formed-shapes.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/pattern-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/minLength-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/nodeKind-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/manifest.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/disjoint-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/maxLength-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/maxCount-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/minCount-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/uniqueLang-002-shapes.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/maxCount-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/minCount-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/qualifiedValueShapesDisjoint-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-ill-formed.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/uniqueLang-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/and-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/languageIn-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/class-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/uniqueLang-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-003.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/qualifiedMinCountDisjoint-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/hasValue-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/or-datatypes-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/maxExclusive-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/equals-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/datatype-ill-formed-data.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/node-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/maxInclusive-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/uniqueLang-002-data.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/in-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/node-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/property-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/lessThan-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/or-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/minExclusive-002.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/lessThan-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/minExclusive-001.ttl -> build/lib/test/resources/sht_tests/core/property
+copying test/resources/sht_tests/core/property/qualifiedValueShape-001.ttl -> build/lib/test/resources/sht_tests/core/property
+creating build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/manifest.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetNode-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetClass-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetObjectsOf-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/multipleTargets-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetSubjectsOf-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetSubjectsOf-002.ttl -> build/lib/test/resources/sht_tests/core/targets
+copying test/resources/sht_tests/core/targets/targetClassImplicit-001.ttl -> build/lib/test/resources/sht_tests/core/targets
+creating build/lib/test/resources/sht_tests/core/validation-reports
+copying test/resources/sht_tests/core/validation-reports/manifest.ttl -> build/lib/test/resources/sht_tests/core/validation-reports
+copying test/resources/sht_tests/core/validation-reports/shared-data.ttl -> build/lib/test/resources/sht_tests/core/validation-reports
+copying test/resources/sht_tests/core/validation-reports/shared.ttl -> build/lib/test/resources/sht_tests/core/validation-reports
+copying test/resources/sht_tests/core/validation-reports/shared-shapes.ttl -> build/lib/test/resources/sht_tests/core/validation-reports
+creating build/lib/test/resources/sht_tests/sparql
+copying test/resources/sht_tests/sparql/manifest.ttl -> build/lib/test/resources/sht_tests/sparql
+creating build/lib/test/resources/sht_tests/sparql/component
+copying test/resources/sht_tests/sparql/component/manifest.ttl -> build/lib/test/resources/sht_tests/sparql/component
+copying test/resources/sht_tests/sparql/component/nodeValidator-001.ttl -> build/lib/test/resources/sht_tests/sparql/component
+copying test/resources/sht_tests/sparql/component/propertyValidator-select-001.ttl -> build/lib/test/resources/sht_tests/sparql/component
+copying test/resources/sht_tests/sparql/component/optional-001.ttl -> build/lib/test/resources/sht_tests/sparql/component
+copying test/resources/sht_tests/sparql/component/validator-001.ttl -> build/lib/test/resources/sht_tests/sparql/component
+creating build/lib/test/resources/sht_tests/sparql/node
+copying test/resources/sht_tests/sparql/node/sparql-001.ttl -> build/lib/test/resources/sht_tests/sparql/node
+copying test/resources/sht_tests/sparql/node/sparql-002.ttl -> build/lib/test/resources/sht_tests/sparql/node
+copying test/resources/sht_tests/sparql/node/sparql-003.ttl -> build/lib/test/resources/sht_tests/sparql/node
+copying test/resources/sht_tests/sparql/node/manifest.ttl -> build/lib/test/resources/sht_tests/sparql/node
+copying test/resources/sht_tests/sparql/node/prefixes-001.ttl -> build/lib/test/resources/sht_tests/sparql/node
+creating build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-005.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-004.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-006.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-007.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/manifest.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-003.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-002.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/pre-binding-001.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-001.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-002.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-003.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-006.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-004.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-005.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+copying test/resources/sht_tests/sparql/pre-binding/shapesGraph-001.ttl -> build/lib/test/resources/sht_tests/sparql/pre-binding
+creating build/lib/test/resources/sht_tests/sparql/property
+copying test/resources/sht_tests/sparql/property/sparql-001.ttl -> build/lib/test/resources/sht_tests/sparql/property
+copying test/resources/sht_tests/sparql/property/manifest.ttl -> build/lib/test/resources/sht_tests/sparql/property
+copying test/issues/test_029/simpleOnto.ttl -> build/lib/test/issues/test_029
+copying test/issues/test_029/simpleData.ttl -> build/lib/test/issues/test_029
+copying test/issues/test_040/sample-network.ttl -> build/lib/test/issues/test_040
+copying test/issues/test_040/03-Network.ttl -> build/lib/test/issues/test_040
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_dash_validate.py -> build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_schema_org.py -> build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_advanced.py -> build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_sht_validate.py -> build/bdist.linux-x86_64/egg/test
+creating build/bdist.linux-x86_64/egg/test/resources
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests
+copying build/lib/test/resources/sht_tests/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/message-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/severity-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/severity-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/deactivated-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/deactivated-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/validation-reports
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetNode-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetClass-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetObjectsOf-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/multipleTargets-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetSubjectsOf-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetSubjectsOf-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetClassImplicit-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/targets
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/shacl-shacl-data-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/personexample.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/shacl-shacl.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/complex
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/pattern-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThanOrEquals-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/not-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/pattern-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minLength-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/nodeKind-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/disjoint-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxLength-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxCount-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minCount-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxCount-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minCount-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedValueShapesDisjoint-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/and-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/languageIn-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/class-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedMinCountDisjoint-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/hasValue-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/or-datatypes-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxExclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/equals-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/node-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxInclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/in-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/node-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/property-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThan-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/or-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minExclusive-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThan-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minExclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedValueShape-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/property
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-oneOrMore-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-inverse-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-zeroOrOne-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-alternative-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-strange-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-strange-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-zeroOrMore-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-duplicate-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/path
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/pattern-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/not-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001-shapes.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/pattern-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/not-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minLength-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/nodeKind-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/disjoint-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxLength-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/closed-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/closed-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/datatype-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/and-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/datatype-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/languageIn-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/and-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/hasValue-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxExclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/equals-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/node-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxInclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/in-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/or-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate-data.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minExclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/core/node
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql
+copying build/lib/test/resources/sht_tests/sparql/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/property
+copying build/lib/test/resources/sht_tests/sparql/property/sparql-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/property
+copying build/lib/test/resources/sht_tests/sparql/property/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/property
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-005.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-004.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-006.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-007.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-006.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-004.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-005.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/shapesGraph-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/pre-binding
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/nodeValidator-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/propertyValidator-select-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/optional-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/validator-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/component
+creating build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-002.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-003.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/manifest.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/prefixes-001.ttl -> build/bdist.linux-x86_64/egg/test/resources/sht_tests/sparql/node
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/deactivated-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/severity-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/deactivated-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/severity-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/misc
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetClassImplicit-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetSubjectsOf-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetClass-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetSubjectsOf-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetNode-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/multipleTargets-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetObjectsOf-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/targets
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/complex
+copying build/lib/test/resources/dash_tests/core/complex/personexample.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/complex
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedValueShapesDisjoint-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-003.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minCount-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxCount-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/pattern-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/class-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/node-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/property-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/xone-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/disjoint-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/uniqueLang-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minExclusive-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minLength-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxExclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/hasValue-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThanOrEquals-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThan-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxCount-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/pattern-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/node-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/not-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/equals-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/or-datatypes-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minCount-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/nodeKind-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxInclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedValueShape-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/in-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxLength-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/or-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThan-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minExclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/languageIn-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/and-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedMinCountDisjoint-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/property
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-complex-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-inverse-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-alternative-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-oneOrMore-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-zeroOrOne-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-zeroOrMore-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-duplicate-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/path
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minInclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/datatype-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/not-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/pattern-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/class-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/and-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/xone-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/disjoint-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/closed-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minLength-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxExclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/hasValue-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/pattern-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/node-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/class-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/not-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/equals-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/datatype-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/nodeKind-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxInclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/in-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxLength-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/or-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minExclusive-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/languageIn-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/closed-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/and-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/core/node
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/property
+copying build/lib/test/resources/dash_tests/sparql/property/sparql-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/property
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/propertyValidator-select-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/nodeValidator-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/optional-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/validator-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/component
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/sparql-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/sparql-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/prefixes-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/sparql/node
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/target
+copying build/lib/test/resources/dash_tests/target/sparqlTarget-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/target
+copying build/lib/test/resources/dash_tests/target/sparqlTargetType-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/target
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/function
+copying build/lib/test/resources/dash_tests/function/callSPARQLFunction.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/function
+copying build/lib/test/resources/dash_tests/function/simpleSPARQLFunction.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/function
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/sparql
+copying build/lib/test/resources/dash_tests/rules/sparql/rectangle.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/sparql
+copying build/lib/test/resources/dash_tests/rules/sparql/classify-square.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/sparql
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/rectangle.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/schema2person.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/person.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/square.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/functions-permutations.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/person2schema.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/rules/triple
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/expression
+copying build/lib/test/resources/dash_tests/expression/booleans-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/expression
+creating build/bdist.linux-x86_64/egg/test/resources/dash_tests/shapedefs
+copying build/lib/test/resources/dash_tests/shapedefs/anon-shape-002.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/shapedefs
+copying build/lib/test/resources/dash_tests/shapedefs/anon-shape-001.test.ttl -> build/bdist.linux-x86_64/egg/test/resources/dash_tests/shapedefs
+creating build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/multiply.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/hasMaxCount.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/findThings.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/findBornIn.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/germanLabel.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/rectangle.js -> build/bdist.linux-x86_64/egg/test/resources/js
+copying build/lib/test/resources/js/hasMaxLength.js -> build/bdist.linux-x86_64/egg/test/resources/js
+creating build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d1.jsonld -> build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/s1.ttl -> build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/o1.ttl -> build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d2.ttl -> build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d1.ttl -> build/bdist.linux-x86_64/egg/test/resources/cmdline_tests
+copying build/lib/test/__init__.py -> build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_cmdline.py -> build/bdist.linux-x86_64/egg/test
+copying build/lib/test/test_extra.py -> build/bdist.linux-x86_64/egg/test
+creating build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_constraint_path_component.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/conftest.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_constraint.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_rules.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/__init__.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_constraint_component.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_target_type.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_target.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/test_js/test_js_function.py -> build/bdist.linux-x86_64/egg/test/test_js
+copying build/lib/test/implementation_report.py -> build/bdist.linux-x86_64/egg/test
+creating build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_026.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_012.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_96.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_036.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/bad_test_070.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_062.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_076.py -> build/bdist.linux-x86_64/egg/test/issues
+creating build/bdist.linux-x86_64/egg/test/issues/test_040
+copying build/lib/test/issues/test_040/sample-network.ttl -> build/bdist.linux-x86_64/egg/test/issues/test_040
+copying build/lib/test/issues/test_040/__init__.py -> build/bdist.linux-x86_64/egg/test/issues/test_040
+copying build/lib/test/issues/test_040/03-Network.ttl -> build/bdist.linux-x86_64/egg/test/issues/test_040
+copying build/lib/test/issues/test_008.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_079.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_038.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/__init__.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_w3_list1.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_108.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_009.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_058.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_098.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_w3_list2.py -> build/bdist.linux-x86_64/egg/test/issues
+creating build/bdist.linux-x86_64/egg/test/issues/test_029
+copying build/lib/test/issues/test_029/simpleOnto.ttl -> build/bdist.linux-x86_64/egg/test/issues/test_029
+copying build/lib/test/issues/test_029/__init__.py -> build/bdist.linux-x86_64/egg/test/issues/test_029
+copying build/lib/test/issues/test_029/simpleData.ttl -> build/bdist.linux-x86_64/egg/test/issues/test_029
+copying build/lib/test/issues/test_014.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_071.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/issue_102.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/issues/test_087.py -> build/bdist.linux-x86_64/egg/test/issues
+copying build/lib/test/helpers.py -> build/bdist.linux-x86_64/egg/test
+creating build/bdist.linux-x86_64/egg/pyshacl
+creating build/bdist.linux-x86_64/egg/pyshacl/constraints
+creating build/bdist.linux-x86_64/egg/pyshacl/constraints/advanced
+copying build/lib/pyshacl/constraints/advanced/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/advanced
+creating build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/value_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/string_based_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/cardinality_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/shape_based_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/value_range_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/logical_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/property_pair_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/other_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/core
+creating build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/sparql_based_constraints.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/sparql_based_constraint_components.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints
+copying build/lib/pyshacl/constraints/constraint_component.py -> build/bdist.linux-x86_64/egg/pyshacl/constraints
+copying build/lib/pyshacl/pytypes.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/consts.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/pyshacl-cli.spec -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/validate.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/cli.py -> build/bdist.linux-x86_64/egg/pyshacl
+creating build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/pytypes.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/stringify.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/consts.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/load.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/compare.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/clone.py -> build/bdist.linux-x86_64/egg/pyshacl/rdfutil
+creating build/bdist.linux-x86_64/egg/pyshacl/rules
+creating build/bdist.linux-x86_64/egg/pyshacl/rules/sparql
+copying build/lib/pyshacl/rules/sparql/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/rules/sparql
+copying build/lib/pyshacl/rules/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/rules
+copying build/lib/pyshacl/rules/shacl_rule.py -> build/bdist.linux-x86_64/egg/pyshacl/rules
+creating build/bdist.linux-x86_64/egg/pyshacl/rules/triple
+copying build/lib/pyshacl/rules/triple/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/rules/triple
+creating build/bdist.linux-x86_64/egg/pyshacl/inference
+copying build/lib/pyshacl/inference/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/inference
+copying build/lib/pyshacl/inference/custom_rdfs_closure.py -> build/bdist.linux-x86_64/egg/pyshacl/inference
+creating build/bdist.linux-x86_64/egg/pyshacl/functions
+copying build/lib/pyshacl/functions/shacl_function.py -> build/bdist.linux-x86_64/egg/pyshacl/functions
+copying build/lib/pyshacl/functions/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/functions
+creating build/bdist.linux-x86_64/egg/pyshacl/monkey
+copying build/lib/pyshacl/monkey/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/monkey
+copying build/lib/pyshacl/monkey/memory2.py -> build/bdist.linux-x86_64/egg/pyshacl/monkey
+copying build/lib/pyshacl/target.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/shape.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/errors.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/shapes_graph.py -> build/bdist.linux-x86_64/egg/pyshacl
+copying build/lib/pyshacl/parameter.py -> build/bdist.linux-x86_64/egg/pyshacl
+creating build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/make_builtin.py -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl.pickle -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/schema.ttl -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/schema.pickle -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl.ttl -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl-shacl.pickle -> build/bdist.linux-x86_64/egg/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl-shacl.ttl -> build/bdist.linux-x86_64/egg/pyshacl/assets
+creating build/bdist.linux-x86_64/egg/pyshacl/helper
+copying build/lib/pyshacl/helper/expression_helper.py -> build/bdist.linux-x86_64/egg/pyshacl/helper
+copying build/lib/pyshacl/helper/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/helper
+copying build/lib/pyshacl/helper/sparql_query_helper.py -> build/bdist.linux-x86_64/egg/pyshacl/helper
+copying build/lib/pyshacl/__main__.py -> build/bdist.linux-x86_64/egg/pyshacl
+creating build/bdist.linux-x86_64/egg/pyshacl/extras
+creating build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/constraint.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/rules.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/context.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/loader.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/js_executable.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/constraint_component.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/target.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/function.py -> build/bdist.linux-x86_64/egg/pyshacl/extras/js
+copying build/lib/pyshacl/extras/__init__.py -> build/bdist.linux-x86_64/egg/pyshacl/extras
+creating build/bdist.linux-x86_64/egg/examples
+copying build/lib/examples/advanced.py -> build/bdist.linux-x86_64/egg/examples
+copying build/lib/examples/two_file_example.py -> build/bdist.linux-x86_64/egg/examples
+copying build/lib/examples/example.py -> build/bdist.linux-x86_64/egg/examples
+creating build/bdist.linux-x86_64/egg/benchmarks
+copying build/lib/benchmarks/benchmark.py -> build/bdist.linux-x86_64/egg/benchmarks
+byte-compiling build/bdist.linux-x86_64/egg/test/test_dash_validate.py to test_dash_validate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_schema_org.py to test_schema_org.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_advanced.py to test_advanced.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_sht_validate.py to test_sht_validate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_cmdline.py to test_cmdline.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_extra.py to test_extra.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_constraint_path_component.py to test_js_constraint_path_component.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/conftest.py to conftest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_constraint.py to test_js_constraint.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_rules.py to test_js_rules.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_constraint_component.py to test_js_constraint_component.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_target_type.py to test_js_target_type.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_target.py to test_js_target.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/test_js/test_js_function.py to test_js_function.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/implementation_report.py to implementation_report.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_026.py to test_026.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_012.py to test_012.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_96.py to test_96.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_036.py to test_036.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/bad_test_070.py to bad_test_070.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_062.py to test_062.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_076.py to test_076.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_040/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_008.py to test_008.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_079.py to test_079.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_038.py to test_038.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_w3_list1.py to test_w3_list1.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_108.py to test_108.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_009.py to test_009.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_058.py to test_058.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_098.py to test_098.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_w3_list2.py to test_w3_list2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_029/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_014.py to test_014.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_071.py to test_071.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/issue_102.py to issue_102.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/issues/test_087.py to test_087.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/test/helpers.py to helpers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/advanced/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/value_constraints.py to value_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/string_based_constraints.py to string_based_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/cardinality_constraints.py to cardinality_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/shape_based_constraints.py to shape_based_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/value_range_constraints.py to value_range_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/logical_constraints.py to logical_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/property_pair_constraints.py to property_pair_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/core/other_constraints.py to other_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql/sparql_based_constraints.py to sparql_based_constraints.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/sparql/sparql_based_constraint_components.py to sparql_based_constraint_components.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/constraints/constraint_component.py to constraint_component.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/pytypes.py to pytypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/consts.py to consts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/validate.py to validate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/cli.py to cli.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/pytypes.py to pytypes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/stringify.py to stringify.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/consts.py to consts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/load.py to load.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/compare.py to compare.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rdfutil/clone.py to clone.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rules/sparql/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rules/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rules/shacl_rule.py to shacl_rule.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/rules/triple/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/inference/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/inference/custom_rdfs_closure.py to custom_rdfs_closure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/functions/shacl_function.py to shacl_function.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/functions/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/monkey/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/monkey/memory2.py to memory2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/target.py to target.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/shape.py to shape.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/errors.py to errors.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/shapes_graph.py to shapes_graph.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/parameter.py to parameter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/assets/make_builtin.py to make_builtin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/helper/expression_helper.py to expression_helper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/helper/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/helper/sparql_query_helper.py to sparql_query_helper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/constraint.py to constraint.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/rules.py to rules.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/context.py to context.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/loader.py to loader.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/js_executable.py to js_executable.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/constraint_component.py to constraint_component.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/target.py to target.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/js/function.py to function.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyshacl/extras/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/advanced.py to advanced.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/two_file_example.py to two_file_example.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/example.py to example.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/benchmarks/benchmark.py to benchmark.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyshacl.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pyshacl.__pycache__.validate.cpython-39: module references __file__
+test.__pycache__.implementation_report.cpython-39: module references __file__
+test.__pycache__.test_cmdline.cpython-39: module references __file__
+test.__pycache__.test_dash_validate.cpython-39: module references __file__
+test.__pycache__.test_sht_validate.cpython-39: module references __file__
+creating dist
+creating 'dist/pyshacl-0.17.3-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pyshacl-0.17.3-py3.9.egg
+creating /src/packages/.artifacts/lib/python/pyshacl-0.17.3-py3.9.egg
+Extracting pyshacl-0.17.3-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding pyshacl 0.17.3 to easy-install.pth file
+Installing pyshacl script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/pyshacl-0.17.3-py3.9.egg
+Processing dependencies for pyshacl==0.17.3
+Searching for prettytable<3.0.0,>=2.2.1
+Reading https://pypi.org/simple/prettytable/
+Downloading https://files.pythonhosted.org/packages/de/56/554603797416219cae8fd3eae33e5e2d58a7fc73419129b62fa419a67856/prettytable-2.4.0-py3-none-any.whl#sha256=2492f29e8686bdbcce815a568bff74cb71cbb704747c3abb9c9c6cfe25f985a2
+Best match: prettytable 2.4.0
+Processing prettytable-2.4.0-py3-none-any.whl
+Installing prettytable-2.4.0-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding prettytable 2.4.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/prettytable-2.4.0-py3.9.egg
+Searching for owlrl<7,>=5.2.3
+Reading https://pypi.org/simple/owlrl/
+Downloading https://files.pythonhosted.org/packages/9d/56/11fe63c2c317347f69be17e9ece1991e0ec6c2cdb8225c0baa5b96e283ed/owlrl-6.0.2-py3-none-any.whl#sha256=57eca06b221edbbc682376c8d42e2ddffc99f61e82c0da02e26735592f08bacc
+Best match: owlrl 6.0.2
+Processing owlrl-6.0.2-py3-none-any.whl
+Installing owlrl-6.0.2-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding owlrl 6.0.2 to easy-install.pth file
+Installing RDFConvertService script to /src/packages/.artifacts/bin
+Installing owlrl script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/owlrl-6.0.2-py3.9.egg
+Searching for rdflib==6.0.2
+Best match: rdflib 6.0.2
+Processing rdflib-6.0.2-py3.9.egg
+rdflib 6.0.2 is already the active version in easy-install.pth
+Installing csv2rdf script to /src/packages/.artifacts/bin
+Installing rdf2dot script to /src/packages/.artifacts/bin
+Installing rdfgraphisomorphism script to /src/packages/.artifacts/bin
+Installing rdfpipe script to /src/packages/.artifacts/bin
+Installing rdfs2dot script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/rdflib-6.0.2-py3.9.egg
+Searching for setuptools==57.1.0
+Best match: setuptools 57.1.0
+Processing setuptools-57.1.0-py3.9.egg
+setuptools 57.1.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/setuptools-57.1.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Searching for isodate==0.6.1
+Best match: isodate 0.6.1
+Processing isodate-0.6.1-py3.9.egg
+isodate 0.6.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/isodate-0.6.1-py3.9.egg
+Searching for wcwidth==0.2.5
+Best match: wcwidth 0.2.5
+Processing wcwidth-0.2.5-py3.9.egg
+wcwidth 0.2.5 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/wcwidth-0.2.5-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for pyshacl==0.17.3
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/test
+copying build/lib/test/test_dash_validate.py -> install/lib/python3.9/site-packages/test
+copying build/lib/test/test_schema_org.py -> install/lib/python3.9/site-packages/test
+copying build/lib/test/test_advanced.py -> install/lib/python3.9/site-packages/test
+copying build/lib/test/test_sht_validate.py -> install/lib/python3.9/site-packages/test
+creating install/lib/python3.9/site-packages/test/resources
+creating install/lib/python3.9/site-packages/test/resources/sht_tests
+copying build/lib/test/resources/sht_tests/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/message-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/severity-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/severity-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/deactivated-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/misc/deactivated-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/misc
+copying build/lib/test/resources/sht_tests/core/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/validation-reports
+copying build/lib/test/resources/sht_tests/core/validation-reports/shared-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/validation-reports
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetNode-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetClass-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetObjectsOf-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/multipleTargets-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetSubjectsOf-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetSubjectsOf-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+copying build/lib/test/resources/sht_tests/core/targets/targetClassImplicit-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/targets
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/shacl-shacl-data-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/personexample.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/complex
+copying build/lib/test/resources/sht_tests/core/complex/shacl-shacl.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/complex
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/pattern-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThanOrEquals-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/not-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/pattern-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minLength-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/nodeKind-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/disjoint-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxLength-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxCount-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minCount-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxCount-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minCount-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedValueShapesDisjoint-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/and-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/languageIn-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/class-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedMinCountDisjoint-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/hasValue-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/or-datatypes-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxExclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/equals-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/datatype-ill-formed-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/node-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/maxInclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/uniqueLang-002-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/in-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/node-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/property-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThan-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/or-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minExclusive-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/lessThan-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/minExclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+copying build/lib/test/resources/sht_tests/core/property/qualifiedValueShape-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/property
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-oneOrMore-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-inverse-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-zeroOrOne-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-002-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-alternative-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-complex-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-strange-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-strange-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-zeroOrMore-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-unused-001-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+copying build/lib/test/resources/sht_tests/core/path/path-sequence-duplicate-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/path
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/pattern-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/not-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001-shapes.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/pattern-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/not-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minLength-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/nodeKind-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/disjoint-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxLength-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/closed-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/closed-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/datatype-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/and-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/datatype-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/languageIn-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/class-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/and-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/hasValue-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxExclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/equals-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/node-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/maxInclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/in-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/or-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/xone-duplicate-data.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minExclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/minInclusive-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+copying build/lib/test/resources/sht_tests/core/node/qualified-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/core/node
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/sparql
+copying build/lib/test/resources/sht_tests/sparql/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/property
+copying build/lib/test/resources/sht_tests/sparql/property/sparql-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/property
+copying build/lib/test/resources/sht_tests/sparql/property/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/property
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-005.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-004.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-006.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-007.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/pre-binding-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-006.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-004.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/unsupported-sparql-005.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+copying build/lib/test/resources/sht_tests/sparql/pre-binding/shapesGraph-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/pre-binding
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/nodeValidator-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/propertyValidator-select-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/optional-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+copying build/lib/test/resources/sht_tests/sparql/component/validator-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/component
+creating install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-002.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/sparql-003.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/manifest.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+copying build/lib/test/resources/sht_tests/sparql/node/prefixes-001.ttl -> install/lib/python3.9/site-packages/test/resources/sht_tests/sparql/node
+creating install/lib/python3.9/site-packages/test/resources/dash_tests
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/deactivated-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/severity-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/deactivated-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/misc
+copying build/lib/test/resources/dash_tests/core/misc/severity-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/misc
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetClassImplicit-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetSubjectsOf-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetClass-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetSubjectsOf-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetNode-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/multipleTargets-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+copying build/lib/test/resources/dash_tests/core/targets/targetObjectsOf-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/targets
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/complex
+copying build/lib/test/resources/dash_tests/core/complex/personexample.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/complex
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedValueShapesDisjoint-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-003.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minCount-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxCount-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/pattern-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/class-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/node-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/property-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/xone-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/disjoint-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/uniqueLang-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minExclusive-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minLength-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxExclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/hasValue-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThanOrEquals-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThan-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxCount-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/pattern-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/node-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/not-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/equals-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/or-datatypes-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minCount-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/datatype-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/nodeKind-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxInclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedValueShape-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/in-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/maxLength-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/or-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/lessThan-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/minExclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/languageIn-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/and-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+copying build/lib/test/resources/dash_tests/core/property/qualifiedMinCountDisjoint-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/property
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-complex-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-inverse-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-alternative-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-oneOrMore-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-zeroOrOne-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-zeroOrMore-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+copying build/lib/test/resources/dash_tests/core/path/path-sequence-duplicate-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/path
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minInclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/datatype-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/not-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/pattern-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/class-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/and-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/xone-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/disjoint-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/closed-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minLength-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxExclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/hasValue-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/pattern-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/node-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/class-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/not-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/equals-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/datatype-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/nodeKind-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxInclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/in-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/maxLength-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/or-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/minExclusive-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/languageIn-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/closed-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+copying build/lib/test/resources/dash_tests/core/node/and-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/core/node
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/sparql
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/property
+copying build/lib/test/resources/dash_tests/sparql/property/sparql-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/property
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/propertyValidator-select-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/nodeValidator-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/optional-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/component
+copying build/lib/test/resources/dash_tests/sparql/component/validator-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/component
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/sparql-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/sparql-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/node
+copying build/lib/test/resources/dash_tests/sparql/node/prefixes-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/sparql/node
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/target
+copying build/lib/test/resources/dash_tests/target/sparqlTarget-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/target
+copying build/lib/test/resources/dash_tests/target/sparqlTargetType-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/target
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/function
+copying build/lib/test/resources/dash_tests/function/callSPARQLFunction.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/function
+copying build/lib/test/resources/dash_tests/function/simpleSPARQLFunction.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/function
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/rules
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/rules/sparql
+copying build/lib/test/resources/dash_tests/rules/sparql/rectangle.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/sparql
+copying build/lib/test/resources/dash_tests/rules/sparql/classify-square.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/sparql
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/rectangle.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/schema2person.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/person.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/square.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/functions-permutations.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+copying build/lib/test/resources/dash_tests/rules/triple/person2schema.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/rules/triple
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/expression
+copying build/lib/test/resources/dash_tests/expression/booleans-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/expression
+creating install/lib/python3.9/site-packages/test/resources/dash_tests/shapedefs
+copying build/lib/test/resources/dash_tests/shapedefs/anon-shape-002.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/shapedefs
+copying build/lib/test/resources/dash_tests/shapedefs/anon-shape-001.test.ttl -> install/lib/python3.9/site-packages/test/resources/dash_tests/shapedefs
+creating install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/multiply.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/hasMaxCount.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/findThings.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/findBornIn.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/germanLabel.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/rectangle.js -> install/lib/python3.9/site-packages/test/resources/js
+copying build/lib/test/resources/js/hasMaxLength.js -> install/lib/python3.9/site-packages/test/resources/js
+creating install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d1.jsonld -> install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/s1.ttl -> install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/o1.ttl -> install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d2.ttl -> install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/resources/cmdline_tests/d1.ttl -> install/lib/python3.9/site-packages/test/resources/cmdline_tests
+copying build/lib/test/__init__.py -> install/lib/python3.9/site-packages/test
+copying build/lib/test/test_cmdline.py -> install/lib/python3.9/site-packages/test
+copying build/lib/test/test_extra.py -> install/lib/python3.9/site-packages/test
+creating install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_constraint_path_component.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/conftest.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_constraint.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_rules.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/__init__.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_constraint_component.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_target_type.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_target.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/test_js/test_js_function.py -> install/lib/python3.9/site-packages/test/test_js
+copying build/lib/test/implementation_report.py -> install/lib/python3.9/site-packages/test
+creating install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_026.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_012.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_96.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_036.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/bad_test_070.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_062.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_076.py -> install/lib/python3.9/site-packages/test/issues
+creating install/lib/python3.9/site-packages/test/issues/test_040
+copying build/lib/test/issues/test_040/sample-network.ttl -> install/lib/python3.9/site-packages/test/issues/test_040
+copying build/lib/test/issues/test_040/__init__.py -> install/lib/python3.9/site-packages/test/issues/test_040
+copying build/lib/test/issues/test_040/03-Network.ttl -> install/lib/python3.9/site-packages/test/issues/test_040
+copying build/lib/test/issues/test_008.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_079.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_038.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/__init__.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_w3_list1.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_108.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_009.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_058.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_098.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_w3_list2.py -> install/lib/python3.9/site-packages/test/issues
+creating install/lib/python3.9/site-packages/test/issues/test_029
+copying build/lib/test/issues/test_029/simpleOnto.ttl -> install/lib/python3.9/site-packages/test/issues/test_029
+copying build/lib/test/issues/test_029/__init__.py -> install/lib/python3.9/site-packages/test/issues/test_029
+copying build/lib/test/issues/test_029/simpleData.ttl -> install/lib/python3.9/site-packages/test/issues/test_029
+copying build/lib/test/issues/test_014.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_071.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/issue_102.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/issues/test_087.py -> install/lib/python3.9/site-packages/test/issues
+copying build/lib/test/helpers.py -> install/lib/python3.9/site-packages/test
+creating install/lib/python3.9/site-packages/pyshacl
+creating install/lib/python3.9/site-packages/pyshacl/constraints
+creating install/lib/python3.9/site-packages/pyshacl/constraints/advanced
+copying build/lib/pyshacl/constraints/advanced/__init__.py -> install/lib/python3.9/site-packages/pyshacl/constraints/advanced
+creating install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/value_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/string_based_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/cardinality_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/__init__.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/shape_based_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/value_range_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/logical_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/property_pair_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+copying build/lib/pyshacl/constraints/core/other_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/core
+creating install/lib/python3.9/site-packages/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/sparql_based_constraints.py -> install/lib/python3.9/site-packages/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/__init__.py -> install/lib/python3.9/site-packages/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/sparql/sparql_based_constraint_components.py -> install/lib/python3.9/site-packages/pyshacl/constraints/sparql
+copying build/lib/pyshacl/constraints/__init__.py -> install/lib/python3.9/site-packages/pyshacl/constraints
+copying build/lib/pyshacl/constraints/constraint_component.py -> install/lib/python3.9/site-packages/pyshacl/constraints
+copying build/lib/pyshacl/pytypes.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/__init__.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/consts.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/pyshacl-cli.spec -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/validate.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/cli.py -> install/lib/python3.9/site-packages/pyshacl
+creating install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/pytypes.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/stringify.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/__init__.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/consts.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/load.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/compare.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+copying build/lib/pyshacl/rdfutil/clone.py -> install/lib/python3.9/site-packages/pyshacl/rdfutil
+creating install/lib/python3.9/site-packages/pyshacl/rules
+creating install/lib/python3.9/site-packages/pyshacl/rules/sparql
+copying build/lib/pyshacl/rules/sparql/__init__.py -> install/lib/python3.9/site-packages/pyshacl/rules/sparql
+copying build/lib/pyshacl/rules/__init__.py -> install/lib/python3.9/site-packages/pyshacl/rules
+copying build/lib/pyshacl/rules/shacl_rule.py -> install/lib/python3.9/site-packages/pyshacl/rules
+creating install/lib/python3.9/site-packages/pyshacl/rules/triple
+copying build/lib/pyshacl/rules/triple/__init__.py -> install/lib/python3.9/site-packages/pyshacl/rules/triple
+creating install/lib/python3.9/site-packages/pyshacl/inference
+copying build/lib/pyshacl/inference/__init__.py -> install/lib/python3.9/site-packages/pyshacl/inference
+copying build/lib/pyshacl/inference/custom_rdfs_closure.py -> install/lib/python3.9/site-packages/pyshacl/inference
+creating install/lib/python3.9/site-packages/pyshacl/functions
+copying build/lib/pyshacl/functions/shacl_function.py -> install/lib/python3.9/site-packages/pyshacl/functions
+copying build/lib/pyshacl/functions/__init__.py -> install/lib/python3.9/site-packages/pyshacl/functions
+creating install/lib/python3.9/site-packages/pyshacl/monkey
+copying build/lib/pyshacl/monkey/__init__.py -> install/lib/python3.9/site-packages/pyshacl/monkey
+copying build/lib/pyshacl/monkey/memory2.py -> install/lib/python3.9/site-packages/pyshacl/monkey
+copying build/lib/pyshacl/target.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/shape.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/errors.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/shapes_graph.py -> install/lib/python3.9/site-packages/pyshacl
+copying build/lib/pyshacl/parameter.py -> install/lib/python3.9/site-packages/pyshacl
+creating install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/make_builtin.py -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl.pickle -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/schema.ttl -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/schema.pickle -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl.ttl -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl-shacl.pickle -> install/lib/python3.9/site-packages/pyshacl/assets
+copying build/lib/pyshacl/assets/shacl-shacl.ttl -> install/lib/python3.9/site-packages/pyshacl/assets
+creating install/lib/python3.9/site-packages/pyshacl/helper
+copying build/lib/pyshacl/helper/expression_helper.py -> install/lib/python3.9/site-packages/pyshacl/helper
+copying build/lib/pyshacl/helper/__init__.py -> install/lib/python3.9/site-packages/pyshacl/helper
+copying build/lib/pyshacl/helper/sparql_query_helper.py -> install/lib/python3.9/site-packages/pyshacl/helper
+copying build/lib/pyshacl/__main__.py -> install/lib/python3.9/site-packages/pyshacl
+creating install/lib/python3.9/site-packages/pyshacl/extras
+creating install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/constraint.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/__init__.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/rules.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/context.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/loader.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/js_executable.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/constraint_component.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/target.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/js/function.py -> install/lib/python3.9/site-packages/pyshacl/extras/js
+copying build/lib/pyshacl/extras/__init__.py -> install/lib/python3.9/site-packages/pyshacl/extras
+creating install/lib/python3.9/site-packages/examples
+copying build/lib/examples/advanced.py -> install/lib/python3.9/site-packages/examples
+copying build/lib/examples/two_file_example.py -> install/lib/python3.9/site-packages/examples
+copying build/lib/examples/example.py -> install/lib/python3.9/site-packages/examples
+creating install/lib/python3.9/site-packages/benchmarks
+copying build/lib/benchmarks/benchmark.py -> install/lib/python3.9/site-packages/benchmarks
+byte-compiling install/lib/python3.9/site-packages/test/test_dash_validate.py to test_dash_validate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_schema_org.py to test_schema_org.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_advanced.py to test_advanced.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_sht_validate.py to test_sht_validate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_cmdline.py to test_cmdline.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_extra.py to test_extra.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_constraint_path_component.py to test_js_constraint_path_component.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/conftest.py to conftest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_constraint.py to test_js_constraint.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_rules.py to test_js_rules.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_constraint_component.py to test_js_constraint_component.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_target_type.py to test_js_target_type.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_target.py to test_js_target.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/test_js/test_js_function.py to test_js_function.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/implementation_report.py to implementation_report.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_026.py to test_026.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_012.py to test_012.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_96.py to test_96.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_036.py to test_036.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/bad_test_070.py to bad_test_070.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_062.py to test_062.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_076.py to test_076.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_040/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_008.py to test_008.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_079.py to test_079.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_038.py to test_038.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_w3_list1.py to test_w3_list1.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_108.py to test_108.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_009.py to test_009.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_058.py to test_058.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_098.py to test_098.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_w3_list2.py to test_w3_list2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_029/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_014.py to test_014.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_071.py to test_071.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/issue_102.py to issue_102.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/issues/test_087.py to test_087.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/test/helpers.py to helpers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/advanced/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/value_constraints.py to value_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/string_based_constraints.py to string_based_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/cardinality_constraints.py to cardinality_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/shape_based_constraints.py to shape_based_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/value_range_constraints.py to value_range_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/logical_constraints.py to logical_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/property_pair_constraints.py to property_pair_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/core/other_constraints.py to other_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/sparql/sparql_based_constraints.py to sparql_based_constraints.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/sparql/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/sparql/sparql_based_constraint_components.py to sparql_based_constraint_components.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/constraints/constraint_component.py to constraint_component.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/pytypes.py to pytypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/consts.py to consts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/validate.py to validate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/cli.py to cli.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/pytypes.py to pytypes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/stringify.py to stringify.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/consts.py to consts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/load.py to load.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/compare.py to compare.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rdfutil/clone.py to clone.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rules/sparql/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rules/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rules/shacl_rule.py to shacl_rule.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/rules/triple/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/inference/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/inference/custom_rdfs_closure.py to custom_rdfs_closure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/functions/shacl_function.py to shacl_function.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/functions/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/monkey/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/monkey/memory2.py to memory2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/target.py to target.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/shape.py to shape.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/errors.py to errors.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/shapes_graph.py to shapes_graph.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/parameter.py to parameter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/assets/make_builtin.py to make_builtin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/helper/expression_helper.py to expression_helper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/helper/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/helper/sparql_query_helper.py to sparql_query_helper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/constraint.py to constraint.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/rules.py to rules.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/context.py to context.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/loader.py to loader.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/js_executable.py to js_executable.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/constraint_component.py to constraint_component.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/target.py to target.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/js/function.py to function.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyshacl/extras/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/examples/advanced.py to advanced.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/examples/two_file_example.py to two_file_example.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/examples/example.py to example.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/benchmarks/benchmark.py to benchmark.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing pyshacl.egg-info/PKG-INFO
+writing dependency_links to pyshacl.egg-info/dependency_links.txt
+writing entry points to pyshacl.egg-info/entry_points.txt
+writing requirements to pyshacl.egg-info/requires.txt
+writing top-level names to pyshacl.egg-info/top_level.txt
+package init file 'benchmarks/__init__.py' not found (or not a regular file)
+package init file 'examples/__init__.py' not found (or not a regular file)
+package init file 'pyshacl/assets/__init__.py' not found (or not a regular file)
+reading manifest file 'pyshacl.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.txt' under directory 'docs'
+warning: no files found matching '*.md' under directory 'docs'
+adding license file 'LICENSE.txt'
+writing manifest file 'pyshacl.egg-info/SOURCES.txt'
+Copying pyshacl.egg-info to install/lib/python3.9/site-packages/pyshacl-0.17.3-py3.9.egg-info
+running install_scripts
+Installing pyshacl script to install/bin
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 6806166
+compressed package into 3246068
+compressed in 378 ms
+[2021-12-19 02:50:18] Building package pyshacl...
+[2021-12-19 02:52:53] done building package pyshacl in 155.0 s.

@@ -1,0 +1,292 @@
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running bdist_egg
+running egg_info
+writing autograd.egg-info/PKG-INFO
+writing dependency_links to autograd.egg-info/dependency_links.txt
+writing requirements to autograd.egg-info/requires.txt
+writing top-level names to autograd.egg-info/top_level.txt
+reading manifest file 'autograd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.c' under directory 'autograd'
+warning: no files found matching '*.h' under directory 'autograd'
+warning: no files found matching '*.pyx' under directory 'autograd'
+writing manifest file 'autograd.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/autograd
+copying autograd/util.py -> build/lib/autograd
+copying autograd/builtins.py -> build/lib/autograd
+copying autograd/extend.py -> build/lib/autograd
+copying autograd/__init__.py -> build/lib/autograd
+copying autograd/core.py -> build/lib/autograd
+copying autograd/test_util.py -> build/lib/autograd
+copying autograd/wrap_util.py -> build/lib/autograd
+copying autograd/differential_operators.py -> build/lib/autograd
+copying autograd/tracer.py -> build/lib/autograd
+creating build/lib/autograd/numpy
+copying autograd/numpy/numpy_vspaces.py -> build/lib/autograd/numpy
+copying autograd/numpy/numpy_wrapper.py -> build/lib/autograd/numpy
+copying autograd/numpy/__init__.py -> build/lib/autograd/numpy
+copying autograd/numpy/numpy_vjps.py -> build/lib/autograd/numpy
+copying autograd/numpy/random.py -> build/lib/autograd/numpy
+copying autograd/numpy/linalg.py -> build/lib/autograd/numpy
+copying autograd/numpy/numpy_boxes.py -> build/lib/autograd/numpy
+copying autograd/numpy/numpy_jvps.py -> build/lib/autograd/numpy
+copying autograd/numpy/fft.py -> build/lib/autograd/numpy
+creating build/lib/autograd/scipy
+copying autograd/scipy/misc.py -> build/lib/autograd/scipy
+copying autograd/scipy/signal.py -> build/lib/autograd/scipy
+copying autograd/scipy/__init__.py -> build/lib/autograd/scipy
+copying autograd/scipy/integrate.py -> build/lib/autograd/scipy
+copying autograd/scipy/linalg.py -> build/lib/autograd/scipy
+copying autograd/scipy/special.py -> build/lib/autograd/scipy
+creating build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/dirichlet.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/multivariate_normal.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/poisson.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/beta.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/norm.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/__init__.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/t.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/gamma.py -> build/lib/autograd/scipy/stats
+copying autograd/scipy/stats/chi2.py -> build/lib/autograd/scipy/stats
+creating build/lib/autograd/misc
+copying autograd/misc/fixed_points.py -> build/lib/autograd/misc
+copying autograd/misc/flatten.py -> build/lib/autograd/misc
+copying autograd/misc/tracers.py -> build/lib/autograd/misc
+copying autograd/misc/__init__.py -> build/lib/autograd/misc
+copying autograd/misc/optimizers.py -> build/lib/autograd/misc
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/autograd
+creating build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/misc/fixed_points.py -> build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/misc/flatten.py -> build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/misc/tracers.py -> build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/misc/__init__.py -> build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/misc/optimizers.py -> build/bdist.linux-x86_64/egg/autograd/misc
+copying build/lib/autograd/util.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/builtins.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/extend.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/__init__.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/core.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/test_util.py -> build/bdist.linux-x86_64/egg/autograd
+creating build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/numpy_vspaces.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/numpy_wrapper.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/__init__.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/numpy_vjps.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/random.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/linalg.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/numpy_boxes.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/numpy_jvps.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/numpy/fft.py -> build/bdist.linux-x86_64/egg/autograd/numpy
+copying build/lib/autograd/wrap_util.py -> build/bdist.linux-x86_64/egg/autograd
+copying build/lib/autograd/differential_operators.py -> build/bdist.linux-x86_64/egg/autograd
+creating build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/misc.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/signal.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/__init__.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/integrate.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/linalg.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+copying build/lib/autograd/scipy/special.py -> build/bdist.linux-x86_64/egg/autograd/scipy
+creating build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/dirichlet.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/multivariate_normal.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/poisson.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/beta.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/norm.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/__init__.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/t.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/gamma.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/chi2.py -> build/bdist.linux-x86_64/egg/autograd/scipy/stats
+copying build/lib/autograd/tracer.py -> build/bdist.linux-x86_64/egg/autograd
+byte-compiling build/bdist.linux-x86_64/egg/autograd/misc/fixed_points.py to fixed_points.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/misc/flatten.py to flatten.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/misc/tracers.py to tracers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/misc/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/misc/optimizers.py to optimizers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/builtins.py to builtins.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/extend.py to extend.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/test_util.py to test_util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/numpy_vspaces.py to numpy_vspaces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/numpy_wrapper.py to numpy_wrapper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/numpy_vjps.py to numpy_vjps.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/random.py to random.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/linalg.py to linalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/numpy_boxes.py to numpy_boxes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/numpy_jvps.py to numpy_jvps.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/numpy/fft.py to fft.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/wrap_util.py to wrap_util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/differential_operators.py to differential_operators.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/misc.py to misc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/signal.py to signal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/integrate.py to integrate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/linalg.py to linalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/special.py to special.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/dirichlet.py to dirichlet.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/multivariate_normal.py to multivariate_normal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/poisson.py to poisson.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/beta.py to beta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/norm.py to norm.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/t.py to t.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/gamma.py to gamma.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/scipy/stats/chi2.py to chi2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/autograd/tracer.py to tracer.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying autograd.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying autograd.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying autograd.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying autograd.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying autograd.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+autograd.__pycache__.differential_operators.cpython-39: module MAY be using inspect.stack
+creating dist
+creating 'dist/autograd-1.3-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing autograd-1.3-py3.9.egg
+creating /src/packages/.artifacts/lib/python/autograd-1.3-py3.9.egg
+Extracting autograd-1.3-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding autograd 1.3 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/autograd-1.3-py3.9.egg
+Processing dependencies for autograd==1.3
+Searching for future==0.18.2
+Best match: future 0.18.2
+Processing future-0.18.2-py3.9.egg
+future 0.18.2 is already the active version in easy-install.pth
+Installing futurize script to /src/packages/.artifacts/bin
+Installing pasteurize script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/future-0.18.2-py3.9.egg
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Finished processing dependencies for autograd==1.3
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/autograd
+creating install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/misc/fixed_points.py -> install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/misc/flatten.py -> install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/misc/tracers.py -> install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/misc/__init__.py -> install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/misc/optimizers.py -> install/lib/python3.9/site-packages/autograd/misc
+copying build/lib/autograd/util.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/builtins.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/extend.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/__init__.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/core.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/test_util.py -> install/lib/python3.9/site-packages/autograd
+creating install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/numpy_vspaces.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/numpy_wrapper.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/__init__.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/numpy_vjps.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/random.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/linalg.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/numpy_boxes.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/numpy_jvps.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/numpy/fft.py -> install/lib/python3.9/site-packages/autograd/numpy
+copying build/lib/autograd/wrap_util.py -> install/lib/python3.9/site-packages/autograd
+copying build/lib/autograd/differential_operators.py -> install/lib/python3.9/site-packages/autograd
+creating install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/misc.py -> install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/signal.py -> install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/__init__.py -> install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/integrate.py -> install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/linalg.py -> install/lib/python3.9/site-packages/autograd/scipy
+copying build/lib/autograd/scipy/special.py -> install/lib/python3.9/site-packages/autograd/scipy
+creating install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/dirichlet.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/multivariate_normal.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/poisson.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/beta.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/norm.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/__init__.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/t.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/gamma.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/scipy/stats/chi2.py -> install/lib/python3.9/site-packages/autograd/scipy/stats
+copying build/lib/autograd/tracer.py -> install/lib/python3.9/site-packages/autograd
+byte-compiling install/lib/python3.9/site-packages/autograd/misc/fixed_points.py to fixed_points.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/misc/flatten.py to flatten.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/misc/tracers.py to tracers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/misc/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/misc/optimizers.py to optimizers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/builtins.py to builtins.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/extend.py to extend.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/test_util.py to test_util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/numpy_vspaces.py to numpy_vspaces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/numpy_wrapper.py to numpy_wrapper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/numpy_vjps.py to numpy_vjps.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/random.py to random.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/linalg.py to linalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/numpy_boxes.py to numpy_boxes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/numpy_jvps.py to numpy_jvps.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/numpy/fft.py to fft.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/wrap_util.py to wrap_util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/differential_operators.py to differential_operators.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/misc.py to misc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/signal.py to signal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/integrate.py to integrate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/linalg.py to linalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/special.py to special.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/dirichlet.py to dirichlet.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/multivariate_normal.py to multivariate_normal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/poisson.py to poisson.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/beta.py to beta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/norm.py to norm.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/t.py to t.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/gamma.py to gamma.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/scipy/stats/chi2.py to chi2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/autograd/tracer.py to tracer.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing autograd.egg-info/PKG-INFO
+writing dependency_links to autograd.egg-info/dependency_links.txt
+writing requirements to autograd.egg-info/requires.txt
+writing top-level names to autograd.egg-info/top_level.txt
+reading manifest file 'autograd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.c' under directory 'autograd'
+warning: no files found matching '*.h' under directory 'autograd'
+warning: no files found matching '*.pyx' under directory 'autograd'
+writing manifest file 'autograd.egg-info/SOURCES.txt'
+Copying autograd.egg-info to install/lib/python3.9/site-packages/autograd-1.3-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 143343
+compressed package into 79160
+compressed in 88 ms
+[2021-12-18 08:15:44] Building package autograd...
+[2021-12-18 08:16:58] done building package autograd in 74.1 s.

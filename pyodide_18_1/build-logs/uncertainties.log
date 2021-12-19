@@ -1,0 +1,181 @@
+running install
+running bdist_egg
+running egg_info
+writing uncertainties.egg-info/PKG-INFO
+writing dependency_links to uncertainties.egg-info/dependency_links.txt
+writing requirements to uncertainties.egg-info/requires.txt
+writing top-level names to uncertainties.egg-info/top_level.txt
+reading manifest file 'uncertainties.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/_build'
+warning: no previously-included files matching '*~' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'uncertainties.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/uncertainties
+copying uncertainties/umath.py -> build/lib/uncertainties
+copying uncertainties/umath_core.py -> build/lib/uncertainties
+copying uncertainties/__init__.py -> build/lib/uncertainties
+copying uncertainties/core.py -> build/lib/uncertainties
+copying uncertainties/test_umath.py -> build/lib/uncertainties
+copying uncertainties/test_uncertainties.py -> build/lib/uncertainties
+copying uncertainties/1to2.py -> build/lib/uncertainties
+creating build/lib/uncertainties/unumpy
+copying uncertainties/unumpy/test_ulinalg.py -> build/lib/uncertainties/unumpy
+copying uncertainties/unumpy/ulinalg.py -> build/lib/uncertainties/unumpy
+copying uncertainties/unumpy/test_unumpy.py -> build/lib/uncertainties/unumpy
+copying uncertainties/unumpy/__init__.py -> build/lib/uncertainties/unumpy
+copying uncertainties/unumpy/core.py -> build/lib/uncertainties/unumpy
+creating build/lib/uncertainties/lib1to2
+copying uncertainties/lib1to2/__init__.py -> build/lib/uncertainties/lib1to2
+copying uncertainties/lib1to2/test_1to2.py -> build/lib/uncertainties/lib1to2
+creating build/lib/uncertainties/lib1to2/fixes
+copying uncertainties/lib1to2/fixes/fix_std_dev.py -> build/lib/uncertainties/lib1to2/fixes
+copying uncertainties/lib1to2/fixes/fix_ufloat.py -> build/lib/uncertainties/lib1to2/fixes
+copying uncertainties/lib1to2/fixes/fix_uarray_umatrix.py -> build/lib/uncertainties/lib1to2/fixes
+copying uncertainties/lib1to2/fixes/__init__.py -> build/lib/uncertainties/lib1to2/fixes
+copying uncertainties/lib1to2/fixes/fix_std_devs.py -> build/lib/uncertainties/lib1to2/fixes
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/uncertainties
+copying build/lib/uncertainties/umath.py -> build/bdist.linux-x86_64/egg/uncertainties
+creating build/bdist.linux-x86_64/egg/uncertainties/lib1to2
+creating build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_std_dev.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_ufloat.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_uarray_umatrix.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/__init__.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_std_devs.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/__init__.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2
+copying build/lib/uncertainties/lib1to2/test_1to2.py -> build/bdist.linux-x86_64/egg/uncertainties/lib1to2
+copying build/lib/uncertainties/umath_core.py -> build/bdist.linux-x86_64/egg/uncertainties
+copying build/lib/uncertainties/__init__.py -> build/bdist.linux-x86_64/egg/uncertainties
+copying build/lib/uncertainties/core.py -> build/bdist.linux-x86_64/egg/uncertainties
+copying build/lib/uncertainties/test_umath.py -> build/bdist.linux-x86_64/egg/uncertainties
+creating build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/test_ulinalg.py -> build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/ulinalg.py -> build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/test_unumpy.py -> build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/__init__.py -> build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/core.py -> build/bdist.linux-x86_64/egg/uncertainties/unumpy
+copying build/lib/uncertainties/test_uncertainties.py -> build/bdist.linux-x86_64/egg/uncertainties
+copying build/lib/uncertainties/1to2.py -> build/bdist.linux-x86_64/egg/uncertainties
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/umath.py to umath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes/fix_std_dev.py to fix_std_dev.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes/fix_ufloat.py to fix_ufloat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes/fix_uarray_umatrix.py to fix_uarray_umatrix.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/fixes/fix_std_devs.py to fix_std_devs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/lib1to2/test_1to2.py to test_1to2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/umath_core.py to umath_core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/test_umath.py to test_umath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/unumpy/test_ulinalg.py to test_ulinalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/unumpy/ulinalg.py to ulinalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/unumpy/test_unumpy.py to test_unumpy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/unumpy/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/unumpy/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/test_uncertainties.py to test_uncertainties.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/uncertainties/1to2.py to 1to2.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying uncertainties.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying uncertainties.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying uncertainties.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying uncertainties.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying uncertainties.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+uncertainties.lib1to2.__pycache__.test_1to2.cpython-39: module references __file__
+creating dist
+creating 'dist/uncertainties-3.1.5-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing uncertainties-3.1.5-py3.9.egg
+creating /src/packages/.artifacts/lib/python/uncertainties-3.1.5-py3.9.egg
+Extracting uncertainties-3.1.5-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding uncertainties 3.1.5 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/uncertainties-3.1.5-py3.9.egg
+Processing dependencies for uncertainties==3.1.5
+Searching for future==0.18.2
+Best match: future 0.18.2
+Processing future-0.18.2-py3.9.egg
+Adding future 0.18.2 to easy-install.pth file
+Installing futurize script to /src/packages/.artifacts/bin
+Installing pasteurize script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/future-0.18.2-py3.9.egg
+Finished processing dependencies for uncertainties==3.1.5
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/uncertainties
+copying build/lib/uncertainties/umath.py -> install/lib/python3.9/site-packages/uncertainties
+creating install/lib/python3.9/site-packages/uncertainties/lib1to2
+creating install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_std_dev.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_ufloat.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_uarray_umatrix.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/__init__.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/fixes/fix_std_devs.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes
+copying build/lib/uncertainties/lib1to2/__init__.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2
+copying build/lib/uncertainties/lib1to2/test_1to2.py -> install/lib/python3.9/site-packages/uncertainties/lib1to2
+copying build/lib/uncertainties/umath_core.py -> install/lib/python3.9/site-packages/uncertainties
+copying build/lib/uncertainties/__init__.py -> install/lib/python3.9/site-packages/uncertainties
+copying build/lib/uncertainties/core.py -> install/lib/python3.9/site-packages/uncertainties
+copying build/lib/uncertainties/test_umath.py -> install/lib/python3.9/site-packages/uncertainties
+creating install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/test_ulinalg.py -> install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/ulinalg.py -> install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/test_unumpy.py -> install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/__init__.py -> install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/unumpy/core.py -> install/lib/python3.9/site-packages/uncertainties/unumpy
+copying build/lib/uncertainties/test_uncertainties.py -> install/lib/python3.9/site-packages/uncertainties
+copying build/lib/uncertainties/1to2.py -> install/lib/python3.9/site-packages/uncertainties
+byte-compiling install/lib/python3.9/site-packages/uncertainties/umath.py to umath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes/fix_std_dev.py to fix_std_dev.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes/fix_ufloat.py to fix_ufloat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes/fix_uarray_umatrix.py to fix_uarray_umatrix.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/fixes/fix_std_devs.py to fix_std_devs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/lib1to2/test_1to2.py to test_1to2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/umath_core.py to umath_core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/test_umath.py to test_umath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/unumpy/test_ulinalg.py to test_ulinalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/unumpy/ulinalg.py to ulinalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/unumpy/test_unumpy.py to test_unumpy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/unumpy/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/unumpy/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/test_uncertainties.py to test_uncertainties.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/uncertainties/1to2.py to 1to2.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing uncertainties.egg-info/PKG-INFO
+writing dependency_links to uncertainties.egg-info/dependency_links.txt
+writing requirements to uncertainties.egg-info/requires.txt
+writing top-level names to uncertainties.egg-info/top_level.txt
+reading manifest file 'uncertainties.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/_build'
+warning: no previously-included files matching '*~' found anywhere in distribution
+adding license file 'LICENSE.txt'
+writing manifest file 'uncertainties.egg-info/SOURCES.txt'
+Copying uncertainties.egg-info to install/lib/python3.9/site-packages/uncertainties-3.1.5-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 323487
+compressed package into 198441
+compressed in 85 ms
+[2021-12-18 06:08:32] Building package uncertainties...
+[2021-12-18 06:09:29] done building package uncertainties in 57.3 s.

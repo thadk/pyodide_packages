@@ -1,0 +1,122 @@
+running install
+running bdist_egg
+running egg_info
+writing kglab.egg-info/PKG-INFO
+writing dependency_links to kglab.egg-info/dependency_links.txt
+writing requirements to kglab.egg-info/requires.txt
+writing top-level names to kglab.egg-info/top_level.txt
+reading manifest file 'kglab.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'kglab.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/kglab
+copying kglab/version.py -> build/lib/kglab
+copying kglab/gpviz.py -> build/lib/kglab
+copying kglab/external_import.py -> build/lib/kglab
+copying kglab/esp.py -> build/lib/kglab
+copying kglab/util.py -> build/lib/kglab
+copying kglab/pkg_types.py -> build/lib/kglab
+copying kglab/__init__.py -> build/lib/kglab
+copying kglab/topo.py -> build/lib/kglab
+copying kglab/srl.py -> build/lib/kglab
+copying kglab/subg.py -> build/lib/kglab
+copying kglab/kglab.py -> build/lib/kglab
+copying kglab/decorators.py -> build/lib/kglab
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/version.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/gpviz.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/external_import.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/esp.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/util.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/pkg_types.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/__init__.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/topo.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/srl.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/subg.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/kglab.py -> build/bdist.linux-x86_64/egg/kglab
+copying build/lib/kglab/decorators.py -> build/bdist.linux-x86_64/egg/kglab
+byte-compiling build/bdist.linux-x86_64/egg/kglab/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/gpviz.py to gpviz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/external_import.py to external_import.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/esp.py to esp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/pkg_types.py to pkg_types.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/topo.py to topo.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/srl.py to srl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/subg.py to subg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/kglab.py to kglab.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/kglab/decorators.py to decorators.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying kglab.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/kglab-0.4.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing kglab-0.4.2-py3.9.egg
+creating /src/packages/.artifacts/lib/python/kglab-0.4.2-py3.9.egg
+Extracting kglab-0.4.2-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding kglab 0.4.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/kglab-0.4.2-py3.9.egg
+Processing dependencies for kglab==0.4.2
+Finished processing dependencies for kglab==0.4.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/version.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/gpviz.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/external_import.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/esp.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/util.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/pkg_types.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/__init__.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/topo.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/srl.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/subg.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/kglab.py -> install/lib/python3.9/site-packages/kglab
+copying build/lib/kglab/decorators.py -> install/lib/python3.9/site-packages/kglab
+byte-compiling install/lib/python3.9/site-packages/kglab/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/gpviz.py to gpviz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/external_import.py to external_import.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/esp.py to esp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/pkg_types.py to pkg_types.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/topo.py to topo.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/srl.py to srl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/subg.py to subg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/kglab.py to kglab.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/kglab/decorators.py to decorators.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing kglab.egg-info/PKG-INFO
+writing dependency_links to kglab.egg-info/dependency_links.txt
+writing requirements to kglab.egg-info/requires.txt
+writing top-level names to kglab.egg-info/top_level.txt
+reading manifest file 'kglab.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'kglab.egg-info/SOURCES.txt'
+Copying kglab.egg-info to install/lib/python3.9/site-packages/kglab-0.4.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 130277
+compressed package into 81288
+compressed in 55 ms
+[2021-12-19 05:37:16] Building package kglab...
+[2021-12-19 05:38:09] done building package kglab in 53.4 s.

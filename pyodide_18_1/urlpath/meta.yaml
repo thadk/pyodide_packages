@@ -1,0 +1,17 @@
+package:
+  name: urlpath
+  version: 1.2.0
+source:
+  url: https://files.pythonhosted.org/packages/21/aa/e19a74232b82435d483aff27a37d411f1cbf3d478fc632180b7fe87a6396/urlpath-1.2.0.tar.gz
+  sha256: e54c0c82db4894a7217772150bdbc01413794576996e7834f81d67f22359c9d0
+test:
+  imports:
+  - urlpath
+requirements:
+  run:
+    - requests
+about:
+  home: https://github.com/brandonschabell/urlpath
+  PyPi: https://pypi.org/project/urlpath
+  summary: Object-oriented URL from `urllib.parse` and `pathlib`
+  license: PSF

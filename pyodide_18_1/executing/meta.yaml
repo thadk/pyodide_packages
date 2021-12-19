@@ -1,0 +1,15 @@
+package:
+  name: executing
+  version: 0.8.2
+source:
+  url: https://files.pythonhosted.org/packages/ca/e4/efb182548f9931b36b76fd9ba2236bfc5e6d342c905beff92e868afb5b5c/executing-0.8.2.tar.gz
+  sha256: c23bf42e9a7b9b212f185b1b2c3c91feb895963378887bb10e64a2e612ec0023
+test:
+  imports:
+  - executing
+
+about:
+  home: https://github.com/alexmojaki/executing
+  PyPi: https://pypi.org/project/executing
+  summary: Get the currently executing AST node of a frame, and other information
+  license: MIT

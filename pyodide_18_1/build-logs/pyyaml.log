@@ -1,0 +1,473 @@
+patching file Makefile
+patching file setup.cfg
+running install
+running bdist_egg
+running egg_info
+creating lib3/PyYAML.egg-info
+writing lib3/PyYAML.egg-info/PKG-INFO
+writing dependency_links to lib3/PyYAML.egg-info/dependency_links.txt
+writing top-level names to lib3/PyYAML.egg-info/top_level.txt
+writing manifest file 'lib3/PyYAML.egg-info/SOURCES.txt'
+cythoning yaml/_yaml.pyx to yaml/_yaml.c
+/usr/local/lib/python3.9/site-packages/Cython/Compiler/Main.py:369: FutureWarning: Cython directive 'language_level' not set, using 2 for now (Py2). This will change in a later release! File: /src/packages/pyyaml/build/pyyaml-5.4.1/yaml/_yaml.pxd
+  tree = Parsing.p_module(s, pxd, full_module_name)
+reading manifest file 'lib3/PyYAML.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'lib3/PyYAML.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/scanner.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/error.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/constructor.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/composer.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/events.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/__init__.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/representer.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/tokens.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/dumper.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/cyaml.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/parser.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/reader.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/loader.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/resolver.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/serializer.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/nodes.py -> build/lib.linux-x86_64-3.9/yaml
+copying lib3/yaml/emitter.py -> build/lib.linux-x86_64-3.9/yaml
+creating build/lib.linux-x86_64-3.9/_yaml
+copying lib3/_yaml/__init__.py -> build/lib.linux-x86_64-3.9/_yaml
+running build_ext
+skipping 'yaml/_yaml.c' Cython extension (up-to-date)
+building 'yaml._yaml' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/yaml
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DYAML_DECLARE_STATIC=1 -I/usr/local/include/python3.9 -c yaml/_yaml.c -o build/temp.linux-x86_64-3.9/yaml/_yaml.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/yaml/_yaml.o -L/usr/local/lib -lyaml -o build/lib.linux-x86_64-3.9/yaml/_yaml.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/_yaml
+copying build/lib.linux-x86_64-3.9/_yaml/__init__.py -> build/bdist.linux-x86_64/egg/_yaml
+creating build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/scanner.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/error.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/constructor.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/composer.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/events.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/__init__.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/representer.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/tokens.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/dumper.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/cyaml.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/parser.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/reader.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/loader.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/resolver.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/serializer.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/_yaml.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/nodes.py -> build/bdist.linux-x86_64/egg/yaml
+copying build/lib.linux-x86_64-3.9/yaml/emitter.py -> build/bdist.linux-x86_64/egg/yaml
+byte-compiling build/bdist.linux-x86_64/egg/_yaml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/scanner.py to scanner.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/error.py to error.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/constructor.py to constructor.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/composer.py to composer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/events.py to events.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/representer.py to representer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/tokens.py to tokens.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/dumper.py to dumper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/cyaml.py to cyaml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/parser.py to parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/reader.py to reader.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/loader.py to loader.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/resolver.py to resolver.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/serializer.py to serializer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/nodes.py to nodes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yaml/emitter.py to emitter.cpython-39.pyc
+creating stub loader for yaml/_yaml.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/yaml/_yaml.py to _yaml.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib3/PyYAML.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib3/PyYAML.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib3/PyYAML.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying lib3/PyYAML.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+yaml.__pycache__._yaml.cpython-39: module references __file__
+creating dist
+creating 'dist/PyYAML-5.4.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyYAML-5.4.1-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/PyYAML-5.4.1-py3.9-linux-x86_64.egg
+Extracting PyYAML-5.4.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding PyYAML 5.4.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/PyYAML-5.4.1-py3.9-linux-x86_64.egg
+Processing dependencies for PyYAML==5.4.1
+Finished processing dependencies for PyYAML==5.4.1
+In file included from yaml/_yaml.c:618:
+yaml/_yaml.h:10:9: warning: 'PyString_CheckExact' macro redefined [-Wmacro-redefined]
+#define PyString_CheckExact PyBytes_CheckExact
+        ^
+yaml/_yaml.c:500:11: note: previous definition is here
+  #define PyString_CheckExact          PyUnicode_CheckExact
+          ^
+yaml/_yaml.c:1924:17: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  __pyx_v_value = yaml_get_version_string();
+                ^ ~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.c:3454:52: warning: incompatible function pointer types passing 'int (void *, char *, size_t, size_t *)' (aka 'int (void *, char *, unsigned long, unsigned long *)') to parameter of type 'yaml_read_handler_t *' (aka 'int (*)(void *, unsigned char *, unsigned long, unsigned long *)') [-Wincompatible-function-pointer-types]
+    yaml_parser_set_input((&__pyx_v_self->parser), __pyx_f_4yaml_5_yaml_input_handler, ((void *)__pyx_v_self));
+                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:1370:30: note: passing argument to parameter 'handler' here
+        yaml_read_handler_t *handler, void *data);
+                             ^
+yaml/_yaml.c:3695:59: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    yaml_parser_set_input_string((&__pyx_v_self->parser), PyString_AS_STRING(__pyx_v_stream), PyString_GET_SIZE(__pyx_v_stream));
+                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.h:11:29: note: expanded from macro 'PyString_AS_STRING'
+#define PyString_AS_STRING  PyBytes_AS_STRING
+                            ^
+/src/cpython/installs/python-3.9.5/include/python3.9/cpython/bytesobject.h:32:31: note: expanded from macro 'PyBytes_AS_STRING'
+#define PyBytes_AS_STRING(op) (assert(PyBytes_Check(op)), \
+                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:1344:30: note: passing argument to parameter 'input' here
+        const unsigned char *input, size_t size);
+                             ^
+yaml/_yaml.c:5541:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:5553:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 418, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:6555:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 448, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:6639:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 451, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:6723:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 454, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:6735:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 455, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:6859:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_token->data.scalar.value, __pyx_v_token->data.scalar.length, ((char *)"strict")); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 460, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:452:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8558:42: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 574, __pyx_L1_error)
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8570:42: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 575, __pyx_L1_error)
+                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8813:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 586, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8917:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 591, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8958:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 594, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:8979:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_4 = PyUnicode_DecodeUTF8(__pyx_v_event->data.scalar.value, __pyx_v_event->data.scalar.length, ((char *)"strict")); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 595, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:452:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:9320:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 620, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:9361:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 623, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:9593:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 637, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:9634:40: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_4 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 640, __pyx_L1_error)
+                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:11331:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 734, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:11651:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 750, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:11707:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 753, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:11763:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 756, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:12424:36: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_self->parsed_event.data.scalar.value, __pyx_v_self->parsed_event.data.scalar.length, ((char *)"strict")); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 791, __pyx_L1_error)
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:452:17: note: passing argument to parameter 'string' here
+    const char *string,         /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:12647:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 804, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:13188:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 837, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:13816:38: warning: passing 'yaml_char_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 876, __pyx_L1_error)
+                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/cpython/installs/python-3.9.5/include/python3.9/unicodeobject.h:138:17: note: passing argument to parameter 'u' here
+    const char *u              /* UTF-8 encoded string */
+                ^
+yaml/_yaml.c:14640:87: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  __pyx_t_3 = (((__pyx_v_parser->stream_cache_len - __pyx_v_parser->stream_cache_pos) < __pyx_v_size) != 0);
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ^ ~~~~~~~~~~~~
+yaml/_yaml.c:15165:53: warning: incompatible function pointer types passing 'int (void *, char *, size_t)' (aka 'int (void *, char *, unsigned long)') to parameter of type 'yaml_write_handler_t *' (aka 'int (*)(void *, unsigned char *, unsigned long)') [-Wincompatible-function-pointer-types]
+  yaml_emitter_set_output((&__pyx_v_self->emitter), __pyx_f_4yaml_5_yaml_output_handler, ((void *)__pyx_v_self));
+                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:1832:31: note: passing argument to parameter 'handler' here
+        yaml_write_handler_t *handler, void *data);
+                              ^
+yaml/_yaml.c:16523:44: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.c:16638:44: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.c:16975:62: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_alias_event_initialize(__pyx_v_event, __pyx_v_anchor) == 0) != 0);
+                                                             ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:555:63: note: passing argument to parameter 'anchor' here
+yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+                                                              ^
+yaml/_yaml.c:17690:63: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                              ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:581:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                     ^
+yaml/_yaml.c:17690:79: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                              ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:581:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                                          ^
+yaml/_yaml.c:17690:92: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                           ^~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:582:22: note: passing argument to parameter 'value' here
+        yaml_char_t *value, int length,
+                     ^
+yaml/_yaml.c:18124:71: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_3 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                      ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:604:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+yaml/_yaml.c:18124:87: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_3 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                                      ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:604:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+yaml/_yaml.c:18558:70: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                     ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:636:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+yaml/_yaml.c:18558:86: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                                     ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:636:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+yaml/_yaml.c:20140:42: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                         ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.c:20255:42: warning: assigning to 'yaml_char_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                         ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+yaml/_yaml.c:21118:65: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    __pyx_t_2 = ((yaml_alias_event_initialize((&__pyx_v_event), __pyx_v_anchor) == 0) != 0);
+                                                                ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:555:63: note: passing argument to parameter 'anchor' here
+yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+                                                              ^
+yaml/_yaml.c:21929:68: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                   ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:581:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                     ^
+yaml/_yaml.c:21929:84: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                   ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:581:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag,
+                                          ^
+yaml/_yaml.c:21929:97: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                                ^~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:582:22: note: passing argument to parameter 'value' here
+        yaml_char_t *value, int length,
+                     ^
+yaml/_yaml.c:22316:76: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                           ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:604:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+yaml/_yaml.c:22316:92: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                                           ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:604:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+yaml/_yaml.c:22846:75: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                          ^~~~~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:636:22: note: passing argument to parameter 'anchor' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                     ^
+yaml/_yaml.c:22846:91: warning: passing 'char *' to parameter of type 'yaml_char_t *' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+      __pyx_t_2 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                                          ^~~~~~~~~~~
+/src/packages/libyaml/build/include/yaml.h:636:43: note: passing argument to parameter 'tag' here
+        yaml_char_t *anchor, yaml_char_t *tag, int implicit,
+                                          ^
+51 warnings generated.
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/_yaml
+copying build/lib.linux-x86_64-3.9/_yaml/__init__.py -> install/lib/python3.9/site-packages/_yaml
+creating install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/scanner.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/error.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/constructor.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/composer.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/events.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/__init__.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/representer.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/tokens.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/dumper.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/cyaml.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/parser.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/reader.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/loader.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/resolver.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/serializer.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/nodes.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/emitter.py -> install/lib/python3.9/site-packages/yaml
+copying build/lib.linux-x86_64-3.9/yaml/_yaml.so -> install/lib/python3.9/site-packages/yaml
+byte-compiling install/lib/python3.9/site-packages/_yaml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/scanner.py to scanner.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/error.py to error.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/constructor.py to constructor.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/composer.py to composer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/events.py to events.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/representer.py to representer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/tokens.py to tokens.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/dumper.py to dumper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/cyaml.py to cyaml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/parser.py to parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/reader.py to reader.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/loader.py to loader.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/resolver.py to resolver.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/serializer.py to serializer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/nodes.py to nodes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/yaml/emitter.py to emitter.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing lib3/PyYAML.egg-info/PKG-INFO
+writing dependency_links to lib3/PyYAML.egg-info/dependency_links.txt
+writing top-level names to lib3/PyYAML.egg-info/top_level.txt
+skipping 'yaml/_yaml.c' Cython extension (up-to-date)
+reading manifest file 'lib3/PyYAML.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'lib3/PyYAML.egg-info/SOURCES.txt'
+Copying lib3/PyYAML.egg-info to install/lib/python3.9/site-packages/PyYAML-5.4.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -I/src/emsdk/emsdk/fastcomp/emscripten/system/include/libc -I/src/packages/libyaml/build/include -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DYAML_DECLARE_STATIC=1 -I/src/cpython/installs/python-3.9.5/include/python3.9 -c yaml/_yaml.c -o build/temp.linux-x86_64-3.9/yaml/_yaml.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libyaml/build/ build/temp.linux-x86_64-3.9/yaml/_yaml.o -lyaml -o build/lib.linux-x86_64-3.9/yaml/_yaml.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 615007
+compressed package into 284244
+compressed in 92 ms
+[2021-12-18 03:43:33] Building package pyyaml...
+[2021-12-18 03:46:45] done building package pyyaml in 192.5 s.

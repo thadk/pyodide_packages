@@ -1,0 +1,14 @@
+package:
+  name: pyshacl
+  version: 0.17.3
+source:
+  url: https://files.pythonhosted.org/packages/1e/81/ea71791d10d2e83b06a1744a7577223e1b0cdcf90958bed7725eb0744190/pyshacl-0.17.3.tar.gz
+  sha256: a76c444f9156fd24e915455a173dc45d080b153702705359c031b47f8cb964b7
+test:
+  imports:
+  - pyshacl
+about:
+  home: https://github.com/RDFLib/pySHACL
+  PyPi: https://pypi.org/project/pyshacl
+  summary: Python SHACL Validator
+  license: Apache-2.0

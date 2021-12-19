@@ -1,0 +1,306 @@
+running install
+running bdist_egg
+running egg_info
+creating imageio.egg-info
+writing imageio.egg-info/PKG-INFO
+writing dependency_links to imageio.egg-info/dependency_links.txt
+writing entry points to imageio.egg-info/entry_points.txt
+writing requirements to imageio.egg-info/requires.txt
+writing top-level names to imageio.egg-info/top_level.txt
+writing manifest file 'imageio.egg-info/SOURCES.txt'
+reading manifest file 'imageio.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'imageio.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/imageio
+copying imageio/__init__.py -> build/lib/imageio
+copying imageio/freeze.py -> build/lib/imageio
+copying imageio/testing.py -> build/lib/imageio
+copying imageio/__main__.py -> build/lib/imageio
+creating build/lib/imageio/core
+copying imageio/core/functions.py -> build/lib/imageio/core
+copying imageio/core/util.py -> build/lib/imageio/core
+copying imageio/core/request.py -> build/lib/imageio/core
+copying imageio/core/__init__.py -> build/lib/imageio/core
+copying imageio/core/format.py -> build/lib/imageio/core
+copying imageio/core/fetching.py -> build/lib/imageio/core
+copying imageio/core/findlib.py -> build/lib/imageio/core
+creating build/lib/imageio/plugins
+copying imageio/plugins/_tifffile.py -> build/lib/imageio/plugins
+copying imageio/plugins/_freeimage.py -> build/lib/imageio/plugins
+copying imageio/plugins/npz.py -> build/lib/imageio/plugins
+copying imageio/plugins/grab.py -> build/lib/imageio/plugins
+copying imageio/plugins/fits.py -> build/lib/imageio/plugins
+copying imageio/plugins/simpleitk.py -> build/lib/imageio/plugins
+copying imageio/plugins/tifffile.py -> build/lib/imageio/plugins
+copying imageio/plugins/pillow.py -> build/lib/imageio/plugins
+copying imageio/plugins/feisem.py -> build/lib/imageio/plugins
+copying imageio/plugins/freeimage.py -> build/lib/imageio/plugins
+copying imageio/plugins/ffmpeg.py -> build/lib/imageio/plugins
+copying imageio/plugins/__init__.py -> build/lib/imageio/plugins
+copying imageio/plugins/bsdf.py -> build/lib/imageio/plugins
+copying imageio/plugins/spe.py -> build/lib/imageio/plugins
+copying imageio/plugins/_swf.py -> build/lib/imageio/plugins
+copying imageio/plugins/pillowmulti.py -> build/lib/imageio/plugins
+copying imageio/plugins/_bsdf.py -> build/lib/imageio/plugins
+copying imageio/plugins/example.py -> build/lib/imageio/plugins
+copying imageio/plugins/swf.py -> build/lib/imageio/plugins
+copying imageio/plugins/freeimagemulti.py -> build/lib/imageio/plugins
+copying imageio/plugins/gdal.py -> build/lib/imageio/plugins
+copying imageio/plugins/_dicom.py -> build/lib/imageio/plugins
+copying imageio/plugins/dicom.py -> build/lib/imageio/plugins
+copying imageio/plugins/pillow_info.py -> build/lib/imageio/plugins
+copying imageio/plugins/lytro.py -> build/lib/imageio/plugins
+creating build/lib/imageio/resources
+copying imageio/resources/shipped_resources_go_here -> build/lib/imageio/resources
+creating build/lib/imageio/resources/images
+copying imageio/resources/images/astronaut.png -> build/lib/imageio/resources/images
+copying imageio/resources/images/newtonscradle.gif -> build/lib/imageio/resources/images
+copying imageio/resources/images/realshort.mp4 -> build/lib/imageio/resources/images
+copying imageio/resources/images/chelsea.zip -> build/lib/imageio/resources/images
+copying imageio/resources/images/stent.npz -> build/lib/imageio/resources/images
+copying imageio/resources/images/chelsea.png -> build/lib/imageio/resources/images
+copying imageio/resources/images/cockatoo.mp4 -> build/lib/imageio/resources/images
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/imageio
+creating build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/functions.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/util.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/request.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/__init__.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/format.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/fetching.py -> build/bdist.linux-x86_64/egg/imageio/core
+copying build/lib/imageio/core/findlib.py -> build/bdist.linux-x86_64/egg/imageio/core
+creating build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/_tifffile.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/_freeimage.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/npz.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/grab.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/fits.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/simpleitk.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/tifffile.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/pillow.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/feisem.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/freeimage.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/ffmpeg.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/__init__.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/bsdf.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/spe.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/_swf.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/pillowmulti.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/_bsdf.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/example.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/swf.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/freeimagemulti.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/gdal.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/_dicom.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/dicom.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/pillow_info.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+copying build/lib/imageio/plugins/lytro.py -> build/bdist.linux-x86_64/egg/imageio/plugins
+creating build/bdist.linux-x86_64/egg/imageio/resources
+copying build/lib/imageio/resources/shipped_resources_go_here -> build/bdist.linux-x86_64/egg/imageio/resources
+creating build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/astronaut.png -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/newtonscradle.gif -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/realshort.mp4 -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/chelsea.zip -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/stent.npz -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/chelsea.png -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/resources/images/cockatoo.mp4 -> build/bdist.linux-x86_64/egg/imageio/resources/images
+copying build/lib/imageio/__init__.py -> build/bdist.linux-x86_64/egg/imageio
+copying build/lib/imageio/freeze.py -> build/bdist.linux-x86_64/egg/imageio
+copying build/lib/imageio/testing.py -> build/bdist.linux-x86_64/egg/imageio
+copying build/lib/imageio/__main__.py -> build/bdist.linux-x86_64/egg/imageio
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/functions.py to functions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/request.py to request.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/format.py to format.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/fetching.py to fetching.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/core/findlib.py to findlib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/_tifffile.py to _tifffile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/_freeimage.py to _freeimage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/npz.py to npz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/grab.py to grab.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/fits.py to fits.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/simpleitk.py to simpleitk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/tifffile.py to tifffile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/pillow.py to pillow.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/feisem.py to feisem.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/freeimage.py to freeimage.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/ffmpeg.py to ffmpeg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/bsdf.py to bsdf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/spe.py to spe.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/_swf.py to _swf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/pillowmulti.py to pillowmulti.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/_bsdf.py to _bsdf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/example.py to example.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/swf.py to swf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/freeimagemulti.py to freeimagemulti.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/gdal.py to gdal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/_dicom.py to _dicom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/dicom.py to dicom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/pillow_info.py to pillow_info.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/plugins/lytro.py to lytro.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/freeze.py to freeze.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/testing.py to testing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/imageio/__main__.py to __main__.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying imageio.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+imageio.__pycache__.testing.cpython-39: module references __file__
+imageio.core.__pycache__.findlib.cpython-39: module references __file__
+imageio.core.__pycache__.util.cpython-39: module references __file__
+imageio.plugins.__pycache__.pillow_info.cpython-39: module references __file__
+creating dist
+creating 'dist/imageio-2.9.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing imageio-2.9.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/imageio-2.9.0-py3.9.egg
+Extracting imageio-2.9.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding imageio 2.9.0 to easy-install.pth file
+Installing imageio_download_bin script to /src/packages/.artifacts/bin
+Installing imageio_remove_bin script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/imageio-2.9.0-py3.9.egg
+Processing dependencies for imageio==2.9.0
+Searching for Pillow==8.3.1
+Best match: Pillow 8.3.1
+Processing Pillow-8.3.1-py3.9-linux-x86_64.egg
+Pillow 8.3.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/Pillow-8.3.1-py3.9-linux-x86_64.egg
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Finished processing dependencies for imageio==2.9.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/imageio
+creating install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/functions.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/util.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/request.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/__init__.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/format.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/fetching.py -> install/lib/python3.9/site-packages/imageio/core
+copying build/lib/imageio/core/findlib.py -> install/lib/python3.9/site-packages/imageio/core
+creating install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/_tifffile.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/_freeimage.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/npz.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/grab.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/fits.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/simpleitk.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/tifffile.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/pillow.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/feisem.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/freeimage.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/ffmpeg.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/__init__.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/bsdf.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/spe.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/_swf.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/pillowmulti.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/_bsdf.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/example.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/swf.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/freeimagemulti.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/gdal.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/_dicom.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/dicom.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/pillow_info.py -> install/lib/python3.9/site-packages/imageio/plugins
+copying build/lib/imageio/plugins/lytro.py -> install/lib/python3.9/site-packages/imageio/plugins
+creating install/lib/python3.9/site-packages/imageio/resources
+copying build/lib/imageio/resources/shipped_resources_go_here -> install/lib/python3.9/site-packages/imageio/resources
+creating install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/astronaut.png -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/newtonscradle.gif -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/realshort.mp4 -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/chelsea.zip -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/stent.npz -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/chelsea.png -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/resources/images/cockatoo.mp4 -> install/lib/python3.9/site-packages/imageio/resources/images
+copying build/lib/imageio/__init__.py -> install/lib/python3.9/site-packages/imageio
+copying build/lib/imageio/freeze.py -> install/lib/python3.9/site-packages/imageio
+copying build/lib/imageio/testing.py -> install/lib/python3.9/site-packages/imageio
+copying build/lib/imageio/__main__.py -> install/lib/python3.9/site-packages/imageio
+byte-compiling install/lib/python3.9/site-packages/imageio/core/functions.py to functions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/request.py to request.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/format.py to format.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/fetching.py to fetching.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/core/findlib.py to findlib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/_tifffile.py to _tifffile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/_freeimage.py to _freeimage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/npz.py to npz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/grab.py to grab.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/fits.py to fits.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/simpleitk.py to simpleitk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/tifffile.py to tifffile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/pillow.py to pillow.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/feisem.py to feisem.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/freeimage.py to freeimage.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/ffmpeg.py to ffmpeg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/bsdf.py to bsdf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/spe.py to spe.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/_swf.py to _swf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/pillowmulti.py to pillowmulti.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/_bsdf.py to _bsdf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/example.py to example.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/swf.py to swf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/freeimagemulti.py to freeimagemulti.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/gdal.py to gdal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/_dicom.py to _dicom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/dicom.py to dicom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/pillow_info.py to pillow_info.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/plugins/lytro.py to lytro.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/freeze.py to freeze.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/testing.py to testing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/imageio/__main__.py to __main__.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing imageio.egg-info/PKG-INFO
+writing dependency_links to imageio.egg-info/dependency_links.txt
+writing entry points to imageio.egg-info/entry_points.txt
+writing requirements to imageio.egg-info/requires.txt
+writing top-level names to imageio.egg-info/top_level.txt
+reading manifest file 'imageio.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'imageio.egg-info/SOURCES.txt'
+Copying imageio.egg-info to install/lib/python3.9/site-packages/imageio-2.9.0-py3.9.egg-info
+running install_scripts
+Installing imageio_download_bin script to install/bin
+Installing imageio_remove_bin script to install/bin
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 4357966
+compressed package into 3851401
+compressed in 264 ms
+[2021-12-18 03:50:43] Building package imageio...
+[2021-12-18 03:52:20] done building package imageio in 96.1 s.

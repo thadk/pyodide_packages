@@ -1,0 +1,160 @@
+running install
+running bdist_egg
+running egg_info
+writing src/attrs.egg-info/PKG-INFO
+writing dependency_links to src/attrs.egg-info/dependency_links.txt
+writing requirements to src/attrs.egg-info/requires.txt
+writing top-level names to src/attrs.egg-info/top_level.txt
+reading manifest file 'src/attrs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'src/attrs.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/attr
+copying src/attr/setters.py -> build/lib/attr
+copying src/attr/validators.py -> build/lib/attr
+copying src/attr/_make.py -> build/lib/attr
+copying src/attr/_cmp.py -> build/lib/attr
+copying src/attr/__init__.py -> build/lib/attr
+copying src/attr/_next_gen.py -> build/lib/attr
+copying src/attr/exceptions.py -> build/lib/attr
+copying src/attr/_version_info.py -> build/lib/attr
+copying src/attr/converters.py -> build/lib/attr
+copying src/attr/_compat.py -> build/lib/attr
+copying src/attr/_config.py -> build/lib/attr
+copying src/attr/_funcs.py -> build/lib/attr
+copying src/attr/filters.py -> build/lib/attr
+copying src/attr/__init__.pyi -> build/lib/attr
+copying src/attr/_cmp.pyi -> build/lib/attr
+copying src/attr/_version_info.pyi -> build/lib/attr
+copying src/attr/converters.pyi -> build/lib/attr
+copying src/attr/exceptions.pyi -> build/lib/attr
+copying src/attr/filters.pyi -> build/lib/attr
+copying src/attr/py.typed -> build/lib/attr
+copying src/attr/setters.pyi -> build/lib/attr
+copying src/attr/validators.pyi -> build/lib/attr
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/setters.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/validators.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/__init__.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/setters.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/validators.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_make.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_cmp.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/exceptions.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/__init__.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/filters.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_next_gen.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/py.typed -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/exceptions.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_version_info.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/converters.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/converters.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_compat.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_config.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_cmp.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_funcs.py -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/_version_info.pyi -> build/bdist.linux-x86_64/egg/attr
+copying build/lib/attr/filters.py -> build/bdist.linux-x86_64/egg/attr
+byte-compiling build/bdist.linux-x86_64/egg/attr/setters.py to setters.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/validators.py to validators.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_make.py to _make.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_cmp.py to _cmp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_next_gen.py to _next_gen.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_version_info.py to _version_info.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/converters.py to converters.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_compat.py to _compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_config.py to _config.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/_funcs.py to _funcs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/attr/filters.py to filters.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/attrs.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/attrs-21.2.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing attrs-21.2.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/attrs-21.2.0-py3.9.egg
+Extracting attrs-21.2.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding attrs 21.2.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/attrs-21.2.0-py3.9.egg
+Processing dependencies for attrs==21.2.0
+Finished processing dependencies for attrs==21.2.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/attr
+copying build/lib/attr/setters.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/validators.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/__init__.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/setters.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/validators.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_make.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_cmp.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/exceptions.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/__init__.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/filters.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_next_gen.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/py.typed -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/exceptions.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_version_info.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/converters.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/converters.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_compat.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_config.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_cmp.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_funcs.py -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/_version_info.pyi -> install/lib/python3.9/site-packages/attr
+copying build/lib/attr/filters.py -> install/lib/python3.9/site-packages/attr
+byte-compiling install/lib/python3.9/site-packages/attr/setters.py to setters.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/validators.py to validators.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_make.py to _make.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_cmp.py to _cmp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_next_gen.py to _next_gen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_version_info.py to _version_info.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/converters.py to converters.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_compat.py to _compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_config.py to _config.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/_funcs.py to _funcs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/attr/filters.py to filters.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/attrs.egg-info/PKG-INFO
+writing dependency_links to src/attrs.egg-info/dependency_links.txt
+writing requirements to src/attrs.egg-info/requires.txt
+writing top-level names to src/attrs.egg-info/top_level.txt
+reading manifest file 'src/attrs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'src/attrs.egg-info/SOURCES.txt'
+Copying src/attrs.egg-info to install/lib/python3.9/site-packages/attrs-21.2.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 179298
+compressed package into 105371
+compressed in 103 ms
+[2021-12-18 04:13:16] Building package attrs...
+[2021-12-18 04:14:39] done building package attrs in 83.5 s.

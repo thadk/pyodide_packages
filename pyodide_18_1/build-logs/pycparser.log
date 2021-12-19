@@ -1,0 +1,147 @@
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pycparser
+copying pycparser/c_parser.py -> build/lib/pycparser
+copying pycparser/_ast_gen.py -> build/lib/pycparser
+copying pycparser/__init__.py -> build/lib/pycparser
+copying pycparser/c_ast.py -> build/lib/pycparser
+copying pycparser/plyparser.py -> build/lib/pycparser
+copying pycparser/_build_tables.py -> build/lib/pycparser
+copying pycparser/ast_transforms.py -> build/lib/pycparser
+copying pycparser/yacctab.py -> build/lib/pycparser
+copying pycparser/c_generator.py -> build/lib/pycparser
+copying pycparser/c_lexer.py -> build/lib/pycparser
+copying pycparser/lextab.py -> build/lib/pycparser
+creating build/lib/pycparser/ply
+copying pycparser/ply/yacc.py -> build/lib/pycparser/ply
+copying pycparser/ply/lex.py -> build/lib/pycparser/ply
+copying pycparser/ply/ctokens.py -> build/lib/pycparser/ply
+copying pycparser/ply/__init__.py -> build/lib/pycparser/ply
+copying pycparser/ply/cpp.py -> build/lib/pycparser/ply
+copying pycparser/ply/ygen.py -> build/lib/pycparser/ply
+copying pycparser/_c_ast.cfg -> build/lib/pycparser
+running install_lib
+creating /src/packages/.artifacts/lib/python/pycparser
+creating /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/yacc.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/lex.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/ctokens.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/__init__.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/cpp.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/ply/ygen.py -> /src/packages/.artifacts/lib/python/pycparser/ply
+copying build/lib/pycparser/c_parser.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/_ast_gen.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/__init__.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/_c_ast.cfg -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/c_ast.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/plyparser.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/_build_tables.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/ast_transforms.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/yacctab.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/c_generator.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/c_lexer.py -> /src/packages/.artifacts/lib/python/pycparser
+copying build/lib/pycparser/lextab.py -> /src/packages/.artifacts/lib/python/pycparser
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/yacc.py to yacc.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/lex.py to lex.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/ctokens.py to ctokens.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/__init__.py to __init__.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/cpp.py to cpp.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ply/ygen.py to ygen.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/c_parser.py to c_parser.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/_ast_gen.py to _ast_gen.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/__init__.py to __init__.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/c_ast.py to c_ast.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/plyparser.py to plyparser.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/_build_tables.py to _build_tables.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/ast_transforms.py to ast_transforms.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/yacctab.py to yacctab.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/c_generator.py to c_generator.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/c_lexer.py to c_lexer.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/pycparser/lextab.py to lextab.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing pycparser.egg-info/PKG-INFO
+writing dependency_links to pycparser.egg-info/dependency_links.txt
+writing top-level names to pycparser.egg-info/top_level.txt
+reading manifest file 'pycparser.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'setup.pyc'
+warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+adding license file 'LICENSE'
+writing manifest file 'pycparser.egg-info/SOURCES.txt'
+Copying pycparser.egg-info to /src/packages/.artifacts/lib/python/pycparser-2.20-py3.9.egg-info
+running install_scripts
+Build the lexing/parsing tables
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pycparser
+creating install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/yacc.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/lex.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/ctokens.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/__init__.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/cpp.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/ply/ygen.py -> install/lib/python3.9/site-packages/pycparser/ply
+copying build/lib/pycparser/c_parser.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/_ast_gen.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/__init__.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/_c_ast.cfg -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/c_ast.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/plyparser.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/_build_tables.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/ast_transforms.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/yacctab.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/c_generator.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/c_lexer.py -> install/lib/python3.9/site-packages/pycparser
+copying build/lib/pycparser/lextab.py -> install/lib/python3.9/site-packages/pycparser
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/yacc.py to yacc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/lex.py to lex.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/ctokens.py to ctokens.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/cpp.py to cpp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ply/ygen.py to ygen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/c_parser.py to c_parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/_ast_gen.py to _ast_gen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/c_ast.py to c_ast.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/plyparser.py to plyparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/_build_tables.py to _build_tables.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/ast_transforms.py to ast_transforms.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/yacctab.py to yacctab.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/c_generator.py to c_generator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/c_lexer.py to c_lexer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pycparser/lextab.py to lextab.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing pycparser.egg-info/PKG-INFO
+writing dependency_links to pycparser.egg-info/dependency_links.txt
+writing top-level names to pycparser.egg-info/top_level.txt
+reading manifest file 'pycparser.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'setup.pyc'
+warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+adding license file 'LICENSE'
+writing manifest file 'pycparser.egg-info/SOURCES.txt'
+Copying pycparser.egg-info to install/lib/python3.9/site-packages/pycparser-2.20-py3.9.egg-info
+running install_scripts
+Build the lexing/parsing tables
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 561135
+compressed package into 295693
+compressed in 216 ms
+[2021-12-18 02:26:59] Building package pycparser...
+[2021-12-18 02:28:17] done building package pycparser in 77.9 s.

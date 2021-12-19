@@ -1,0 +1,257 @@
+running install
+running bdist_egg
+running egg_info
+writing html5lib.egg-info/PKG-INFO
+writing dependency_links to html5lib.egg-info/dependency_links.txt
+writing requirements to html5lib.egg-info/requires.txt
+writing top-level names to html5lib.egg-info/top_level.txt
+reading manifest file 'html5lib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'html5lib.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/html5lib
+copying html5lib/_inputstream.py -> build/lib/html5lib
+copying html5lib/_ihatexml.py -> build/lib/html5lib
+copying html5lib/constants.py -> build/lib/html5lib
+copying html5lib/html5parser.py -> build/lib/html5lib
+copying html5lib/__init__.py -> build/lib/html5lib
+copying html5lib/serializer.py -> build/lib/html5lib
+copying html5lib/_tokenizer.py -> build/lib/html5lib
+copying html5lib/_utils.py -> build/lib/html5lib
+creating build/lib/html5lib/filters
+copying html5lib/filters/sanitizer.py -> build/lib/html5lib/filters
+copying html5lib/filters/inject_meta_charset.py -> build/lib/html5lib/filters
+copying html5lib/filters/__init__.py -> build/lib/html5lib/filters
+copying html5lib/filters/base.py -> build/lib/html5lib/filters
+copying html5lib/filters/alphabeticalattributes.py -> build/lib/html5lib/filters
+copying html5lib/filters/optionaltags.py -> build/lib/html5lib/filters
+copying html5lib/filters/lint.py -> build/lib/html5lib/filters
+copying html5lib/filters/whitespace.py -> build/lib/html5lib/filters
+creating build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/etree_lxml.py -> build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/__init__.py -> build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/etree.py -> build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/genshi.py -> build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/base.py -> build/lib/html5lib/treewalkers
+copying html5lib/treewalkers/dom.py -> build/lib/html5lib/treewalkers
+creating build/lib/html5lib/treebuilders
+copying html5lib/treebuilders/etree_lxml.py -> build/lib/html5lib/treebuilders
+copying html5lib/treebuilders/__init__.py -> build/lib/html5lib/treebuilders
+copying html5lib/treebuilders/etree.py -> build/lib/html5lib/treebuilders
+copying html5lib/treebuilders/base.py -> build/lib/html5lib/treebuilders
+copying html5lib/treebuilders/dom.py -> build/lib/html5lib/treebuilders
+creating build/lib/html5lib/_trie
+copying html5lib/_trie/_base.py -> build/lib/html5lib/_trie
+copying html5lib/_trie/__init__.py -> build/lib/html5lib/_trie
+copying html5lib/_trie/py.py -> build/lib/html5lib/_trie
+creating build/lib/html5lib/treeadapters
+copying html5lib/treeadapters/sax.py -> build/lib/html5lib/treeadapters
+copying html5lib/treeadapters/__init__.py -> build/lib/html5lib/treeadapters
+copying html5lib/treeadapters/genshi.py -> build/lib/html5lib/treeadapters
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/html5lib
+creating build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/sanitizer.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/inject_meta_charset.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/__init__.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/base.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/alphabeticalattributes.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/optionaltags.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/lint.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+copying build/lib/html5lib/filters/whitespace.py -> build/bdist.linux-x86_64/egg/html5lib/filters
+creating build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/etree_lxml.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/__init__.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/etree.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/genshi.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/base.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/dom.py -> build/bdist.linux-x86_64/egg/html5lib/treewalkers
+creating build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/etree_lxml.py -> build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/__init__.py -> build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/etree.py -> build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/base.py -> build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/dom.py -> build/bdist.linux-x86_64/egg/html5lib/treebuilders
+copying build/lib/html5lib/_inputstream.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/_ihatexml.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/constants.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/html5parser.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/__init__.py -> build/bdist.linux-x86_64/egg/html5lib
+creating build/bdist.linux-x86_64/egg/html5lib/_trie
+copying build/lib/html5lib/_trie/_base.py -> build/bdist.linux-x86_64/egg/html5lib/_trie
+copying build/lib/html5lib/_trie/__init__.py -> build/bdist.linux-x86_64/egg/html5lib/_trie
+copying build/lib/html5lib/_trie/py.py -> build/bdist.linux-x86_64/egg/html5lib/_trie
+creating build/bdist.linux-x86_64/egg/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/sax.py -> build/bdist.linux-x86_64/egg/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/__init__.py -> build/bdist.linux-x86_64/egg/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/genshi.py -> build/bdist.linux-x86_64/egg/html5lib/treeadapters
+copying build/lib/html5lib/serializer.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/_tokenizer.py -> build/bdist.linux-x86_64/egg/html5lib
+copying build/lib/html5lib/_utils.py -> build/bdist.linux-x86_64/egg/html5lib
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/inject_meta_charset.py to inject_meta_charset.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/alphabeticalattributes.py to alphabeticalattributes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/optionaltags.py to optionaltags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/lint.py to lint.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/filters/whitespace.py to whitespace.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/etree.py to etree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/genshi.py to genshi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treewalkers/dom.py to dom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treebuilders/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treebuilders/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treebuilders/etree.py to etree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treebuilders/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treebuilders/dom.py to dom.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_inputstream.py to _inputstream.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_ihatexml.py to _ihatexml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/constants.py to constants.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_trie/_base.py to _base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_trie/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_trie/py.py to py.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treeadapters/sax.py to sax.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treeadapters/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/treeadapters/genshi.py to genshi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/serializer.py to serializer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_tokenizer.py to _tokenizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/html5lib/_utils.py to _utils.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying html5lib.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying html5lib.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying html5lib.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying html5lib.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying html5lib.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/html5lib-1.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing html5lib-1.1-py3.9.egg
+Copying html5lib-1.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding html5lib 1.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/html5lib-1.1-py3.9.egg
+Processing dependencies for html5lib==1.1
+Searching for webencodings==0.5.1
+Best match: webencodings 0.5.1
+Processing webencodings-0.5.1-py3.9.egg
+webencodings 0.5.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/webencodings-0.5.1-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for html5lib==1.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/html5lib
+creating install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/sanitizer.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/inject_meta_charset.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/__init__.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/base.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/alphabeticalattributes.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/optionaltags.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/lint.py -> install/lib/python3.9/site-packages/html5lib/filters
+copying build/lib/html5lib/filters/whitespace.py -> install/lib/python3.9/site-packages/html5lib/filters
+creating install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/etree_lxml.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/__init__.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/etree.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/genshi.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/base.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+copying build/lib/html5lib/treewalkers/dom.py -> install/lib/python3.9/site-packages/html5lib/treewalkers
+creating install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/etree_lxml.py -> install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/__init__.py -> install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/etree.py -> install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/base.py -> install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/treebuilders/dom.py -> install/lib/python3.9/site-packages/html5lib/treebuilders
+copying build/lib/html5lib/_inputstream.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/_ihatexml.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/constants.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/html5parser.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/__init__.py -> install/lib/python3.9/site-packages/html5lib
+creating install/lib/python3.9/site-packages/html5lib/_trie
+copying build/lib/html5lib/_trie/_base.py -> install/lib/python3.9/site-packages/html5lib/_trie
+copying build/lib/html5lib/_trie/__init__.py -> install/lib/python3.9/site-packages/html5lib/_trie
+copying build/lib/html5lib/_trie/py.py -> install/lib/python3.9/site-packages/html5lib/_trie
+creating install/lib/python3.9/site-packages/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/sax.py -> install/lib/python3.9/site-packages/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/__init__.py -> install/lib/python3.9/site-packages/html5lib/treeadapters
+copying build/lib/html5lib/treeadapters/genshi.py -> install/lib/python3.9/site-packages/html5lib/treeadapters
+copying build/lib/html5lib/serializer.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/_tokenizer.py -> install/lib/python3.9/site-packages/html5lib
+copying build/lib/html5lib/_utils.py -> install/lib/python3.9/site-packages/html5lib
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/sanitizer.py to sanitizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/inject_meta_charset.py to inject_meta_charset.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/alphabeticalattributes.py to alphabeticalattributes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/optionaltags.py to optionaltags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/lint.py to lint.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/filters/whitespace.py to whitespace.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/etree.py to etree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/genshi.py to genshi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treewalkers/dom.py to dom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treebuilders/etree_lxml.py to etree_lxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treebuilders/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treebuilders/etree.py to etree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treebuilders/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treebuilders/dom.py to dom.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_inputstream.py to _inputstream.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_ihatexml.py to _ihatexml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/constants.py to constants.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_trie/_base.py to _base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_trie/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_trie/py.py to py.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treeadapters/sax.py to sax.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treeadapters/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/treeadapters/genshi.py to genshi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/serializer.py to serializer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_tokenizer.py to _tokenizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/html5lib/_utils.py to _utils.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing html5lib.egg-info/PKG-INFO
+writing dependency_links to html5lib.egg-info/dependency_links.txt
+writing requirements to html5lib.egg-info/requires.txt
+writing top-level names to html5lib.egg-info/top_level.txt
+reading manifest file 'html5lib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+adding license file 'AUTHORS.rst'
+writing manifest file 'html5lib.egg-info/SOURCES.txt'
+Copying html5lib.egg-info to install/lib/python3.9/site-packages/html5lib-1.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 506845
+compressed package into 238569
+compressed in 218 ms
+[2021-08-12 03:21:13] Building package html5lib...
+[2021-08-12 03:22:25] done building package html5lib in 72.1 s.

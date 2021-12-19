@@ -1,0 +1,144 @@
+running install
+running bdist_egg
+running egg_info
+writing SPARQLWrapper.egg-info/PKG-INFO
+writing dependency_links to SPARQLWrapper.egg-info/dependency_links.txt
+writing requirements to SPARQLWrapper.egg-info/requires.txt
+writing top-level names to SPARQLWrapper.egg-info/top_level.txt
+reading manifest file 'SPARQLWrapper.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'Makefile'
+warning: no directories found matching 'docs/build/html'
+adding license file 'LICENSE.txt'
+adding license file 'AUTHORS.md'
+writing manifest file 'SPARQLWrapper.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/SPARQLWrapper
+copying SPARQLWrapper/Wrapper.py -> build/lib/SPARQLWrapper
+copying SPARQLWrapper/SmartWrapper.py -> build/lib/SPARQLWrapper
+copying SPARQLWrapper/__init__.py -> build/lib/SPARQLWrapper
+copying SPARQLWrapper/KeyCaseInsensitiveDict.py -> build/lib/SPARQLWrapper
+copying SPARQLWrapper/SPARQLExceptions.py -> build/lib/SPARQLWrapper
+/usr/local/lib/python3.9/site-packages/setuptools/lib2to3_ex.py:36: SetuptoolsDeprecationWarning: 2to3 support is deprecated. If the project still requires Python 2 support, please migrate to a single-codebase solution or employ an independent conversion process.
+  warnings.warn(
+Fixing build/lib/SPARQLWrapper/Wrapper.py build/lib/SPARQLWrapper/SmartWrapper.py build/lib/SPARQLWrapper/__init__.py build/lib/SPARQLWrapper/KeyCaseInsensitiveDict.py build/lib/SPARQLWrapper/SPARQLExceptions.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+Fixing build/lib/SPARQLWrapper/Wrapper.py build/lib/SPARQLWrapper/SmartWrapper.py build/lib/SPARQLWrapper/__init__.py build/lib/SPARQLWrapper/KeyCaseInsensitiveDict.py build/lib/SPARQLWrapper/SPARQLExceptions.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/SPARQLWrapper
+copying build/lib/SPARQLWrapper/Wrapper.py -> build/bdist.linux-x86_64/egg/SPARQLWrapper
+copying build/lib/SPARQLWrapper/SmartWrapper.py -> build/bdist.linux-x86_64/egg/SPARQLWrapper
+copying build/lib/SPARQLWrapper/__init__.py -> build/bdist.linux-x86_64/egg/SPARQLWrapper
+copying build/lib/SPARQLWrapper/KeyCaseInsensitiveDict.py -> build/bdist.linux-x86_64/egg/SPARQLWrapper
+copying build/lib/SPARQLWrapper/SPARQLExceptions.py -> build/bdist.linux-x86_64/egg/SPARQLWrapper
+byte-compiling build/bdist.linux-x86_64/egg/SPARQLWrapper/Wrapper.py to Wrapper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/SPARQLWrapper/SmartWrapper.py to SmartWrapper.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/SPARQLWrapper/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/SPARQLWrapper/KeyCaseInsensitiveDict.py to KeyCaseInsensitiveDict.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/SPARQLWrapper/SPARQLExceptions.py to SPARQLExceptions.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying SPARQLWrapper.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying SPARQLWrapper.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying SPARQLWrapper.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying SPARQLWrapper.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying SPARQLWrapper.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/SPARQLWrapper-1.8.5-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing SPARQLWrapper-1.8.5-py3.9.egg
+Copying SPARQLWrapper-1.8.5-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding SPARQLWrapper 1.8.5 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/SPARQLWrapper-1.8.5-py3.9.egg
+Processing dependencies for SPARQLWrapper==1.8.5
+Searching for rdflib>=4.0
+Reading https://pypi.org/simple/rdflib/
+Downloading https://files.pythonhosted.org/packages/34/77/2995c0d4b89607ce2c5e062995f7a26ed61a4d9e20cfc3711f5e8adeaa7e/rdflib-6.0.2-py3-none-any.whl#sha256=b7642daac8cdad1ba157fecb236f5d1b2aa1de64e714dcee80d65e2b794d88a6
+Best match: rdflib 6.0.2
+Processing rdflib-6.0.2-py3-none-any.whl
+Installing rdflib-6.0.2-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding rdflib 6.0.2 to easy-install.pth file
+Installing csv2rdf script to /src/packages/.artifacts/bin
+Installing rdf2dot script to /src/packages/.artifacts/bin
+Installing rdfgraphisomorphism script to /src/packages/.artifacts/bin
+Installing rdfpipe script to /src/packages/.artifacts/bin
+Installing rdfs2dot script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/rdflib-6.0.2-py3.9.egg
+Searching for setuptools==57.1.0
+Best match: setuptools 57.1.0
+Processing setuptools-57.1.0-py3.9.egg
+setuptools 57.1.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/setuptools-57.1.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Searching for isodate==0.6.1
+Best match: isodate 0.6.1
+Processing isodate-0.6.1-py3.9.egg
+isodate 0.6.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/isodate-0.6.1-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for SPARQLWrapper==1.8.5
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/SPARQLWrapper
+copying build/lib/SPARQLWrapper/Wrapper.py -> install/lib/python3.9/site-packages/SPARQLWrapper
+copying build/lib/SPARQLWrapper/SmartWrapper.py -> install/lib/python3.9/site-packages/SPARQLWrapper
+copying build/lib/SPARQLWrapper/__init__.py -> install/lib/python3.9/site-packages/SPARQLWrapper
+copying build/lib/SPARQLWrapper/KeyCaseInsensitiveDict.py -> install/lib/python3.9/site-packages/SPARQLWrapper
+copying build/lib/SPARQLWrapper/SPARQLExceptions.py -> install/lib/python3.9/site-packages/SPARQLWrapper
+byte-compiling install/lib/python3.9/site-packages/SPARQLWrapper/Wrapper.py to Wrapper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/SPARQLWrapper/SmartWrapper.py to SmartWrapper.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/SPARQLWrapper/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/SPARQLWrapper/KeyCaseInsensitiveDict.py to KeyCaseInsensitiveDict.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/SPARQLWrapper/SPARQLExceptions.py to SPARQLExceptions.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing SPARQLWrapper.egg-info/PKG-INFO
+writing dependency_links to SPARQLWrapper.egg-info/dependency_links.txt
+writing requirements to SPARQLWrapper.egg-info/requires.txt
+writing top-level names to SPARQLWrapper.egg-info/top_level.txt
+reading manifest file 'SPARQLWrapper.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'Makefile'
+warning: no directories found matching 'docs/build/html'
+adding license file 'LICENSE.txt'
+adding license file 'AUTHORS.md'
+writing manifest file 'SPARQLWrapper.egg-info/SOURCES.txt'
+Copying SPARQLWrapper.egg-info to install/lib/python3.9/site-packages/SPARQLWrapper-1.8.5-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 95377
+compressed package into 55321
+compressed in 43 ms
+[2021-12-19 01:52:24] Building package sparqlwrapper...
+[2021-12-19 01:53:01] done building package sparqlwrapper in 37.8 s.

@@ -1,0 +1,220 @@
+running install
+running bdist_egg
+running egg_info
+writing toolz.egg-info/PKG-INFO
+writing dependency_links to toolz.egg-info/dependency_links.txt
+writing top-level names to toolz.egg-info/top_level.txt
+reading manifest file 'toolz.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'toolz.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/toolz
+copying toolz/compatibility.py -> build/lib/toolz
+copying toolz/_version.py -> build/lib/toolz
+copying toolz/itertoolz.py -> build/lib/toolz
+copying toolz/__init__.py -> build/lib/toolz
+copying toolz/dicttoolz.py -> build/lib/toolz
+copying toolz/functoolz.py -> build/lib/toolz
+copying toolz/utils.py -> build/lib/toolz
+copying toolz/recipes.py -> build/lib/toolz
+copying toolz/_signatures.py -> build/lib/toolz
+creating build/lib/toolz/sandbox
+copying toolz/sandbox/__init__.py -> build/lib/toolz/sandbox
+copying toolz/sandbox/core.py -> build/lib/toolz/sandbox
+copying toolz/sandbox/parallel.py -> build/lib/toolz/sandbox
+creating build/lib/toolz/curried
+copying toolz/curried/operator.py -> build/lib/toolz/curried
+copying toolz/curried/__init__.py -> build/lib/toolz/curried
+copying toolz/curried/exceptions.py -> build/lib/toolz/curried
+creating build/lib/tlz
+copying tlz/__init__.py -> build/lib/tlz
+copying tlz/_build_tlz.py -> build/lib/tlz
+creating build/lib/toolz/tests
+copying toolz/tests/test_utils.py -> build/lib/toolz/tests
+copying toolz/tests/test_curried.py -> build/lib/toolz/tests
+copying toolz/tests/test_compatibility.py -> build/lib/toolz/tests
+copying toolz/tests/test_functoolz.py -> build/lib/toolz/tests
+copying toolz/tests/test_inspect_args.py -> build/lib/toolz/tests
+copying toolz/tests/test_tlz.py -> build/lib/toolz/tests
+copying toolz/tests/test_signatures.py -> build/lib/toolz/tests
+copying toolz/tests/test_recipes.py -> build/lib/toolz/tests
+copying toolz/tests/test_curried_doctests.py -> build/lib/toolz/tests
+copying toolz/tests/test_dicttoolz.py -> build/lib/toolz/tests
+copying toolz/tests/test_serialization.py -> build/lib/toolz/tests
+copying toolz/tests/test_itertoolz.py -> build/lib/toolz/tests
+UPDATING build/lib/toolz/_version.py
+set build/lib/toolz/_version.py to '0.11.1'
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/compatibility.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/_version.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/itertoolz.py -> build/bdist.linux-x86_64/egg/toolz
+creating build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_utils.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_curried.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_compatibility.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_functoolz.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_inspect_args.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_tlz.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_signatures.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_recipes.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_curried_doctests.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_dicttoolz.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_serialization.py -> build/bdist.linux-x86_64/egg/toolz/tests
+copying build/lib/toolz/tests/test_itertoolz.py -> build/bdist.linux-x86_64/egg/toolz/tests
+creating build/bdist.linux-x86_64/egg/toolz/curried
+copying build/lib/toolz/curried/operator.py -> build/bdist.linux-x86_64/egg/toolz/curried
+copying build/lib/toolz/curried/__init__.py -> build/bdist.linux-x86_64/egg/toolz/curried
+copying build/lib/toolz/curried/exceptions.py -> build/bdist.linux-x86_64/egg/toolz/curried
+copying build/lib/toolz/__init__.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/dicttoolz.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/functoolz.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/utils.py -> build/bdist.linux-x86_64/egg/toolz
+creating build/bdist.linux-x86_64/egg/toolz/sandbox
+copying build/lib/toolz/sandbox/__init__.py -> build/bdist.linux-x86_64/egg/toolz/sandbox
+copying build/lib/toolz/sandbox/core.py -> build/bdist.linux-x86_64/egg/toolz/sandbox
+copying build/lib/toolz/sandbox/parallel.py -> build/bdist.linux-x86_64/egg/toolz/sandbox
+copying build/lib/toolz/recipes.py -> build/bdist.linux-x86_64/egg/toolz
+copying build/lib/toolz/_signatures.py -> build/bdist.linux-x86_64/egg/toolz
+creating build/bdist.linux-x86_64/egg/tlz
+copying build/lib/tlz/__init__.py -> build/bdist.linux-x86_64/egg/tlz
+copying build/lib/tlz/_build_tlz.py -> build/bdist.linux-x86_64/egg/tlz
+byte-compiling build/bdist.linux-x86_64/egg/toolz/compatibility.py to compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/itertoolz.py to itertoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_utils.py to test_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_curried.py to test_curried.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_functoolz.py to test_functoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_inspect_args.py to test_inspect_args.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_tlz.py to test_tlz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_signatures.py to test_signatures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_recipes.py to test_recipes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_curried_doctests.py to test_curried_doctests.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_dicttoolz.py to test_dicttoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_serialization.py to test_serialization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/tests/test_itertoolz.py to test_itertoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/curried/operator.py to operator.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/curried/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/curried/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/dicttoolz.py to dicttoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/functoolz.py to functoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/sandbox/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/sandbox/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/sandbox/parallel.py to parallel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/recipes.py to recipes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/toolz/_signatures.py to _signatures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tlz/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tlz/_build_tlz.py to _build_tlz.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying toolz.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying toolz.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying toolz.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying toolz.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying toolz.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/toolz-0.11.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing toolz-0.11.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/toolz-0.11.1-py3.9.egg
+Extracting toolz-0.11.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding toolz 0.11.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/toolz-0.11.1-py3.9.egg
+Processing dependencies for toolz==0.11.1
+Finished processing dependencies for toolz==0.11.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/compatibility.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/_version.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/itertoolz.py -> install/lib/python3.9/site-packages/toolz
+creating install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_utils.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_curried.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_compatibility.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_functoolz.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_inspect_args.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_tlz.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_signatures.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_recipes.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_curried_doctests.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_dicttoolz.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_serialization.py -> install/lib/python3.9/site-packages/toolz/tests
+copying build/lib/toolz/tests/test_itertoolz.py -> install/lib/python3.9/site-packages/toolz/tests
+creating install/lib/python3.9/site-packages/toolz/curried
+copying build/lib/toolz/curried/operator.py -> install/lib/python3.9/site-packages/toolz/curried
+copying build/lib/toolz/curried/__init__.py -> install/lib/python3.9/site-packages/toolz/curried
+copying build/lib/toolz/curried/exceptions.py -> install/lib/python3.9/site-packages/toolz/curried
+copying build/lib/toolz/__init__.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/dicttoolz.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/functoolz.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/utils.py -> install/lib/python3.9/site-packages/toolz
+creating install/lib/python3.9/site-packages/toolz/sandbox
+copying build/lib/toolz/sandbox/__init__.py -> install/lib/python3.9/site-packages/toolz/sandbox
+copying build/lib/toolz/sandbox/core.py -> install/lib/python3.9/site-packages/toolz/sandbox
+copying build/lib/toolz/sandbox/parallel.py -> install/lib/python3.9/site-packages/toolz/sandbox
+copying build/lib/toolz/recipes.py -> install/lib/python3.9/site-packages/toolz
+copying build/lib/toolz/_signatures.py -> install/lib/python3.9/site-packages/toolz
+creating install/lib/python3.9/site-packages/tlz
+copying build/lib/tlz/__init__.py -> install/lib/python3.9/site-packages/tlz
+copying build/lib/tlz/_build_tlz.py -> install/lib/python3.9/site-packages/tlz
+byte-compiling install/lib/python3.9/site-packages/toolz/compatibility.py to compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/itertoolz.py to itertoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_utils.py to test_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_curried.py to test_curried.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_functoolz.py to test_functoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_inspect_args.py to test_inspect_args.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_tlz.py to test_tlz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_signatures.py to test_signatures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_recipes.py to test_recipes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_curried_doctests.py to test_curried_doctests.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_dicttoolz.py to test_dicttoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_serialization.py to test_serialization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/tests/test_itertoolz.py to test_itertoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/curried/operator.py to operator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/curried/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/curried/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/dicttoolz.py to dicttoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/functoolz.py to functoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/sandbox/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/sandbox/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/sandbox/parallel.py to parallel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/recipes.py to recipes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/toolz/_signatures.py to _signatures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tlz/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tlz/_build_tlz.py to _build_tlz.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing toolz.egg-info/PKG-INFO
+writing dependency_links to toolz.egg-info/dependency_links.txt
+writing top-level names to toolz.egg-info/top_level.txt
+reading manifest file 'toolz.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'toolz.egg-info/SOURCES.txt'
+Copying toolz.egg-info to install/lib/python3.9/site-packages/toolz-0.11.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 189004
+compressed package into 100932
+compressed in 88 ms
+[2021-12-18 04:00:13] Building package toolz...
+[2021-12-18 04:01:35] done building package toolz in 81.2 s.

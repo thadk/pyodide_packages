@@ -1,0 +1,839 @@
+patching file setup.py
+Hunk #1 succeeded at 614 (offset 57 lines).
+Hunk #2 succeeded at 624 (offset 57 lines).
+Hunk #3 succeeded at 692 (offset 57 lines).
+Hunk #4 succeeded at 800 (offset 90 lines).
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-platform-guessing' will not be supported in future versions. Please use the underscore name 'disable_platform_guessing' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-zlib' will not be supported in future versions. Please use the underscore name 'enable_zlib' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-jpeg' will not be supported in future versions. Please use the underscore name 'enable_jpeg' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-freetype' will not be supported in future versions. Please use the underscore name 'enable_freetype' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-lcms' will not be supported in future versions. Please use the underscore name 'disable_lcms' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-tiff' will not be supported in future versions. Please use the underscore name 'disable_tiff' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-xcb' will not be supported in future versions. Please use the underscore name 'disable_xcb' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-webp' will not be supported in future versions. Please use the underscore name 'disable_webp' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-webpmux' will not be supported in future versions. Please use the underscore name 'disable_webpmux' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-jpeg2000' will not be supported in future versions. Please use the underscore name 'disable_jpeg2000' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-imagequant' will not be supported in future versions. Please use the underscore name 'disable_imagequant' instead
+  warnings.warn(
+running install
+running bdist_egg
+running egg_info
+writing src/Pillow.egg-info/PKG-INFO
+writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+writing top-level names to src/Pillow.egg-info/top_level.txt
+reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.c'
+warning: no files found matching '*.h'
+warning: no files found matching '*.sh'
+warning: no previously-included files found matching '.appveyor.yml'
+warning: no previously-included files found matching '.clang-format'
+warning: no previously-included files found matching '.coveragerc'
+warning: no previously-included files found matching '.editorconfig'
+warning: no previously-included files found matching '.readthedocs.yml'
+warning: no previously-included files found matching 'codecov.yml'
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+no previously-included directories found matching '.ci'
+adding license file 'LICENSE'
+writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageMode.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PngImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/SunImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/TarIO.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/BdfFontFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageStat.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageColor.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ContainerIO.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/MspImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/MicImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/_version.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GifImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageQt.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageMath.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PaletteFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/FontFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PdfParser.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ExifTags.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageCms.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageChops.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PSDraw.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageFilter.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageDraw2.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImagePath.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/__init__.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/JpegPresets.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/features.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageDraw.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GimpGradientFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageWin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/_tkinter_finder.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageMorph.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/WalImageFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PcfFontFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/BlpImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageTk.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageOps.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageShow.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageEnhance.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageGrab.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/FliImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/TiffTags.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/CurImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/_util.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/GdImageFile.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImagePalette.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageTransform.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/DdsImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageSequence.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PyAccess.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/_binary.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/Image.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/__main__.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/ImageFont.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+copying src/PIL/FtexImagePlugin.py -> build/lib.linux-x86_64-3.9/PIL
+running build_ext
+building 'PIL._imagingtk' extension
+building 'PIL._imaging' extension
+building 'PIL._imagingmath' extension
+building 'PIL._imagingft' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src/Tk
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include -I/usr/local/include/python3.9 -c src/_imagingft.c -o build/temp.linux-x86_64-3.9/src/_imagingft.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include -I/usr/local/include/python3.9 -c src/_imagingmath.c -o build/temp.linux-x86_64-3.9/src/_imagingmath.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include -I/usr/local/include/python3.9 -c src/Tk/tkImaging.c -o build/temp.linux-x86_64-3.9/src/Tk/tkImaging.o
+creating build/temp.linux-x86_64-3.9/src/libImaging
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/_imaging.c -o build/temp.linux-x86_64-3.9/src/_imaging.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/_imagingmath.o -L/usr/local/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.9/PIL/_imagingmath.cpython-39-x86_64-linux-gnu.so
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include -I/usr/local/include/python3.9 -c src/_imagingtk.c -o build/temp.linux-x86_64-3.9/src/_imagingtk.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/_imagingft.o -L/usr/local/lib -L/usr/local/lib -lfreetype -o build/lib.linux-x86_64-3.9/PIL/_imagingft.cpython-39-x86_64-linux-gnu.so
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/decode.c -o build/temp.linux-x86_64-3.9/src/decode.o
+building 'PIL._imagingmorph' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include -I/usr/local/include/python3.9 -c src/_imagingmorph.c -o build/temp.linux-x86_64-3.9/src/_imagingmorph.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/Tk/tkImaging.o build/temp.linux-x86_64-3.9/src/_imagingtk.o -L/usr/local/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.9/PIL/_imagingtk.cpython-39-x86_64-linux-gnu.so
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/display.c -o build/temp.linux-x86_64-3.9/src/display.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/encode.c -o build/temp.linux-x86_64-3.9/src/encode.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/_imagingmorph.o -L/usr/local/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.9/PIL/_imagingmorph.cpython-39-x86_64-linux-gnu.so
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Access.c -o build/temp.linux-x86_64-3.9/src/libImaging/Access.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/AlphaComposite.c -o build/temp.linux-x86_64-3.9/src/libImaging/AlphaComposite.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Bands.c -o build/temp.linux-x86_64-3.9/src/libImaging/Bands.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/BcnDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/BcnDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/BitDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/BitDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Blend.c -o build/temp.linux-x86_64-3.9/src/libImaging/Blend.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/BoxBlur.c -o build/temp.linux-x86_64-3.9/src/libImaging/BoxBlur.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Chops.c -o build/temp.linux-x86_64-3.9/src/libImaging/Chops.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/ColorLUT.c -o build/temp.linux-x86_64-3.9/src/libImaging/ColorLUT.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Convert.c -o build/temp.linux-x86_64-3.9/src/libImaging/Convert.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/ConvertYCbCr.c -o build/temp.linux-x86_64-3.9/src/libImaging/ConvertYCbCr.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Copy.c -o build/temp.linux-x86_64-3.9/src/libImaging/Copy.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Crop.c -o build/temp.linux-x86_64-3.9/src/libImaging/Crop.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Dib.c -o build/temp.linux-x86_64-3.9/src/libImaging/Dib.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Draw.c -o build/temp.linux-x86_64-3.9/src/libImaging/Draw.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Effects.c -o build/temp.linux-x86_64-3.9/src/libImaging/Effects.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/EpsEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/EpsEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/File.c -o build/temp.linux-x86_64-3.9/src/libImaging/File.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Fill.c -o build/temp.linux-x86_64-3.9/src/libImaging/Fill.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Filter.c -o build/temp.linux-x86_64-3.9/src/libImaging/Filter.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/FliDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/FliDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Geometry.c -o build/temp.linux-x86_64-3.9/src/libImaging/Geometry.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/GetBBox.c -o build/temp.linux-x86_64-3.9/src/libImaging/GetBBox.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/GifDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/GifDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/GifEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/GifEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/HexDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/HexDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Histo.c -o build/temp.linux-x86_64-3.9/src/libImaging/Histo.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Jpeg2KDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Jpeg2KEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/JpegDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/JpegDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/JpegEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/JpegEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Matrix.c -o build/temp.linux-x86_64-3.9/src/libImaging/Matrix.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/ModeFilter.c -o build/temp.linux-x86_64-3.9/src/libImaging/ModeFilter.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Negative.c -o build/temp.linux-x86_64-3.9/src/libImaging/Negative.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Offset.c -o build/temp.linux-x86_64-3.9/src/libImaging/Offset.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Pack.c -o build/temp.linux-x86_64-3.9/src/libImaging/Pack.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/PackDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PackDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Palette.c -o build/temp.linux-x86_64-3.9/src/libImaging/Palette.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Paste.c -o build/temp.linux-x86_64-3.9/src/libImaging/Paste.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/PcdDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcdDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/PcxDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcxDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/PcxEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcxEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Point.c -o build/temp.linux-x86_64-3.9/src/libImaging/Point.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Quant.c -o build/temp.linux-x86_64-3.9/src/libImaging/Quant.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/QuantHash.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantHash.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/QuantHeap.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantHeap.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/QuantOctree.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantOctree.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/QuantPngQuant.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantPngQuant.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/RankFilter.c -o build/temp.linux-x86_64-3.9/src/libImaging/RankFilter.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/RawDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/RawDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/RawEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/RawEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Reduce.c -o build/temp.linux-x86_64-3.9/src/libImaging/Reduce.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Resample.c -o build/temp.linux-x86_64-3.9/src/libImaging/Resample.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/SgiRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/SgiRleDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Storage.c -o build/temp.linux-x86_64-3.9/src/libImaging/Storage.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/SunRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/SunRleDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/TgaRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/TgaRleEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/TiffDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TiffDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/Unpack.c -o build/temp.linux-x86_64-3.9/src/libImaging/Unpack.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/UnpackYCC.c -o build/temp.linux-x86_64-3.9/src/libImaging/UnpackYCC.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/UnsharpMask.c -o build/temp.linux-x86_64-3.9/src/libImaging/UnsharpMask.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/XbmDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/XbmDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/XbmEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/XbmEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/ZipDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/ZipDecode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/ZipEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/ZipEncode.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/libImaging/codec_fd.c -o build/temp.linux-x86_64-3.9/src/libImaging/codec_fd.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/map.c -o build/temp.linux-x86_64-3.9/src/map.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/outline.c -o build/temp.linux-x86_64-3.9/src/outline.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/usr/local/include -I/usr/local/include/python3.9 -c src/path.c -o build/temp.linux-x86_64-3.9/src/path.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/_imaging.o build/temp.linux-x86_64-3.9/src/decode.o build/temp.linux-x86_64-3.9/src/display.o build/temp.linux-x86_64-3.9/src/encode.o build/temp.linux-x86_64-3.9/src/libImaging/Access.o build/temp.linux-x86_64-3.9/src/libImaging/AlphaComposite.o build/temp.linux-x86_64-3.9/src/libImaging/Bands.o build/temp.linux-x86_64-3.9/src/libImaging/BcnDecode.o build/temp.linux-x86_64-3.9/src/libImaging/BitDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Blend.o build/temp.linux-x86_64-3.9/src/libImaging/BoxBlur.o build/temp.linux-x86_64-3.9/src/libImaging/Chops.o build/temp.linux-x86_64-3.9/src/libImaging/ColorLUT.o build/temp.linux-x86_64-3.9/src/libImaging/Convert.o build/temp.linux-x86_64-3.9/src/libImaging/ConvertYCbCr.o build/temp.linux-x86_64-3.9/src/libImaging/Copy.o build/temp.linux-x86_64-3.9/src/libImaging/Crop.o build/temp.linux-x86_64-3.9/src/libImaging/Dib.o build/temp.linux-x86_64-3.9/src/libImaging/Draw.o build/temp.linux-x86_64-3.9/src/libImaging/Effects.o build/temp.linux-x86_64-3.9/src/libImaging/EpsEncode.o build/temp.linux-x86_64-3.9/src/libImaging/File.o build/temp.linux-x86_64-3.9/src/libImaging/Fill.o build/temp.linux-x86_64-3.9/src/libImaging/Filter.o build/temp.linux-x86_64-3.9/src/libImaging/FliDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Geometry.o build/temp.linux-x86_64-3.9/src/libImaging/GetBBox.o build/temp.linux-x86_64-3.9/src/libImaging/GifDecode.o build/temp.linux-x86_64-3.9/src/libImaging/GifEncode.o build/temp.linux-x86_64-3.9/src/libImaging/HexDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Histo.o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KEncode.o build/temp.linux-x86_64-3.9/src/libImaging/JpegDecode.o build/temp.linux-x86_64-3.9/src/libImaging/JpegEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Matrix.o build/temp.linux-x86_64-3.9/src/libImaging/ModeFilter.o build/temp.linux-x86_64-3.9/src/libImaging/Negative.o build/temp.linux-x86_64-3.9/src/libImaging/Offset.o build/temp.linux-x86_64-3.9/src/libImaging/Pack.o build/temp.linux-x86_64-3.9/src/libImaging/PackDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Palette.o build/temp.linux-x86_64-3.9/src/libImaging/Paste.o build/temp.linux-x86_64-3.9/src/libImaging/PcdDecode.o build/temp.linux-x86_64-3.9/src/libImaging/PcxDecode.o build/temp.linux-x86_64-3.9/src/libImaging/PcxEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Point.o build/temp.linux-x86_64-3.9/src/libImaging/Quant.o build/temp.linux-x86_64-3.9/src/libImaging/QuantHash.o build/temp.linux-x86_64-3.9/src/libImaging/QuantHeap.o build/temp.linux-x86_64-3.9/src/libImaging/QuantOctree.o build/temp.linux-x86_64-3.9/src/libImaging/QuantPngQuant.o build/temp.linux-x86_64-3.9/src/libImaging/RankFilter.o build/temp.linux-x86_64-3.9/src/libImaging/RawDecode.o build/temp.linux-x86_64-3.9/src/libImaging/RawEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Reduce.o build/temp.linux-x86_64-3.9/src/libImaging/Resample.o build/temp.linux-x86_64-3.9/src/libImaging/SgiRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Storage.o build/temp.linux-x86_64-3.9/src/libImaging/SunRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleEncode.o build/temp.linux-x86_64-3.9/src/libImaging/TiffDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Unpack.o build/temp.linux-x86_64-3.9/src/libImaging/UnpackYCC.o build/temp.linux-x86_64-3.9/src/libImaging/UnsharpMask.o build/temp.linux-x86_64-3.9/src/libImaging/XbmDecode.o build/temp.linux-x86_64-3.9/src/libImaging/XbmEncode.o build/temp.linux-x86_64-3.9/src/libImaging/ZipDecode.o build/temp.linux-x86_64-3.9/src/libImaging/ZipEncode.o build/temp.linux-x86_64-3.9/src/libImaging/codec_fd.o build/temp.linux-x86_64-3.9/src/map.o build/temp.linux-x86_64-3.9/src/outline.o build/temp.linux-x86_64-3.9/src/path.o -L/usr/local/lib -L/usr/local/lib -lz -o build/lib.linux-x86_64-3.9/PIL/_imaging.cpython-39-x86_64-linux-gnu.so
+--------------------------------------------------------------------
+PIL SETUP SUMMARY
+--------------------------------------------------------------------
+version      Pillow 8.3.1
+platform     linux 3.9.5 (default, Jun 23 2021, 15:10:59)
+             [GCC 8.3.0]
+--------------------------------------------------------------------
+--- JPEG support available
+*** OPENJPEG (JPEG2000) support not available
+--- ZLIB (PNG/ZIP) support available
+*** LIBIMAGEQUANT support not available
+*** LIBTIFF support not available
+--- FREETYPE2 support available
+*** RAQM (Text shaping) support not available
+*** LITTLECMS2 support not available
+*** WEBP support not available
+*** WEBPMUX support not available
+*** XCB (X protocol) support not available
+--------------------------------------------------------------------
+To add a missing option, make sure you have the required
+library and headers.
+See https://pillow.readthedocs.io/en/latest/installation.html#building-from-source
+
+To check the build, run the selftest.py script.
+
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MpoImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMode.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PngImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XbmImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcxImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SunImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SpiderImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TarIO.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FitsStubImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MpegImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BdfFontFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GribStubImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageStat.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PixarImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GimpPaletteFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageColor.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ContainerIO.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MspImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingmorph.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MicImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_version.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImtImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GifImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PalmImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageQt.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMath.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PaletteFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FontFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PdfParser.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ExifTags.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageCms.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FpxImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageChops.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BufrStubImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PSDraw.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcdImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFilter.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageDraw2.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImagePath.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imaging.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/DcxImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/__init__.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingmath.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/JpegPresets.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Hdf5StubImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/features.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageDraw.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GimpGradientFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageWin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IcoImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_tkinter_finder.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/EpsImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TgaImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMorph.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Jpeg2KImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WalImageFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcfFontFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BlpImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageTk.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GbrImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageOps.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PdfImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageShow.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageEnhance.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WmfImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageGrab.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WebPImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FliImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TiffTags.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/CurImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_util.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GdImageFile.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TiffImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IptcImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImagePalette.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BmpImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageTransform.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IcnsImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/McIdasImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XpmImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingft.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/DdsImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageSequence.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PyAccess.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_binary.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Image.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/__main__.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XVThumbImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SgiImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PsdImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/JpegImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFont.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PpmImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FtexImagePlugin.py -> build/bdist.linux-x86_64/egg/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingtk.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/PIL
+byte-compiling build/bdist.linux-x86_64/egg/PIL/MpoImagePlugin.py to MpoImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageMode.py to ImageMode.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PngImagePlugin.py to PngImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/XbmImagePlugin.py to XbmImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PcxImagePlugin.py to PcxImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/SunImagePlugin.py to SunImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageFile.py to ImageFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/SpiderImagePlugin.py to SpiderImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/TarIO.py to TarIO.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/FitsStubImagePlugin.py to FitsStubImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/MpegImagePlugin.py to MpegImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/BdfFontFile.py to BdfFontFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GribStubImagePlugin.py to GribStubImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageStat.py to ImageStat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PixarImagePlugin.py to PixarImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GimpPaletteFile.py to GimpPaletteFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageColor.py to ImageColor.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ContainerIO.py to ContainerIO.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/MspImagePlugin.py to MspImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/MicImagePlugin.py to MicImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImtImagePlugin.py to ImtImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GifImagePlugin.py to GifImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PalmImagePlugin.py to PalmImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageQt.py to ImageQt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageMath.py to ImageMath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PaletteFile.py to PaletteFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/FontFile.py to FontFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PdfParser.py to PdfParser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ExifTags.py to ExifTags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageCms.py to ImageCms.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/FpxImagePlugin.py to FpxImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageChops.py to ImageChops.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/BufrStubImagePlugin.py to BufrStubImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PSDraw.py to PSDraw.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PcdImagePlugin.py to PcdImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageFilter.py to ImageFilter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageDraw2.py to ImageDraw2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImagePath.py to ImagePath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/DcxImagePlugin.py to DcxImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/JpegPresets.py to JpegPresets.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/Hdf5StubImagePlugin.py to Hdf5StubImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/features.py to features.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageDraw.py to ImageDraw.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GimpGradientFile.py to GimpGradientFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageWin.py to ImageWin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/IcoImagePlugin.py to IcoImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_tkinter_finder.py to _tkinter_finder.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/EpsImagePlugin.py to EpsImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/TgaImagePlugin.py to TgaImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageMorph.py to ImageMorph.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/Jpeg2KImagePlugin.py to Jpeg2KImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/WalImageFile.py to WalImageFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PcfFontFile.py to PcfFontFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/BlpImagePlugin.py to BlpImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageTk.py to ImageTk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GbrImagePlugin.py to GbrImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageOps.py to ImageOps.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PdfImagePlugin.py to PdfImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageShow.py to ImageShow.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageEnhance.py to ImageEnhance.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/WmfImagePlugin.py to WmfImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageGrab.py to ImageGrab.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/WebPImagePlugin.py to WebPImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/FliImagePlugin.py to FliImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/TiffTags.py to TiffTags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/CurImagePlugin.py to CurImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_util.py to _util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/GdImageFile.py to GdImageFile.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/TiffImagePlugin.py to TiffImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/IptcImagePlugin.py to IptcImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImagePalette.py to ImagePalette.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/BmpImagePlugin.py to BmpImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageTransform.py to ImageTransform.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/IcnsImagePlugin.py to IcnsImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/McIdasImagePlugin.py to McIdasImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/XpmImagePlugin.py to XpmImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/DdsImagePlugin.py to DdsImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageSequence.py to ImageSequence.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PyAccess.py to PyAccess.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_binary.py to _binary.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/Image.py to Image.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/XVThumbImagePlugin.py to XVThumbImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/SgiImagePlugin.py to SgiImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImImagePlugin.py to ImImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PsdImagePlugin.py to PsdImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/JpegImagePlugin.py to JpegImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/ImageFont.py to ImageFont.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/PpmImagePlugin.py to PpmImagePlugin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/FtexImagePlugin.py to FtexImagePlugin.cpython-39.pyc
+creating stub loader for PIL/_imaging.cpython-39-x86_64-linux-gnu.so
+creating stub loader for PIL/_imagingft.cpython-39-x86_64-linux-gnu.so
+creating stub loader for PIL/_imagingtk.cpython-39-x86_64-linux-gnu.so
+creating stub loader for PIL/_imagingmath.cpython-39-x86_64-linux-gnu.so
+creating stub loader for PIL/_imagingmorph.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_imaging.py to _imaging.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_imagingft.py to _imagingft.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_imagingtk.py to _imagingtk.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_imagingmath.py to _imagingmath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PIL/_imagingmorph.py to _imagingmorph.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pillow.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pillow.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pillow.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pillow.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pillow.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/Pillow-8.3.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Pillow-8.3.1-py3.9-linux-x86_64.egg
+Copying Pillow-8.3.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding Pillow 8.3.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/Pillow-8.3.1-py3.9-linux-x86_64.egg
+Processing dependencies for Pillow==8.3.1
+Finished processing dependencies for Pillow==8.3.1
+cache:INFO: generating port: sysroot/lib/wasm32-emscripten/libfreetype.a... (this will be cached in "/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libfreetype.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating port: sysroot/lib/wasm32-emscripten/libz.a... (this will be cached in "/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libz.a" for subsequent builds)
+cache:INFO:  - ok
+cache:INFO: generating port: sysroot/lib/wasm32-emscripten/libjpeg.a... (this will be cached in "/src/emsdk/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten/libjpeg.a" for subsequent builds)
+root:INFO: building port: libjpeg
+cache:INFO:  - ok
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/_imagingmath.c -o build/temp.linux-x86_64-3.9/src/_imagingmath.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/Tk/tkImaging.c -o build/temp.linux-x86_64-3.9/src/Tk/tkImaging.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/_imagingft.c -o build/temp.linux-x86_64-3.9/src/_imagingft.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/_imaging.c -o build/temp.linux-x86_64-3.9/src/_imaging.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/_imagingmath.o -o build/lib.linux-x86_64-3.9/PIL/_imagingmath.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/_imagingtk.c -o build/temp.linux-x86_64-3.9/src/_imagingtk.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/decode.c -o build/temp.linux-x86_64-3.9/src/decode.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/_imagingft.o -o build/lib.linux-x86_64-3.9/PIL/_imagingft.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/display.c -o build/temp.linux-x86_64-3.9/src/display.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/_imagingmorph.c -o build/temp.linux-x86_64-3.9/src/_imagingmorph.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/Tk/tkImaging.o build/temp.linux-x86_64-3.9/src/_imagingtk.o -o build/lib.linux-x86_64-3.9/PIL/_imagingtk.cpython-39-x86_64-linux-gnu.so
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/_imagingmorph.o -o build/lib.linux-x86_64-3.9/PIL/_imagingmorph.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/encode.c -o build/temp.linux-x86_64-3.9/src/encode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Access.c -o build/temp.linux-x86_64-3.9/src/libImaging/Access.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/AlphaComposite.c -o build/temp.linux-x86_64-3.9/src/libImaging/AlphaComposite.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Bands.c -o build/temp.linux-x86_64-3.9/src/libImaging/Bands.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/BcnDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/BcnDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/BitDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/BitDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Blend.c -o build/temp.linux-x86_64-3.9/src/libImaging/Blend.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/BoxBlur.c -o build/temp.linux-x86_64-3.9/src/libImaging/BoxBlur.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Chops.c -o build/temp.linux-x86_64-3.9/src/libImaging/Chops.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/ColorLUT.c -o build/temp.linux-x86_64-3.9/src/libImaging/ColorLUT.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Convert.c -o build/temp.linux-x86_64-3.9/src/libImaging/Convert.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/ConvertYCbCr.c -o build/temp.linux-x86_64-3.9/src/libImaging/ConvertYCbCr.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Copy.c -o build/temp.linux-x86_64-3.9/src/libImaging/Copy.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Crop.c -o build/temp.linux-x86_64-3.9/src/libImaging/Crop.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Dib.c -o build/temp.linux-x86_64-3.9/src/libImaging/Dib.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Draw.c -o build/temp.linux-x86_64-3.9/src/libImaging/Draw.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Effects.c -o build/temp.linux-x86_64-3.9/src/libImaging/Effects.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/EpsEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/EpsEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/File.c -o build/temp.linux-x86_64-3.9/src/libImaging/File.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Fill.c -o build/temp.linux-x86_64-3.9/src/libImaging/Fill.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Filter.c -o build/temp.linux-x86_64-3.9/src/libImaging/Filter.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/FliDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/FliDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Geometry.c -o build/temp.linux-x86_64-3.9/src/libImaging/Geometry.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/GetBBox.c -o build/temp.linux-x86_64-3.9/src/libImaging/GetBBox.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/GifDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/GifDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/GifEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/GifEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/HexDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/HexDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Histo.c -o build/temp.linux-x86_64-3.9/src/libImaging/Histo.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Jpeg2KDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Jpeg2KEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/JpegDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/JpegDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/JpegEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/JpegEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Matrix.c -o build/temp.linux-x86_64-3.9/src/libImaging/Matrix.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/ModeFilter.c -o build/temp.linux-x86_64-3.9/src/libImaging/ModeFilter.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Negative.c -o build/temp.linux-x86_64-3.9/src/libImaging/Negative.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Offset.c -o build/temp.linux-x86_64-3.9/src/libImaging/Offset.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Pack.c -o build/temp.linux-x86_64-3.9/src/libImaging/Pack.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/PackDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PackDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Palette.c -o build/temp.linux-x86_64-3.9/src/libImaging/Palette.o
+src/libImaging/QuantOctree.c:371:19: warning: comparison of integers of different signs: 'long' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+    for (i = 0; i < nPixels; i++) {
+                ~ ^ ~~~~~~~
+src/libImaging/QuantOctree.c:426:19: warning: comparison of integers of different signs: 'long' and 'uint32_t' (aka 'unsigned int') [-Wsign-compare]
+    for (i = 0; i < nPixels; i++) {
+                ~ ^ ~~~~~~~
+2 warnings generated.
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Paste.c -o build/temp.linux-x86_64-3.9/src/libImaging/Paste.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/PcdDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcdDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/PcxDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcxDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/PcxEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/PcxEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Point.c -o build/temp.linux-x86_64-3.9/src/libImaging/Point.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Quant.c -o build/temp.linux-x86_64-3.9/src/libImaging/Quant.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/QuantHash.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantHash.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/QuantHeap.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantHeap.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/QuantOctree.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantOctree.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/QuantPngQuant.c -o build/temp.linux-x86_64-3.9/src/libImaging/QuantPngQuant.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/RankFilter.c -o build/temp.linux-x86_64-3.9/src/libImaging/RankFilter.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/RawDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/RawDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/RawEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/RawEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Reduce.c -o build/temp.linux-x86_64-3.9/src/libImaging/Reduce.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Resample.c -o build/temp.linux-x86_64-3.9/src/libImaging/Resample.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/SgiRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/SgiRleDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Storage.c -o build/temp.linux-x86_64-3.9/src/libImaging/Storage.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/SunRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/SunRleDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/TgaRleDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/TgaRleEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/TiffDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/TiffDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/Unpack.c -o build/temp.linux-x86_64-3.9/src/libImaging/Unpack.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/UnpackYCC.c -o build/temp.linux-x86_64-3.9/src/libImaging/UnpackYCC.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/UnsharpMask.c -o build/temp.linux-x86_64-3.9/src/libImaging/UnsharpMask.o
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-platform-guessing' will not be supported in future versions. Please use the underscore name 'disable_platform_guessing' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-zlib' will not be supported in future versions. Please use the underscore name 'enable_zlib' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-jpeg' will not be supported in future versions. Please use the underscore name 'enable_jpeg' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'enable-freetype' will not be supported in future versions. Please use the underscore name 'enable_freetype' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-lcms' will not be supported in future versions. Please use the underscore name 'disable_lcms' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-tiff' will not be supported in future versions. Please use the underscore name 'disable_tiff' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-xcb' will not be supported in future versions. Please use the underscore name 'disable_xcb' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-webp' will not be supported in future versions. Please use the underscore name 'disable_webp' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-webpmux' will not be supported in future versions. Please use the underscore name 'disable_webpmux' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-jpeg2000' will not be supported in future versions. Please use the underscore name 'disable_jpeg2000' instead
+  warnings.warn(
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'disable-imagequant' will not be supported in future versions. Please use the underscore name 'disable_imagequant' instead
+  warnings.warn(
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MpoImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMode.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PngImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XbmImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcxImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SunImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SpiderImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TarIO.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FitsStubImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MpegImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BdfFontFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GribStubImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingmath.so -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageStat.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PixarImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GimpPaletteFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageColor.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ContainerIO.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MspImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/MicImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_version.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImtImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GifImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PalmImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageQt.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMath.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PaletteFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FontFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PdfParser.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ExifTags.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageCms.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FpxImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageChops.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BufrStubImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PSDraw.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcdImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFilter.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageDraw2.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImagePath.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imaging.so -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/DcxImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/__init__.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/JpegPresets.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Hdf5StubImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/features.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageDraw.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GimpGradientFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageWin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IcoImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_tkinter_finder.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/EpsImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TgaImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageMorph.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingtk.so -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Jpeg2KImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WalImageFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PcfFontFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BlpImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageTk.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GbrImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageOps.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PdfImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageShow.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageEnhance.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WmfImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageGrab.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/WebPImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FliImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TiffTags.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/CurImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_util.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/GdImageFile.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/TiffImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingft.so -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IptcImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImagePalette.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/BmpImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_imagingmorph.so -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageTransform.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/IcnsImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/McIdasImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XpmImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/DdsImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageSequence.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PyAccess.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/_binary.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/Image.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/__main__.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/XVThumbImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/SgiImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PsdImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/JpegImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/ImageFont.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/PpmImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+copying build/lib.linux-x86_64-3.9/PIL/FtexImagePlugin.py -> install/lib/python3.9/site-packages/PIL
+byte-compiling install/lib/python3.9/site-packages/PIL/MpoImagePlugin.py to MpoImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageMode.py to ImageMode.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PngImagePlugin.py to PngImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/XbmImagePlugin.py to XbmImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PcxImagePlugin.py to PcxImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/SunImagePlugin.py to SunImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageFile.py to ImageFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/SpiderImagePlugin.py to SpiderImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/TarIO.py to TarIO.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/FitsStubImagePlugin.py to FitsStubImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/MpegImagePlugin.py to MpegImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/BdfFontFile.py to BdfFontFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GribStubImagePlugin.py to GribStubImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageStat.py to ImageStat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PixarImagePlugin.py to PixarImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GimpPaletteFile.py to GimpPaletteFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageColor.py to ImageColor.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ContainerIO.py to ContainerIO.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/MspImagePlugin.py to MspImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/MicImagePlugin.py to MicImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImtImagePlugin.py to ImtImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GifImagePlugin.py to GifImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PalmImagePlugin.py to PalmImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageQt.py to ImageQt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageMath.py to ImageMath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PaletteFile.py to PaletteFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/FontFile.py to FontFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PdfParser.py to PdfParser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ExifTags.py to ExifTags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageCms.py to ImageCms.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/FpxImagePlugin.py to FpxImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageChops.py to ImageChops.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/BufrStubImagePlugin.py to BufrStubImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PSDraw.py to PSDraw.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PcdImagePlugin.py to PcdImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageFilter.py to ImageFilter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageDraw2.py to ImageDraw2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImagePath.py to ImagePath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/DcxImagePlugin.py to DcxImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/JpegPresets.py to JpegPresets.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/Hdf5StubImagePlugin.py to Hdf5StubImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/features.py to features.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageDraw.py to ImageDraw.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GimpGradientFile.py to GimpGradientFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageWin.py to ImageWin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/IcoImagePlugin.py to IcoImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/_tkinter_finder.py to _tkinter_finder.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/EpsImagePlugin.py to EpsImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/TgaImagePlugin.py to TgaImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageMorph.py to ImageMorph.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/Jpeg2KImagePlugin.py to Jpeg2KImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/WalImageFile.py to WalImageFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PcfFontFile.py to PcfFontFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/BlpImagePlugin.py to BlpImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageTk.py to ImageTk.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GbrImagePlugin.py to GbrImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageOps.py to ImageOps.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PdfImagePlugin.py to PdfImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageShow.py to ImageShow.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageEnhance.py to ImageEnhance.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/WmfImagePlugin.py to WmfImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageGrab.py to ImageGrab.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/WebPImagePlugin.py to WebPImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/FliImagePlugin.py to FliImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/TiffTags.py to TiffTags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/CurImagePlugin.py to CurImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/_util.py to _util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/GdImageFile.py to GdImageFile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/TiffImagePlugin.py to TiffImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/IptcImagePlugin.py to IptcImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImagePalette.py to ImagePalette.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/BmpImagePlugin.py to BmpImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageTransform.py to ImageTransform.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/IcnsImagePlugin.py to IcnsImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/McIdasImagePlugin.py to McIdasImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/XpmImagePlugin.py to XpmImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/DdsImagePlugin.py to DdsImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageSequence.py to ImageSequence.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PyAccess.py to PyAccess.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/_binary.py to _binary.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/Image.py to Image.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/XVThumbImagePlugin.py to XVThumbImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/SgiImagePlugin.py to SgiImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImImagePlugin.py to ImImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PsdImagePlugin.py to PsdImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/JpegImagePlugin.py to JpegImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/ImageFont.py to ImageFont.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/PpmImagePlugin.py to PpmImagePlugin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/PIL/FtexImagePlugin.py to FtexImagePlugin.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/Pillow.egg-info/PKG-INFO
+writing dependency_links to src/Pillow.egg-info/dependency_links.txt
+writing top-level names to src/Pillow.egg-info/top_level.txt
+reading manifest file 'src/Pillow.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.c'
+warning: no files found matching '*.h'
+warning: no files found matching '*.sh'
+warning: no previously-included files found matching '.appveyor.yml'
+warning: no previously-included files found matching '.clang-format'
+warning: no previously-included files found matching '.coveragerc'
+warning: no previously-included files found matching '.editorconfig'
+warning: no previously-included files found matching '.readthedocs.yml'
+warning: no previously-included files found matching 'codecov.yml'
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+no previously-included directories found matching '.ci'
+adding license file 'LICENSE'
+writing manifest file 'src/Pillow.egg-info/SOURCES.txt'
+Copying src/Pillow.egg-info to install/lib/python3.9/site-packages/Pillow-8.3.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/XbmDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/XbmDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/XbmEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/XbmEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/ZipDecode.c -o build/temp.linux-x86_64-3.9/src/libImaging/ZipDecode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/ZipEncode.c -o build/temp.linux-x86_64-3.9/src/libImaging/ZipEncode.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/libImaging/codec_fd.c -o build/temp.linux-x86_64-3.9/src/libImaging/codec_fd.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/map.c -o build/temp.linux-x86_64-3.9/src/map.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/outline.c -o build/temp.linux-x86_64-3.9/src/outline.o
+emcc -O2 -g -fPIC -s USE_ZLIB=1 -s USE_LIBJPEG=1 -s USE_FREETYPE=1 -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DPILLOW_VERSION="8.3.1" -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/path.c -o build/temp.linux-x86_64-3.9/src/path.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/src/_imaging.o build/temp.linux-x86_64-3.9/src/decode.o build/temp.linux-x86_64-3.9/src/display.o build/temp.linux-x86_64-3.9/src/encode.o build/temp.linux-x86_64-3.9/src/libImaging/Access.o build/temp.linux-x86_64-3.9/src/libImaging/AlphaComposite.o build/temp.linux-x86_64-3.9/src/libImaging/Bands.o build/temp.linux-x86_64-3.9/src/libImaging/BcnDecode.o build/temp.linux-x86_64-3.9/src/libImaging/BitDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Blend.o build/temp.linux-x86_64-3.9/src/libImaging/BoxBlur.o build/temp.linux-x86_64-3.9/src/libImaging/Chops.o build/temp.linux-x86_64-3.9/src/libImaging/ColorLUT.o build/temp.linux-x86_64-3.9/src/libImaging/Convert.o build/temp.linux-x86_64-3.9/src/libImaging/ConvertYCbCr.o build/temp.linux-x86_64-3.9/src/libImaging/Copy.o build/temp.linux-x86_64-3.9/src/libImaging/Crop.o build/temp.linux-x86_64-3.9/src/libImaging/Dib.o build/temp.linux-x86_64-3.9/src/libImaging/Draw.o build/temp.linux-x86_64-3.9/src/libImaging/Effects.o build/temp.linux-x86_64-3.9/src/libImaging/EpsEncode.o build/temp.linux-x86_64-3.9/src/libImaging/File.o build/temp.linux-x86_64-3.9/src/libImaging/Fill.o build/temp.linux-x86_64-3.9/src/libImaging/Filter.o build/temp.linux-x86_64-3.9/src/libImaging/FliDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Geometry.o build/temp.linux-x86_64-3.9/src/libImaging/GetBBox.o build/temp.linux-x86_64-3.9/src/libImaging/GifDecode.o build/temp.linux-x86_64-3.9/src/libImaging/GifEncode.o build/temp.linux-x86_64-3.9/src/libImaging/HexDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Histo.o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Jpeg2KEncode.o build/temp.linux-x86_64-3.9/src/libImaging/JpegDecode.o build/temp.linux-x86_64-3.9/src/libImaging/JpegEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Matrix.o build/temp.linux-x86_64-3.9/src/libImaging/ModeFilter.o build/temp.linux-x86_64-3.9/src/libImaging/Negative.o build/temp.linux-x86_64-3.9/src/libImaging/Offset.o build/temp.linux-x86_64-3.9/src/libImaging/Pack.o build/temp.linux-x86_64-3.9/src/libImaging/PackDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Palette.o build/temp.linux-x86_64-3.9/src/libImaging/Paste.o build/temp.linux-x86_64-3.9/src/libImaging/PcdDecode.o build/temp.linux-x86_64-3.9/src/libImaging/PcxDecode.o build/temp.linux-x86_64-3.9/src/libImaging/PcxEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Point.o build/temp.linux-x86_64-3.9/src/libImaging/Quant.o build/temp.linux-x86_64-3.9/src/libImaging/QuantHash.o build/temp.linux-x86_64-3.9/src/libImaging/QuantHeap.o build/temp.linux-x86_64-3.9/src/libImaging/QuantOctree.o build/temp.linux-x86_64-3.9/src/libImaging/QuantPngQuant.o build/temp.linux-x86_64-3.9/src/libImaging/RankFilter.o build/temp.linux-x86_64-3.9/src/libImaging/RawDecode.o build/temp.linux-x86_64-3.9/src/libImaging/RawEncode.o build/temp.linux-x86_64-3.9/src/libImaging/Reduce.o build/temp.linux-x86_64-3.9/src/libImaging/Resample.o build/temp.linux-x86_64-3.9/src/libImaging/SgiRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Storage.o build/temp.linux-x86_64-3.9/src/libImaging/SunRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleDecode.o build/temp.linux-x86_64-3.9/src/libImaging/TgaRleEncode.o build/temp.linux-x86_64-3.9/src/libImaging/TiffDecode.o build/temp.linux-x86_64-3.9/src/libImaging/Unpack.o build/temp.linux-x86_64-3.9/src/libImaging/UnpackYCC.o build/temp.linux-x86_64-3.9/src/libImaging/UnsharpMask.o build/temp.linux-x86_64-3.9/src/libImaging/XbmDecode.o build/temp.linux-x86_64-3.9/src/libImaging/XbmEncode.o build/temp.linux-x86_64-3.9/src/libImaging/ZipDecode.o build/temp.linux-x86_64-3.9/src/libImaging/ZipEncode.o build/temp.linux-x86_64-3.9/src/libImaging/codec_fd.o build/temp.linux-x86_64-3.9/src/map.o build/temp.linux-x86_64-3.9/src/outline.o build/temp.linux-x86_64-3.9/src/path.o -o build/lib.linux-x86_64-3.9/PIL/_imaging.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 1355471
+compressed package into 766894
+compressed in 194 ms
+[2021-12-18 01:53:22] Building package pillow...
+[2021-12-18 03:42:49] done building package pillow in 6567.1 s.

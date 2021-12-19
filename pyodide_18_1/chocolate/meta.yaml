@@ -1,0 +1,14 @@
+package:
+  name: chocolate
+  version: 0.0.2
+source:
+  url: https://files.pythonhosted.org/packages/34/6a/fb1e15a5335e53024a0b021cca740a5ae7b68f78586c20bed5b0938218fa/chocolate-0.0.2.tar.gz
+  sha256: 3474af447e11c592635afae2578d8f425351045949dc1c2fd3a98dd859b5816c
+test:
+  imports:
+  - chocolate
+about:
+  home: https://github.com/seungjaeryanlee/chocolate
+  PyPi: https://pypi.org/project/chocolate
+  summary: An improvement to Python's kwargs
+  license: ''

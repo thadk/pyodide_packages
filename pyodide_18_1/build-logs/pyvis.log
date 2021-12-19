@@ -1,0 +1,112 @@
+running install
+running bdist_egg
+running egg_info
+writing pyvis.egg-info/PKG-INFO
+writing dependency_links to pyvis.egg-info/dependency_links.txt
+writing requirements to pyvis.egg-info/requires.txt
+writing top-level names to pyvis.egg-info/top_level.txt
+reading manifest file 'pyvis.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pyvis.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyvis
+copying pyvis/options.py -> build/lib/pyvis
+copying pyvis/edge.py -> build/lib/pyvis
+copying pyvis/_version.py -> build/lib/pyvis
+copying pyvis/__init__.py -> build/lib/pyvis
+copying pyvis/test.py -> build/lib/pyvis
+copying pyvis/physics.py -> build/lib/pyvis
+copying pyvis/utils.py -> build/lib/pyvis
+copying pyvis/network.py -> build/lib/pyvis
+copying pyvis/node.py -> build/lib/pyvis
+creating build/lib/pyvis/tests
+copying pyvis/tests/test_me.py -> build/lib/pyvis/tests
+copying pyvis/tests/__init__.py -> build/lib/pyvis/tests
+copying pyvis/tests/test_graph.py -> build/lib/pyvis/tests
+creating build/lib/pyvis/templates
+copying pyvis/templates/animation_template.html -> build/lib/pyvis/templates
+copying pyvis/templates/template.html -> build/lib/pyvis/templates
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/options.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/edge.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/_version.py -> build/bdist.linux-x86_64/egg/pyvis
+creating build/bdist.linux-x86_64/egg/pyvis/tests
+copying build/lib/pyvis/tests/test_me.py -> build/bdist.linux-x86_64/egg/pyvis/tests
+copying build/lib/pyvis/tests/__init__.py -> build/bdist.linux-x86_64/egg/pyvis/tests
+copying build/lib/pyvis/tests/test_graph.py -> build/bdist.linux-x86_64/egg/pyvis/tests
+copying build/lib/pyvis/__init__.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/test.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/physics.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/utils.py -> build/bdist.linux-x86_64/egg/pyvis
+copying build/lib/pyvis/network.py -> build/bdist.linux-x86_64/egg/pyvis
+creating build/bdist.linux-x86_64/egg/pyvis/templates
+copying build/lib/pyvis/templates/template.html -> build/bdist.linux-x86_64/egg/pyvis/templates
+copying build/lib/pyvis/templates/animation_template.html -> build/bdist.linux-x86_64/egg/pyvis/templates
+copying build/lib/pyvis/node.py -> build/bdist.linux-x86_64/egg/pyvis
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/options.py to options.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/edge.py to edge.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/tests/test_me.py to test_me.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/tests/test_graph.py to test_graph.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/test.py to test.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/physics.py to physics.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/network.py to network.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyvis/node.py to node.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyvis.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyvis.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyvis.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyvis.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyvis.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pyvis.__pycache__.network.cpython-39: module references __file__
+creating dist
+creating 'dist/pyvis-0.1.9-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pyvis-0.1.9-py3.9.egg
+removing '/src/packages/.artifacts/lib/python/pyvis-0.1.9-py3.9.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/pyvis-0.1.9-py3.9.egg
+Extracting pyvis-0.1.9-py3.9.egg to /src/packages/.artifacts/lib/python
+pyvis 0.1.9 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/pyvis-0.1.9-py3.9.egg
+Processing dependencies for pyvis==0.1.9
+Searching for decorator
+Reading https://pypi.org/simple/decorator/
+Downloading https://files.pythonhosted.org/packages/3d/cc/d7b758e54779f7e465179427de7e78c601d3330d6c411ea7ba9ae2f38102/decorator-5.1.0-py3-none-any.whl#sha256=7b12e7c3c6ab203a29e157335e9122cb03de9ab7264b137594103fd4a683b374
+Best match: decorator 5.1.0
+Processing decorator-5.1.0-py3-none-any.whl
+Installing decorator-5.1.0-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding decorator 5.1.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/decorator-5.1.0-py3.9.egg
+error: decorator 5.1.0 is installed but decorator<5,>=4.3 is required by {'networkx'}
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/local/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 50, in <module>
+    main()
+  File "/src/pyodide-build/pyodide_build/__main__.py", line 44, in main
+    args.func(args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 353, in main
+    build_package(path, args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 288, in build_package
+    compile(path, srcpath, pkg, args)
+  File "/src/pyodide-build/pyodide_build/buildpkg.py", line 147, in compile
+    subprocess.run(
+  File "/usr/local/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/local/bin/python3', '-m', 'pyodide_build', 'pywasmcross', '--cflags', '-O2 -g -fPIC ', '--cxxflags', ' ', '--ldflags', '-s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/  -s SIDE_MODULE=1 ', '--target', '/src/cpython/installs/python-3.9.5', '--install-dir', '/src/packages/.artifacts', '--replace-libs', '']' returned non-zero exit status 1.
+[2021-12-19 03:58:09] Building package pyvis...
+[2021-12-19 03:58:47] done building package pyvis in 37.6 s.

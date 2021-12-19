@@ -1,0 +1,135 @@
+running install
+running bdist_egg
+running egg_info
+creating cffi_example.egg-info
+writing cffi_example.egg-info/PKG-INFO
+writing dependency_links to cffi_example.egg-info/dependency_links.txt
+writing requirements to cffi_example.egg-info/requires.txt
+writing top-level names to cffi_example.egg-info/top_level.txt
+writing manifest file 'cffi_example.egg-info/SOURCES.txt'
+reading manifest file 'cffi_example.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'cffi_example.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/build_fnmatch.py -> build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/person.py -> build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/fnmatch.py -> build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/__init__.py -> build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/utils.py -> build/lib.linux-x86_64-3.9/cffi_example
+copying cffi_example/build_person.py -> build/lib.linux-x86_64-3.9/cffi_example
+running build_ext
+generating cffi module 'build/temp.linux-x86_64-3.9/cffi_example._fnmatch.c'
+creating build/temp.linux-x86_64-3.9
+generating cffi module 'build/temp.linux-x86_64-3.9/cffi_example._person.c'
+building 'cffi_example._person' extension
+creating build/temp.linux-x86_64-3.9/build
+creating build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c build/temp.linux-x86_64-3.9/cffi_example._person.c -o build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._person.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._person.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cffi_example/_person.abi3.so
+building 'cffi_example._fnmatch' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c build/temp.linux-x86_64-3.9/cffi_example._fnmatch.c -o build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._fnmatch.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._fnmatch.o -L/usr/local/lib -lc -o build/lib.linux-x86_64-3.9/cffi_example/_fnmatch.abi3.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/build_fnmatch.py -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/person.py -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/fnmatch.py -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/_person.abi3.so -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/__init__.py -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/_fnmatch.abi3.so -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/utils.py -> build/bdist.linux-x86_64/egg/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/build_person.py -> build/bdist.linux-x86_64/egg/cffi_example
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/build_fnmatch.py to build_fnmatch.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/person.py to person.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/fnmatch.py to fnmatch.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/build_person.py to build_person.cpython-39.pyc
+creating stub loader for cffi_example/_person.abi3.so
+creating stub loader for cffi_example/_fnmatch.abi3.so
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/_person.py to _person.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cffi_example/_fnmatch.py to _fnmatch.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi_example.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi_example.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi_example.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi_example.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cffi_example.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+cffi_example.__pycache__._fnmatch.cpython-39: module references __file__
+cffi_example.__pycache__._person.cpython-39: module references __file__
+cffi_example.__pycache__.build_fnmatch.cpython-39: module references __file__
+creating dist
+creating 'dist/cffi_example-0.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cffi_example-0.1-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/cffi_example-0.1-py3.9-linux-x86_64.egg
+Extracting cffi_example-0.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding cffi-example 0.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cffi_example-0.1-py3.9-linux-x86_64.egg
+Processing dependencies for cffi-example==0.1
+Searching for cffi==1.14.6
+Best match: cffi 1.14.6
+Processing cffi-1.14.6-py3.9-linux-x86_64.egg
+Adding cffi 1.14.6 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/cffi-1.14.6-py3.9-linux-x86_64.egg
+Searching for pycparser==2.20
+Best match: pycparser 2.20
+Adding pycparser 2.20 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Finished processing dependencies for cffi-example==0.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/build_fnmatch.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/person.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/_person.so -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/fnmatch.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/__init__.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/utils.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/build_person.py -> install/lib/python3.9/site-packages/cffi_example
+copying build/lib.linux-x86_64-3.9/cffi_example/_fnmatch.so -> install/lib/python3.9/site-packages/cffi_example
+byte-compiling install/lib/python3.9/site-packages/cffi_example/build_fnmatch.py to build_fnmatch.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi_example/person.py to person.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi_example/fnmatch.py to fnmatch.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi_example/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi_example/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cffi_example/build_person.py to build_person.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing cffi_example.egg-info/PKG-INFO
+writing dependency_links to cffi_example.egg-info/dependency_links.txt
+writing requirements to cffi_example.egg-info/requires.txt
+writing top-level names to cffi_example.egg-info/top_level.txt
+reading manifest file 'cffi_example.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'cffi_example.egg-info/SOURCES.txt'
+Copying cffi_example.egg-info to install/lib/python3.9/site-packages/cffi_example-0.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c build/temp.linux-x86_64-3.9/cffi_example._person.c -o build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._person.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._person.o -o build/lib.linux-x86_64-3.9/cffi_example/_person.abi3.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c build/temp.linux-x86_64-3.9/cffi_example._fnmatch.c -o build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._fnmatch.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/build/temp.linux-x86_64-3.9/cffi_example._fnmatch.o -lc -o build/lib.linux-x86_64-3.9/cffi_example/_fnmatch.abi3.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 458841
+compressed package into 364700
+compressed in 119 ms
+[2021-12-18 08:03:25] Building package cffi_example...
+[2021-12-18 08:07:55] done building package cffi_example in 270.1 s.

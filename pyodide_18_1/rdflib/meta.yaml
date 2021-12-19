@@ -1,0 +1,22 @@
+package:
+  name: rdflib
+  version: 6.0.2
+source:
+  url: https://files.pythonhosted.org/packages/d2/a7/be8244688bfcee37c23733ab4fe8e6afa6d4403bd2674a3ae7bd2cecc77b/rdflib-6.0.2.tar.gz
+  sha256: 6136ae056001474ee2aff5fc5b956e62a11c3a9c66bb0f3d9c0aaa5fbb56854e
+requirements:
+  run:
+    - isodate
+    - pyparsing
+    - html5lib
+    - requests
+    - sparqlwrapper
+test:
+  imports:
+  - rdflib
+about:
+  home: https://github.com/RDFLib/rdflib
+  PyPi: https://pypi.org/project/rdflib
+  summary: RDFLib is a Python library for working with RDF, a simple yet powerful
+    language for representing information.
+  license: bsd-3-clause

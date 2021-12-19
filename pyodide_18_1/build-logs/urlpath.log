@@ -1,0 +1,88 @@
+running install
+running bdist_egg
+running egg_info
+writing urlpath.egg-info/PKG-INFO
+writing dependency_links to urlpath.egg-info/dependency_links.txt
+writing requirements to urlpath.egg-info/requires.txt
+writing top-level names to urlpath.egg-info/top_level.txt
+reading manifest file 'urlpath.egg-info/SOURCES.txt'
+writing manifest file 'urlpath.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+copying urlpath.py -> build/lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib/urlpath.py -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/urlpath.py to urlpath.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying urlpath.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying urlpath.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying urlpath.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying urlpath.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying urlpath.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/urlpath-1.2.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing urlpath-1.2.0-py3.9.egg
+Copying urlpath-1.2.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding urlpath 1.2.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/urlpath-1.2.0-py3.9.egg
+Processing dependencies for urlpath==1.2.0
+Searching for requests==2.26.0
+Best match: requests 2.26.0
+Processing requests-2.26.0-py3.9.egg
+requests 2.26.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/requests-2.26.0-py3.9.egg
+Searching for idna==3.2
+Best match: idna 3.2
+Adding idna 3.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for charset-normalizer==2.0.3
+Best match: charset-normalizer 2.0.3
+Adding charset-normalizer 2.0.3 to easy-install.pth file
+Installing normalizer script to /src/packages/.artifacts/bin
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for certifi==2021.5.30
+Best match: certifi 2021.5.30
+Adding certifi 2021.5.30 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for urllib3==1.26.6
+Best match: urllib3 1.26.6
+Adding urllib3 1.26.6 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Finished processing dependencies for urlpath==1.2.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+copying build/lib/urlpath.py -> install/lib/python3.9/site-packages
+byte-compiling install/lib/python3.9/site-packages/urlpath.py to urlpath.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing urlpath.egg-info/PKG-INFO
+writing dependency_links to urlpath.egg-info/dependency_links.txt
+writing requirements to urlpath.egg-info/requires.txt
+writing top-level names to urlpath.egg-info/top_level.txt
+reading manifest file 'urlpath.egg-info/SOURCES.txt'
+writing manifest file 'urlpath.egg-info/SOURCES.txt'
+Copying urlpath.egg-info to install/lib/python3.9/site-packages/urlpath-1.2.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 30407
+compressed package into 18620
+compressed in 41 ms
+[2021-12-19 02:51:21] Building package urlpath...
+[2021-12-19 02:52:20] done building package urlpath in 59.4 s.

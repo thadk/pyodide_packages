@@ -1,0 +1,155 @@
+running install
+running bdist_egg
+running egg_info
+writing smart_open.egg-info/PKG-INFO
+writing dependency_links to smart_open.egg-info/dependency_links.txt
+writing requirements to smart_open.egg-info/requires.txt
+writing top-level names to smart_open.egg-info/top_level.txt
+reading manifest file 'smart_open.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'smart_open.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/smart_open
+copying smart_open/version.py -> build/lib/smart_open
+copying smart_open/smart_open_lib.py -> build/lib/smart_open
+copying smart_open/gcs.py -> build/lib/smart_open
+copying smart_open/transport.py -> build/lib/smart_open
+copying smart_open/azure.py -> build/lib/smart_open
+copying smart_open/compression.py -> build/lib/smart_open
+copying smart_open/constants.py -> build/lib/smart_open
+copying smart_open/concurrency.py -> build/lib/smart_open
+copying smart_open/__init__.py -> build/lib/smart_open
+copying smart_open/bytebuffer.py -> build/lib/smart_open
+copying smart_open/doctools.py -> build/lib/smart_open
+copying smart_open/webhdfs.py -> build/lib/smart_open
+copying smart_open/utils.py -> build/lib/smart_open
+copying smart_open/http.py -> build/lib/smart_open
+copying smart_open/ssh.py -> build/lib/smart_open
+copying smart_open/hdfs.py -> build/lib/smart_open
+copying smart_open/s3.py -> build/lib/smart_open
+copying smart_open/local_file.py -> build/lib/smart_open
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/version.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/smart_open_lib.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/gcs.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/transport.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/azure.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/compression.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/constants.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/concurrency.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/__init__.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/bytebuffer.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/doctools.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/webhdfs.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/utils.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/http.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/ssh.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/hdfs.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/s3.py -> build/bdist.linux-x86_64/egg/smart_open
+copying build/lib/smart_open/local_file.py -> build/bdist.linux-x86_64/egg/smart_open
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/smart_open_lib.py to smart_open_lib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/gcs.py to gcs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/transport.py to transport.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/azure.py to azure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/compression.py to compression.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/constants.py to constants.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/concurrency.py to concurrency.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/bytebuffer.py to bytebuffer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/doctools.py to doctools.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/webhdfs.py to webhdfs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/http.py to http.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/ssh.py to ssh.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/hdfs.py to hdfs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/s3.py to s3.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/smart_open/local_file.py to local_file.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying smart_open.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying smart_open.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying smart_open.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying smart_open.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying smart_open.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+smart_open.__pycache__.doctools.cpython-39: module references __file__
+creating dist
+creating 'dist/smart_open-5.2.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing smart_open-5.2.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/smart_open-5.2.1-py3.9.egg
+Extracting smart_open-5.2.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding smart-open 5.2.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/smart_open-5.2.1-py3.9.egg
+Processing dependencies for smart-open==5.2.1
+Finished processing dependencies for smart-open==5.2.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/version.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/smart_open_lib.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/gcs.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/transport.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/azure.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/compression.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/constants.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/concurrency.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/__init__.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/bytebuffer.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/doctools.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/webhdfs.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/utils.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/http.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/ssh.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/hdfs.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/s3.py -> install/lib/python3.9/site-packages/smart_open
+copying build/lib/smart_open/local_file.py -> install/lib/python3.9/site-packages/smart_open
+byte-compiling install/lib/python3.9/site-packages/smart_open/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/smart_open_lib.py to smart_open_lib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/gcs.py to gcs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/transport.py to transport.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/azure.py to azure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/compression.py to compression.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/constants.py to constants.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/concurrency.py to concurrency.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/bytebuffer.py to bytebuffer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/doctools.py to doctools.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/webhdfs.py to webhdfs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/http.py to http.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/ssh.py to ssh.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/hdfs.py to hdfs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/s3.py to s3.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/smart_open/local_file.py to local_file.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing smart_open.egg-info/PKG-INFO
+writing dependency_links to smart_open.egg-info/dependency_links.txt
+writing requirements to smart_open.egg-info/requires.txt
+writing top-level names to smart_open.egg-info/top_level.txt
+reading manifest file 'smart_open.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE'
+writing manifest file 'smart_open.egg-info/SOURCES.txt'
+Copying smart_open.egg-info to install/lib/python3.9/site-packages/smart_open-5.2.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 175167
+compressed package into 112485
+compressed in 59 ms
+[2021-12-19 02:53:39] Building package smart_open...
+[2021-12-19 02:54:38] done building package smart_open in 58.9 s.

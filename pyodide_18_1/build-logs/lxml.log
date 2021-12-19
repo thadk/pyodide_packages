@@ -1,0 +1,378 @@
+Building lxml version 4.4.1.
+Building without Cython.
+ERROR: b'/bin/sh: 1: xslt-config: not found\n'
+** make sure the development packages of libxml2 and libxslt are installed **
+
+Using build configuration of libxslt 
+running install
+running bdist_egg
+running egg_info
+writing src/lxml.egg-info/PKG-INFO
+writing dependency_links to src/lxml.egg-info/dependency_links.txt
+writing requirements to src/lxml.egg-info/requires.txt
+writing top-level names to src/lxml.egg-info/top_level.txt
+reading manifest file 'src/lxml.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSES.txt'
+writing manifest file 'src/lxml.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/_elementpath.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/sax.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/pyclasslookup.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/__init__.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/builder.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/doctestcompare.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/usedoctest.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/cssselect.py -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/ElementInclude.py -> build/lib.linux-x86_64-3.9/lxml
+creating build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/__init__.py -> build/lib.linux-x86_64-3.9/lxml/includes
+creating build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/soupparser.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/defs.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/_setmixin.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/clean.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/_diffcommand.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/html5parser.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/__init__.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/formfill.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/builder.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/ElementSoup.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/_html5builder.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/usedoctest.py -> build/lib.linux-x86_64-3.9/lxml/html
+copying src/lxml/html/diff.py -> build/lib.linux-x86_64-3.9/lxml/html
+creating build/lib.linux-x86_64-3.9/lxml/isoschematron
+copying src/lxml/isoschematron/__init__.py -> build/lib.linux-x86_64-3.9/lxml/isoschematron
+copying src/lxml/etree.h -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/etree_api.h -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/lxml.etree.h -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/lxml.etree_api.h -> build/lib.linux-x86_64-3.9/lxml
+copying src/lxml/includes/xmlerror.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/c14n.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/xmlschema.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/__init__.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/schematron.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/tree.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/uri.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/etreepublic.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/xpath.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/htmlparser.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/xslt.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/config.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/xmlparser.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/xinclude.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/dtdvalid.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/relaxng.pxd -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/lxml-version.h -> build/lib.linux-x86_64-3.9/lxml/includes
+copying src/lxml/includes/etree_defs.h -> build/lib.linux-x86_64-3.9/lxml/includes
+creating build/lib.linux-x86_64-3.9/lxml/isoschematron/resources
+creating build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/rng
+copying src/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/rng
+creating build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl
+copying src/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl
+copying src/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl
+creating build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+running build_ext
+building 'lxml.etree' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/src
+creating build/temp.linux-x86_64-3.9/src/lxml
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/etree.c -o build/temp.linux-x86_64-3.9/src/lxml/etree.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/etree.o -L/usr/local/lib -lxslt -lexslt -lxml2 -lrt -lz -lm -o build/lib.linux-x86_64-3.9/lxml/etree.cpython-39-x86_64-linux-gnu.so
+building 'lxml.objectify' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/objectify.c -o build/temp.linux-x86_64-3.9/src/lxml/objectify.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/objectify.o -L/usr/local/lib -lxslt -lexslt -lxml2 -lrt -lz -lm -o build/lib.linux-x86_64-3.9/lxml/objectify.cpython-39-x86_64-linux-gnu.so
+building 'lxml.builder' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/builder.c -o build/temp.linux-x86_64-3.9/src/lxml/builder.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/builder.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/lxml/builder.cpython-39-x86_64-linux-gnu.so
+building 'lxml._elementpath' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/_elementpath.c -o build/temp.linux-x86_64-3.9/src/lxml/_elementpath.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/_elementpath.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/lxml/_elementpath.cpython-39-x86_64-linux-gnu.so
+building 'lxml.html.diff' extension
+creating build/temp.linux-x86_64-3.9/src/lxml/html
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/html/diff.c -o build/temp.linux-x86_64-3.9/src/lxml/html/diff.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/html/diff.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/lxml/html/diff.cpython-39-x86_64-linux-gnu.so
+building 'lxml.html.clean' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/html/clean.c -o build/temp.linux-x86_64-3.9/src/lxml/html/clean.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/html/clean.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/lxml/html/clean.cpython-39-x86_64-linux-gnu.so
+building 'lxml.sax' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/usr/local/include/python3.9 -c src/lxml/sax.c -o build/temp.linux-x86_64-3.9/src/lxml/sax.o -w
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/src/lxml/sax.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/lxml/sax.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/_elementpath.py -> build/bdist.linux-x86_64/egg/lxml
+creating build/bdist.linux-x86_64/egg/lxml/isoschematron
+creating build/bdist.linux-x86_64/egg/lxml/isoschematron/resources
+creating build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl
+creating build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/xsl
+creating build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/rng
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/rng/iso-schematron.rng -> build/bdist.linux-x86_64/egg/lxml/isoschematron/resources/rng
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/__init__.py -> build/bdist.linux-x86_64/egg/lxml/isoschematron
+copying build/lib.linux-x86_64-3.9/lxml/sax.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml
+creating build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlerror.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/c14n.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlschema.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/__init__.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/lxml-version.h -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/schematron.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/__init__.py -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/tree.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/uri.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/etree_defs.h -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/etreepublic.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xpath.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/htmlparser.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xslt.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/config.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlparser.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xinclude.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/dtdvalid.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/relaxng.pxd -> build/bdist.linux-x86_64/egg/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/sax.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/pyclasslookup.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/__init__.py -> build/bdist.linux-x86_64/egg/lxml
+creating build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/soupparser.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/defs.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_setmixin.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/clean.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_diffcommand.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/diff.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/html5parser.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/__init__.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/formfill.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/builder.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/clean.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/ElementSoup.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_html5builder.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/usedoctest.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/diff.py -> build/bdist.linux-x86_64/egg/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/etree_api.h -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/builder.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/etree.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/_elementpath.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/doctestcompare.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/usedoctest.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/cssselect.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/lxml.etree.h -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/objectify.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/etree.h -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/ElementInclude.py -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/lxml.etree_api.h -> build/bdist.linux-x86_64/egg/lxml
+copying build/lib.linux-x86_64-3.9/lxml/builder.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/lxml
+byte-compiling build/bdist.linux-x86_64/egg/lxml/_elementpath.py to _elementpath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/isoschematron/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/includes/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/sax.py to sax.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/pyclasslookup.py to pyclasslookup.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/soupparser.py to soupparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/defs.py to defs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/_setmixin.py to _setmixin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/clean.py to clean.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/_diffcommand.py to _diffcommand.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/formfill.py to formfill.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/builder.py to builder.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/ElementSoup.py to ElementSoup.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/_html5builder.py to _html5builder.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/usedoctest.py to usedoctest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/diff.py to diff.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/builder.py to builder.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/doctestcompare.py to doctestcompare.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/usedoctest.py to usedoctest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/cssselect.py to cssselect.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/ElementInclude.py to ElementInclude.cpython-39.pyc
+creating stub loader for lxml/etree.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/objectify.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/builder.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/_elementpath.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/html/diff.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/html/clean.cpython-39-x86_64-linux-gnu.so
+creating stub loader for lxml/sax.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/lxml/etree.py to etree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/objectify.py to objectify.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/_elementpath.py to _elementpath.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/html/clean.py to clean.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lxml/sax.py to sax.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/lxml.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/lxml-4.4.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing lxml-4.4.1-py3.9-linux-x86_64.egg
+removing '/src/packages/.artifacts/lib/python/lxml-4.4.1-py3.9-linux-x86_64.egg' (and everything under it)
+creating /src/packages/.artifacts/lib/python/lxml-4.4.1-py3.9-linux-x86_64.egg
+Extracting lxml-4.4.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+lxml 4.4.1 is already the active version in easy-install.pth
+
+Installed /src/packages/.artifacts/lib/python/lxml-4.4.1-py3.9-linux-x86_64.egg
+Processing dependencies for lxml==4.4.1
+Finished processing dependencies for lxml==4.4.1
+Building lxml version 4.4.1.
+Building without Cython.
+ERROR: b'/bin/sh: 1: xslt-config: not found\n'
+** make sure the development packages of libxml2 and libxslt are installed **
+
+Using build configuration of libxslt 
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/_elementpath.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/builder.so -> install/lib/python3.9/site-packages/lxml
+creating install/lib/python3.9/site-packages/lxml/isoschematron
+creating install/lib/python3.9/site-packages/lxml/isoschematron/resources
+creating install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/XSD2Schtrn.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl
+creating install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_skeleton_for_xslt1.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_svrl_for_xslt1.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_schematron_message.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/readme.txt -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl/iso-schematron-xslt1
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/xsl/RNG2Schtrn.xsl -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/xsl
+creating install/lib/python3.9/site-packages/lxml/isoschematron/resources/rng
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/resources/rng/iso-schematron.rng -> install/lib/python3.9/site-packages/lxml/isoschematron/resources/rng
+copying build/lib.linux-x86_64-3.9/lxml/isoschematron/__init__.py -> install/lib/python3.9/site-packages/lxml/isoschematron
+copying build/lib.linux-x86_64-3.9/lxml/etree.so -> install/lib/python3.9/site-packages/lxml
+creating install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlerror.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/c14n.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlschema.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/__init__.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/lxml-version.h -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/schematron.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/__init__.py -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/tree.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/uri.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/etree_defs.h -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/etreepublic.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xpath.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/htmlparser.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xslt.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/config.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xmlparser.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/xinclude.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/dtdvalid.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/includes/relaxng.pxd -> install/lib/python3.9/site-packages/lxml/includes
+copying build/lib.linux-x86_64-3.9/lxml/sax.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/pyclasslookup.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/__init__.py -> install/lib/python3.9/site-packages/lxml
+creating install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/soupparser.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/defs.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_setmixin.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/clean.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/diff.so -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_diffcommand.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/html5parser.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/__init__.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/formfill.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/builder.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/ElementSoup.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/_html5builder.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/usedoctest.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/clean.so -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/html/diff.py -> install/lib/python3.9/site-packages/lxml/html
+copying build/lib.linux-x86_64-3.9/lxml/etree_api.h -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/builder.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/_elementpath.so -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/doctestcompare.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/usedoctest.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/cssselect.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/objectify.so -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/lxml.etree.h -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/etree.h -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/ElementInclude.py -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/lxml.etree_api.h -> install/lib/python3.9/site-packages/lxml
+copying build/lib.linux-x86_64-3.9/lxml/sax.so -> install/lib/python3.9/site-packages/lxml
+byte-compiling install/lib/python3.9/site-packages/lxml/_elementpath.py to _elementpath.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/isoschematron/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/includes/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/sax.py to sax.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/pyclasslookup.py to pyclasslookup.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/soupparser.py to soupparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/defs.py to defs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/_setmixin.py to _setmixin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/clean.py to clean.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/_diffcommand.py to _diffcommand.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/html5parser.py to html5parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/formfill.py to formfill.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/builder.py to builder.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/ElementSoup.py to ElementSoup.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/_html5builder.py to _html5builder.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/usedoctest.py to usedoctest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/html/diff.py to diff.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/builder.py to builder.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/doctestcompare.py to doctestcompare.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/usedoctest.py to usedoctest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/cssselect.py to cssselect.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/lxml/ElementInclude.py to ElementInclude.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing src/lxml.egg-info/PKG-INFO
+writing dependency_links to src/lxml.egg-info/dependency_links.txt
+writing requirements to src/lxml.egg-info/requires.txt
+writing top-level names to src/lxml.egg-info/top_level.txt
+reading manifest file 'src/lxml.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSES.txt'
+writing manifest file 'src/lxml.egg-info/SOURCES.txt'
+Copying src/lxml.egg-info to install/lib/python3.9/site-packages/lxml-4.4.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/etree.c -o build/temp.linux-x86_64-3.9/src/lxml/etree.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/etree.o -lxslt -lexslt -lxml2 -lrt -lm -o build/lib.linux-x86_64-3.9/lxml/etree.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/objectify.c -o build/temp.linux-x86_64-3.9/src/lxml/objectify.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/objectify.o -lxslt -lexslt -lxml2 -lrt -lm -o build/lib.linux-x86_64-3.9/lxml/objectify.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/builder.c -o build/temp.linux-x86_64-3.9/src/lxml/builder.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/builder.o -o build/lib.linux-x86_64-3.9/lxml/builder.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/_elementpath.c -o build/temp.linux-x86_64-3.9/src/lxml/_elementpath.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/_elementpath.o -o build/lib.linux-x86_64-3.9/lxml/_elementpath.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/html/diff.c -o build/temp.linux-x86_64-3.9/src/lxml/html/diff.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/html/diff.o -o build/lib.linux-x86_64-3.9/lxml/html/diff.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/html/clean.c -o build/temp.linux-x86_64-3.9/src/lxml/html/clean.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/html/clean.o -o build/lib.linux-x86_64-3.9/lxml/html/clean.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -I/src/packages/libxml/build/libxml2-2.9.10/include -I/src/packages/libxslt/build/libxslt-1.1.33/ -L/src/packages/zlib/build/zlib-1.2.11/include -I/src/packages/libiconv/build/libiconv-1.16/include -Wno-implicit-function-declaration -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DCYTHON_CLINE_IN_TRACEBACK=0 -Isrc -Isrc/lxml/includes -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/lxml/sax.c -o build/temp.linux-x86_64-3.9/src/lxml/sax.o -w
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 -L/src/packages/libxml/build/libxml2-2.9.10/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libxslt/.libs/ -L/src/packages/libxslt/build/libxslt-1.1.33/libexslt/.libs/ -L/src/packages/zlib/build/zlib-1.2.11/lib/ -L/src/packages/libiconv/build/libiconv-1.16/lib/.libs/ build/temp.linux-x86_64-3.9/src/lxml/sax.o -o build/lib.linux-x86_64-3.9/lxml/sax.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 8858903
+compressed package into 4390398
+compressed in 380 ms
+[2021-08-12 06:59:46] Building package lxml...
+[2021-08-12 07:10:43] done building package lxml in 656.6 s.

@@ -1,0 +1,17 @@
+package:
+  name: owlrl
+  version: 6.0.2
+source:
+  url: https://files.pythonhosted.org/packages/7d/c7/208aece36279e4f1236e437119358786e39530ecc1719d4e1afeddba5288/owlrl-6.0.2.tar.gz
+  sha256: 904e3310ff4df15101475776693d2427d1f8244ee9a6a9f9e13c3c57fae90b74
+requirements:
+  run:
+  - rdflib
+test:
+  imports:
+  - owlrl
+about:
+  home: https://github.com/RDFLib/OWL-RL/
+  PyPi: https://pypi.org/project/owlrl
+  summary: OWL-RL and RDFS based RDF Closure inferencing for Python
+  license: LICENSE.txt

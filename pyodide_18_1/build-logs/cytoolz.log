@@ -1,0 +1,301 @@
+[1/5] Cythonizing cytoolz/utils.pyx
+[2/5] Cythonizing cytoolz/dicttoolz.pyx
+[3/5] Cythonizing cytoolz/functoolz.pyx
+[4/5] Cythonizing cytoolz/itertoolz.pyx
+[5/5] Cythonizing cytoolz/recipes.pyx
+running install
+running bdist_egg
+running egg_info
+writing cytoolz.egg-info/PKG-INFO
+writing dependency_links to cytoolz.egg-info/dependency_links.txt
+writing requirements to cytoolz.egg-info/requires.txt
+writing top-level names to cytoolz.egg-info/top_level.txt
+reading manifest file 'cytoolz.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'cytoolz.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/compatibility.py -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/utils_test.py -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/_version.py -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/__init__.py -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/_signatures.py -> build/lib.linux-x86_64-3.9/cytoolz
+creating build/lib.linux-x86_64-3.9/cytoolz/curried
+copying cytoolz/curried/operator.py -> build/lib.linux-x86_64-3.9/cytoolz/curried
+copying cytoolz/curried/__init__.py -> build/lib.linux-x86_64-3.9/cytoolz/curried
+copying cytoolz/curried/exceptions.py -> build/lib.linux-x86_64-3.9/cytoolz/curried
+copying cytoolz/itertoolz.pyx -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/dicttoolz.pyx -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/functoolz.pyx -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/recipes.pyx -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/utils.pyx -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/utils.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/__init__.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/recipes.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/functoolz.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/dicttoolz.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/cpython.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+copying cytoolz/itertoolz.pxd -> build/lib.linux-x86_64-3.9/cytoolz
+creating build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_none_safe.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_utils.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_curried.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_compatibility.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_embedded_sigs.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_functoolz.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_inspect_args.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_doctests.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_tlz.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_signatures.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/dev_skip_test.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_recipes.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_docstrings.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_dev_skip_test.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_dicttoolz.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_serialization.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_curried_toolzlike.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+copying cytoolz/tests/test_itertoolz.py -> build/lib.linux-x86_64-3.9/cytoolz/tests
+running build_ext
+building 'cytoolz.dicttoolz' extension
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/cytoolz
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c cytoolz/dicttoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/dicttoolz.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cytoolz/dicttoolz.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.cpython-39-x86_64-linux-gnu.so
+building 'cytoolz.functoolz' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c cytoolz/functoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/functoolz.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cytoolz/functoolz.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cytoolz/functoolz.cpython-39-x86_64-linux-gnu.so
+building 'cytoolz.itertoolz' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c cytoolz/itertoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/itertoolz.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cytoolz/itertoolz.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cytoolz/itertoolz.cpython-39-x86_64-linux-gnu.so
+building 'cytoolz.recipes' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c cytoolz/recipes.c -o build/temp.linux-x86_64-3.9/cytoolz/recipes.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cytoolz/recipes.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cytoolz/recipes.cpython-39-x86_64-linux-gnu.so
+building 'cytoolz.utils' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -I/usr/local/include/python3.9 -c cytoolz/utils.c -o build/temp.linux-x86_64-3.9/cytoolz/utils.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/cytoolz/utils.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/cytoolz/utils.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/compatibility.py -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils_test.py -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/_version.py -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/__init__.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.pyx -> build/bdist.linux-x86_64/egg/cytoolz
+creating build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_none_safe.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_utils.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_curried.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_compatibility.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_embedded_sigs.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_functoolz.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_inspect_args.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_doctests.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_tlz.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_signatures.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/dev_skip_test.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_recipes.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_docstrings.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_dev_skip_test.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_dicttoolz.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_serialization.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_curried_toolzlike.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_itertoolz.py -> build/bdist.linux-x86_64/egg/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.pyx -> build/bdist.linux-x86_64/egg/cytoolz
+creating build/bdist.linux-x86_64/egg/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/operator.py -> build/bdist.linux-x86_64/egg/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/__init__.py -> build/bdist.linux-x86_64/egg/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/exceptions.py -> build/bdist.linux-x86_64/egg/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/__init__.py -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.pyx -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.pyx -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/cpython.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.pxd -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/_signatures.py -> build/bdist.linux-x86_64/egg/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.pyx -> build/bdist.linux-x86_64/egg/cytoolz
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/compatibility.py to compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/utils_test.py to utils_test.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_none_safe.py to test_none_safe.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_utils.py to test_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_curried.py to test_curried.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_embedded_sigs.py to test_embedded_sigs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_functoolz.py to test_functoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_inspect_args.py to test_inspect_args.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_doctests.py to test_doctests.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_tlz.py to test_tlz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_signatures.py to test_signatures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/dev_skip_test.py to dev_skip_test.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_recipes.py to test_recipes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_docstrings.py to test_docstrings.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_dev_skip_test.py to test_dev_skip_test.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_dicttoolz.py to test_dicttoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_serialization.py to test_serialization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_curried_toolzlike.py to test_curried_toolzlike.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/tests/test_itertoolz.py to test_itertoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/curried/operator.py to operator.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/curried/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/curried/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/_signatures.py to _signatures.cpython-39.pyc
+creating stub loader for cytoolz/dicttoolz.cpython-39-x86_64-linux-gnu.so
+creating stub loader for cytoolz/functoolz.cpython-39-x86_64-linux-gnu.so
+creating stub loader for cytoolz/itertoolz.cpython-39-x86_64-linux-gnu.so
+creating stub loader for cytoolz/recipes.cpython-39-x86_64-linux-gnu.so
+creating stub loader for cytoolz/utils.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/dicttoolz.py to dicttoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/functoolz.py to functoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/itertoolz.py to itertoolz.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/recipes.py to recipes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cytoolz/utils.py to utils.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cytoolz.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/cytoolz-0.11.0-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cytoolz-0.11.0-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/cytoolz-0.11.0-py3.9-linux-x86_64.egg
+Extracting cytoolz-0.11.0-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding cytoolz 0.11.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cytoolz-0.11.0-py3.9-linux-x86_64.egg
+Processing dependencies for cytoolz==0.11.0
+Searching for toolz==0.11.1
+Best match: toolz 0.11.1
+Processing toolz-0.11.1-py3.9.egg
+toolz 0.11.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/toolz-0.11.1-py3.9.egg
+Finished processing dependencies for cytoolz==0.11.0
+[1/5] Cythonizing cytoolz/utils.pyx
+[2/5] Cythonizing cytoolz/dicttoolz.pyx
+[3/5] Cythonizing cytoolz/functoolz.pyx
+[4/5] Cythonizing cytoolz/itertoolz.pyx
+[5/5] Cythonizing cytoolz/recipes.pyx
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.so -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.so -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/compatibility.py -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.so -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils_test.py -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/_version.py -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/__init__.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.pyx -> install/lib/python3.9/site-packages/cytoolz
+creating install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_none_safe.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_utils.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_curried.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_compatibility.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_embedded_sigs.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_functoolz.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_inspect_args.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_doctests.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_tlz.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_signatures.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/dev_skip_test.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_recipes.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_docstrings.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_dev_skip_test.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_dicttoolz.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_serialization.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_curried_toolzlike.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/tests/test_itertoolz.py -> install/lib/python3.9/site-packages/cytoolz/tests
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.pyx -> install/lib/python3.9/site-packages/cytoolz
+creating install/lib/python3.9/site-packages/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/operator.py -> install/lib/python3.9/site-packages/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/__init__.py -> install/lib/python3.9/site-packages/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/curried/exceptions.py -> install/lib/python3.9/site-packages/cytoolz/curried
+copying build/lib.linux-x86_64-3.9/cytoolz/__init__.py -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.pyx -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.pyx -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/recipes.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/functoolz.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/cpython.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.pxd -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/_signatures.py -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/itertoolz.so -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.so -> install/lib/python3.9/site-packages/cytoolz
+copying build/lib.linux-x86_64-3.9/cytoolz/utils.pyx -> install/lib/python3.9/site-packages/cytoolz
+byte-compiling install/lib/python3.9/site-packages/cytoolz/compatibility.py to compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/utils_test.py to utils_test.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_none_safe.py to test_none_safe.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_utils.py to test_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_curried.py to test_curried.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_compatibility.py to test_compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_embedded_sigs.py to test_embedded_sigs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_functoolz.py to test_functoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_inspect_args.py to test_inspect_args.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_doctests.py to test_doctests.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_tlz.py to test_tlz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_signatures.py to test_signatures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/dev_skip_test.py to dev_skip_test.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_recipes.py to test_recipes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_docstrings.py to test_docstrings.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_dev_skip_test.py to test_dev_skip_test.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_dicttoolz.py to test_dicttoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_serialization.py to test_serialization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_curried_toolzlike.py to test_curried_toolzlike.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/tests/test_itertoolz.py to test_itertoolz.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/curried/operator.py to operator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/curried/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/curried/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cytoolz/_signatures.py to _signatures.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing cytoolz.egg-info/PKG-INFO
+writing dependency_links to cytoolz.egg-info/dependency_links.txt
+writing requirements to cytoolz.egg-info/requires.txt
+writing top-level names to cytoolz.egg-info/top_level.txt
+reading manifest file 'cytoolz.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'cytoolz.egg-info/SOURCES.txt'
+Copying cytoolz.egg-info to install/lib/python3.9/site-packages/cytoolz-0.11.0-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cytoolz/dicttoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/dicttoolz.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cytoolz/dicttoolz.o -o build/lib.linux-x86_64-3.9/cytoolz/dicttoolz.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cytoolz/functoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/functoolz.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cytoolz/functoolz.o -o build/lib.linux-x86_64-3.9/cytoolz/functoolz.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cytoolz/itertoolz.c -o build/temp.linux-x86_64-3.9/cytoolz/itertoolz.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cytoolz/itertoolz.o -o build/lib.linux-x86_64-3.9/cytoolz/itertoolz.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cytoolz/recipes.c -o build/temp.linux-x86_64-3.9/cytoolz/recipes.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cytoolz/recipes.o -o build/lib.linux-x86_64-3.9/cytoolz/recipes.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -I/src/cpython/installs/python-3.9.5/include/python3.9 -c cytoolz/utils.c -o build/temp.linux-x86_64-3.9/cytoolz/utils.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/cytoolz/utils.o -o build/lib.linux-x86_64-3.9/cytoolz/utils.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 981399
+compressed package into 504547
+compressed in 142 ms
+[2021-12-18 08:44:42] Building package cytoolz...
+[2021-12-18 08:56:11] done building package cytoolz in 688.7 s.

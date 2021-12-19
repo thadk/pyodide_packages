@@ -1,0 +1,123 @@
+running install
+running bdist_egg
+running egg_info
+creating micropip.egg-info
+writing micropip.egg-info/PKG-INFO
+writing dependency_links to micropip.egg-info/dependency_links.txt
+writing top-level names to micropip.egg-info/top_level.txt
+writing manifest file 'micropip.egg-info/SOURCES.txt'
+reading manifest file 'micropip.egg-info/SOURCES.txt'
+writing manifest file 'micropip.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/micropip
+copying micropip/__init__.py -> build/lib/micropip
+copying micropip/micropip.py -> build/lib/micropip
+creating build/lib/micropip/externals
+copying micropip/externals/__init__.py -> build/lib/micropip/externals
+creating build/lib/micropip/externals/pip
+copying micropip/externals/pip/__init__.py -> build/lib/micropip/externals/pip
+creating build/lib/micropip/externals/pip/_internal
+copying micropip/externals/pip/_internal/__init__.py -> build/lib/micropip/externals/pip/_internal
+creating build/lib/micropip/externals/pip/_vendor
+copying micropip/externals/pip/_vendor/__init__.py -> build/lib/micropip/externals/pip/_vendor
+copying micropip/externals/pip/_vendor/pkg_resources.py -> build/lib/micropip/externals/pip/_vendor
+creating build/lib/micropip/externals/pip/_internal/utils
+copying micropip/externals/pip/_internal/utils/__init__.py -> build/lib/micropip/externals/pip/_internal/utils
+copying micropip/externals/pip/_internal/utils/pkg_resources.py -> build/lib/micropip/externals/pip/_internal/utils
+copying micropip/externals/pip/_internal/utils/wheel.py -> build/lib/micropip/externals/pip/_internal/utils
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/micropip
+creating build/bdist.linux-x86_64/egg/micropip/externals
+copying build/lib/micropip/externals/__init__.py -> build/bdist.linux-x86_64/egg/micropip/externals
+creating build/bdist.linux-x86_64/egg/micropip/externals/pip
+creating build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal
+copying build/lib/micropip/externals/pip/_internal/__init__.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal
+creating build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/__init__.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/pkg_resources.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/wheel.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils
+creating build/bdist.linux-x86_64/egg/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/_vendor/__init__.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/_vendor/pkg_resources.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/__init__.py -> build/bdist.linux-x86_64/egg/micropip/externals/pip
+copying build/lib/micropip/__init__.py -> build/bdist.linux-x86_64/egg/micropip
+copying build/lib/micropip/micropip.py -> build/bdist.linux-x86_64/egg/micropip
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils/pkg_resources.py to pkg_resources.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_internal/utils/wheel.py to wheel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_vendor/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/_vendor/pkg_resources.py to pkg_resources.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/externals/pip/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/micropip/micropip.py to micropip.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying micropip.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying micropip.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying micropip.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying micropip.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/micropip-0.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing micropip-0.1-py3.9.egg
+Copying micropip-0.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding micropip 0.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/micropip-0.1-py3.9.egg
+Processing dependencies for micropip==0.1
+Finished processing dependencies for micropip==0.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/micropip
+creating install/lib/python3.9/site-packages/micropip/externals
+copying build/lib/micropip/externals/__init__.py -> install/lib/python3.9/site-packages/micropip/externals
+creating install/lib/python3.9/site-packages/micropip/externals/pip
+creating install/lib/python3.9/site-packages/micropip/externals/pip/_internal
+copying build/lib/micropip/externals/pip/_internal/__init__.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_internal
+creating install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/__init__.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/pkg_resources.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils
+copying build/lib/micropip/externals/pip/_internal/utils/wheel.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils
+creating install/lib/python3.9/site-packages/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/_vendor/__init__.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/_vendor/pkg_resources.py -> install/lib/python3.9/site-packages/micropip/externals/pip/_vendor
+copying build/lib/micropip/externals/pip/__init__.py -> install/lib/python3.9/site-packages/micropip/externals/pip
+copying build/lib/micropip/__init__.py -> install/lib/python3.9/site-packages/micropip
+copying build/lib/micropip/micropip.py -> install/lib/python3.9/site-packages/micropip
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_internal/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils/pkg_resources.py to pkg_resources.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_internal/utils/wheel.py to wheel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_vendor/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/_vendor/pkg_resources.py to pkg_resources.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/externals/pip/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/micropip/micropip.py to micropip.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing micropip.egg-info/PKG-INFO
+writing dependency_links to micropip.egg-info/dependency_links.txt
+writing top-level names to micropip.egg-info/top_level.txt
+reading manifest file 'micropip.egg-info/SOURCES.txt'
+writing manifest file 'micropip.egg-info/SOURCES.txt'
+Copying micropip.egg-info to install/lib/python3.9/site-packages/micropip-0.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 34580
+compressed package into 25379
+compressed in 151 ms
+[2021-08-12 03:22:55] Building package micropip...
+[2021-08-12 03:23:53] done building package micropip in 57.9 s.

@@ -1,0 +1,170 @@
+Define environment variable USE_CYTHON to build from Cython source
+running install
+running bdist_egg
+running egg_info
+writing freesasa.egg-info/PKG-INFO
+writing dependency_links to freesasa.egg-info/dependency_links.txt
+writing top-level names to freesasa.egg-info/top_level.txt
+reading manifest file 'freesasa.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'freesasa.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_ext
+building 'freesasa' extension
+creating build
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/lib
+creating build/temp.linux-x86_64-3.9/lib/src
+creating build/temp.linux-x86_64-3.9/src
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/classifier.c -o build/temp.linux-x86_64-3.9/lib/src/classifier.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/classifier_naccess.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_naccess.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/classifier_oons.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_oons.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/classifier_protor.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_protor.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/coord.c -o build/temp.linux-x86_64-3.9/lib/src/coord.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/freesasa.c -o build/temp.linux-x86_64-3.9/lib/src/freesasa.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/lexer.c -o build/temp.linux-x86_64-3.9/lib/src/lexer.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/log.c -o build/temp.linux-x86_64-3.9/lib/src/log.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/nb.c -o build/temp.linux-x86_64-3.9/lib/src/nb.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/node.c -o build/temp.linux-x86_64-3.9/lib/src/node.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/parser.c -o build/temp.linux-x86_64-3.9/lib/src/parser.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/pdb.c -o build/temp.linux-x86_64-3.9/lib/src/pdb.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/rsa.c -o build/temp.linux-x86_64-3.9/lib/src/rsa.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/sasa_lr.c -o build/temp.linux-x86_64-3.9/lib/src/sasa_lr.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/sasa_sr.c -o build/temp.linux-x86_64-3.9/lib/src/sasa_sr.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/selection.c -o build/temp.linux-x86_64-3.9/lib/src/selection.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/structure.c -o build/temp.linux-x86_64-3.9/lib/src/structure.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c lib/src/util.c -o build/temp.linux-x86_64-3.9/lib/src/util.o -DHAVE_CONFIG_H -std=gnu99
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -Ilib/src -I. -I/usr/local/include/python3.9 -c src/freesasa.c -o build/temp.linux-x86_64-3.9/src/freesasa.o -DHAVE_CONFIG_H -std=gnu99
+creating build/lib.linux-x86_64-3.9
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/lib/src/classifier.o build/temp.linux-x86_64-3.9/lib/src/classifier_naccess.o build/temp.linux-x86_64-3.9/lib/src/classifier_oons.o build/temp.linux-x86_64-3.9/lib/src/classifier_protor.o build/temp.linux-x86_64-3.9/lib/src/coord.o build/temp.linux-x86_64-3.9/lib/src/freesasa.o build/temp.linux-x86_64-3.9/lib/src/lexer.o build/temp.linux-x86_64-3.9/lib/src/log.o build/temp.linux-x86_64-3.9/lib/src/nb.o build/temp.linux-x86_64-3.9/lib/src/node.o build/temp.linux-x86_64-3.9/lib/src/parser.o build/temp.linux-x86_64-3.9/lib/src/pdb.o build/temp.linux-x86_64-3.9/lib/src/rsa.o build/temp.linux-x86_64-3.9/lib/src/sasa_lr.o build/temp.linux-x86_64-3.9/lib/src/sasa_sr.o build/temp.linux-x86_64-3.9/lib/src/selection.o build/temp.linux-x86_64-3.9/lib/src/structure.o build/temp.linux-x86_64-3.9/lib/src/util.o build/temp.linux-x86_64-3.9/src/freesasa.o -L/usr/local/lib -o build/lib.linux-x86_64-3.9/freesasa.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-3.9/freesasa.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+creating stub loader for freesasa.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/freesasa.py to freesasa.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying freesasa.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying freesasa.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying freesasa.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying freesasa.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+__pycache__.freesasa.cpython-39: module references __file__
+creating dist
+creating 'dist/freesasa-2.1.0-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing freesasa-2.1.0-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/freesasa-2.1.0-py3.9-linux-x86_64.egg
+Extracting freesasa-2.1.0-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding freesasa 2.1.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/freesasa-2.1.0-py3.9-linux-x86_64.egg
+Processing dependencies for freesasa==2.1.0
+Finished processing dependencies for freesasa==2.1.0
+lib/src/classifier.c:990:19: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+    for (i = 0; i < sizeof(bb)/sizeof(const char*); ++i) {
+                ~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+lexer.c:1180:3: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+                YY_INPUT( (&YY_CURRENT_BUFFER_LVALUE->yy_ch_buf[number_to_move]),
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lexer.c:679:18: note: expanded from macro 'YY_INPUT'
+                for ( n = 0; n < max_size && \
+                             ~ ^ ~~~~~~~~
+lexer.c:1740:17: warning: comparison of integers of different signs: 'yy_size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+        for ( i = 0; i < _yybytes_len; ++i )
+                     ~ ^ ~~~~~~~~~~~~
+lexer.c:1284:17: warning: unused function 'yyunput' [-Wunused-function]
+    static void yyunput (int c, char * yy_bp , yyscan_t yyscanner)
+                ^
+lexer.c:1328:16: warning: function 'input' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+    static int input  (yyscan_t yyscanner)
+               ^
+4 warnings generated.
+lib/src/selection.c:115:23: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+        for (i = 0; i < strlen(e->value); ++i)
+                    ~ ^ ~~~~~~~~~~~~~~~~
+1 warning generated.
+Define environment variable USE_CYTHON to build from Cython source
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+copying build/lib.linux-x86_64-3.9/freesasa.so -> install/lib/python3.9/site-packages
+running install_headers
+creating install/include
+creating install/include/python3.9
+creating install/include/python3.9/freesasa
+copying lib/src/nb.h -> install/include/python3.9/freesasa
+copying lib/src/json.c -> install/include/python3.9/freesasa
+copying lib/src/xml.c -> install/include/python3.9/freesasa
+copying lib/src/log.c -> install/include/python3.9/freesasa
+copying lib/src/util.c -> install/include/python3.9/freesasa
+copying lib/src/classifier.c -> install/include/python3.9/freesasa
+copying lib/src/parser.h -> install/include/python3.9/freesasa
+copying lib/src/rsa.c -> install/include/python3.9/freesasa
+copying lib/src/classifier_oons.c -> install/include/python3.9/freesasa
+copying lib/src/freesasa_internal.h -> install/include/python3.9/freesasa
+copying lib/src/lexer.c -> install/include/python3.9/freesasa
+copying lib/src/sasa_sr.c -> install/include/python3.9/freesasa
+copying lib/src/freesasa.c -> install/include/python3.9/freesasa
+copying lib/src/coord.h -> install/include/python3.9/freesasa
+copying lib/src/selection.c -> install/include/python3.9/freesasa
+copying lib/src/pdb.c -> install/include/python3.9/freesasa
+copying lib/src/example.c -> install/include/python3.9/freesasa
+copying lib/src/main.c -> install/include/python3.9/freesasa
+copying lib/src/sasa_lr.c -> install/include/python3.9/freesasa
+copying lib/src/nb.c -> install/include/python3.9/freesasa
+copying lib/src/structure.c -> install/include/python3.9/freesasa
+copying lib/src/lexer.h -> install/include/python3.9/freesasa
+copying lib/src/classifier_naccess.c -> install/include/python3.9/freesasa
+copying lib/src/classifier_protor.c -> install/include/python3.9/freesasa
+copying lib/src/classifier.h -> install/include/python3.9/freesasa
+copying lib/src/parser.c -> install/include/python3.9/freesasa
+copying lib/src/pdb.h -> install/include/python3.9/freesasa
+copying lib/src/selection.h -> install/include/python3.9/freesasa
+copying lib/src/coord.c -> install/include/python3.9/freesasa
+copying lib/src/node.c -> install/include/python3.9/freesasa
+copying lib/src/freesasa.h -> install/include/python3.9/freesasa
+running install_egg_info
+running egg_info
+writing freesasa.egg-info/PKG-INFO
+writing dependency_links to freesasa.egg-info/dependency_links.txt
+writing top-level names to freesasa.egg-info/top_level.txt
+reading manifest file 'freesasa.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'freesasa.egg-info/SOURCES.txt'
+Copying freesasa.egg-info to install/lib/python3.9/site-packages/freesasa-2.1.0-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/classifier.c -o build/temp.linux-x86_64-3.9/lib/src/classifier.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/classifier_naccess.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_naccess.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/classifier_oons.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_oons.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/classifier_protor.c -o build/temp.linux-x86_64-3.9/lib/src/classifier_protor.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/coord.c -o build/temp.linux-x86_64-3.9/lib/src/coord.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/freesasa.c -o build/temp.linux-x86_64-3.9/lib/src/freesasa.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/lexer.c -o build/temp.linux-x86_64-3.9/lib/src/lexer.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/log.c -o build/temp.linux-x86_64-3.9/lib/src/log.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/nb.c -o build/temp.linux-x86_64-3.9/lib/src/nb.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/node.c -o build/temp.linux-x86_64-3.9/lib/src/node.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/parser.c -o build/temp.linux-x86_64-3.9/lib/src/parser.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/pdb.c -o build/temp.linux-x86_64-3.9/lib/src/pdb.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/rsa.c -o build/temp.linux-x86_64-3.9/lib/src/rsa.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/sasa_lr.c -o build/temp.linux-x86_64-3.9/lib/src/sasa_lr.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/sasa_sr.c -o build/temp.linux-x86_64-3.9/lib/src/sasa_sr.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/selection.c -o build/temp.linux-x86_64-3.9/lib/src/selection.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/structure.c -o build/temp.linux-x86_64-3.9/lib/src/structure.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c lib/src/util.c -o build/temp.linux-x86_64-3.9/lib/src/util.o -DHAVE_CONFIG_H -std=gnu99
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -Ilib/src -I. -I/src/cpython/installs/python-3.9.5/include/python3.9 -c src/freesasa.c -o build/temp.linux-x86_64-3.9/src/freesasa.o -DHAVE_CONFIG_H -std=gnu99
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/lib/src/classifier.o build/temp.linux-x86_64-3.9/lib/src/classifier_naccess.o build/temp.linux-x86_64-3.9/lib/src/classifier_oons.o build/temp.linux-x86_64-3.9/lib/src/classifier_protor.o build/temp.linux-x86_64-3.9/lib/src/coord.o build/temp.linux-x86_64-3.9/lib/src/freesasa.o build/temp.linux-x86_64-3.9/lib/src/lexer.o build/temp.linux-x86_64-3.9/lib/src/log.o build/temp.linux-x86_64-3.9/lib/src/nb.o build/temp.linux-x86_64-3.9/lib/src/node.o build/temp.linux-x86_64-3.9/lib/src/parser.o build/temp.linux-x86_64-3.9/lib/src/pdb.o build/temp.linux-x86_64-3.9/lib/src/rsa.o build/temp.linux-x86_64-3.9/lib/src/sasa_lr.o build/temp.linux-x86_64-3.9/lib/src/sasa_sr.o build/temp.linux-x86_64-3.9/lib/src/selection.o build/temp.linux-x86_64-3.9/lib/src/structure.o build/temp.linux-x86_64-3.9/lib/src/util.o build/temp.linux-x86_64-3.9/src/freesasa.o -o build/lib.linux-x86_64-3.9/freesasa.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 800533
+compressed package into 425801
+compressed in 164 ms
+[2021-12-18 08:18:58] Building package freesasa...
+[2021-12-18 08:35:15] done building package freesasa in 976.6 s.

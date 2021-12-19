@@ -1,0 +1,129 @@
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/distlib
+copying distlib/locators.py -> build/lib/distlib
+copying distlib/metadata.py -> build/lib/distlib
+copying distlib/version.py -> build/lib/distlib
+copying distlib/compat.py -> build/lib/distlib
+copying distlib/index.py -> build/lib/distlib
+copying distlib/manifest.py -> build/lib/distlib
+copying distlib/util.py -> build/lib/distlib
+copying distlib/database.py -> build/lib/distlib
+copying distlib/__init__.py -> build/lib/distlib
+copying distlib/markers.py -> build/lib/distlib
+copying distlib/resources.py -> build/lib/distlib
+copying distlib/scripts.py -> build/lib/distlib
+copying distlib/wheel.py -> build/lib/distlib
+creating build/lib/distlib/_backport
+copying distlib/_backport/shutil.py -> build/lib/distlib/_backport
+copying distlib/_backport/misc.py -> build/lib/distlib/_backport
+copying distlib/_backport/__init__.py -> build/lib/distlib/_backport
+copying distlib/_backport/tarfile.py -> build/lib/distlib/_backport
+copying distlib/_backport/sysconfig.py -> build/lib/distlib/_backport
+copying distlib/_backport/sysconfig.cfg -> build/lib/distlib/_backport
+running install_lib
+creating /src/packages/.artifacts/lib/python/distlib
+creating /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/shutil.py -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/misc.py -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/__init__.py -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/sysconfig.cfg -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/tarfile.py -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/_backport/sysconfig.py -> /src/packages/.artifacts/lib/python/distlib/_backport
+copying build/lib/distlib/locators.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/metadata.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/version.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/compat.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/index.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/manifest.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/util.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/database.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/__init__.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/markers.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/resources.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/scripts.py -> /src/packages/.artifacts/lib/python/distlib
+copying build/lib/distlib/wheel.py -> /src/packages/.artifacts/lib/python/distlib
+byte-compiling /src/packages/.artifacts/lib/python/distlib/_backport/shutil.py to shutil.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/_backport/misc.py to misc.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/_backport/__init__.py to __init__.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/_backport/tarfile.py to tarfile.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/_backport/sysconfig.py to sysconfig.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/locators.py to locators.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/metadata.py to metadata.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/version.py to version.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/compat.py to compat.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/index.py to index.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/manifest.py to manifest.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/util.py to util.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/database.py to database.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/__init__.py to __init__.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/markers.py to markers.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/resources.py to resources.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/scripts.py to scripts.cpython-39.pyc
+byte-compiling /src/packages/.artifacts/lib/python/distlib/wheel.py to wheel.cpython-39.pyc
+running install_egg_info
+Writing /src/packages/.artifacts/lib/python/distlib-0.3.1-py3.9.egg-info
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: option --old-and-unmanageable not recognized
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/distlib
+creating install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/shutil.py -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/misc.py -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/__init__.py -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/sysconfig.cfg -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/tarfile.py -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/_backport/sysconfig.py -> install/lib/python3.9/site-packages/distlib/_backport
+copying build/lib/distlib/locators.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/metadata.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/version.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/compat.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/index.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/manifest.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/util.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/database.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/__init__.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/markers.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/resources.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/scripts.py -> install/lib/python3.9/site-packages/distlib
+copying build/lib/distlib/wheel.py -> install/lib/python3.9/site-packages/distlib
+byte-compiling install/lib/python3.9/site-packages/distlib/_backport/shutil.py to shutil.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/_backport/misc.py to misc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/_backport/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/_backport/tarfile.py to tarfile.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/_backport/sysconfig.py to sysconfig.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/locators.py to locators.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/metadata.py to metadata.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/index.py to index.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/manifest.py to manifest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/database.py to database.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/markers.py to markers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/resources.py to resources.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/scripts.py to scripts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/distlib/wheel.py to wheel.cpython-39.pyc
+running install_egg_info
+Writing install/lib/python3.9/site-packages/distlib-0.3.1-py3.9.egg-info
+Warning: /usr/local/bin/python3 setup.py install --skip-build --prefix=install --old-and-unmanageable failed with distutils, possibly due to the use of distutils that does not support the --old-and-unmanageable argument. Re-trying the install without this argument.
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 527012
+compressed package into 300019
+compressed in 108 ms
+[2021-12-18 06:28:25] Building package distlib...
+[2021-12-18 06:29:54] done building package distlib in 88.9 s.

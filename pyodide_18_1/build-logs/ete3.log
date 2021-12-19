@@ -1,0 +1,1777 @@
+
+Installing ETE (3.1.2) 
+
+
+running install
+running bdist_egg
+running egg_info
+writing ete3.egg-info/PKG-INFO
+writing dependency_links to ete3.egg-info/dependency_links.txt
+writing entry points to ete3.egg-info/entry_points.txt
+writing top-level names to ete3.egg-info/top_level.txt
+reading manifest file 'ete3.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'doc'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '~*' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: manifest_maker: MANIFEST.in, line 17: 'global-exclude' expects <pattern1> <pattern2> ...
+
+warning: no previously-included files matching '*.gz' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'ete3.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/ete3
+copying ete3/citation.py -> build/lib/ete3
+copying ete3/_ph.py -> build/lib/ete3
+copying ete3/version.py -> build/lib/ete3
+copying ete3/__init__.py -> build/lib/ete3
+copying ete3/utils.py -> build/lib/ete3
+creating build/lib/ete3/clustering
+copying ete3/clustering/__init__.py -> build/lib/ete3/clustering
+copying ete3/clustering/clustertree.py -> build/lib/ete3/clustering
+copying ete3/clustering/clustvalidation.py -> build/lib/ete3/clustering
+creating build/lib/ete3/coretype
+copying ete3/coretype/__init__.py -> build/lib/ete3/coretype
+copying ete3/coretype/arraytable.py -> build/lib/ete3/coretype
+copying ete3/coretype/seqgroup.py -> build/lib/ete3/coretype
+copying ete3/coretype/tree.py -> build/lib/ete3/coretype
+creating build/lib/ete3/evol
+copying ete3/evol/__init__.py -> build/lib/ete3/evol
+copying ete3/evol/control.py -> build/lib/ete3/evol
+copying ete3/evol/evoltree.py -> build/lib/ete3/evol
+copying ete3/evol/model.py -> build/lib/ete3/evol
+copying ete3/evol/utils.py -> build/lib/ete3/evol
+creating build/lib/ete3/evol/parser
+copying ete3/evol/parser/__init__.py -> build/lib/ete3/evol/parser
+copying ete3/evol/parser/codemlparser.py -> build/lib/ete3/evol/parser
+copying ete3/evol/parser/slrparser.py -> build/lib/ete3/evol/parser
+creating build/lib/ete3/ncbi_taxonomy
+copying ete3/ncbi_taxonomy/__init__.py -> build/lib/ete3/ncbi_taxonomy
+copying ete3/ncbi_taxonomy/ncbiquery.py -> build/lib/ete3/ncbi_taxonomy
+creating build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/.gitignore -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/EXAMPLE -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/Makefile -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/README -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein
+creating build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/src/levenshtein.c -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+creating build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/README -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/levenshtein-test.sql -> build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+creating build/lib/ete3/nexml
+copying ete3/nexml/__init__.py -> build/lib/ete3/nexml
+copying ete3/nexml/_nexml.py -> build/lib/ete3/nexml
+copying ete3/nexml/_nexml_tree.py -> build/lib/ete3/nexml
+creating build/lib/ete3/orthoxml
+copying ete3/orthoxml/__init__.py -> build/lib/ete3/orthoxml
+copying ete3/orthoxml/_orthoxml.py -> build/lib/ete3/orthoxml
+creating build/lib/ete3/parser
+copying ete3/parser/__init__.py -> build/lib/ete3/parser
+copying ete3/parser/fasta.py -> build/lib/ete3/parser
+copying ete3/parser/newick.py -> build/lib/ete3/parser
+copying ete3/parser/paml.py -> build/lib/ete3/parser
+copying ete3/parser/phylip.py -> build/lib/ete3/parser
+copying ete3/parser/text_arraytable.py -> build/lib/ete3/parser
+creating build/lib/ete3/phylo
+copying ete3/phylo/__init__.py -> build/lib/ete3/phylo
+copying ete3/phylo/evolevents.py -> build/lib/ete3/phylo
+copying ete3/phylo/phylotree.py -> build/lib/ete3/phylo
+copying ete3/phylo/reconciliation.py -> build/lib/ete3/phylo
+copying ete3/phylo/spoverlap.py -> build/lib/ete3/phylo
+creating build/lib/ete3/phylomedb
+copying ete3/phylomedb/__init__.py -> build/lib/ete3/phylomedb
+copying ete3/phylomedb/phylomeDB.py -> build/lib/ete3/phylomedb
+copying ete3/phylomedb/phylomeDB3.py -> build/lib/ete3/phylomedb
+creating build/lib/ete3/phyloxml
+copying ete3/phyloxml/__init__.py -> build/lib/ete3/phyloxml
+copying ete3/phyloxml/_phyloxml.py -> build/lib/ete3/phyloxml
+copying ete3/phyloxml/_phyloxml_tree.py -> build/lib/ete3/phyloxml
+creating build/lib/ete3/test
+copying ete3/test/__init__.py -> build/lib/ete3/test
+copying ete3/test/datasets.py -> build/lib/ete3/test
+copying ete3/test/test_all.py -> build/lib/ete3/test
+copying ete3/test/test_api.py -> build/lib/ete3/test
+copying ete3/test/test_arraytable.py -> build/lib/ete3/test
+copying ete3/test/test_circle_label.py -> build/lib/ete3/test
+copying ete3/test/test_clustertree.py -> build/lib/ete3/test
+copying ete3/test/test_ete_evol.py -> build/lib/ete3/test
+copying ete3/test/test_evol.py -> build/lib/ete3/test
+copying ete3/test/test_interop.py -> build/lib/ete3/test
+copying ete3/test/test_ncbiquery.py -> build/lib/ete3/test
+copying ete3/test/test_phylotree.py -> build/lib/ete3/test
+copying ete3/test/test_seqgroup.py -> build/lib/ete3/test
+copying ete3/test/test_tree.py -> build/lib/ete3/test
+copying ete3/test/test_xml_parsers.py -> build/lib/ete3/test
+creating build/lib/ete3/test/ete_evol_data
+creating build/lib/ete3/test/ete_evol_data/CladeModelCD
+copying ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.fasta -> build/lib/ete3/test/ete_evol_data/CladeModelCD
+copying ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.nw -> build/lib/ete3/test/ete_evol_data/CladeModelCD
+creating build/lib/ete3/test/ete_evol_data/L_example
+copying ete3/test/ete_evol_data/L_example/alignment_L_measuring_evol.fasta -> build/lib/ete3/test/ete_evol_data/L_example
+copying ete3/test/ete_evol_data/L_example/measuring_L_tree.nw -> build/lib/ete3/test/ete_evol_data/L_example
+creating build/lib/ete3/test/ete_evol_data/S_example
+copying ete3/test/ete_evol_data/S_example/ali.fasta -> build/lib/ete3/test/ete_evol_data/S_example
+copying ete3/test/ete_evol_data/S_example/tree.nw -> build/lib/ete3/test/ete_evol_data/S_example
+creating build/lib/ete3/test/ete_evol_data/S_example/paml
+creating build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/2NG.dN -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/2NG.dS -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/2NG.t -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/4fold.nuc -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/algn -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/lnf -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/out -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/rst -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/rst1 -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/rub -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/tmp.ctl -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+copying ete3/test/ete_evol_data/S_example/paml/M1/tree -> build/lib/ete3/test/ete_evol_data/S_example/paml/M1
+creating build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/2NG.dN -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/2NG.dS -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/2NG.t -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/4fold.nuc -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/algn -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/lnf -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/out -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/rst -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/rst1 -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/rub -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/tmp.ctl -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+copying ete3/test/ete_evol_data/S_example/paml/M2/tree -> build/lib/ete3/test/ete_evol_data/S_example/paml/M2
+creating build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dN -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dS -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/2NG.t -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/4fold.nuc -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/algn -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/lnf -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/out -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/rst -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/rst1 -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/rub -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/tmp.ctl -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+copying ete3/test/ete_evol_data/S_example/paml/bsA/tree -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA
+creating build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dN -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dS -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.t -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/4fold.nuc -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/algn -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/lnf -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/out -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/rst -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/rst1 -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/rub -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/tmp.ctl -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying ete3/test/ete_evol_data/S_example/paml/bsA1/tree -> build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1
+creating build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/2NG.dN -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/2NG.dS -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/2NG.t -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/4fold.nuc -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/algn -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/lnf -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/out -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/rst -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/rst1 -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/rub -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/tmp.ctl -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+copying ete3/test/ete_evol_data/S_example/paml/fb/tree -> build/lib/ete3/test/ete_evol_data/S_example/paml/fb
+creating build/lib/ete3/test/ete_evol_data/XS_example
+copying ete3/test/ete_evol_data/XS_example/ali.fasta -> build/lib/ete3/test/ete_evol_data/XS_example
+copying ete3/test/ete_evol_data/XS_example/tree.nw -> build/lib/ete3/test/ete_evol_data/XS_example
+creating build/lib/ete3/test/ete_evol_data/protamine
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1
+copying ete3/test/ete_evol_data/protamine/PRM1/alignments.fasta_ali -> build/lib/ete3/test/ete_evol_data/protamine/PRM1
+copying ete3/test/ete_evol_data/protamine/PRM1/tree.nw -> build/lib/ete3/test/ete_evol_data/protamine/PRM1
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/M1.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/M2.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/M7.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/M8.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/fb.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst.fb -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+creating build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dN -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dS -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.t -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/4fold.nuc -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/algn -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/fb.out -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/lnf -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/rst.fb -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/rst1 -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/rub -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/slr.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/tmp.ctl -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/tree -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying ete3/test/ete_evol_data/protamine/PRM1/slr/tree.slr -> build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr
+creating build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/NUP62.aa.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/NUP62.nt.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/P53.alg.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/P53.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/__init__.py -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/__main__.py -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/cog_seqs.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/cog_seqs.nt.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg1.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg1.nt.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg2.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg2.nt.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg3.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_alg3.nt.fa -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/fake_cogs.tsv -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/test_genetree.py -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/test_manual_alg.py -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/test_modeltest.py -> build/lib/ete3/test/test_ete_build
+copying ete3/test/test_ete_build/test_sptree.py -> build/lib/ete3/test/test_ete_build
+creating build/lib/ete3/test/test_issue258
+copying ete3/test/test_issue258/issue258.py -> build/lib/ete3/test/test_issue258
+creating build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/__init__.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/barchart_and_piechart_faces.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/barcharts.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/bubble_map.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/bubble_map.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/chimp.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/dog.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/face_grid.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/face_positions.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/face_rotation.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/fish.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/float_piechart.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/floating_piecharts.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/fly.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/human.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/img_faces.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/img_faces.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/item_faces.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/item_faces.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/motifs.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/mouse.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/new_seq_face.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/node_background.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/node_background.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/node_style.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/node_style.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/phylotree_visualization.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/random_draw.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/rotated_faces.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/seq_motif_faces.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/seq_motif_faces.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/seqmotif.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/test_all_treeview.py -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/tree_faces.png -> build/lib/ete3/test/test_treeview
+copying ete3/test/test_treeview/tree_faces.py -> build/lib/ete3/test/test_treeview
+creating build/lib/ete3/tools
+copying ete3/tools/__init__.py -> build/lib/ete3/tools
+copying ete3/tools/common.py -> build/lib/ete3/tools
+copying ete3/tools/ete.py -> build/lib/ete3/tools
+copying ete3/tools/ete_annotate.py -> build/lib/ete3/tools
+copying ete3/tools/ete_build.cfg -> build/lib/ete3/tools
+copying ete3/tools/ete_build.py -> build/lib/ete3/tools
+copying ete3/tools/ete_compare.py -> build/lib/ete3/tools
+copying ete3/tools/ete_evol.py -> build/lib/ete3/tools
+copying ete3/tools/ete_expand.py -> build/lib/ete3/tools
+copying ete3/tools/ete_extract.py -> build/lib/ete3/tools
+copying ete3/tools/ete_generate.py -> build/lib/ete3/tools
+copying ete3/tools/ete_maptrees.py -> build/lib/ete3/tools
+copying ete3/tools/ete_mod.py -> build/lib/ete3/tools
+copying ete3/tools/ete_ncbiquery.py -> build/lib/ete3/tools
+copying ete3/tools/ete_split.py -> build/lib/ete3/tools
+copying ete3/tools/ete_upgrade_tools.py -> build/lib/ete3/tools
+copying ete3/tools/ete_view.py -> build/lib/ete3/tools
+copying ete3/tools/utils.py -> build/lib/ete3/tools
+creating build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/__init__.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/apps.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/configcheck.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/configobj.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/curses_gui.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/db.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/errors.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/getch.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/interface.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/logger.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/master_job.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/master_task.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/ordereddict.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/scheduler.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/seqio.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/sge.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/utils.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/validate.py -> build/lib/ete3/tools/ete_build_lib
+copying ete3/tools/ete_build_lib/visualize.py -> build/lib/ete3/tools/ete_build_lib
+creating build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/__init__.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/clustalo.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/cog_creator.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/cog_selector.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/concat_alg.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/dialigntx.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/dummyalg.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/dummytree.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/fasttree.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/iqtree.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/jmodeltest.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/mafft.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/merger.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/meta_aligner.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/msf.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/muscle.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/phyml.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/pmodeltest.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/prottest.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/prottest2.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/raxml.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/tcoffee.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/trimal.py -> build/lib/ete3/tools/ete_build_lib/task
+copying ete3/tools/ete_build_lib/task/uhire.py -> build/lib/ete3/tools/ete_build_lib/task
+creating build/lib/ete3/tools/ete_build_lib/workflow
+copying ete3/tools/ete_build_lib/workflow/__init__.py -> build/lib/ete3/tools/ete_build_lib/workflow
+copying ete3/tools/ete_build_lib/workflow/common.py -> build/lib/ete3/tools/ete_build_lib/workflow
+copying ete3/tools/ete_build_lib/workflow/genetree.py -> build/lib/ete3/tools/ete_build_lib/workflow
+copying ete3/tools/ete_build_lib/workflow/supermatrix.py -> build/lib/ete3/tools/ete_build_lib/workflow
+creating build/lib/ete3/treeview
+copying ete3/treeview/__init__.py -> build/lib/ete3/treeview
+copying ete3/treeview/_about.py -> build/lib/ete3/treeview
+copying ete3/treeview/_mainwindow.py -> build/lib/ete3/treeview
+copying ete3/treeview/_open_newick.py -> build/lib/ete3/treeview
+copying ete3/treeview/_search_dialog.py -> build/lib/ete3/treeview
+copying ete3/treeview/_show_codeml.py -> build/lib/ete3/treeview
+copying ete3/treeview/_show_newick.py -> build/lib/ete3/treeview
+copying ete3/treeview/about.ui -> build/lib/ete3/treeview
+copying ete3/treeview/clean_search.png -> build/lib/ete3/treeview
+copying ete3/treeview/drawer.py -> build/lib/ete3/treeview
+copying ete3/treeview/ete_icon.png -> build/lib/ete3/treeview
+copying ete3/treeview/ete_logo.png -> build/lib/ete3/treeview
+copying ete3/treeview/ete_qt4app.ui -> build/lib/ete3/treeview
+copying ete3/treeview/ete_resources.qrc -> build/lib/ete3/treeview
+copying ete3/treeview/ete_resources_rc.py -> build/lib/ete3/treeview
+copying ete3/treeview/export_pdf.png -> build/lib/ete3/treeview
+copying ete3/treeview/faces.py -> build/lib/ete3/treeview
+copying ete3/treeview/fileopen.png -> build/lib/ete3/treeview
+copying ete3/treeview/filesave.png -> build/lib/ete3/treeview
+copying ete3/treeview/fit_region.png -> build/lib/ete3/treeview
+copying ete3/treeview/fit_tree.png -> build/lib/ete3/treeview
+copying ete3/treeview/force_topo.png -> build/lib/ete3/treeview
+copying ete3/treeview/image_properties.ui -> build/lib/ete3/treeview
+copying ete3/treeview/layouts.py -> build/lib/ete3/treeview
+copying ete3/treeview/main.py -> build/lib/ete3/treeview
+copying ete3/treeview/node_gui_actions.py -> build/lib/ete3/treeview
+copying ete3/treeview/open_newick.ui -> build/lib/ete3/treeview
+copying ete3/treeview/qt.py -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_circular_render.py -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_compile_resources.sh -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_face_render.py -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_gui.py -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_rect_render.py -> build/lib/ete3/treeview
+copying ete3/treeview/qt4_render.py -> build/lib/ete3/treeview
+copying ete3/treeview/search.png -> build/lib/ete3/treeview
+copying ete3/treeview/search_dialog.ui -> build/lib/ete3/treeview
+copying ete3/treeview/show_dist.png -> build/lib/ete3/treeview
+copying ete3/treeview/show_names.png -> build/lib/ete3/treeview
+copying ete3/treeview/show_newick.png -> build/lib/ete3/treeview
+copying ete3/treeview/show_newick.ui -> build/lib/ete3/treeview
+copying ete3/treeview/show_support.png -> build/lib/ete3/treeview
+copying ete3/treeview/svg_colors.py -> build/lib/ete3/treeview
+copying ete3/treeview/templates.py -> build/lib/ete3/treeview
+copying ete3/treeview/x_expand.png -> build/lib/ete3/treeview
+copying ete3/treeview/x_reduce.png -> build/lib/ete3/treeview
+copying ete3/treeview/y_expand.png -> build/lib/ete3/treeview
+copying ete3/treeview/y_reduce.png -> build/lib/ete3/treeview
+copying ete3/treeview/zoom_in.png -> build/lib/ete3/treeview
+copying ete3/treeview/zoom_out.png -> build/lib/ete3/treeview
+creating build/lib/ete3/webplugin
+copying ete3/webplugin/__init__.py -> build/lib/ete3/webplugin
+copying ete3/webplugin/webapp.py -> build/lib/ete3/webplugin
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/ete3
+copying build/lib/ete3/citation.py -> build/bdist.linux-x86_64/egg/ete3
+creating build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_compare.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_extract.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_evol.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_expand.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_generate.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_mod.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_build.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/__init__.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_annotate.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_upgrade_tools.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/common.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/utils.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_view.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_split.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_ncbiquery.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete.py -> build/bdist.linux-x86_64/egg/ete3/tools
+creating build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/curses_gui.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/db.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/seqio.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/master_task.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/ordereddict.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/configcheck.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/interface.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/__init__.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/sge.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/visualize.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/logger.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/apps.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/configobj.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/validate.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/master_job.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/getch.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/utils.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+creating build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/genetree.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/__init__.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/common.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/supermatrix.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow
+creating build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/pmodeltest.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/trimal.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/clustalo.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dialigntx.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/fasttree.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/jmodeltest.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/concat_alg.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/phyml.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/__init__.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/tcoffee.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/uhire.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/iqtree.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dummyalg.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/cog_selector.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/mafft.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/meta_aligner.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dummytree.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/prottest2.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/prottest.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/cog_creator.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/raxml.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/msf.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/merger.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/muscle.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/scheduler.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/errors.py -> build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_maptrees.py -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/tools/ete_build.cfg -> build/bdist.linux-x86_64/egg/ete3/tools
+copying build/lib/ete3/_ph.py -> build/bdist.linux-x86_64/egg/ete3
+creating build/bdist.linux-x86_64/egg/ete3/nexml
+copying build/lib/ete3/nexml/_nexml_tree.py -> build/bdist.linux-x86_64/egg/ete3/nexml
+copying build/lib/ete3/nexml/__init__.py -> build/bdist.linux-x86_64/egg/ete3/nexml
+copying build/lib/ete3/nexml/_nexml.py -> build/bdist.linux-x86_64/egg/ete3/nexml
+creating build/bdist.linux-x86_64/egg/ete3/coretype
+copying build/lib/ete3/coretype/tree.py -> build/bdist.linux-x86_64/egg/ete3/coretype
+copying build/lib/ete3/coretype/__init__.py -> build/bdist.linux-x86_64/egg/ete3/coretype
+copying build/lib/ete3/coretype/seqgroup.py -> build/bdist.linux-x86_64/egg/ete3/coretype
+copying build/lib/ete3/coretype/arraytable.py -> build/bdist.linux-x86_64/egg/ete3/coretype
+copying build/lib/ete3/version.py -> build/bdist.linux-x86_64/egg/ete3
+creating build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_evol.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_seqgroup.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_tree.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_all.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_ncbiquery.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_circle_label.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_arraytable.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_ete_evol.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/datasets.py -> build/bdist.linux-x86_64/egg/ete3/test
+creating build/bdist.linux-x86_64/egg/ete3/test/test_issue258
+copying build/lib/ete3/test/test_issue258/issue258.py -> build/bdist.linux-x86_64/egg/ete3/test/test_issue258
+copying build/lib/ete3/test/__init__.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_clustertree.py -> build/bdist.linux-x86_64/egg/ete3/test
+copying build/lib/ete3/test/test_interop.py -> build/bdist.linux-x86_64/egg/ete3/test
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/XS_example
+copying build/lib/ete3/test/ete_evol_data/XS_example/ali.fasta -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/XS_example
+copying build/lib/ete3/test/ete_evol_data/XS_example/tree.nw -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/XS_example
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/L_example
+copying build/lib/ete3/test/ete_evol_data/L_example/measuring_L_tree.nw -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/L_example
+copying build/lib/ete3/test/ete_evol_data/L_example/alignment_L_measuring_evol.fasta -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/L_example
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/M8.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/M1.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/M7.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/fb.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst.fb -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/M2.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/alignments.fasta_ali -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/tree.nw -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tree.slr -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/fb.out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rst.fb -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/slr.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/protamine/PRM1/slr
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/CladeModelCD
+copying build/lib/ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.fasta -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/CladeModelCD
+copying build/lib/ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.nw -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/CladeModelCD
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M1
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/fb
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA1
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/M2
+creating build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/tree -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/out -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rub -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rst -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/lnf -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/4fold.nuc -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.t -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/algn -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rst1 -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dN -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dS -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/tmp.ctl -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/ali.fasta -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example
+copying build/lib/ete3/test/ete_evol_data/S_example/tree.nw -> build/bdist.linux-x86_64/egg/ete3/test/ete_evol_data/S_example
+copying build/lib/ete3/test/test_phylotree.py -> build/bdist.linux-x86_64/egg/ete3/test
+creating build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/dog.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/floating_piecharts.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/tree_faces.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_background.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_grid.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_rotation.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/barchart_and_piechart_faces.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/fly.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/tree_faces.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/rotated_faces.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seq_motif_faces.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/img_faces.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/bubble_map.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/__init__.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/new_seq_face.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/float_piechart.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/item_faces.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/img_faces.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/mouse.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_style.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/random_draw.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_background.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/human.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/item_faces.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seq_motif_faces.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/motifs.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_style.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seqmotif.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/chimp.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/barcharts.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/bubble_map.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/phylotree_visualization.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/test_all_treeview.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_positions.py -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/fish.png -> build/bdist.linux-x86_64/egg/ete3/test/test_treeview
+copying build/lib/ete3/test/test_api.py -> build/bdist.linux-x86_64/egg/ete3/test
+creating build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg1.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/NUP62.nt.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_modeltest.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_genetree.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/NUP62.aa.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/P53.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/__init__.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_manual_alg.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/P53.alg.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg2.nt.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_cogs.tsv -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/cog_seqs.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg3.nt.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg1.nt.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg3.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_sptree.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg2.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/__main__.py -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/cog_seqs.nt.fa -> build/bdist.linux-x86_64/egg/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_xml_parsers.py -> build/bdist.linux-x86_64/egg/ete3/test
+creating build/bdist.linux-x86_64/egg/ete3/orthoxml
+copying build/lib/ete3/orthoxml/_orthoxml.py -> build/bdist.linux-x86_64/egg/ete3/orthoxml
+copying build/lib/ete3/orthoxml/__init__.py -> build/bdist.linux-x86_64/egg/ete3/orthoxml
+creating build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/node_gui_actions.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/fileopen.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/image_properties.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/x_reduce.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_circular_render.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_mainwindow.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_about.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/clean_search.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/drawer.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_face_render.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/show_newick.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/ete_icon.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/x_expand.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_search_dialog.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/export_pdf.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/faces.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/force_topo.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/filesave.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_render.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_rect_render.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/ete_qt4app.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/zoom_in.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/about.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/__init__.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/show_dist.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/fit_tree.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/search.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_show_newick.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/show_newick.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/templates.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/ete_resources.qrc -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/y_expand.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/zoom_out.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/open_newick.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_open_newick.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/ete_logo.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_gui.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/show_support.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/y_reduce.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/fit_region.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/show_names.png -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/qt4_compile_resources.sh -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/_show_codeml.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/main.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/layouts.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/svg_colors.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/search_dialog.ui -> build/bdist.linux-x86_64/egg/ete3/treeview
+copying build/lib/ete3/treeview/ete_resources_rc.py -> build/bdist.linux-x86_64/egg/ete3/treeview
+creating build/bdist.linux-x86_64/egg/ete3/clustering
+copying build/lib/ete3/clustering/clustvalidation.py -> build/bdist.linux-x86_64/egg/ete3/clustering
+copying build/lib/ete3/clustering/__init__.py -> build/bdist.linux-x86_64/egg/ete3/clustering
+copying build/lib/ete3/clustering/clustertree.py -> build/bdist.linux-x86_64/egg/ete3/clustering
+creating build/bdist.linux-x86_64/egg/ete3/phylomedb
+copying build/lib/ete3/phylomedb/phylomeDB.py -> build/bdist.linux-x86_64/egg/ete3/phylomedb
+copying build/lib/ete3/phylomedb/__init__.py -> build/bdist.linux-x86_64/egg/ete3/phylomedb
+copying build/lib/ete3/phylomedb/phylomeDB3.py -> build/bdist.linux-x86_64/egg/ete3/phylomedb
+copying build/lib/ete3/__init__.py -> build/bdist.linux-x86_64/egg/ete3
+creating build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/text_arraytable.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/newick.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/paml.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/__init__.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/phylip.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/parser/fasta.py -> build/bdist.linux-x86_64/egg/ete3/parser
+copying build/lib/ete3/utils.py -> build/bdist.linux-x86_64/egg/ete3
+creating build/bdist.linux-x86_64/egg/ete3/evol
+copying build/lib/ete3/evol/control.py -> build/bdist.linux-x86_64/egg/ete3/evol
+copying build/lib/ete3/evol/evoltree.py -> build/bdist.linux-x86_64/egg/ete3/evol
+copying build/lib/ete3/evol/__init__.py -> build/bdist.linux-x86_64/egg/ete3/evol
+creating build/bdist.linux-x86_64/egg/ete3/evol/parser
+copying build/lib/ete3/evol/parser/__init__.py -> build/bdist.linux-x86_64/egg/ete3/evol/parser
+copying build/lib/ete3/evol/parser/slrparser.py -> build/bdist.linux-x86_64/egg/ete3/evol/parser
+copying build/lib/ete3/evol/parser/codemlparser.py -> build/bdist.linux-x86_64/egg/ete3/evol/parser
+copying build/lib/ete3/evol/model.py -> build/bdist.linux-x86_64/egg/ete3/evol
+copying build/lib/ete3/evol/utils.py -> build/bdist.linux-x86_64/egg/ete3/evol
+creating build/bdist.linux-x86_64/egg/ete3/phyloxml
+copying build/lib/ete3/phyloxml/_phyloxml.py -> build/bdist.linux-x86_64/egg/ete3/phyloxml
+copying build/lib/ete3/phyloxml/_phyloxml_tree.py -> build/bdist.linux-x86_64/egg/ete3/phyloxml
+copying build/lib/ete3/phyloxml/__init__.py -> build/bdist.linux-x86_64/egg/ete3/phyloxml
+creating build/bdist.linux-x86_64/egg/ete3/webplugin
+copying build/lib/ete3/webplugin/webapp.py -> build/bdist.linux-x86_64/egg/ete3/webplugin
+copying build/lib/ete3/webplugin/__init__.py -> build/bdist.linux-x86_64/egg/ete3/webplugin
+creating build/bdist.linux-x86_64/egg/ete3/phylo
+copying build/lib/ete3/phylo/spoverlap.py -> build/bdist.linux-x86_64/egg/ete3/phylo
+copying build/lib/ete3/phylo/reconciliation.py -> build/bdist.linux-x86_64/egg/ete3/phylo
+copying build/lib/ete3/phylo/__init__.py -> build/bdist.linux-x86_64/egg/ete3/phylo
+copying build/lib/ete3/phylo/phylotree.py -> build/bdist.linux-x86_64/egg/ete3/phylo
+copying build/lib/ete3/phylo/evolevents.py -> build/bdist.linux-x86_64/egg/ete3/phylo
+creating build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy
+creating build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/Makefile -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/EXAMPLE -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein
+creating build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/levenshtein-test.sql -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/README -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/README -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/.gitignore -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein
+creating build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/src/levenshtein.c -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+copying build/lib/ete3/ncbi_taxonomy/__init__.py -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy
+copying build/lib/ete3/ncbi_taxonomy/ncbiquery.py -> build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy
+byte-compiling build/bdist.linux-x86_64/egg/ete3/citation.py to citation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_compare.py to ete_compare.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_extract.py to ete_extract.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_evol.py to ete_evol.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_expand.py to ete_expand.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_generate.py to ete_generate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_mod.py to ete_mod.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build.py to ete_build.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_annotate.py to ete_annotate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_upgrade_tools.py to ete_upgrade_tools.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/common.py to common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_view.py to ete_view.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_split.py to ete_split.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_ncbiquery.py to ete_ncbiquery.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete.py to ete.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/curses_gui.py to curses_gui.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/db.py to db.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/seqio.py to seqio.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/master_task.py to master_task.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/ordereddict.py to ordereddict.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/configcheck.py to configcheck.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/interface.py to interface.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/sge.py to sge.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/visualize.py to visualize.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/logger.py to logger.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/apps.py to apps.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/configobj.py to configobj.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/validate.py to validate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/master_job.py to master_job.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/getch.py to getch.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow/genetree.py to genetree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow/common.py to common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/workflow/supermatrix.py to supermatrix.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/pmodeltest.py to pmodeltest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/trimal.py to trimal.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/clustalo.py to clustalo.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/dialigntx.py to dialigntx.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/fasttree.py to fasttree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/jmodeltest.py to jmodeltest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/concat_alg.py to concat_alg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/phyml.py to phyml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/tcoffee.py to tcoffee.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/uhire.py to uhire.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/iqtree.py to iqtree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/dummyalg.py to dummyalg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/cog_selector.py to cog_selector.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/mafft.py to mafft.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/meta_aligner.py to meta_aligner.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/dummytree.py to dummytree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/prottest2.py to prottest2.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/prottest.py to prottest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/cog_creator.py to cog_creator.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/raxml.py to raxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/msf.py to msf.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/merger.py to merger.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/task/muscle.py to muscle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/scheduler.py to scheduler.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_build_lib/errors.py to errors.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/tools/ete_maptrees.py to ete_maptrees.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/_ph.py to _ph.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/nexml/_nexml_tree.py to _nexml_tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/nexml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/nexml/_nexml.py to _nexml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/coretype/tree.py to tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/coretype/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/coretype/seqgroup.py to seqgroup.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/coretype/arraytable.py to arraytable.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_evol.py to test_evol.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_seqgroup.py to test_seqgroup.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_tree.py to test_tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_all.py to test_all.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ncbiquery.py to test_ncbiquery.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_circle_label.py to test_circle_label.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_arraytable.py to test_arraytable.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_evol.py to test_ete_evol.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/datasets.py to datasets.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_issue258/issue258.py to issue258.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_clustertree.py to test_clustertree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_interop.py to test_interop.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_phylotree.py to test_phylotree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/floating_piecharts.py to floating_piecharts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/tree_faces.py to tree_faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/face_grid.py to face_grid.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/face_rotation.py to face_rotation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/barchart_and_piechart_faces.py to barchart_and_piechart_faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/seq_motif_faces.py to seq_motif_faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/img_faces.py to img_faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/new_seq_face.py to new_seq_face.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/node_style.py to node_style.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/random_draw.py to random_draw.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/node_background.py to node_background.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/item_faces.py to item_faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/bubble_map.py to bubble_map.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/phylotree_visualization.py to phylotree_visualization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/test_all_treeview.py to test_all_treeview.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_treeview/face_positions.py to face_positions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_api.py to test_api.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/test_modeltest.py to test_modeltest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/test_genetree.py to test_genetree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/test_manual_alg.py to test_manual_alg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/test_sptree.py to test_sptree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_ete_build/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/test/test_xml_parsers.py to test_xml_parsers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/orthoxml/_orthoxml.py to _orthoxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/orthoxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/node_gui_actions.py to node_gui_actions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt4_circular_render.py to qt4_circular_render.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_mainwindow.py to _mainwindow.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_about.py to _about.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/drawer.py to drawer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt4_face_render.py to qt4_face_render.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_search_dialog.py to _search_dialog.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/faces.py to faces.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt4_render.py to qt4_render.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt4_rect_render.py to qt4_rect_render.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt.py to qt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_show_newick.py to _show_newick.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/templates.py to templates.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_open_newick.py to _open_newick.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/qt4_gui.py to qt4_gui.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/_show_codeml.py to _show_codeml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/main.py to main.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/layouts.py to layouts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/svg_colors.py to svg_colors.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/treeview/ete_resources_rc.py to ete_resources_rc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/clustering/clustvalidation.py to clustvalidation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/clustering/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/clustering/clustertree.py to clustertree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylomedb/phylomeDB.py to phylomeDB.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylomedb/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylomedb/phylomeDB3.py to phylomeDB3.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/text_arraytable.py to text_arraytable.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/newick.py to newick.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/paml.py to paml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/phylip.py to phylip.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/parser/fasta.py to fasta.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/control.py to control.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/evoltree.py to evoltree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/parser/slrparser.py to slrparser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/parser/codemlparser.py to codemlparser.cpython-39.pyc
+build/bdist.linux-x86_64/egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if line is '\n':
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/model.py to model.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/evol/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phyloxml/_phyloxml.py to _phyloxml.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phyloxml/_phyloxml_tree.py to _phyloxml_tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phyloxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/webplugin/webapp.py to webapp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/webplugin/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylo/spoverlap.py to spoverlap.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylo/reconciliation.py to reconciliation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylo/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylo/phylotree.py to phylotree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/phylo/evolevents.py to evolevents.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ete3/ncbi_taxonomy/ncbiquery.py to ncbiquery.cpython-39.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying ete3.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ete3.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ete3.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ete3.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ete3.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+ete3.ncbi_taxonomy.__pycache__.ncbiquery.cpython-39: module references __file__
+ete3.test.__pycache__.test_ete_evol.cpython-39: module references __file__
+ete3.test.__pycache__.test_evol.cpython-39: module references __file__
+ete3.test.__pycache__.test_xml_parsers.cpython-39: module references __file__
+ete3.test.test_ete_build.__pycache__.test_genetree.cpython-39: module references __file__
+ete3.test.test_ete_build.__pycache__.test_manual_alg.cpython-39: module references __file__
+ete3.test.test_ete_build.__pycache__.test_modeltest.cpython-39: module references __file__
+ete3.test.test_ete_build.__pycache__.test_sptree.cpython-39: module references __file__
+ete3.test.test_treeview.__pycache__.test_all_treeview.cpython-39: module references __file__
+ete3.tools.__pycache__.ete.cpython-39: module references __file__
+ete3.tools.__pycache__.ete_build.cpython-39: module references __file__
+creating dist
+creating 'dist/ete3-3.1.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing ete3-3.1.2-py3.9.egg
+creating /src/packages/.artifacts/lib/python/ete3-3.1.2-py3.9.egg
+Extracting ete3-3.1.2-py3.9.egg to /src/packages/.artifacts/lib/python
+/src/packages/.artifacts/lib/python/ete3-3.1.2-py3.9.egg/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if line is '\n':
+Adding ete3 3.1.2 to easy-install.pth file
+Installing ete3 script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/ete3-3.1.2-py3.9.egg
+Processing dependencies for ete3==3.1.2
+Finished processing dependencies for ete3==3.1.2
+[92m - Done! - [0m
+ Warning:[93m Optional library [PyQt] could not be found [0m
+   PyQt4/5 is required for tree visualization and image rendering.
+ Warning:[93m Optional library [lxml] could not be found [0m
+   lxml is required from Nexml and Phyloxml support.
+
+Installing ETE (3.1.2) 
+
+
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/ete3
+copying build/lib/ete3/citation.py -> install/lib/python3.9/site-packages/ete3
+creating install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_compare.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_extract.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_evol.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_expand.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_generate.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_mod.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_build.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/__init__.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_annotate.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_upgrade_tools.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/common.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/utils.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_view.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_split.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_ncbiquery.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete.py -> install/lib/python3.9/site-packages/ete3/tools
+creating install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/curses_gui.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/db.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/seqio.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/master_task.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/ordereddict.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/configcheck.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/interface.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/__init__.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/sge.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/visualize.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/logger.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/apps.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/configobj.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/validate.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/master_job.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/getch.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/utils.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+creating install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/genetree.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/__init__.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/common.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow
+copying build/lib/ete3/tools/ete_build_lib/workflow/supermatrix.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow
+creating install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/pmodeltest.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/trimal.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/clustalo.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dialigntx.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/fasttree.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/jmodeltest.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/concat_alg.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/phyml.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/__init__.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/tcoffee.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/uhire.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/iqtree.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dummyalg.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/cog_selector.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/mafft.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/meta_aligner.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/dummytree.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/prottest2.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/prottest.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/cog_creator.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/raxml.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/msf.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/merger.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/task/muscle.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task
+copying build/lib/ete3/tools/ete_build_lib/scheduler.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_build_lib/errors.py -> install/lib/python3.9/site-packages/ete3/tools/ete_build_lib
+copying build/lib/ete3/tools/ete_maptrees.py -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/tools/ete_build.cfg -> install/lib/python3.9/site-packages/ete3/tools
+copying build/lib/ete3/_ph.py -> install/lib/python3.9/site-packages/ete3
+creating install/lib/python3.9/site-packages/ete3/nexml
+copying build/lib/ete3/nexml/_nexml_tree.py -> install/lib/python3.9/site-packages/ete3/nexml
+copying build/lib/ete3/nexml/__init__.py -> install/lib/python3.9/site-packages/ete3/nexml
+copying build/lib/ete3/nexml/_nexml.py -> install/lib/python3.9/site-packages/ete3/nexml
+creating install/lib/python3.9/site-packages/ete3/coretype
+copying build/lib/ete3/coretype/tree.py -> install/lib/python3.9/site-packages/ete3/coretype
+copying build/lib/ete3/coretype/__init__.py -> install/lib/python3.9/site-packages/ete3/coretype
+copying build/lib/ete3/coretype/seqgroup.py -> install/lib/python3.9/site-packages/ete3/coretype
+copying build/lib/ete3/coretype/arraytable.py -> install/lib/python3.9/site-packages/ete3/coretype
+copying build/lib/ete3/version.py -> install/lib/python3.9/site-packages/ete3
+creating install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_evol.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_seqgroup.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_tree.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_all.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_ncbiquery.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_circle_label.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_arraytable.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_ete_evol.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/datasets.py -> install/lib/python3.9/site-packages/ete3/test
+creating install/lib/python3.9/site-packages/ete3/test/test_issue258
+copying build/lib/ete3/test/test_issue258/issue258.py -> install/lib/python3.9/site-packages/ete3/test/test_issue258
+copying build/lib/ete3/test/__init__.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_clustertree.py -> install/lib/python3.9/site-packages/ete3/test
+copying build/lib/ete3/test/test_interop.py -> install/lib/python3.9/site-packages/ete3/test
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/XS_example
+copying build/lib/ete3/test/ete_evol_data/XS_example/ali.fasta -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/XS_example
+copying build/lib/ete3/test/ete_evol_data/XS_example/tree.nw -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/XS_example
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/L_example
+copying build/lib/ete3/test/ete_evol_data/L_example/measuring_L_tree.nw -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/L_example
+copying build/lib/ete3/test/ete_evol_data/L_example/alignment_L_measuring_evol.fasta -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/L_example
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/M8.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M8/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M8
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/M1.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M1/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M1
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/M7.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M7/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M7
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M0/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M0
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/fb.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/rst.fb -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/fb/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/fb
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/M2.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/paml/M2/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/paml/M2
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/alignments.fasta_ali -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/tree.nw -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tree.slr -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/fb.out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/rst.fb -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/slr.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+copying build/lib/ete3/test/ete_evol_data/protamine/PRM1/slr/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/protamine/PRM1/slr
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/CladeModelCD
+copying build/lib/ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.fasta -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/CladeModelCD
+copying build/lib/ete3/test/ete_evol_data/CladeModelCD/ECP_EDN_15.nw -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/CladeModelCD
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M1/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M1
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/fb/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/fb
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA1/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA1
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/M2/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/M2
+creating install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/tree -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/out -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rub -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rst -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/lnf -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/4fold.nuc -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.t -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/algn -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/rst1 -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dN -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/2NG.dS -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/paml/bsA/tmp.ctl -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example/paml/bsA
+copying build/lib/ete3/test/ete_evol_data/S_example/ali.fasta -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example
+copying build/lib/ete3/test/ete_evol_data/S_example/tree.nw -> install/lib/python3.9/site-packages/ete3/test/ete_evol_data/S_example
+copying build/lib/ete3/test/test_phylotree.py -> install/lib/python3.9/site-packages/ete3/test
+creating install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/dog.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/floating_piecharts.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/tree_faces.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_background.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_grid.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_rotation.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/barchart_and_piechart_faces.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/fly.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/tree_faces.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/rotated_faces.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seq_motif_faces.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/img_faces.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/bubble_map.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/__init__.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/new_seq_face.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/float_piechart.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/item_faces.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/img_faces.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/mouse.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_style.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/random_draw.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_background.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/human.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/item_faces.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seq_motif_faces.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/motifs.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/node_style.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/seqmotif.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/chimp.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/barcharts.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/bubble_map.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/phylotree_visualization.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/test_all_treeview.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/face_positions.py -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_treeview/fish.png -> install/lib/python3.9/site-packages/ete3/test/test_treeview
+copying build/lib/ete3/test/test_api.py -> install/lib/python3.9/site-packages/ete3/test
+creating install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg1.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/NUP62.nt.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_modeltest.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_genetree.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/NUP62.aa.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/P53.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/__init__.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_manual_alg.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/P53.alg.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg2.nt.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_cogs.tsv -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/cog_seqs.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg3.nt.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg1.nt.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg3.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/test_sptree.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/fake_alg2.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/__main__.py -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_ete_build/cog_seqs.nt.fa -> install/lib/python3.9/site-packages/ete3/test/test_ete_build
+copying build/lib/ete3/test/test_xml_parsers.py -> install/lib/python3.9/site-packages/ete3/test
+creating install/lib/python3.9/site-packages/ete3/orthoxml
+copying build/lib/ete3/orthoxml/_orthoxml.py -> install/lib/python3.9/site-packages/ete3/orthoxml
+copying build/lib/ete3/orthoxml/__init__.py -> install/lib/python3.9/site-packages/ete3/orthoxml
+creating install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/node_gui_actions.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/fileopen.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/image_properties.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/x_reduce.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_circular_render.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_mainwindow.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_about.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/clean_search.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/drawer.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_face_render.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/show_newick.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/ete_icon.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/x_expand.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_search_dialog.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/export_pdf.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/faces.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/force_topo.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/filesave.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_render.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_rect_render.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/ete_qt4app.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/zoom_in.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/about.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/__init__.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/show_dist.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/fit_tree.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/search.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_show_newick.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/show_newick.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/templates.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/ete_resources.qrc -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/y_expand.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/zoom_out.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/open_newick.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_open_newick.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/ete_logo.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_gui.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/show_support.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/y_reduce.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/fit_region.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/show_names.png -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/qt4_compile_resources.sh -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/_show_codeml.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/main.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/layouts.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/svg_colors.py -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/search_dialog.ui -> install/lib/python3.9/site-packages/ete3/treeview
+copying build/lib/ete3/treeview/ete_resources_rc.py -> install/lib/python3.9/site-packages/ete3/treeview
+creating install/lib/python3.9/site-packages/ete3/clustering
+copying build/lib/ete3/clustering/clustvalidation.py -> install/lib/python3.9/site-packages/ete3/clustering
+copying build/lib/ete3/clustering/__init__.py -> install/lib/python3.9/site-packages/ete3/clustering
+copying build/lib/ete3/clustering/clustertree.py -> install/lib/python3.9/site-packages/ete3/clustering
+creating install/lib/python3.9/site-packages/ete3/phylomedb
+copying build/lib/ete3/phylomedb/phylomeDB.py -> install/lib/python3.9/site-packages/ete3/phylomedb
+copying build/lib/ete3/phylomedb/__init__.py -> install/lib/python3.9/site-packages/ete3/phylomedb
+copying build/lib/ete3/phylomedb/phylomeDB3.py -> install/lib/python3.9/site-packages/ete3/phylomedb
+copying build/lib/ete3/__init__.py -> install/lib/python3.9/site-packages/ete3
+creating install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/text_arraytable.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/newick.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/paml.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/__init__.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/phylip.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/parser/fasta.py -> install/lib/python3.9/site-packages/ete3/parser
+copying build/lib/ete3/utils.py -> install/lib/python3.9/site-packages/ete3
+creating install/lib/python3.9/site-packages/ete3/evol
+copying build/lib/ete3/evol/control.py -> install/lib/python3.9/site-packages/ete3/evol
+copying build/lib/ete3/evol/evoltree.py -> install/lib/python3.9/site-packages/ete3/evol
+copying build/lib/ete3/evol/__init__.py -> install/lib/python3.9/site-packages/ete3/evol
+creating install/lib/python3.9/site-packages/ete3/evol/parser
+copying build/lib/ete3/evol/parser/__init__.py -> install/lib/python3.9/site-packages/ete3/evol/parser
+copying build/lib/ete3/evol/parser/slrparser.py -> install/lib/python3.9/site-packages/ete3/evol/parser
+copying build/lib/ete3/evol/parser/codemlparser.py -> install/lib/python3.9/site-packages/ete3/evol/parser
+copying build/lib/ete3/evol/model.py -> install/lib/python3.9/site-packages/ete3/evol
+copying build/lib/ete3/evol/utils.py -> install/lib/python3.9/site-packages/ete3/evol
+creating install/lib/python3.9/site-packages/ete3/phyloxml
+copying build/lib/ete3/phyloxml/_phyloxml.py -> install/lib/python3.9/site-packages/ete3/phyloxml
+copying build/lib/ete3/phyloxml/_phyloxml_tree.py -> install/lib/python3.9/site-packages/ete3/phyloxml
+copying build/lib/ete3/phyloxml/__init__.py -> install/lib/python3.9/site-packages/ete3/phyloxml
+creating install/lib/python3.9/site-packages/ete3/webplugin
+copying build/lib/ete3/webplugin/webapp.py -> install/lib/python3.9/site-packages/ete3/webplugin
+copying build/lib/ete3/webplugin/__init__.py -> install/lib/python3.9/site-packages/ete3/webplugin
+creating install/lib/python3.9/site-packages/ete3/phylo
+copying build/lib/ete3/phylo/spoverlap.py -> install/lib/python3.9/site-packages/ete3/phylo
+copying build/lib/ete3/phylo/reconciliation.py -> install/lib/python3.9/site-packages/ete3/phylo
+copying build/lib/ete3/phylo/__init__.py -> install/lib/python3.9/site-packages/ete3/phylo
+copying build/lib/ete3/phylo/phylotree.py -> install/lib/python3.9/site-packages/ete3/phylo
+copying build/lib/ete3/phylo/evolevents.py -> install/lib/python3.9/site-packages/ete3/phylo
+creating install/lib/python3.9/site-packages/ete3/ncbi_taxonomy
+creating install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/Makefile -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/EXAMPLE -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein
+creating install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/levenshtein-test.sql -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests/README -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein/tests
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/README -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/.gitignore -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein
+creating install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+copying build/lib/ete3/ncbi_taxonomy/SQLite-Levenshtein/src/levenshtein.c -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/SQLite-Levenshtein/src
+copying build/lib/ete3/ncbi_taxonomy/__init__.py -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy
+copying build/lib/ete3/ncbi_taxonomy/ncbiquery.py -> install/lib/python3.9/site-packages/ete3/ncbi_taxonomy
+byte-compiling install/lib/python3.9/site-packages/ete3/citation.py to citation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_compare.py to ete_compare.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_extract.py to ete_extract.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_evol.py to ete_evol.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_expand.py to ete_expand.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_generate.py to ete_generate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_mod.py to ete_mod.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build.py to ete_build.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_annotate.py to ete_annotate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_upgrade_tools.py to ete_upgrade_tools.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/common.py to common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_view.py to ete_view.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_split.py to ete_split.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_ncbiquery.py to ete_ncbiquery.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete.py to ete.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/curses_gui.py to curses_gui.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/db.py to db.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/seqio.py to seqio.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/master_task.py to master_task.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/ordereddict.py to ordereddict.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/configcheck.py to configcheck.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/interface.py to interface.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/sge.py to sge.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/visualize.py to visualize.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/logger.py to logger.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/apps.py to apps.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/configobj.py to configobj.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/validate.py to validate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/master_job.py to master_job.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/getch.py to getch.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow/genetree.py to genetree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow/common.py to common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/workflow/supermatrix.py to supermatrix.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/pmodeltest.py to pmodeltest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/trimal.py to trimal.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/clustalo.py to clustalo.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/dialigntx.py to dialigntx.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/fasttree.py to fasttree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/jmodeltest.py to jmodeltest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/concat_alg.py to concat_alg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/phyml.py to phyml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/tcoffee.py to tcoffee.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/uhire.py to uhire.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/iqtree.py to iqtree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/dummyalg.py to dummyalg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/cog_selector.py to cog_selector.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/mafft.py to mafft.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/meta_aligner.py to meta_aligner.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/dummytree.py to dummytree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/prottest2.py to prottest2.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/prottest.py to prottest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/cog_creator.py to cog_creator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/raxml.py to raxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/msf.py to msf.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/merger.py to merger.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/task/muscle.py to muscle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/scheduler.py to scheduler.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_build_lib/errors.py to errors.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/tools/ete_maptrees.py to ete_maptrees.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/_ph.py to _ph.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/nexml/_nexml_tree.py to _nexml_tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/nexml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/nexml/_nexml.py to _nexml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/coretype/tree.py to tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/coretype/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/coretype/seqgroup.py to seqgroup.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/coretype/arraytable.py to arraytable.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_evol.py to test_evol.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_seqgroup.py to test_seqgroup.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_tree.py to test_tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_all.py to test_all.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ncbiquery.py to test_ncbiquery.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_circle_label.py to test_circle_label.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_arraytable.py to test_arraytable.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_evol.py to test_ete_evol.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/datasets.py to datasets.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_issue258/issue258.py to issue258.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_clustertree.py to test_clustertree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_interop.py to test_interop.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_phylotree.py to test_phylotree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/floating_piecharts.py to floating_piecharts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/tree_faces.py to tree_faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/face_grid.py to face_grid.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/face_rotation.py to face_rotation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/barchart_and_piechart_faces.py to barchart_and_piechart_faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/seq_motif_faces.py to seq_motif_faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/img_faces.py to img_faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/new_seq_face.py to new_seq_face.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/node_style.py to node_style.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/random_draw.py to random_draw.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/node_background.py to node_background.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/item_faces.py to item_faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/bubble_map.py to bubble_map.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/phylotree_visualization.py to phylotree_visualization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/test_all_treeview.py to test_all_treeview.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_treeview/face_positions.py to face_positions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_api.py to test_api.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/test_modeltest.py to test_modeltest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/test_genetree.py to test_genetree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/test_manual_alg.py to test_manual_alg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/test_sptree.py to test_sptree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_ete_build/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/test/test_xml_parsers.py to test_xml_parsers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/orthoxml/_orthoxml.py to _orthoxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/orthoxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/node_gui_actions.py to node_gui_actions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt4_circular_render.py to qt4_circular_render.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_mainwindow.py to _mainwindow.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_about.py to _about.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/drawer.py to drawer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt4_face_render.py to qt4_face_render.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_search_dialog.py to _search_dialog.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/faces.py to faces.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt4_render.py to qt4_render.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt4_rect_render.py to qt4_rect_render.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt.py to qt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_show_newick.py to _show_newick.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/templates.py to templates.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_open_newick.py to _open_newick.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/qt4_gui.py to qt4_gui.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/_show_codeml.py to _show_codeml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/main.py to main.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/layouts.py to layouts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/svg_colors.py to svg_colors.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/treeview/ete_resources_rc.py to ete_resources_rc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/clustering/clustvalidation.py to clustvalidation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/clustering/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/clustering/clustertree.py to clustertree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylomedb/phylomeDB.py to phylomeDB.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylomedb/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylomedb/phylomeDB3.py to phylomeDB3.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/text_arraytable.py to text_arraytable.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/newick.py to newick.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/paml.py to paml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/phylip.py to phylip.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/parser/fasta.py to fasta.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/control.py to control.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/evoltree.py to evoltree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/parser/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/parser/slrparser.py to slrparser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/parser/codemlparser.py to codemlparser.cpython-39.pyc
+install/lib/python3.9/site-packages/ete3/evol/parser/codemlparser.py:221: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if line is '\n':
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/model.py to model.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/evol/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phyloxml/_phyloxml.py to _phyloxml.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phyloxml/_phyloxml_tree.py to _phyloxml_tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phyloxml/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/webplugin/webapp.py to webapp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/webplugin/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylo/spoverlap.py to spoverlap.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylo/reconciliation.py to reconciliation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylo/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylo/phylotree.py to phylotree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/phylo/evolevents.py to evolevents.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/ete3/ncbi_taxonomy/ncbiquery.py to ncbiquery.cpython-39.pyc
+running install_data
+creating install/ete3
+creating install/ete3/tools
+copying ete3/tools/ete_build.cfg -> install/ete3/tools
+running install_egg_info
+running egg_info
+writing ete3.egg-info/PKG-INFO
+writing dependency_links to ete3.egg-info/dependency_links.txt
+writing entry points to ete3.egg-info/entry_points.txt
+writing top-level names to ete3.egg-info/top_level.txt
+reading manifest file 'ete3.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'doc'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '~*' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: manifest_maker: MANIFEST.in, line 17: 'global-exclude' expects <pattern1> <pattern2> ...
+
+warning: no previously-included files matching '*.gz' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'ete3.egg-info/SOURCES.txt'
+Copying ete3.egg-info to install/lib/python3.9/site-packages/ete3-3.1.2-py3.9.egg-info
+running install_scripts
+Installing ete3 script to install/bin
+[92m - Done! - [0m
+ Warning:[93m Optional library [PyQt] could not be found [0m
+   PyQt4/5 is required for tree visualization and image rendering.
+ Warning:[93m Optional library [lxml] could not be found [0m
+   lxml is required from Nexml and Phyloxml support.
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 6686264
+compressed package into 3831596
+compressed in 318 ms
+[2021-08-12 08:19:10] Building package ete3...
+[2021-08-12 08:20:21] done building package ete3 in 71.1 s.

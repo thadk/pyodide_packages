@@ -1,0 +1,79 @@
+running install
+running bdist_egg
+running egg_info
+writing cssselect.egg-info/PKG-INFO
+writing dependency_links to cssselect.egg-info/dependency_links.txt
+writing top-level names to cssselect.egg-info/top_level.txt
+reading manifest file 'cssselect.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS'
+writing manifest file 'cssselect.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/cssselect
+copying cssselect/__init__.py -> build/lib/cssselect
+copying cssselect/parser.py -> build/lib/cssselect
+copying cssselect/xpath.py -> build/lib/cssselect
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cssselect
+copying build/lib/cssselect/__init__.py -> build/bdist.linux-x86_64/egg/cssselect
+copying build/lib/cssselect/parser.py -> build/bdist.linux-x86_64/egg/cssselect
+copying build/lib/cssselect/xpath.py -> build/bdist.linux-x86_64/egg/cssselect
+byte-compiling build/bdist.linux-x86_64/egg/cssselect/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cssselect/parser.py to parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cssselect/xpath.py to xpath.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cssselect.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cssselect.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cssselect.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cssselect.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/cssselect-1.1.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cssselect-1.1.0-py3.9.egg
+Copying cssselect-1.1.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding cssselect 1.1.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cssselect-1.1.0-py3.9.egg
+Processing dependencies for cssselect==1.1.0
+Finished processing dependencies for cssselect==1.1.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/cssselect
+copying build/lib/cssselect/__init__.py -> install/lib/python3.9/site-packages/cssselect
+copying build/lib/cssselect/parser.py -> install/lib/python3.9/site-packages/cssselect
+copying build/lib/cssselect/xpath.py -> install/lib/python3.9/site-packages/cssselect
+byte-compiling install/lib/python3.9/site-packages/cssselect/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cssselect/parser.py to parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cssselect/xpath.py to xpath.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing cssselect.egg-info/PKG-INFO
+writing dependency_links to cssselect.egg-info/dependency_links.txt
+writing top-level names to cssselect.egg-info/top_level.txt
+reading manifest file 'cssselect.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE'
+adding license file 'AUTHORS'
+writing manifest file 'cssselect.egg-info/SOURCES.txt'
+Copying cssselect.egg-info to install/lib/python3.9/site-packages/cssselect-1.1.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 57734
+compressed package into 33210
+compressed in 154 ms
+[2021-08-12 03:17:08] Building package cssselect...
+[2021-08-12 03:18:11] done building package cssselect in 63.4 s.

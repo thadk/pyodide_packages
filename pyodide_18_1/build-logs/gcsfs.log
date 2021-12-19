@@ -1,0 +1,382 @@
+running install
+running bdist_egg
+running egg_info
+writing gcsfs.egg-info/PKG-INFO
+writing dependency_links to gcsfs.egg-info/dependency_links.txt
+writing requirements to gcsfs.egg-info/requires.txt
+writing top-level names to gcsfs.egg-info/top_level.txt
+reading manifest file 'gcsfs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'gcsfs.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/gcsfs
+copying gcsfs/dask_link.py -> build/lib/gcsfs
+copying gcsfs/_version.py -> build/lib/gcsfs
+copying gcsfs/checkers.py -> build/lib/gcsfs
+copying gcsfs/credentials.py -> build/lib/gcsfs
+copying gcsfs/__init__.py -> build/lib/gcsfs
+copying gcsfs/core.py -> build/lib/gcsfs
+copying gcsfs/retry.py -> build/lib/gcsfs
+copying gcsfs/mapping.py -> build/lib/gcsfs
+creating build/lib/gcsfs/cli
+copying gcsfs/cli/gcsfuse.py -> build/lib/gcsfs/cli
+copying gcsfs/cli/__init__.py -> build/lib/gcsfs/cli
+UPDATING build/lib/gcsfs/_version.py
+set build/lib/gcsfs/_version.py to '2021.11.1'
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/dask_link.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/_version.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/checkers.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/credentials.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/__init__.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/core.py -> build/bdist.linux-x86_64/egg/gcsfs
+creating build/bdist.linux-x86_64/egg/gcsfs/cli
+copying build/lib/gcsfs/cli/gcsfuse.py -> build/bdist.linux-x86_64/egg/gcsfs/cli
+copying build/lib/gcsfs/cli/__init__.py -> build/bdist.linux-x86_64/egg/gcsfs/cli
+copying build/lib/gcsfs/retry.py -> build/bdist.linux-x86_64/egg/gcsfs
+copying build/lib/gcsfs/mapping.py -> build/bdist.linux-x86_64/egg/gcsfs
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/dask_link.py to dask_link.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/checkers.py to checkers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/credentials.py to credentials.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/cli/gcsfuse.py to gcsfuse.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/cli/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/retry.py to retry.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/gcsfs/mapping.py to mapping.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/pbr.json -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying gcsfs.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/gcsfs-2021.11.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing gcsfs-2021.11.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/gcsfs-2021.11.1-py3.9.egg
+Extracting gcsfs-2021.11.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding gcsfs 2021.11.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/gcsfs-2021.11.1-py3.9.egg
+Processing dependencies for gcsfs==2021.11.1
+Searching for aiohttp<4
+Reading https://pypi.org/simple/aiohttp/
+Downloading https://files.pythonhosted.org/packages/e9/13/21e7f1d0d1932b321cdeaea01d5008285dac3b088af855c5c3d8714dba7b/aiohttp-3.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=d15367ce87c8e9e09b0f989bfd72dc641bcd04ba091c68cd305312d00962addd
+Best match: aiohttp 3.8.1
+Processing aiohttp-3.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Installing aiohttp-3.8.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl to /src/packages/.artifacts/lib/python
+Adding aiohttp 3.8.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/aiohttp-3.8.1-py3.9-linux-x86_64.egg
+Searching for google-cloud-storage
+Reading https://pypi.org/simple/google-cloud-storage/
+Downloading https://files.pythonhosted.org/packages/c6/53/3a32d9aa3b56c94ec0760c3dc4ac00aeedd6938d3b99385fefd0e47bebff/google_cloud_storage-1.43.0-py2.py3-none-any.whl#sha256=bb3e4088054d50616bd57e4b81bb158db804c91faed39279d666e2fd07d2c118
+Best match: google-cloud-storage 1.43.0
+Processing google_cloud_storage-1.43.0-py2.py3-none-any.whl
+Installing google_cloud_storage-1.43.0-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-cloud-storage 1.43.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_cloud_storage-1.43.0-py3.9.egg
+Searching for google-auth-oauthlib
+Reading https://pypi.org/simple/google-auth-oauthlib/
+Downloading https://files.pythonhosted.org/packages/b1/0e/0636cc1448a7abc444fb1b3a63655e294e0d2d49092dc3de05241be6d43c/google_auth_oauthlib-0.4.6-py2.py3-none-any.whl#sha256=3f2a6e802eebbb6fb736a370fbf3b055edcb6b52878bf2f26330b5e041316c73
+Best match: google-auth-oauthlib 0.4.6
+Processing google_auth_oauthlib-0.4.6-py2.py3-none-any.whl
+Installing google_auth_oauthlib-0.4.6-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-auth-oauthlib 0.4.6 to easy-install.pth file
+Installing google-oauthlib-tool script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/google_auth_oauthlib-0.4.6-py3.9.egg
+Searching for google-auth>=1.2
+Reading https://pypi.org/simple/google-auth/
+Downloading https://files.pythonhosted.org/packages/6a/f7/06cbd5ebfba40a9d51df6217f9325317d824234400454aebcf014e2eee38/google_auth-2.3.3-py2.py3-none-any.whl#sha256=a348a50b027679cb7dae98043ac8dbcc1d7951f06d8387496071a1e05a2465c0
+Best match: google-auth 2.3.3
+Processing google_auth-2.3.3-py2.py3-none-any.whl
+Installing google_auth-2.3.3-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-auth 2.3.3 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_auth-2.3.3-py3.9.egg
+Searching for yarl<2.0,>=1.0
+Reading https://pypi.org/simple/yarl/
+Downloading https://files.pythonhosted.org/packages/23/a3/c71c1b275066a72b22bb4fa88590f5197aaeef0fa00dfd6ad3b119deaf2c/yarl-1.7.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=f64394bd7ceef1237cc604b5a89bf748c95982a84bcd3c4bbeb40f685c810794
+Best match: yarl 1.7.2
+Processing yarl-1.7.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Installing yarl-1.7.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl to /src/packages/.artifacts/lib/python
+Adding yarl 1.7.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/yarl-1.7.2-py3.9-linux-x86_64.egg
+Searching for multidict<7.0,>=4.5
+Reading https://pypi.org/simple/multidict/
+Downloading https://files.pythonhosted.org/packages/51/e3/dc667b9fc5d6bfde185b3a6d8788279f897090cefb808dda8e6ff8e7dbeb/multidict-5.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=93de39267c4c676c9ebb2057e98a8138bade0d806aad4d864322eee0803140a0
+Best match: multidict 5.2.0
+Processing multidict-5.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Installing multidict-5.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl to /src/packages/.artifacts/lib/python
+Adding multidict 5.2.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/multidict-5.2.0-py3.9-linux-x86_64.egg
+Searching for frozenlist>=1.1.1
+Reading https://pypi.org/simple/frozenlist/
+Downloading https://files.pythonhosted.org/packages/7d/f1/cfdc5c52af9e79a388acc441df235a74e596fded86836679f0c860d58fe7/frozenlist-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl#sha256=1fef737fd1388f9b93bba8808c5f63058113c10f4e3c0763ced68431773f72f9
+Best match: frozenlist 1.2.0
+Processing frozenlist-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Installing frozenlist-1.2.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl to /src/packages/.artifacts/lib/python
+Adding frozenlist 1.2.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/frozenlist-1.2.0-py3.9-linux-x86_64.egg
+Searching for async-timeout<5.0,>=4.0.0a3
+Reading https://pypi.org/simple/async-timeout/
+Downloading https://files.pythonhosted.org/packages/41/4a/2ca8802045b6df8dd25a0f8f7c216808e9e3bff2809efe4a36cc99d35cca/async_timeout-4.0.1-py3-none-any.whl#sha256=a22c0b311af23337eb05fcf05a8b51c3ea53729d46fb5460af62bee033cec690
+Best match: async-timeout 4.0.1
+Processing async_timeout-4.0.1-py3-none-any.whl
+Installing async_timeout-4.0.1-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding async-timeout 4.0.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/async_timeout-4.0.1-py3.9.egg
+Searching for aiosignal>=1.1.2
+Reading https://pypi.org/simple/aiosignal/
+Downloading https://files.pythonhosted.org/packages/3b/87/fe94898f2d44a93a35d5aa74671ed28094d80753a1113d68b799fab6dc22/aiosignal-1.2.0-py3-none-any.whl#sha256=26e62109036cd181df6e6ad646f91f0dcfd05fe16d0cb924138ff2ab75d64e3a
+Best match: aiosignal 1.2.0
+Processing aiosignal-1.2.0-py3-none-any.whl
+Installing aiosignal-1.2.0-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding aiosignal 1.2.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/aiosignal-1.2.0-py3.9.egg
+Searching for protobuf
+Reading https://pypi.org/simple/protobuf/
+Downloading https://files.pythonhosted.org/packages/b7/d3/37c36b3f5b125ac0d5b9f10d51dbecca355e24c233fd8e447c9879338ec2/protobuf-4.0.0rc2-py2.py3-none-any.whl#sha256=5df64b064b1b15e03768295939cbb5595733a02e8945dc033e56c6a9667a225c
+Best match: protobuf 4.0.0rc2
+Processing protobuf-4.0.0rc2-py2.py3-none-any.whl
+Installing protobuf-4.0.0rc2-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding protobuf 4.0.0rc2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/protobuf-4.0.0rc2-py3.9.egg
+Searching for google-resumable-media<3.0dev,>=1.3.0
+Reading https://pypi.org/simple/google-resumable-media/
+Downloading https://files.pythonhosted.org/packages/41/03/4e62899993a5446ae07f70fac379282939fe33adec9fc793a125ea29274d/google_resumable_media-2.1.0-py2.py3-none-any.whl#sha256=cdc75ea0361e39704dc7df7da59fbd419e73c8bc92eac94d8a020d36baa9944b
+Best match: google-resumable-media 2.1.0
+Processing google_resumable_media-2.1.0-py2.py3-none-any.whl
+Installing google_resumable_media-2.1.0-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-resumable-media 2.1.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_resumable_media-2.1.0-py3.9.egg
+Searching for google-cloud-core<3.0dev,>=1.6.0
+Reading https://pypi.org/simple/google-cloud-core/
+Downloading https://files.pythonhosted.org/packages/9d/ea/b051b33ee2cdd1b367ffd5a983653f8887552cafb0df5fa82fc3fdc8b73d/google_cloud_core-2.2.1-py2.py3-none-any.whl#sha256=ab6cee07791afe4e210807ceeab749da6a076ab16d496ac734bf7e6ffea27486
+Best match: google-cloud-core 2.2.1
+Processing google_cloud_core-2.2.1-py2.py3-none-any.whl
+Installing google_cloud_core-2.2.1-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-cloud-core 2.2.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_cloud_core-2.2.1-py3.9.egg
+Searching for google-api-core<3.0dev,>=1.29.0
+Reading https://pypi.org/simple/google-api-core/
+Downloading https://files.pythonhosted.org/packages/15/8b/c637e871ddcf07d7ee42ab0973a50a157520f879e00392900e8b1f6fa43a/google_api_core-2.3.2-py2.py3-none-any.whl#sha256=3c562d393aed7e3d2011fcd1f103b490c411dcf5644b6312ca11a166a6ea8faf
+Best match: google-api-core 2.3.2
+Processing google_api_core-2.3.2-py2.py3-none-any.whl
+Installing google_api_core-2.3.2-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding google-api-core 2.3.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_api_core-2.3.2-py3.9.egg
+Searching for requests-oauthlib>=0.7.0
+Reading https://pypi.org/simple/requests-oauthlib/
+Downloading https://files.pythonhosted.org/packages/a3/12/b92740d845ab62ea4edf04d2f4164d82532b5a0b03836d4d4e71c6f3d379/requests_oauthlib-1.3.0-py2.py3-none-any.whl#sha256=7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d
+Best match: requests-oauthlib 1.3.0
+Processing requests_oauthlib-1.3.0-py2.py3-none-any.whl
+Installing requests_oauthlib-1.3.0-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding requests-oauthlib 1.3.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/requests_oauthlib-1.3.0-py3.9.egg
+Searching for rsa<5,>=3.1.4
+Reading https://pypi.org/simple/rsa/
+Downloading https://files.pythonhosted.org/packages/30/ab/8fd9e88e6fa5ec41afca995938bbefb72195278e0cfc5bd76a4f29b23fb2/rsa-4.8-py3-none-any.whl#sha256=95c5d300c4e879ee69708c428ba566c59478fd653cc3a22243eeb8ed846950bb
+Best match: rsa 4.8
+Processing rsa-4.8-py3-none-any.whl
+Installing rsa-4.8-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding rsa 4.8 to easy-install.pth file
+Installing pyrsa-decrypt script to /src/packages/.artifacts/bin
+Installing pyrsa-encrypt script to /src/packages/.artifacts/bin
+Installing pyrsa-keygen script to /src/packages/.artifacts/bin
+Installing pyrsa-priv2pub script to /src/packages/.artifacts/bin
+Installing pyrsa-sign script to /src/packages/.artifacts/bin
+Installing pyrsa-verify script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/rsa-4.8-py3.9.egg
+Searching for pyasn1-modules>=0.2.1
+Reading https://pypi.org/simple/pyasn1-modules/
+Downloading https://files.pythonhosted.org/packages/95/de/214830a981892a3e286c3794f41ae67a4495df1108c3da8a9f62159b9a9d/pyasn1_modules-0.2.8-py2.py3-none-any.whl#sha256=a50b808ffeb97cb3601dd25981f6b016cbb3d31fbf57a8b8a87428e6158d0c74
+Best match: pyasn1-modules 0.2.8
+Processing pyasn1_modules-0.2.8-py2.py3-none-any.whl
+Installing pyasn1_modules-0.2.8-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding pyasn1-modules 0.2.8 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/pyasn1_modules-0.2.8-py3.9.egg
+Searching for cachetools<5.0,>=2.0.0
+Reading https://pypi.org/simple/cachetools/
+Downloading https://files.pythonhosted.org/packages/ea/c1/4740af52db75e6dbdd57fc7e9478439815bbac549c1c05881be27d19a17d/cachetools-4.2.4-py3-none-any.whl#sha256=92971d3cb7d2a97efff7c7bb1657f21a8f5fb309a37530537c71b1774189f2d1
+Best match: cachetools 4.2.4
+Processing cachetools-4.2.4-py3-none-any.whl
+Installing cachetools-4.2.4-py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding cachetools 4.2.4 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cachetools-4.2.4-py3.9.egg
+Searching for google-crc32c<2.0dev,>=1.0
+Reading https://pypi.org/simple/google-crc32c/
+Downloading https://files.pythonhosted.org/packages/dd/a1/9a612adee9b8d617f6650544b958691bb3da8e71f1e8347abe0fe5903429/google_crc32c-1.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl#sha256=e0f1ff55dde0ebcfbef027edc21f71c205845585fffe30d4ec4979416613e9b3
+Best match: google-crc32c 1.3.0
+Processing google_crc32c-1.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+Installing google_crc32c-1.3.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl to /src/packages/.artifacts/lib/python
+Adding google-crc32c 1.3.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/google_crc32c-1.3.0-py3.9-linux-x86_64.egg
+Searching for googleapis-common-protos<2.0dev,>=1.52.0
+Reading https://pypi.org/simple/googleapis-common-protos/
+Downloading https://files.pythonhosted.org/packages/5d/d2/38c15431197c137358968b5d2e17184832a4447d3580b03617824af71020/googleapis_common_protos-1.54.0-py2.py3-none-any.whl#sha256=e54345a2add15dc5e1a7891c27731ff347b4c33765d79b5ed7026a6c0c7cbcae
+Best match: googleapis-common-protos 1.54.0
+Processing googleapis_common_protos-1.54.0-py2.py3-none-any.whl
+Installing googleapis_common_protos-1.54.0-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding googleapis-common-protos 1.54.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/googleapis_common_protos-1.54.0-py3.9.egg
+Searching for oauthlib>=3.0.0
+Reading https://pypi.org/simple/oauthlib/
+Downloading https://files.pythonhosted.org/packages/e8/5d/9dd1c29e5a786525f6342f6c1d812ed2e37edc653ad297048c1668988053/oauthlib-3.1.1-py2.py3-none-any.whl#sha256=42bf6354c2ed8c6acb54d971fce6f88193d97297e18602a3a886603f9d7730cc
+Best match: oauthlib 3.1.1
+Processing oauthlib-3.1.1-py2.py3-none-any.whl
+Installing oauthlib-3.1.1-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding oauthlib 3.1.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/oauthlib-3.1.1-py3.9.egg
+Searching for pyasn1>=0.1.3
+Reading https://pypi.org/simple/pyasn1/
+Downloading https://files.pythonhosted.org/packages/62/1e/a94a8d635fa3ce4cfc7f506003548d0a2447ae76fd5ca53932970fe3053f/pyasn1-0.4.8-py2.py3-none-any.whl#sha256=39c7e2ec30515947ff4e87fb6f456dfc6e84857d34be479c9d4a4ba4bf46aa5d
+Best match: pyasn1 0.4.8
+Processing pyasn1-0.4.8-py2.py3-none-any.whl
+Installing pyasn1-0.4.8-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding pyasn1 0.4.8 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/pyasn1-0.4.8-py3.9.egg
+Searching for fsspec==2021.11.1
+Best match: fsspec 2021.11.1
+Processing fsspec-2021.11.1-py3.9.egg
+fsspec 2021.11.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/fsspec-2021.11.1-py3.9.egg
+Searching for decorator==5.0.9
+Best match: decorator 5.0.9
+Processing decorator-5.0.9-py3.9.egg
+Removing decorator 4.4.2 from easy-install.pth file
+Adding decorator 5.0.9 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/decorator-5.0.9-py3.9.egg
+Searching for requests==2.26.0
+Best match: requests 2.26.0
+Processing requests-2.26.0-py3.9.egg
+requests 2.26.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/requests-2.26.0-py3.9.egg
+Searching for charset-normalizer==2.0.3
+Best match: charset-normalizer 2.0.3
+Adding charset-normalizer 2.0.3 to easy-install.pth file
+Installing normalizer script to /src/packages/.artifacts/bin
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for attrs==21.2.0
+Best match: attrs 21.2.0
+Processing attrs-21.2.0-py3.9.egg
+attrs 21.2.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/attrs-21.2.0-py3.9.egg
+Searching for idna==3.2
+Best match: idna 3.2
+Adding idna 3.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for certifi==2021.5.30
+Best match: certifi 2021.5.30
+Adding certifi 2021.5.30 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for urllib3==1.26.6
+Best match: urllib3 1.26.6
+Adding urllib3 1.26.6 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Searching for setuptools==57.1.0
+Best match: setuptools 57.1.0
+Processing setuptools-57.1.0-py3.9.egg
+setuptools 57.1.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/setuptools-57.1.0-py3.9.egg
+Searching for typing-extensions==3.10.0.0
+Best match: typing-extensions 3.10.0.0
+Processing typing_extensions-3.10.0.0-py3.9.egg
+typing-extensions 3.10.0.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/typing_extensions-3.10.0.0-py3.9.egg
+Finished processing dependencies for gcsfs==2021.11.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/dask_link.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/_version.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/checkers.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/credentials.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/__init__.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/core.py -> install/lib/python3.9/site-packages/gcsfs
+creating install/lib/python3.9/site-packages/gcsfs/cli
+copying build/lib/gcsfs/cli/gcsfuse.py -> install/lib/python3.9/site-packages/gcsfs/cli
+copying build/lib/gcsfs/cli/__init__.py -> install/lib/python3.9/site-packages/gcsfs/cli
+copying build/lib/gcsfs/retry.py -> install/lib/python3.9/site-packages/gcsfs
+copying build/lib/gcsfs/mapping.py -> install/lib/python3.9/site-packages/gcsfs
+byte-compiling install/lib/python3.9/site-packages/gcsfs/dask_link.py to dask_link.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/checkers.py to checkers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/credentials.py to credentials.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/cli/gcsfuse.py to gcsfuse.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/cli/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/retry.py to retry.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/gcsfs/mapping.py to mapping.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing gcsfs.egg-info/PKG-INFO
+writing dependency_links to gcsfs.egg-info/dependency_links.txt
+writing requirements to gcsfs.egg-info/requires.txt
+writing top-level names to gcsfs.egg-info/top_level.txt
+reading manifest file 'gcsfs.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'gcsfs.egg-info/SOURCES.txt'
+Copying gcsfs.egg-info to install/lib/python3.9/site-packages/gcsfs-2021.11.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 74383
+compressed package into 47137
+compressed in 76 ms
+[2021-12-19 02:55:51] Building package gcsfs...
+[2021-12-19 02:58:31] done building package gcsfs in 159.9 s.

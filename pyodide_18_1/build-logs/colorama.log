@@ -1,0 +1,90 @@
+running install
+running bdist_egg
+running egg_info
+writing colorama.egg-info/PKG-INFO
+writing dependency_links to colorama.egg-info/dependency_links.txt
+writing top-level names to colorama.egg-info/top_level.txt
+reading manifest file 'colorama.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'colorama.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/colorama
+copying colorama/__init__.py -> build/lib/colorama
+copying colorama/win32.py -> build/lib/colorama
+copying colorama/ansitowin32.py -> build/lib/colorama
+copying colorama/ansi.py -> build/lib/colorama
+copying colorama/winterm.py -> build/lib/colorama
+copying colorama/initialise.py -> build/lib/colorama
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/__init__.py -> build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/win32.py -> build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/ansitowin32.py -> build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/ansi.py -> build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/winterm.py -> build/bdist.linux-x86_64/egg/colorama
+copying build/lib/colorama/initialise.py -> build/bdist.linux-x86_64/egg/colorama
+byte-compiling build/bdist.linux-x86_64/egg/colorama/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/colorama/win32.py to win32.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/colorama/ansitowin32.py to ansitowin32.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/colorama/ansi.py to ansi.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/colorama/winterm.py to winterm.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/colorama/initialise.py to initialise.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying colorama.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying colorama.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying colorama.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying colorama.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/colorama-0.4.4-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing colorama-0.4.4-py3.9.egg
+Copying colorama-0.4.4-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding colorama 0.4.4 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/colorama-0.4.4-py3.9.egg
+Processing dependencies for colorama==0.4.4
+Finished processing dependencies for colorama==0.4.4
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/__init__.py -> install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/win32.py -> install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/ansitowin32.py -> install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/ansi.py -> install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/winterm.py -> install/lib/python3.9/site-packages/colorama
+copying build/lib/colorama/initialise.py -> install/lib/python3.9/site-packages/colorama
+byte-compiling install/lib/python3.9/site-packages/colorama/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/colorama/win32.py to win32.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/colorama/ansitowin32.py to ansitowin32.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/colorama/ansi.py to ansi.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/colorama/winterm.py to winterm.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/colorama/initialise.py to initialise.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing colorama.egg-info/PKG-INFO
+writing dependency_links to colorama.egg-info/dependency_links.txt
+writing top-level names to colorama.egg-info/top_level.txt
+reading manifest file 'colorama.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file 'colorama.egg-info/SOURCES.txt'
+Copying colorama.egg-info to install/lib/python3.9/site-packages/colorama-0.4.4-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 42515
+compressed package into 28443
+compressed in 52 ms
+[2021-12-19 02:45:04] Building package colorama...
+[2021-12-19 02:45:55] done building package colorama in 51.0 s.

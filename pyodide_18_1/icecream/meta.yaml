@@ -1,0 +1,21 @@
+package:
+  name: icecream
+  version: 2.1.1
+source:
+  url: https://files.pythonhosted.org/packages/8d/0e/84b3980ddbd0ba34d0c69df5f762125eb92912261131e478b84c40a1e148/icecream-2.1.1.tar.gz
+  sha256: 47e00e3f4e8477996e7dc420b6fa8ba53f8ced17de65320fedb5b15997b76589
+test:
+  imports:
+  - icecream
+requirements:
+  run:
+  - colorama
+  - pygments
+  - executing
+  - asttokens
+about:
+  home: https://github.com/gruns/icecream
+  PyPi: https://pypi.org/project/icecream
+  summary: Never use print() to debug again; inspect variables, expressions, and program
+    execution with a single, simple function call.
+  license: MIT

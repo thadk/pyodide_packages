@@ -1,0 +1,100 @@
+running install
+running bdist_egg
+running egg_info
+writing cloudpickle.egg-info/PKG-INFO
+writing dependency_links to cloudpickle.egg-info/dependency_links.txt
+writing top-level names to cloudpickle.egg-info/top_level.txt
+reading manifest file 'cloudpickle.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'AUTHORS.rst'
+warning: no files found matching 'CONTRIBUTING.rst'
+warning: no files found matching 'HISTORY.rst'
+warning: no files found matching 'README.rst'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no files found matching '*.rst' under directory 'docs'
+warning: no files found matching 'conf.py' under directory 'docs'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching 'make.bat' under directory 'docs'
+adding license file 'LICENSE'
+writing manifest file 'cloudpickle.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/cloudpickle
+copying cloudpickle/cloudpickle.py -> build/lib/cloudpickle
+copying cloudpickle/compat.py -> build/lib/cloudpickle
+copying cloudpickle/__init__.py -> build/lib/cloudpickle
+copying cloudpickle/cloudpickle_fast.py -> build/lib/cloudpickle
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cloudpickle
+copying build/lib/cloudpickle/cloudpickle.py -> build/bdist.linux-x86_64/egg/cloudpickle
+copying build/lib/cloudpickle/compat.py -> build/bdist.linux-x86_64/egg/cloudpickle
+copying build/lib/cloudpickle/__init__.py -> build/bdist.linux-x86_64/egg/cloudpickle
+copying build/lib/cloudpickle/cloudpickle_fast.py -> build/bdist.linux-x86_64/egg/cloudpickle
+byte-compiling build/bdist.linux-x86_64/egg/cloudpickle/cloudpickle.py to cloudpickle.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloudpickle/compat.py to compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloudpickle/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloudpickle/cloudpickle_fast.py to cloudpickle_fast.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloudpickle.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloudpickle.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloudpickle.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloudpickle.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/cloudpickle-1.6.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cloudpickle-1.6.0-py3.9.egg
+Copying cloudpickle-1.6.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding cloudpickle 1.6.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/cloudpickle-1.6.0-py3.9.egg
+Processing dependencies for cloudpickle==1.6.0
+Finished processing dependencies for cloudpickle==1.6.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/cloudpickle
+copying build/lib/cloudpickle/cloudpickle.py -> install/lib/python3.9/site-packages/cloudpickle
+copying build/lib/cloudpickle/compat.py -> install/lib/python3.9/site-packages/cloudpickle
+copying build/lib/cloudpickle/__init__.py -> install/lib/python3.9/site-packages/cloudpickle
+copying build/lib/cloudpickle/cloudpickle_fast.py -> install/lib/python3.9/site-packages/cloudpickle
+byte-compiling install/lib/python3.9/site-packages/cloudpickle/cloudpickle.py to cloudpickle.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cloudpickle/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cloudpickle/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/cloudpickle/cloudpickle_fast.py to cloudpickle_fast.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing cloudpickle.egg-info/PKG-INFO
+writing dependency_links to cloudpickle.egg-info/dependency_links.txt
+writing top-level names to cloudpickle.egg-info/top_level.txt
+reading manifest file 'cloudpickle.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'AUTHORS.rst'
+warning: no files found matching 'CONTRIBUTING.rst'
+warning: no files found matching 'HISTORY.rst'
+warning: no files found matching 'README.rst'
+warning: no previously-included files matching '__pycache__' found under directory '*'
+warning: no previously-included files matching '*.py[co]' found under directory '*'
+warning: no files found matching '*.rst' under directory 'docs'
+warning: no files found matching 'conf.py' under directory 'docs'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching 'make.bat' under directory 'docs'
+adding license file 'LICENSE'
+writing manifest file 'cloudpickle.egg-info/SOURCES.txt'
+Copying cloudpickle.egg-info to install/lib/python3.9/site-packages/cloudpickle-1.6.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 68032
+compressed package into 45496
+compressed in 74 ms
+[2021-12-18 08:35:57] Building package cloudpickle...
+[2021-12-18 08:36:53] done building package cloudpickle in 56.1 s.

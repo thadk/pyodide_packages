@@ -1,0 +1,325 @@
+running install
+running bdist_egg
+running egg_info
+writing py.egg-info/PKG-INFO
+writing dependency_links to py.egg-info/dependency_links.txt
+writing top-level names to py.egg-info/top_level.txt
+reading manifest file 'py.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'py.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/py
+copying py/_xmlgen.py -> build/lib/py
+copying py/_version.py -> build/lib/py
+copying py/_error.py -> build/lib/py
+copying py/__init__.py -> build/lib/py
+copying py/__metainfo.py -> build/lib/py
+copying py/test.py -> build/lib/py
+copying py/_std.py -> build/lib/py
+copying py/_builtin.py -> build/lib/py
+creating build/lib/py/_process
+copying py/_process/cmdexec.py -> build/lib/py/_process
+copying py/_process/__init__.py -> build/lib/py/_process
+copying py/_process/forkedfunc.py -> build/lib/py/_process
+copying py/_process/killproc.py -> build/lib/py/_process
+creating build/lib/py/_vendored_packages
+copying py/_vendored_packages/apipkg.py -> build/lib/py/_vendored_packages
+copying py/_vendored_packages/iniconfig.py -> build/lib/py/_vendored_packages
+copying py/_vendored_packages/__init__.py -> build/lib/py/_vendored_packages
+creating build/lib/py/_path
+copying py/_path/local.py -> build/lib/py/_path
+copying py/_path/__init__.py -> build/lib/py/_path
+copying py/_path/common.py -> build/lib/py/_path
+copying py/_path/svnurl.py -> build/lib/py/_path
+copying py/_path/svnwc.py -> build/lib/py/_path
+copying py/_path/cacheutil.py -> build/lib/py/_path
+creating build/lib/py/_log
+copying py/_log/log.py -> build/lib/py/_log
+copying py/_log/__init__.py -> build/lib/py/_log
+copying py/_log/warning.py -> build/lib/py/_log
+creating build/lib/py/_code
+copying py/_code/_assertionold.py -> build/lib/py/_code
+copying py/_code/code.py -> build/lib/py/_code
+copying py/_code/__init__.py -> build/lib/py/_code
+copying py/_code/assertion.py -> build/lib/py/_code
+copying py/_code/_assertionnew.py -> build/lib/py/_code
+copying py/_code/source.py -> build/lib/py/_code
+copying py/_code/_py2traceback.py -> build/lib/py/_code
+creating build/lib/py/_io
+copying py/_io/saferepr.py -> build/lib/py/_io
+copying py/_io/terminalwriter.py -> build/lib/py/_io
+copying py/_io/__init__.py -> build/lib/py/_io
+copying py/_io/capture.py -> build/lib/py/_io
+copying py/__init__.pyi -> build/lib/py
+copying py/error.pyi -> build/lib/py
+copying py/iniconfig.pyi -> build/lib/py
+copying py/io.pyi -> build/lib/py
+copying py/path.pyi -> build/lib/py
+copying py/py.typed -> build/lib/py
+copying py/xml.pyi -> build/lib/py
+creating build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+copying py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> build/lib/py/_vendored_packages/apipkg-1.4.dist-info
+creating build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/py
+copying build/lib/py/iniconfig.pyi -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/_xmlgen.py -> build/bdist.linux-x86_64/egg/py
+creating build/bdist.linux-x86_64/egg/py/_process
+copying build/lib/py/_process/cmdexec.py -> build/bdist.linux-x86_64/egg/py/_process
+copying build/lib/py/_process/__init__.py -> build/bdist.linux-x86_64/egg/py/_process
+copying build/lib/py/_process/forkedfunc.py -> build/bdist.linux-x86_64/egg/py/_process
+copying build/lib/py/_process/killproc.py -> build/bdist.linux-x86_64/egg/py/_process
+copying build/lib/py/error.pyi -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/__init__.pyi -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/_version.py -> build/bdist.linux-x86_64/egg/py
+creating build/bdist.linux-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/apipkg.py -> build/bdist.linux-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/iniconfig.py -> build/bdist.linux-x86_64/egg/py/_vendored_packages
+copying build/lib/py/_vendored_packages/__init__.py -> build/bdist.linux-x86_64/egg/py/_vendored_packages
+creating build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg-1.4.dist-info
+creating build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/local.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/__init__.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/common.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/svnurl.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/svnwc.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_path/cacheutil.py -> build/bdist.linux-x86_64/egg/py/_path
+copying build/lib/py/_error.py -> build/bdist.linux-x86_64/egg/py
+creating build/bdist.linux-x86_64/egg/py/_log
+copying build/lib/py/_log/log.py -> build/bdist.linux-x86_64/egg/py/_log
+copying build/lib/py/_log/__init__.py -> build/bdist.linux-x86_64/egg/py/_log
+copying build/lib/py/_log/warning.py -> build/bdist.linux-x86_64/egg/py/_log
+copying build/lib/py/__init__.py -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/__metainfo.py -> build/bdist.linux-x86_64/egg/py
+creating build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/_assertionold.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/code.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/__init__.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/assertion.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/_assertionnew.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/source.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/_code/_py2traceback.py -> build/bdist.linux-x86_64/egg/py/_code
+copying build/lib/py/test.py -> build/bdist.linux-x86_64/egg/py
+creating build/bdist.linux-x86_64/egg/py/_io
+copying build/lib/py/_io/saferepr.py -> build/bdist.linux-x86_64/egg/py/_io
+copying build/lib/py/_io/terminalwriter.py -> build/bdist.linux-x86_64/egg/py/_io
+copying build/lib/py/_io/__init__.py -> build/bdist.linux-x86_64/egg/py/_io
+copying build/lib/py/_io/capture.py -> build/bdist.linux-x86_64/egg/py/_io
+copying build/lib/py/_std.py -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/py.typed -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/_builtin.py -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/path.pyi -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/xml.pyi -> build/bdist.linux-x86_64/egg/py
+copying build/lib/py/io.pyi -> build/bdist.linux-x86_64/egg/py
+byte-compiling build/bdist.linux-x86_64/egg/py/_xmlgen.py to _xmlgen.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_process/cmdexec.py to cmdexec.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_process/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_process/forkedfunc.py to forkedfunc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_process/killproc.py to killproc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_vendored_packages/apipkg.py to apipkg.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_vendored_packages/iniconfig.py to iniconfig.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_vendored_packages/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/local.py to local.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/common.py to common.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/svnurl.py to svnurl.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/svnwc.py to svnwc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_path/cacheutil.py to cacheutil.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_error.py to _error.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_log/log.py to log.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_log/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_log/warning.py to warning.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/__metainfo.py to __metainfo.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/_assertionold.py to _assertionold.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/code.py to code.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/assertion.py to assertion.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/_assertionnew.py to _assertionnew.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/source.py to source.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_code/_py2traceback.py to _py2traceback.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/test.py to test.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_io/saferepr.py to saferepr.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_io/terminalwriter.py to terminalwriter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_io/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_io/capture.py to capture.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_std.py to _std.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py/_builtin.py to _builtin.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying py.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/py-1.9.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing py-1.9.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/py-1.9.0-py3.9.egg
+Extracting py-1.9.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding py 1.9.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/py-1.9.0-py3.9.egg
+Processing dependencies for py==1.9.0
+Finished processing dependencies for py==1.9.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/py
+copying build/lib/py/iniconfig.pyi -> install/lib/python3.9/site-packages/py
+copying build/lib/py/_xmlgen.py -> install/lib/python3.9/site-packages/py
+creating install/lib/python3.9/site-packages/py/_process
+copying build/lib/py/_process/cmdexec.py -> install/lib/python3.9/site-packages/py/_process
+copying build/lib/py/_process/__init__.py -> install/lib/python3.9/site-packages/py/_process
+copying build/lib/py/_process/forkedfunc.py -> install/lib/python3.9/site-packages/py/_process
+copying build/lib/py/_process/killproc.py -> install/lib/python3.9/site-packages/py/_process
+copying build/lib/py/error.pyi -> install/lib/python3.9/site-packages/py
+copying build/lib/py/__init__.pyi -> install/lib/python3.9/site-packages/py
+copying build/lib/py/_version.py -> install/lib/python3.9/site-packages/py
+creating install/lib/python3.9/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/apipkg.py -> install/lib/python3.9/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/iniconfig.py -> install/lib/python3.9/site-packages/py/_vendored_packages
+copying build/lib/py/_vendored_packages/__init__.py -> install/lib/python3.9/site-packages/py/_vendored_packages
+creating install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/RECORD -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/metadata.json -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/WHEEL -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/DESCRIPTION.rst -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/top_level.txt -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/INSTALLER -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+copying build/lib/py/_vendored_packages/apipkg-1.4.dist-info/METADATA -> install/lib/python3.9/site-packages/py/_vendored_packages/apipkg-1.4.dist-info
+creating install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/RECORD -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/metadata.json -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/WHEEL -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/DESCRIPTION.rst -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/top_level.txt -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/INSTALLER -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+copying build/lib/py/_vendored_packages/iniconfig-1.0.0.dist-info/METADATA -> install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig-1.0.0.dist-info
+creating install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/local.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/__init__.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/common.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/svnurl.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/svnwc.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_path/cacheutil.py -> install/lib/python3.9/site-packages/py/_path
+copying build/lib/py/_error.py -> install/lib/python3.9/site-packages/py
+creating install/lib/python3.9/site-packages/py/_log
+copying build/lib/py/_log/log.py -> install/lib/python3.9/site-packages/py/_log
+copying build/lib/py/_log/__init__.py -> install/lib/python3.9/site-packages/py/_log
+copying build/lib/py/_log/warning.py -> install/lib/python3.9/site-packages/py/_log
+copying build/lib/py/__init__.py -> install/lib/python3.9/site-packages/py
+copying build/lib/py/__metainfo.py -> install/lib/python3.9/site-packages/py
+creating install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/_assertionold.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/code.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/__init__.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/assertion.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/_assertionnew.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/source.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/_code/_py2traceback.py -> install/lib/python3.9/site-packages/py/_code
+copying build/lib/py/test.py -> install/lib/python3.9/site-packages/py
+creating install/lib/python3.9/site-packages/py/_io
+copying build/lib/py/_io/saferepr.py -> install/lib/python3.9/site-packages/py/_io
+copying build/lib/py/_io/terminalwriter.py -> install/lib/python3.9/site-packages/py/_io
+copying build/lib/py/_io/__init__.py -> install/lib/python3.9/site-packages/py/_io
+copying build/lib/py/_io/capture.py -> install/lib/python3.9/site-packages/py/_io
+copying build/lib/py/_std.py -> install/lib/python3.9/site-packages/py
+copying build/lib/py/py.typed -> install/lib/python3.9/site-packages/py
+copying build/lib/py/_builtin.py -> install/lib/python3.9/site-packages/py
+copying build/lib/py/path.pyi -> install/lib/python3.9/site-packages/py
+copying build/lib/py/xml.pyi -> install/lib/python3.9/site-packages/py
+copying build/lib/py/io.pyi -> install/lib/python3.9/site-packages/py
+byte-compiling install/lib/python3.9/site-packages/py/_xmlgen.py to _xmlgen.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_process/cmdexec.py to cmdexec.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_process/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_process/forkedfunc.py to forkedfunc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_process/killproc.py to killproc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_vendored_packages/apipkg.py to apipkg.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_vendored_packages/iniconfig.py to iniconfig.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_vendored_packages/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/local.py to local.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/common.py to common.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/svnurl.py to svnurl.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/svnwc.py to svnwc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_path/cacheutil.py to cacheutil.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_error.py to _error.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_log/log.py to log.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_log/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_log/warning.py to warning.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/__metainfo.py to __metainfo.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/_assertionold.py to _assertionold.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/code.py to code.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/assertion.py to assertion.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/_assertionnew.py to _assertionnew.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/source.py to source.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_code/_py2traceback.py to _py2traceback.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/test.py to test.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_io/saferepr.py to saferepr.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_io/terminalwriter.py to terminalwriter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_io/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_io/capture.py to capture.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_std.py to _std.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/py/_builtin.py to _builtin.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing py.egg-info/PKG-INFO
+writing dependency_links to py.egg-info/dependency_links.txt
+writing top-level names to py.egg-info/top_level.txt
+reading manifest file 'py.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+adding license file 'LICENSE'
+writing manifest file 'py.egg-info/SOURCES.txt'
+Copying py.egg-info to install/lib/python3.9/site-packages/py-1.9.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 306430
+compressed package into 175993
+compressed in 117 ms
+[2021-12-18 02:22:44] Building package py...
+[2021-12-18 02:23:59] done building package py in 75.0 s.

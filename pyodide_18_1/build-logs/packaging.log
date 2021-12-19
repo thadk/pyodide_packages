@@ -1,0 +1,149 @@
+running install
+running bdist_egg
+running egg_info
+writing packaging.egg-info/PKG-INFO
+writing dependency_links to packaging.egg-info/dependency_links.txt
+writing requirements to packaging.egg-info/requires.txt
+writing top-level names to packaging.egg-info/top_level.txt
+reading manifest file 'packaging.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'noxfile.py'
+warning: no previously-included files found matching '.readthedocs.yml'
+warning: no previously-included files found matching '.travis.yml'
+warning: no previously-included files found matching 'dev-requirements.txt'
+warning: no previously-included files found matching 'tests/manylinux/build-hello-world.sh'
+warning: no previously-included files found matching 'tests/musllinux/build.sh'
+warning: no previously-included files found matching 'tests/hello-world.c'
+no previously-included directories found matching 'docs/_build'
+no previously-included directories found matching 'tasks'
+adding license file 'LICENSE'
+adding license file 'LICENSE.APACHE'
+adding license file 'LICENSE.BSD'
+writing manifest file 'packaging.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/packaging
+copying packaging/tags.py -> build/lib/packaging
+copying packaging/_musllinux.py -> build/lib/packaging
+copying packaging/version.py -> build/lib/packaging
+copying packaging/__init__.py -> build/lib/packaging
+copying packaging/utils.py -> build/lib/packaging
+copying packaging/requirements.py -> build/lib/packaging
+copying packaging/_structures.py -> build/lib/packaging
+copying packaging/markers.py -> build/lib/packaging
+copying packaging/__about__.py -> build/lib/packaging
+copying packaging/_manylinux.py -> build/lib/packaging
+copying packaging/specifiers.py -> build/lib/packaging
+copying packaging/py.typed -> build/lib/packaging
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/tags.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/_musllinux.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/version.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/__init__.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/utils.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/requirements.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/_structures.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/markers.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/__about__.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/py.typed -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/_manylinux.py -> build/bdist.linux-x86_64/egg/packaging
+copying build/lib/packaging/specifiers.py -> build/bdist.linux-x86_64/egg/packaging
+byte-compiling build/bdist.linux-x86_64/egg/packaging/tags.py to tags.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/_musllinux.py to _musllinux.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/requirements.py to requirements.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/_structures.py to _structures.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/markers.py to markers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/__about__.py to __about__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/_manylinux.py to _manylinux.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/packaging/specifiers.py to specifiers.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying packaging.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying packaging.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying packaging.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying packaging.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying packaging.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/packaging-21.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing packaging-21.0-py3.9.egg
+Copying packaging-21.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding packaging 21.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/packaging-21.0-py3.9.egg
+Processing dependencies for packaging==21.0
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Finished processing dependencies for packaging==21.0
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/tags.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/_musllinux.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/version.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/__init__.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/utils.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/requirements.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/_structures.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/markers.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/__about__.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/py.typed -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/_manylinux.py -> install/lib/python3.9/site-packages/packaging
+copying build/lib/packaging/specifiers.py -> install/lib/python3.9/site-packages/packaging
+byte-compiling install/lib/python3.9/site-packages/packaging/tags.py to tags.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/_musllinux.py to _musllinux.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/requirements.py to requirements.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/_structures.py to _structures.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/markers.py to markers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/__about__.py to __about__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/_manylinux.py to _manylinux.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/packaging/specifiers.py to specifiers.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing packaging.egg-info/PKG-INFO
+writing dependency_links to packaging.egg-info/dependency_links.txt
+writing requirements to packaging.egg-info/requires.txt
+writing top-level names to packaging.egg-info/top_level.txt
+reading manifest file 'packaging.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching 'noxfile.py'
+warning: no previously-included files found matching '.readthedocs.yml'
+warning: no previously-included files found matching '.travis.yml'
+warning: no previously-included files found matching 'dev-requirements.txt'
+warning: no previously-included files found matching 'tests/manylinux/build-hello-world.sh'
+warning: no previously-included files found matching 'tests/musllinux/build.sh'
+warning: no previously-included files found matching 'tests/hello-world.c'
+no previously-included directories found matching 'docs/_build'
+no previously-included directories found matching 'tasks'
+adding license file 'LICENSE'
+adding license file 'LICENSE.APACHE'
+adding license file 'LICENSE.BSD'
+writing manifest file 'packaging.egg-info/SOURCES.txt'
+Copying packaging.egg-info to install/lib/python3.9/site-packages/packaging-21.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 112500
+compressed package into 68056
+compressed in 195 ms
+[2021-08-12 03:19:17] Building package packaging...
+[2021-08-12 03:20:21] done building package packaging in 64.9 s.

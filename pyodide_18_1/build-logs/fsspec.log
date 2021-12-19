@@ -1,0 +1,276 @@
+running install
+running bdist_egg
+running egg_info
+writing fsspec.egg-info/PKG-INFO
+writing dependency_links to fsspec.egg-info/dependency_links.txt
+writing requirements to fsspec.egg-info/requires.txt
+writing top-level names to fsspec.egg-info/top_level.txt
+reading manifest file 'fsspec.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.rst'
+adding license file 'LICENSE'
+writing manifest file 'fsspec.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/fsspec
+copying fsspec/conftest.py -> build/lib/fsspec
+copying fsspec/dircache.py -> build/lib/fsspec
+copying fsspec/config.py -> build/lib/fsspec
+copying fsspec/parquet.py -> build/lib/fsspec
+copying fsspec/_version.py -> build/lib/fsspec
+copying fsspec/registry.py -> build/lib/fsspec
+copying fsspec/transaction.py -> build/lib/fsspec
+copying fsspec/compression.py -> build/lib/fsspec
+copying fsspec/asyn.py -> build/lib/fsspec
+copying fsspec/__init__.py -> build/lib/fsspec
+copying fsspec/core.py -> build/lib/fsspec
+copying fsspec/spec.py -> build/lib/fsspec
+copying fsspec/caching.py -> build/lib/fsspec
+copying fsspec/utils.py -> build/lib/fsspec
+copying fsspec/callbacks.py -> build/lib/fsspec
+copying fsspec/archive.py -> build/lib/fsspec
+copying fsspec/exceptions.py -> build/lib/fsspec
+copying fsspec/mapping.py -> build/lib/fsspec
+copying fsspec/fuse.py -> build/lib/fsspec
+copying fsspec/gui.py -> build/lib/fsspec
+creating build/lib/fsspec/implementations
+copying fsspec/implementations/libarchive.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/git.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/memory.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/tar.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/local.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/dvc.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/smb.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/arrow.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/__init__.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/dbfs.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/cached.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/zip.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/webhdfs.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/dask.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/http.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/reference.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/sftp.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/github.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/hdfs.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/ftp.py -> build/lib/fsspec/implementations
+copying fsspec/implementations/jupyter.py -> build/lib/fsspec/implementations
+UPDATING build/lib/fsspec/_version.py
+set build/lib/fsspec/_version.py to '2021.11.1'
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/conftest.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/dircache.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/config.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/parquet.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/_version.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/registry.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/transaction.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/compression.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/asyn.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/__init__.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/core.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/spec.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/caching.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/utils.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/callbacks.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/archive.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/exceptions.py -> build/bdist.linux-x86_64/egg/fsspec
+creating build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/libarchive.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/git.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/memory.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/tar.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/local.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/dvc.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/smb.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/arrow.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/__init__.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/dbfs.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/cached.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/zip.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/webhdfs.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/dask.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/http.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/reference.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/sftp.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/github.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/hdfs.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/ftp.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/implementations/jupyter.py -> build/bdist.linux-x86_64/egg/fsspec/implementations
+copying build/lib/fsspec/mapping.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/fuse.py -> build/bdist.linux-x86_64/egg/fsspec
+copying build/lib/fsspec/gui.py -> build/bdist.linux-x86_64/egg/fsspec
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/conftest.py to conftest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/dircache.py to dircache.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/config.py to config.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/parquet.py to parquet.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/_version.py to _version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/registry.py to registry.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/transaction.py to transaction.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/compression.py to compression.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/asyn.py to asyn.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/spec.py to spec.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/caching.py to caching.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/callbacks.py to callbacks.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/archive.py to archive.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/libarchive.py to libarchive.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/git.py to git.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/memory.py to memory.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/tar.py to tar.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/local.py to local.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/dvc.py to dvc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/smb.py to smb.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/arrow.py to arrow.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/dbfs.py to dbfs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/cached.py to cached.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/zip.py to zip.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/webhdfs.py to webhdfs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/dask.py to dask.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/http.py to http.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/reference.py to reference.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/sftp.py to sftp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/github.py to github.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/hdfs.py to hdfs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/ftp.py to ftp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/implementations/jupyter.py to jupyter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/mapping.py to mapping.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/fuse.py to fuse.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/fsspec/gui.py to gui.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying fsspec.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/fsspec-2021.11.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing fsspec-2021.11.1-py3.9.egg
+creating /src/packages/.artifacts/lib/python/fsspec-2021.11.1-py3.9.egg
+Extracting fsspec-2021.11.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding fsspec 2021.11.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/fsspec-2021.11.1-py3.9.egg
+Processing dependencies for fsspec==2021.11.1
+Finished processing dependencies for fsspec==2021.11.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/conftest.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/dircache.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/config.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/parquet.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/_version.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/registry.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/transaction.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/compression.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/asyn.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/__init__.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/core.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/spec.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/caching.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/utils.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/callbacks.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/archive.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/exceptions.py -> install/lib/python3.9/site-packages/fsspec
+creating install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/libarchive.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/git.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/memory.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/tar.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/local.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/dvc.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/smb.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/arrow.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/__init__.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/dbfs.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/cached.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/zip.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/webhdfs.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/dask.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/http.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/reference.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/sftp.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/github.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/hdfs.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/ftp.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/implementations/jupyter.py -> install/lib/python3.9/site-packages/fsspec/implementations
+copying build/lib/fsspec/mapping.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/fuse.py -> install/lib/python3.9/site-packages/fsspec
+copying build/lib/fsspec/gui.py -> install/lib/python3.9/site-packages/fsspec
+byte-compiling install/lib/python3.9/site-packages/fsspec/conftest.py to conftest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/dircache.py to dircache.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/config.py to config.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/parquet.py to parquet.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/_version.py to _version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/registry.py to registry.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/transaction.py to transaction.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/compression.py to compression.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/asyn.py to asyn.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/spec.py to spec.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/caching.py to caching.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/callbacks.py to callbacks.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/archive.py to archive.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/exceptions.py to exceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/libarchive.py to libarchive.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/git.py to git.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/memory.py to memory.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/tar.py to tar.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/local.py to local.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/dvc.py to dvc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/smb.py to smb.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/arrow.py to arrow.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/dbfs.py to dbfs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/cached.py to cached.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/zip.py to zip.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/webhdfs.py to webhdfs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/dask.py to dask.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/http.py to http.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/reference.py to reference.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/sftp.py to sftp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/github.py to github.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/hdfs.py to hdfs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/ftp.py to ftp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/implementations/jupyter.py to jupyter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/mapping.py to mapping.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/fuse.py to fuse.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/fsspec/gui.py to gui.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing fsspec.egg-info/PKG-INFO
+writing dependency_links to fsspec.egg-info/dependency_links.txt
+writing requirements to fsspec.egg-info/requires.txt
+writing top-level names to fsspec.egg-info/top_level.txt
+reading manifest file 'fsspec.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.rst'
+adding license file 'LICENSE'
+writing manifest file 'fsspec.egg-info/SOURCES.txt'
+Copying fsspec.egg-info to install/lib/python3.9/site-packages/fsspec-2021.11.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 426159
+compressed package into 252717
+compressed in 78 ms
+[2021-12-19 02:55:30] Building package fsspec...
+[2021-12-19 02:56:30] done building package fsspec in 59.7 s.

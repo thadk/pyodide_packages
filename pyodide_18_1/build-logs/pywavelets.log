@@ -1,0 +1,481 @@
+patching file pywt/_cwt.py
+/src/packages/pywavelets/build/PyWavelets-1.1.1/setup.py:62: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+Note: if you need reliable uninstall behavior, then install
+with pip instead of using `setup.py install`:
+
+  - `pip install .`       (from a git repo or downloaded source
+                           release)
+  - `pip install PyWavelets`   (last PyWavelets release on PyPI)
+
+
+Compiling pywt/_extensions/_pywt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_dwt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_swt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_cwt.pyx because it depends on pywt/_extensions/config.pxi.
+[1/4] Cythonizing pywt/_extensions/_dwt.pyx
+[2/4] Cythonizing pywt/_extensions/_swt.pyx
+[3/4] Cythonizing pywt/_extensions/_cwt.pyx
+[4/4] Cythonizing pywt/_extensions/_pywt.pyx
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:785: UserWarning: Module numpy was already imported from /src/packages/.artifacts/lib/python/numpy/__init__.py, but /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg is being added to sys.path
+  pkg_resources.working_set.add(dist, replace=True)
+running install
+running bdist_egg
+running egg_info
+writing PyWavelets.egg-info/PKG-INFO
+writing dependency_links to PyWavelets.egg-info/dependency_links.txt
+writing requirements to PyWavelets.egg-info/requires.txt
+writing top-level names to PyWavelets.egg-info/top_level.txt
+reading manifest file 'PyWavelets.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'pyproject.toml'
+warning: no files found matching 'cythonize.dat'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'doc/build'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+warning: no previously-included files matching '*.egg' found anywhere in distribution
+warning: no previously-included files matching '*.egg-info' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.bak' found anywhere in distribution
+warning: no previously-included files matching '*.swp' found anywhere in distribution
+adding license file 'LICENSE'
+adding license file 'LICENSES_bundled.txt'
+writing manifest file 'PyWavelets.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running build_clib
+building 'c_wt' library
+creating build
+creating build/temp.linux-x86_64-3.9
+creating build/temp.linux-x86_64-3.9/pywt
+creating build/temp.linux-x86_64-3.9/pywt/_extensions
+creating build/temp.linux-x86_64-3.9/pywt/_extensions/c
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/usr/local/include/python3.9 -c pywt/_extensions/c/common.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/common.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/usr/local/include/python3.9 -c pywt/_extensions/c/convolution.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/convolution.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/usr/local/include/python3.9 -c pywt/_extensions/c/wt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wt.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/usr/local/include/python3.9 -c pywt/_extensions/c/wavelets.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wavelets.o
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/usr/local/include/python3.9 -c pywt/_extensions/c/cwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/cwt.o
+ar rcs build/temp.linux-x86_64-3.9/libc_wt.a build/temp.linux-x86_64-3.9/pywt/_extensions/c/common.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/convolution.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wt.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wavelets.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/cwt.o
+running install_lib
+running build_py
+creating build/lib.linux-x86_64-3.9
+creating build/lib.linux-x86_64-3.9/pywt
+copying pywt/conftest.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_multilevel.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_swt.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/version.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_functions.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_pytest.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/__init__.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_wavelet_packets.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_cwt.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_pytesttester.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_c99_config.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_thresholding.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_doc_utils.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_dwt.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_utils.py -> build/lib.linux-x86_64-3.9/pywt
+copying pywt/_multidim.py -> build/lib.linux-x86_64-3.9/pywt
+creating build/lib.linux-x86_64-3.9/pywt/_extensions
+copying pywt/_extensions/__init__.py -> build/lib.linux-x86_64-3.9/pywt/_extensions
+creating build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/_readers.py -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/__init__.py -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/create_dat.py -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/_wavelab_signals.py -> build/lib.linux-x86_64-3.9/pywt/data
+creating build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_matlab_compatibility_cwt.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_dwt_idwt.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_wp.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_cwt_wavelets.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_deprecations.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_perfect_reconstruction.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_multidim.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_multilevel.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_wp2d.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test__pywt.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_wavelet.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_swt.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_functions.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_thresholding.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_data.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_concurrent.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_doc.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_matlab_compatibility.py -> build/lib.linux-x86_64-3.9/pywt/tests
+copying pywt/tests/test_modes.py -> build/lib.linux-x86_64-3.9/pywt/tests
+creating build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/tests/data/cwt_matlabR2015b_result.npz -> build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/tests/data/dwt_matlabR2012a_result.npz -> build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/tests/data/wavelab_test_signals.npz -> build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/tests/data/generate_matlab_data_cwt.py -> build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/tests/data/generate_matlab_data.py -> build/lib.linux-x86_64-3.9/pywt/tests/data
+copying pywt/data/ecg.npy -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/sst_nino3.npz -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/ascent.npz -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/aero.npz -> build/lib.linux-x86_64-3.9/pywt/data
+copying pywt/data/camera.npz -> build/lib.linux-x86_64-3.9/pywt/data
+running build_ext
+building 'pywt._extensions._pywt' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -Ipywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c pywt/_extensions/_pywt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_pywt.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/pywt/_extensions/_pywt.o -L/usr/local/lib -Lbuild/temp.linux-x86_64-3.9 -lc_wt -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_pywt.cpython-39-x86_64-linux-gnu.so
+building 'pywt._extensions._dwt' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c pywt/_extensions/_dwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_dwt.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/pywt/_extensions/_dwt.o -L/usr/local/lib -Lbuild/temp.linux-x86_64-3.9 -lc_wt -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_dwt.cpython-39-x86_64-linux-gnu.so
+building 'pywt._extensions._swt' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c pywt/_extensions/_swt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_swt.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/pywt/_extensions/_swt.o -L/usr/local/lib -Lbuild/temp.linux-x86_64-3.9 -lc_wt -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_swt.cpython-39-x86_64-linux-gnu.so
+building 'pywt._extensions._cwt' extension
+cc -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/usr/local/include/python3.9 -c pywt/_extensions/_cwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_cwt.o
+gcc -pthread -shared -Wl,--strip-all build/temp.linux-x86_64-3.9/pywt/_extensions/_cwt.o -L/usr/local/lib -Lbuild/temp.linux-x86_64-3.9 -lc_wt -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_cwt.cpython-39-x86_64-linux-gnu.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/conftest.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_multilevel.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_swt.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/version.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_functions.py -> build/bdist.linux-x86_64/egg/pywt
+creating build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_matlab_compatibility_cwt.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_dwt_idwt.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wp.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_cwt_wavelets.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_deprecations.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_perfect_reconstruction.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_multidim.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_multilevel.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wp2d.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test__pywt.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wavelet.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_swt.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_functions.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_thresholding.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_data.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_concurrent.py -> build/bdist.linux-x86_64/egg/pywt/tests
+creating build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/generate_matlab_data_cwt.py -> build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/cwt_matlabR2015b_result.npz -> build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/dwt_matlabR2012a_result.npz -> build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/wavelab_test_signals.npz -> build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/generate_matlab_data.py -> build/bdist.linux-x86_64/egg/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_doc.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_matlab_compatibility.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_modes.py -> build/bdist.linux-x86_64/egg/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/_pytest.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/__init__.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_wavelet_packets.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_cwt.py -> build/bdist.linux-x86_64/egg/pywt
+creating build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_pywt.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/__init__.py -> build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_cwt.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_dwt.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_swt.cpython-39-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_pytesttester.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_c99_config.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_thresholding.py -> build/bdist.linux-x86_64/egg/pywt
+creating build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/sst_nino3.npz -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/_readers.py -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/ascent.npz -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/__init__.py -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/create_dat.py -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/_wavelab_signals.py -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/ecg.npy -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/aero.npz -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/camera.npz -> build/bdist.linux-x86_64/egg/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/_doc_utils.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_dwt.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_utils.py -> build/bdist.linux-x86_64/egg/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_multidim.py -> build/bdist.linux-x86_64/egg/pywt
+byte-compiling build/bdist.linux-x86_64/egg/pywt/conftest.py to conftest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_multilevel.py to _multilevel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_swt.py to _swt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_functions.py to _functions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_matlab_compatibility_cwt.py to test_matlab_compatibility_cwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_dwt_idwt.py to test_dwt_idwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_wp.py to test_wp.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_cwt_wavelets.py to test_cwt_wavelets.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_deprecations.py to test_deprecations.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_perfect_reconstruction.py to test_perfect_reconstruction.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_multidim.py to test_multidim.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_multilevel.py to test_multilevel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_wp2d.py to test_wp2d.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test__pywt.py to test__pywt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_wavelet.py to test_wavelet.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_swt.py to test_swt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_functions.py to test_functions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_thresholding.py to test_thresholding.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_data.py to test_data.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_concurrent.py to test_concurrent.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/data/generate_matlab_data_cwt.py to generate_matlab_data_cwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/data/generate_matlab_data.py to generate_matlab_data.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_doc.py to test_doc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_matlab_compatibility.py to test_matlab_compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/tests/test_modes.py to test_modes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_pytest.py to _pytest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_wavelet_packets.py to _wavelet_packets.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_cwt.py to _cwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_extensions/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_pytesttester.py to _pytesttester.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_c99_config.py to _c99_config.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_thresholding.py to _thresholding.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/data/_readers.py to _readers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/data/create_dat.py to create_dat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/data/_wavelab_signals.py to _wavelab_signals.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_doc_utils.py to _doc_utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_dwt.py to _dwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_utils.py to _utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_multidim.py to _multidim.cpython-39.pyc
+creating stub loader for pywt/_extensions/_pywt.cpython-39-x86_64-linux-gnu.so
+creating stub loader for pywt/_extensions/_dwt.cpython-39-x86_64-linux-gnu.so
+creating stub loader for pywt/_extensions/_swt.cpython-39-x86_64-linux-gnu.so
+creating stub loader for pywt/_extensions/_cwt.cpython-39-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_extensions/_pywt.py to _pywt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_extensions/_dwt.py to _dwt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_extensions/_swt.py to _swt.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pywt/_extensions/_cwt.py to _cwt.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyWavelets.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyWavelets.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyWavelets.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyWavelets.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyWavelets.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+pywt.__pycache__._pytest.cpython-39: module references __file__
+pywt.__pycache__._pytesttester.cpython-39: module references __path__
+pywt._extensions.__pycache__._cwt.cpython-39: module references __file__
+pywt._extensions.__pycache__._dwt.cpython-39: module references __file__
+pywt._extensions.__pycache__._pywt.cpython-39: module references __file__
+pywt._extensions.__pycache__._swt.cpython-39: module references __file__
+pywt.data.__pycache__._readers.cpython-39: module references __file__
+pywt.tests.__pycache__.test_data.cpython-39: module references __file__
+pywt.tests.__pycache__.test_doc.cpython-39: module references __file__
+creating dist
+creating 'dist/PyWavelets-1.1.1-py3.9-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyWavelets-1.1.1-py3.9-linux-x86_64.egg
+creating /src/packages/.artifacts/lib/python/PyWavelets-1.1.1-py3.9-linux-x86_64.egg
+Extracting PyWavelets-1.1.1-py3.9-linux-x86_64.egg to /src/packages/.artifacts/lib/python
+Adding PyWavelets 1.1.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/PyWavelets-1.1.1-py3.9-linux-x86_64.egg
+Processing dependencies for PyWavelets==1.1.1
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Finished processing dependencies for PyWavelets==1.1.1
+In file included from pywt/_extensions/_pywt.c:679:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarrayobject.h:12:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarraytypes.h:1830:
+/src/packages/.artifacts/lib/python/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+In file included from pywt/_extensions/_dwt.c:679:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarrayobject.h:12:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarraytypes.h:1830:
+/src/packages/.artifacts/lib/python/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+In file included from pywt/_extensions/_swt.c:682:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarrayobject.h:12:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarraytypes.h:1830:
+/src/packages/.artifacts/lib/python/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+In file included from pywt/_extensions/_cwt.c:679:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarrayobject.h:12:
+In file included from /src/packages/.artifacts/lib/python/numpy/core/include/numpy/ndarraytypes.h:1830:
+/src/packages/.artifacts/lib/python/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+/src/packages/pywavelets/build/PyWavelets-1.1.1/setup.py:62: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+Note: if you need reliable uninstall behavior, then install
+with pip instead of using `setup.py install`:
+
+  - `pip install .`       (from a git repo or downloaded source
+                           release)
+  - `pip install PyWavelets`   (last PyWavelets release on PyPI)
+
+
+Compiling pywt/_extensions/_pywt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_dwt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_swt.pyx because it depends on pywt/_extensions/config.pxi.
+Compiling pywt/_extensions/_cwt.pyx because it depends on pywt/_extensions/config.pxi.
+[1/4] Cythonizing pywt/_extensions/_dwt.pyx
+[2/4] Cythonizing pywt/_extensions/_swt.pyx
+[3/4] Cythonizing pywt/_extensions/_cwt.pyx
+[4/4] Cythonizing pywt/_extensions/_pywt.pyx
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:785: UserWarning: Module numpy was already imported from /src/packages/.artifacts/lib/python/numpy/__init__.py, but /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg is being added to sys.path
+  pkg_resources.working_set.add(dist, replace=True)
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/conftest.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_multilevel.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_swt.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/version.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_functions.py -> install/lib/python3.9/site-packages/pywt
+creating install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_matlab_compatibility_cwt.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_dwt_idwt.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wp.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_cwt_wavelets.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_deprecations.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_perfect_reconstruction.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_multidim.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_multilevel.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wp2d.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test__pywt.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_wavelet.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_swt.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_functions.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_thresholding.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_data.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_concurrent.py -> install/lib/python3.9/site-packages/pywt/tests
+creating install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/generate_matlab_data_cwt.py -> install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/cwt_matlabR2015b_result.npz -> install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/dwt_matlabR2012a_result.npz -> install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/wavelab_test_signals.npz -> install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/data/generate_matlab_data.py -> install/lib/python3.9/site-packages/pywt/tests/data
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_doc.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_matlab_compatibility.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/tests/test_modes.py -> install/lib/python3.9/site-packages/pywt/tests
+copying build/lib.linux-x86_64-3.9/pywt/_pytest.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/__init__.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_wavelet_packets.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_cwt.py -> install/lib/python3.9/site-packages/pywt
+creating install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_cwt.so -> install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/__init__.py -> install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_dwt.so -> install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_swt.so -> install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_extensions/_pywt.so -> install/lib/python3.9/site-packages/pywt/_extensions
+copying build/lib.linux-x86_64-3.9/pywt/_pytesttester.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_c99_config.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_thresholding.py -> install/lib/python3.9/site-packages/pywt
+creating install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/sst_nino3.npz -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/_readers.py -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/ascent.npz -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/__init__.py -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/create_dat.py -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/_wavelab_signals.py -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/ecg.npy -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/aero.npz -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/data/camera.npz -> install/lib/python3.9/site-packages/pywt/data
+copying build/lib.linux-x86_64-3.9/pywt/_doc_utils.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_dwt.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_utils.py -> install/lib/python3.9/site-packages/pywt
+copying build/lib.linux-x86_64-3.9/pywt/_multidim.py -> install/lib/python3.9/site-packages/pywt
+byte-compiling install/lib/python3.9/site-packages/pywt/conftest.py to conftest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_multilevel.py to _multilevel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_swt.py to _swt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_functions.py to _functions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_matlab_compatibility_cwt.py to test_matlab_compatibility_cwt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_dwt_idwt.py to test_dwt_idwt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_wp.py to test_wp.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_cwt_wavelets.py to test_cwt_wavelets.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_deprecations.py to test_deprecations.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_perfect_reconstruction.py to test_perfect_reconstruction.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_multidim.py to test_multidim.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_multilevel.py to test_multilevel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_wp2d.py to test_wp2d.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test__pywt.py to test__pywt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_wavelet.py to test_wavelet.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_swt.py to test_swt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_functions.py to test_functions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_thresholding.py to test_thresholding.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_data.py to test_data.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_concurrent.py to test_concurrent.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/data/generate_matlab_data_cwt.py to generate_matlab_data_cwt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/data/generate_matlab_data.py to generate_matlab_data.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_doc.py to test_doc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_matlab_compatibility.py to test_matlab_compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/tests/test_modes.py to test_modes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_pytest.py to _pytest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_wavelet_packets.py to _wavelet_packets.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_cwt.py to _cwt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_extensions/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_pytesttester.py to _pytesttester.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_c99_config.py to _c99_config.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_thresholding.py to _thresholding.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/data/_readers.py to _readers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/data/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/data/create_dat.py to create_dat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/data/_wavelab_signals.py to _wavelab_signals.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_doc_utils.py to _doc_utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_dwt.py to _dwt.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_utils.py to _utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pywt/_multidim.py to _multidim.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing PyWavelets.egg-info/PKG-INFO
+writing dependency_links to PyWavelets.egg-info/dependency_links.txt
+writing requirements to PyWavelets.egg-info/requires.txt
+writing top-level names to PyWavelets.egg-info/top_level.txt
+reading manifest file 'PyWavelets.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'pyproject.toml'
+warning: no files found matching 'cythonize.dat'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'doc/build'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+warning: no previously-included files matching '*.egg' found anywhere in distribution
+warning: no previously-included files matching '*.egg-info' found anywhere in distribution
+warning: no previously-included files matching '*~' found anywhere in distribution
+warning: no previously-included files matching '*.bak' found anywhere in distribution
+warning: no previously-included files matching '*.swp' found anywhere in distribution
+adding license file 'LICENSE'
+adding license file 'LICENSES_bundled.txt'
+writing manifest file 'PyWavelets.egg-info/SOURCES.txt'
+Copying PyWavelets.egg-info to install/lib/python3.9/site-packages/PyWavelets-1.1.1-py3.9.egg-info
+running install_scripts
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/c/common.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/common.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/c/convolution.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/convolution.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/c/wt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wt.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/c/wavelets.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wavelets.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -Ipywt/_extensions/c -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/c/cwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/c/cwt.o
+emar rcs build/temp.linux-x86_64-3.9/libc_wt.a build/temp.linux-x86_64-3.9/pywt/_extensions/c/common.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/convolution.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wt.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/wavelets.o build/temp.linux-x86_64-3.9/pywt/_extensions/c/cwt.o
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -Ipywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/_pywt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_pywt.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/pywt/_extensions/_pywt.o -Lbuild/temp.linux-x86_64-3.9 -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_pywt.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/_dwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_dwt.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/pywt/_extensions/_dwt.o -Lbuild/temp.linux-x86_64-3.9 -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_dwt.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/_swt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_swt.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/pywt/_extensions/_swt.o -Lbuild/temp.linux-x86_64-3.9 -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_swt.cpython-39-x86_64-linux-gnu.so
+emcc -O2 -g -fPIC -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -Wall -fPIC -DPY_EXTENSION -DHAVE_C99_COMPLEX -DCYTHON_CCOMPLEX=1 -I./pywt/_extensions -Ipywt/_extensions/c -I/src/packages/.artifacts/lib/python/numpy/core/include -I/src/cpython/installs/python-3.9.5/include/python3.9 -c pywt/_extensions/_cwt.c -o build/temp.linux-x86_64-3.9/pywt/_extensions/_cwt.o
+emcc -s BINARYEN_EXTRA_PASSES="--pass-arg=max-func-params@61" -O2 -s MODULARIZE=1 -s EMULATE_FUNCTION_POINTER_CASTS=1 -s LINKABLE=1 -s EXPORT_ALL=1 -s WASM=1 -std=c++14 -s LZ4=1 -L /installs/python-3.9.5/lib/ -s SIDE_MODULE=1 build/temp.linux-x86_64-3.9/pywt/_extensions/_cwt.o -Lbuild/temp.linux-x86_64-3.9 -lc_wt -o build/lib.linux-x86_64-3.9/pywt/_extensions/_cwt.cpython-39-x86_64-linux-gnu.so
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 8124612
+compressed package into 5690941
+compressed in 393 ms
+[2021-12-18 09:34:56] Building package pywavelets...
+[2021-12-18 09:48:39] done building package pywavelets in 823.7 s.

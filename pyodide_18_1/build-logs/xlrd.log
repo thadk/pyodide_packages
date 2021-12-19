@@ -1,0 +1,128 @@
+running install
+running bdist_egg
+running egg_info
+writing xlrd.egg-info/PKG-INFO
+writing dependency_links to xlrd.egg-info/dependency_links.txt
+writing requirements to xlrd.egg-info/requires.txt
+writing top-level names to xlrd.egg-info/top_level.txt
+reading manifest file 'xlrd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.md'
+adding license file 'LICENSE'
+writing manifest file 'xlrd.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/xlrd
+copying xlrd/formula.py -> build/lib/xlrd
+copying xlrd/compdoc.py -> build/lib/xlrd
+copying xlrd/__init__.py -> build/lib/xlrd
+copying xlrd/timemachine.py -> build/lib/xlrd
+copying xlrd/formatting.py -> build/lib/xlrd
+copying xlrd/sheet.py -> build/lib/xlrd
+copying xlrd/xldate.py -> build/lib/xlrd
+copying xlrd/book.py -> build/lib/xlrd
+copying xlrd/biffh.py -> build/lib/xlrd
+copying xlrd/info.py -> build/lib/xlrd
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/formula.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/compdoc.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/__init__.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/timemachine.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/formatting.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/sheet.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/xldate.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/book.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/biffh.py -> build/bdist.linux-x86_64/egg/xlrd
+copying build/lib/xlrd/info.py -> build/bdist.linux-x86_64/egg/xlrd
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/formula.py to formula.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/compdoc.py to compdoc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/timemachine.py to timemachine.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/formatting.py to formatting.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/sheet.py to sheet.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/xldate.py to xldate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/book.py to book.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/biffh.py to biffh.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xlrd/info.py to info.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-3.9
+copying and adjusting scripts/runxlrd.py -> build/scripts-3.9
+changing mode of build/scripts-3.9/runxlrd.py from 644 to 755
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-3.9/runxlrd.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/runxlrd.py to 755
+copying xlrd.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xlrd.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/xlrd-2.0.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing xlrd-2.0.1-py3.9.egg
+Copying xlrd-2.0.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding xlrd 2.0.1 to easy-install.pth file
+Installing runxlrd.py script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/xlrd-2.0.1-py3.9.egg
+Processing dependencies for xlrd==2.0.1
+Finished processing dependencies for xlrd==2.0.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/formula.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/compdoc.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/__init__.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/timemachine.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/formatting.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/sheet.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/xldate.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/book.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/biffh.py -> install/lib/python3.9/site-packages/xlrd
+copying build/lib/xlrd/info.py -> install/lib/python3.9/site-packages/xlrd
+byte-compiling install/lib/python3.9/site-packages/xlrd/formula.py to formula.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/compdoc.py to compdoc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/timemachine.py to timemachine.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/formatting.py to formatting.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/sheet.py to sheet.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/xldate.py to xldate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/book.py to book.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/biffh.py to biffh.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/xlrd/info.py to info.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing xlrd.egg-info/PKG-INFO
+writing dependency_links to xlrd.egg-info/dependency_links.txt
+writing requirements to xlrd.egg-info/requires.txt
+writing top-level names to xlrd.egg-info/top_level.txt
+reading manifest file 'xlrd.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.md'
+adding license file 'LICENSE'
+writing manifest file 'xlrd.egg-info/SOURCES.txt'
+Copying xlrd.egg-info to install/lib/python3.9/site-packages/xlrd-2.0.1-py3.9.egg-info
+running install_scripts
+creating install/bin
+copying build/scripts-3.9/runxlrd.py -> install/bin
+changing mode of install/bin/runxlrd.py to 755
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 378933
+compressed package into 207529
+compressed in 85 ms
+[2021-12-18 08:26:48] Building package xlrd...
+[2021-12-18 08:27:44] done building package xlrd in 56.3 s.

@@ -1,0 +1,230 @@
+running install
+running bdist_egg
+running egg_info
+writing patsy.egg-info/PKG-INFO
+writing dependency_links to patsy.egg-info/dependency_links.txt
+writing requirements to patsy.egg-info/requires.txt
+writing top-level names to patsy.egg-info/top_level.txt
+reading manifest file 'patsy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'patsy.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/patsy
+copying patsy/build.py -> build/lib/patsy
+copying patsy/constraint.py -> build/lib/patsy
+copying patsy/categorical.py -> build/lib/patsy
+copying patsy/missing.py -> build/lib/patsy
+copying patsy/contrasts.py -> build/lib/patsy
+copying patsy/parse_formula.py -> build/lib/patsy
+copying patsy/user_util.py -> build/lib/patsy
+copying patsy/version.py -> build/lib/patsy
+copying patsy/compat.py -> build/lib/patsy
+copying patsy/redundancy.py -> build/lib/patsy
+copying patsy/util.py -> build/lib/patsy
+copying patsy/builtins.py -> build/lib/patsy
+copying patsy/test_splines_crs_data.py -> build/lib/patsy
+copying patsy/highlevel.py -> build/lib/patsy
+copying patsy/__init__.py -> build/lib/patsy
+copying patsy/splines.py -> build/lib/patsy
+copying patsy/tokens.py -> build/lib/patsy
+copying patsy/test_state.py -> build/lib/patsy
+copying patsy/design_info.py -> build/lib/patsy
+copying patsy/infix_parser.py -> build/lib/patsy
+copying patsy/mgcv_cubic_splines.py -> build/lib/patsy
+copying patsy/test_build.py -> build/lib/patsy
+copying patsy/desc.py -> build/lib/patsy
+copying patsy/test_splines_bs_data.py -> build/lib/patsy
+copying patsy/eval.py -> build/lib/patsy
+copying patsy/origin.py -> build/lib/patsy
+copying patsy/test_regressions.py -> build/lib/patsy
+copying patsy/compat_ordereddict.py -> build/lib/patsy
+copying patsy/test_highlevel.py -> build/lib/patsy
+copying patsy/state.py -> build/lib/patsy
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/build.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/constraint.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/categorical.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/missing.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/contrasts.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/parse_formula.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/user_util.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/version.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/compat.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/redundancy.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/util.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/builtins.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_splines_crs_data.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/highlevel.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/__init__.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/splines.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/tokens.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_state.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/design_info.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/infix_parser.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/mgcv_cubic_splines.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_build.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/desc.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_splines_bs_data.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/eval.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/origin.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_regressions.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/compat_ordereddict.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/test_highlevel.py -> build/bdist.linux-x86_64/egg/patsy
+copying build/lib/patsy/state.py -> build/bdist.linux-x86_64/egg/patsy
+byte-compiling build/bdist.linux-x86_64/egg/patsy/build.py to build.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/constraint.py to constraint.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/categorical.py to categorical.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/missing.py to missing.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/contrasts.py to contrasts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/parse_formula.py to parse_formula.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/user_util.py to user_util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/version.py to version.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/compat.py to compat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/redundancy.py to redundancy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/builtins.py to builtins.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_splines_crs_data.py to test_splines_crs_data.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/highlevel.py to highlevel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/splines.py to splines.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/tokens.py to tokens.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_state.py to test_state.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/design_info.py to design_info.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/infix_parser.py to infix_parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/mgcv_cubic_splines.py to mgcv_cubic_splines.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_build.py to test_build.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/desc.py to desc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_splines_bs_data.py to test_splines_bs_data.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/eval.py to eval.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/origin.py to origin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_regressions.py to test_regressions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/compat_ordereddict.py to compat_ordereddict.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/test_highlevel.py to test_highlevel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/patsy/state.py to state.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying patsy.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying patsy.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying patsy.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying patsy.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying patsy.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/patsy-0.5.1-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing patsy-0.5.1-py3.9.egg
+Copying patsy-0.5.1-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding patsy 0.5.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/patsy-0.5.1-py3.9.egg
+Processing dependencies for patsy==0.5.1
+Searching for numpy==1.17.5
+Best match: numpy 1.17.5
+Processing numpy-1.17.5-py3.9-linux-x86_64.egg
+numpy 1.17.5 is already the active version in easy-install.pth
+Installing f2py script to /src/packages/.artifacts/bin
+Installing f2py3 script to /src/packages/.artifacts/bin
+Installing f2py3.9 script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/numpy-1.17.5-py3.9-linux-x86_64.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for patsy==0.5.1
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/build.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/constraint.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/categorical.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/missing.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/contrasts.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/parse_formula.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/user_util.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/version.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/compat.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/redundancy.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/util.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/builtins.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_splines_crs_data.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/highlevel.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/__init__.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/splines.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/tokens.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_state.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/design_info.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/infix_parser.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/mgcv_cubic_splines.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_build.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/desc.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_splines_bs_data.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/eval.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/origin.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_regressions.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/compat_ordereddict.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/test_highlevel.py -> install/lib/python3.9/site-packages/patsy
+copying build/lib/patsy/state.py -> install/lib/python3.9/site-packages/patsy
+byte-compiling install/lib/python3.9/site-packages/patsy/build.py to build.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/constraint.py to constraint.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/categorical.py to categorical.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/missing.py to missing.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/contrasts.py to contrasts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/parse_formula.py to parse_formula.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/user_util.py to user_util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/version.py to version.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/compat.py to compat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/redundancy.py to redundancy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/builtins.py to builtins.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_splines_crs_data.py to test_splines_crs_data.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/highlevel.py to highlevel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/splines.py to splines.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/tokens.py to tokens.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_state.py to test_state.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/design_info.py to design_info.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/infix_parser.py to infix_parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/mgcv_cubic_splines.py to mgcv_cubic_splines.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_build.py to test_build.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/desc.py to desc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_splines_bs_data.py to test_splines_bs_data.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/eval.py to eval.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/origin.py to origin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_regressions.py to test_regressions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/compat_ordereddict.py to compat_ordereddict.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/test_highlevel.py to test_highlevel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/patsy/state.py to state.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing patsy.egg-info/PKG-INFO
+writing dependency_links to patsy.egg-info/dependency_links.txt
+writing requirements to patsy.egg-info/requires.txt
+writing top-level names to patsy.egg-info/top_level.txt
+reading manifest file 'patsy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/_build'
+adding license file 'LICENSE.txt'
+writing manifest file 'patsy.egg-info/SOURCES.txt'
+Copying patsy.egg-info to install/lib/python3.9/site-packages/patsy-0.5.1-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 757606
+compressed package into 505131
+compressed in 197 ms
+[2021-12-18 02:24:46] Building package patsy...
+[2021-12-18 02:26:01] done building package patsy in 75.5 s.

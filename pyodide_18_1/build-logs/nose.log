@@ -1,0 +1,341 @@
+running install
+running bdist_egg
+running egg_info
+writing nose.egg-info/PKG-INFO
+writing dependency_links to nose.egg-info/dependency_links.txt
+writing entry points to nose.egg-info/entry_points.txt
+writing top-level names to nose.egg-info/top_level.txt
+reading manifest file 'nose.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/.build'
+adding license file 'AUTHORS'
+writing manifest file 'nose.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/nose
+copying nose/config.py -> build/lib/nose
+copying nose/suite.py -> build/lib/nose
+copying nose/importer.py -> build/lib/nose
+copying nose/util.py -> build/lib/nose
+copying nose/proxy.py -> build/lib/nose
+copying nose/selector.py -> build/lib/nose
+copying nose/inspector.py -> build/lib/nose
+copying nose/__init__.py -> build/lib/nose
+copying nose/core.py -> build/lib/nose
+copying nose/result.py -> build/lib/nose
+copying nose/exc.py -> build/lib/nose
+copying nose/failure.py -> build/lib/nose
+copying nose/loader.py -> build/lib/nose
+copying nose/case.py -> build/lib/nose
+copying nose/commands.py -> build/lib/nose
+copying nose/__main__.py -> build/lib/nose
+copying nose/pyversion.py -> build/lib/nose
+copying nose/twistedtools.py -> build/lib/nose
+creating build/lib/nose/tools
+copying nose/tools/trivial.py -> build/lib/nose/tools
+copying nose/tools/__init__.py -> build/lib/nose/tools
+copying nose/tools/nontrivial.py -> build/lib/nose/tools
+creating build/lib/nose/plugins
+copying nose/plugins/doctests.py -> build/lib/nose/plugins
+copying nose/plugins/logcapture.py -> build/lib/nose/plugins
+copying nose/plugins/allmodules.py -> build/lib/nose/plugins
+copying nose/plugins/collect.py -> build/lib/nose/plugins
+copying nose/plugins/prof.py -> build/lib/nose/plugins
+copying nose/plugins/cover.py -> build/lib/nose/plugins
+copying nose/plugins/skip.py -> build/lib/nose/plugins
+copying nose/plugins/deprecated.py -> build/lib/nose/plugins
+copying nose/plugins/plugintest.py -> build/lib/nose/plugins
+copying nose/plugins/__init__.py -> build/lib/nose/plugins
+copying nose/plugins/failuredetail.py -> build/lib/nose/plugins
+copying nose/plugins/isolate.py -> build/lib/nose/plugins
+copying nose/plugins/capture.py -> build/lib/nose/plugins
+copying nose/plugins/debug.py -> build/lib/nose/plugins
+copying nose/plugins/attrib.py -> build/lib/nose/plugins
+copying nose/plugins/multiprocess.py -> build/lib/nose/plugins
+copying nose/plugins/testid.py -> build/lib/nose/plugins
+copying nose/plugins/builtin.py -> build/lib/nose/plugins
+copying nose/plugins/errorclass.py -> build/lib/nose/plugins
+copying nose/plugins/manager.py -> build/lib/nose/plugins
+copying nose/plugins/base.py -> build/lib/nose/plugins
+copying nose/plugins/xunit.py -> build/lib/nose/plugins
+creating build/lib/nose/ext
+copying nose/ext/__init__.py -> build/lib/nose/ext
+copying nose/ext/dtcompat.py -> build/lib/nose/ext
+creating build/lib/nose/sphinx
+copying nose/sphinx/__init__.py -> build/lib/nose/sphinx
+copying nose/sphinx/pluginopts.py -> build/lib/nose/sphinx
+copying nose/usage.txt -> build/lib/nose
+/usr/local/lib/python3.9/site-packages/setuptools/lib2to3_ex.py:36: SetuptoolsDeprecationWarning: 2to3 support is deprecated. If the project still requires Python 2 support, please migrate to a single-codebase solution or employ an independent conversion process.
+  warnings.warn(
+Fixing build/lib/nose/config.py build/lib/nose/suite.py build/lib/nose/importer.py build/lib/nose/util.py build/lib/nose/proxy.py build/lib/nose/selector.py build/lib/nose/inspector.py build/lib/nose/__init__.py build/lib/nose/core.py build/lib/nose/result.py build/lib/nose/exc.py build/lib/nose/failure.py build/lib/nose/loader.py build/lib/nose/case.py build/lib/nose/commands.py build/lib/nose/__main__.py build/lib/nose/pyversion.py build/lib/nose/twistedtools.py build/lib/nose/tools/trivial.py build/lib/nose/tools/__init__.py build/lib/nose/tools/nontrivial.py build/lib/nose/plugins/doctests.py build/lib/nose/plugins/logcapture.py build/lib/nose/plugins/allmodules.py build/lib/nose/plugins/collect.py build/lib/nose/plugins/prof.py build/lib/nose/plugins/cover.py build/lib/nose/plugins/skip.py build/lib/nose/plugins/deprecated.py build/lib/nose/plugins/plugintest.py build/lib/nose/plugins/__init__.py build/lib/nose/plugins/failuredetail.py build/lib/nose/plugins/isolate.py build/lib/nose/plugins/capture.py build/lib/nose/plugins/debug.py build/lib/nose/plugins/attrib.py build/lib/nose/plugins/multiprocess.py build/lib/nose/plugins/testid.py build/lib/nose/plugins/builtin.py build/lib/nose/plugins/errorclass.py build/lib/nose/plugins/manager.py build/lib/nose/plugins/base.py build/lib/nose/plugins/xunit.py build/lib/nose/ext/__init__.py build/lib/nose/ext/dtcompat.py build/lib/nose/sphinx/__init__.py build/lib/nose/sphinx/pluginopts.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+Fixing build/lib/nose/config.py build/lib/nose/suite.py build/lib/nose/importer.py build/lib/nose/util.py build/lib/nose/proxy.py build/lib/nose/selector.py build/lib/nose/inspector.py build/lib/nose/__init__.py build/lib/nose/core.py build/lib/nose/result.py build/lib/nose/exc.py build/lib/nose/failure.py build/lib/nose/loader.py build/lib/nose/case.py build/lib/nose/commands.py build/lib/nose/__main__.py build/lib/nose/pyversion.py build/lib/nose/twistedtools.py build/lib/nose/tools/trivial.py build/lib/nose/tools/__init__.py build/lib/nose/tools/nontrivial.py build/lib/nose/plugins/doctests.py build/lib/nose/plugins/logcapture.py build/lib/nose/plugins/allmodules.py build/lib/nose/plugins/collect.py build/lib/nose/plugins/prof.py build/lib/nose/plugins/cover.py build/lib/nose/plugins/skip.py build/lib/nose/plugins/deprecated.py build/lib/nose/plugins/plugintest.py build/lib/nose/plugins/__init__.py build/lib/nose/plugins/failuredetail.py build/lib/nose/plugins/isolate.py build/lib/nose/plugins/capture.py build/lib/nose/plugins/debug.py build/lib/nose/plugins/attrib.py build/lib/nose/plugins/multiprocess.py build/lib/nose/plugins/testid.py build/lib/nose/plugins/builtin.py build/lib/nose/plugins/errorclass.py build/lib/nose/plugins/manager.py build/lib/nose/plugins/base.py build/lib/nose/plugins/xunit.py build/lib/nose/ext/__init__.py build/lib/nose/ext/dtcompat.py build/lib/nose/sphinx/__init__.py build/lib/nose/sphinx/pluginopts.py
+Skipping optional fixer: buffer
+Skipping optional fixer: idioms
+Skipping optional fixer: set_literal
+Skipping optional fixer: ws_comma
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/trivial.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/__init__.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/nontrivial.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/config.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/suite.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/importer.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/doctests.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/logcapture.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/allmodules.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/collect.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/prof.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/cover.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/skip.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/deprecated.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/plugintest.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/__init__.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/failuredetail.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/isolate.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/capture.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/debug.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/attrib.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/multiprocess.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/testid.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/builtin.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/errorclass.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/manager.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/base.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/xunit.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/util.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/proxy.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/ext/__init__.py -> build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/ext/dtcompat.py -> build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/selector.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/inspector.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/__init__.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/core.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/result.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/exc.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/failure.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/loader.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/sphinx/__init__.py -> build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/sphinx/pluginopts.py -> build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/case.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/commands.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/__main__.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/pyversion.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/usage.txt -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/twistedtools.py -> build/bdist.linux-x86_64/egg/nose
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/trivial.py to trivial.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/nontrivial.py to nontrivial.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/config.py to config.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/suite.py to suite.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/importer.py to importer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/doctests.py to doctests.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/logcapture.py to logcapture.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/allmodules.py to allmodules.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/collect.py to collect.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/prof.py to prof.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/cover.py to cover.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/skip.py to skip.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/deprecated.py to deprecated.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/plugintest.py to plugintest.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/failuredetail.py to failuredetail.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/isolate.py to isolate.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/capture.py to capture.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/debug.py to debug.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/attrib.py to attrib.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/multiprocess.py to multiprocess.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/testid.py to testid.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/builtin.py to builtin.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/errorclass.py to errorclass.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/manager.py to manager.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/base.py to base.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/xunit.py to xunit.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/util.py to util.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/proxy.py to proxy.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/ext/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/ext/dtcompat.py to dtcompat.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/selector.py to selector.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/inspector.py to inspector.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/result.py to result.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/exc.py to exc.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/failure.py to failure.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/loader.py to loader.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/sphinx/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/sphinx/pluginopts.py to pluginopts.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/case.py to case.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/commands.py to commands.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/__main__.py to __main__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/pyversion.py to pyversion.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/twistedtools.py to twistedtools.cpython-39.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+creating build/bdist.linux-x86_64/egg/man
+creating build/bdist.linux-x86_64/egg/man/man1
+copying nosetests.1 -> build/bdist.linux-x86_64/egg/man/man1
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/nose-1.3.7-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nose-1.3.7-py3.9.egg
+creating /src/packages/.artifacts/lib/python/nose-1.3.7-py3.9.egg
+Extracting nose-1.3.7-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding nose 1.3.7 to easy-install.pth file
+Installing nosetests script to /src/packages/.artifacts/bin
+Installing nosetests-3.9 script to /src/packages/.artifacts/bin
+
+Installed /src/packages/.artifacts/lib/python/nose-1.3.7-py3.9.egg
+Processing dependencies for nose==1.3.7
+Finished processing dependencies for nose==1.3.7
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/nose
+creating install/lib/python3.9/site-packages/nose/tools
+copying build/lib/nose/tools/trivial.py -> install/lib/python3.9/site-packages/nose/tools
+copying build/lib/nose/tools/__init__.py -> install/lib/python3.9/site-packages/nose/tools
+copying build/lib/nose/tools/nontrivial.py -> install/lib/python3.9/site-packages/nose/tools
+copying build/lib/nose/config.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/suite.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/importer.py -> install/lib/python3.9/site-packages/nose
+creating install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/doctests.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/logcapture.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/allmodules.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/collect.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/prof.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/cover.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/skip.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/deprecated.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/plugintest.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/__init__.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/failuredetail.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/isolate.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/capture.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/debug.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/attrib.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/multiprocess.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/testid.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/builtin.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/errorclass.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/manager.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/base.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/plugins/xunit.py -> install/lib/python3.9/site-packages/nose/plugins
+copying build/lib/nose/util.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/proxy.py -> install/lib/python3.9/site-packages/nose
+creating install/lib/python3.9/site-packages/nose/ext
+copying build/lib/nose/ext/__init__.py -> install/lib/python3.9/site-packages/nose/ext
+copying build/lib/nose/ext/dtcompat.py -> install/lib/python3.9/site-packages/nose/ext
+copying build/lib/nose/selector.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/inspector.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/__init__.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/core.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/result.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/exc.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/failure.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/loader.py -> install/lib/python3.9/site-packages/nose
+creating install/lib/python3.9/site-packages/nose/sphinx
+copying build/lib/nose/sphinx/__init__.py -> install/lib/python3.9/site-packages/nose/sphinx
+copying build/lib/nose/sphinx/pluginopts.py -> install/lib/python3.9/site-packages/nose/sphinx
+copying build/lib/nose/case.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/commands.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/__main__.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/pyversion.py -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/usage.txt -> install/lib/python3.9/site-packages/nose
+copying build/lib/nose/twistedtools.py -> install/lib/python3.9/site-packages/nose
+byte-compiling install/lib/python3.9/site-packages/nose/tools/trivial.py to trivial.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/tools/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/tools/nontrivial.py to nontrivial.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/config.py to config.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/suite.py to suite.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/importer.py to importer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/doctests.py to doctests.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/logcapture.py to logcapture.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/allmodules.py to allmodules.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/collect.py to collect.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/prof.py to prof.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/cover.py to cover.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/skip.py to skip.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/deprecated.py to deprecated.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/plugintest.py to plugintest.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/failuredetail.py to failuredetail.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/isolate.py to isolate.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/capture.py to capture.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/debug.py to debug.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/attrib.py to attrib.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/multiprocess.py to multiprocess.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/testid.py to testid.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/builtin.py to builtin.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/errorclass.py to errorclass.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/manager.py to manager.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/base.py to base.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/plugins/xunit.py to xunit.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/util.py to util.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/proxy.py to proxy.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/ext/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/ext/dtcompat.py to dtcompat.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/selector.py to selector.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/inspector.py to inspector.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/result.py to result.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/exc.py to exc.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/failure.py to failure.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/loader.py to loader.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/sphinx/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/sphinx/pluginopts.py to pluginopts.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/case.py to case.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/commands.py to commands.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/__main__.py to __main__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/pyversion.py to pyversion.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/nose/twistedtools.py to twistedtools.cpython-39.pyc
+running install_data
+creating install/man
+creating install/man/man1
+copying nosetests.1 -> install/man/man1
+running install_egg_info
+running egg_info
+writing nose.egg-info/PKG-INFO
+writing dependency_links to nose.egg-info/dependency_links.txt
+writing entry points to nose.egg-info/entry_points.txt
+writing top-level names to nose.egg-info/top_level.txt
+reading manifest file 'nose.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/.build'
+adding license file 'AUTHORS'
+writing manifest file 'nose.egg-info/SOURCES.txt'
+Copying nose.egg-info to install/lib/python3.9/site-packages/nose-1.3.7-py3.9.egg-info
+running install_scripts
+Installing nosetests script to install/bin
+Installing nosetests-3.9 script to install/bin
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 519022
+compressed package into 302203
+compressed in 98 ms
+[2021-12-18 03:47:27] Building package nose...
+[2021-12-18 03:49:23] done building package nose in 116.5 s.

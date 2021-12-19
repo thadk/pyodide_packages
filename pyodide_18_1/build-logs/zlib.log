@@ -1,0 +1,68 @@
+configure: ./configure --prefix=/src/packages/zlib/build/zlib-1.2.11
+Checking for shared library support...
+Building shared library libz.so.1.2.11 with /src/emsdk/emsdk/upstream/emscripten/emcc.
+Checking for size_t... Yes.
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+Checking for strerror... Yes.
+Checking for unistd.h... Yes.
+Checking for stdarg.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for attribute(visibility) support... Yes.
+make: make install -j 4
+make[1]: Entering directory '/src/packages/zlib/build/zlib-1.2.11'
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o adler32.o adler32.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o crc32.o crc32.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o deflate.o deflate.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o infback.o infback.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inffast.o inffast.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inflate.o inflate.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o inftrees.o inftrees.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o trees.o trees.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o zutil.o zutil.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o compress.o compress.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o uncompr.o uncompr.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzclose.o gzclose.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzlib.o gzlib.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzread.o gzread.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -c -o gzwrite.o gzwrite.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/adler32.o adler32.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/crc32.o crc32.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/deflate.o deflate.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/infback.o infback.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/inffast.o inffast.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/inflate.o inflate.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/trees.o trees.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/inftrees.o inftrees.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/zutil.o zutil.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/compress.o compress.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/uncompr.o uncompr.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/gzclose.o gzclose.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/gzlib.o gzlib.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/gzread.o gzread.c
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN  -DPIC -c -o objs/gzwrite.o gzwrite.c
+/src/emsdk/emsdk/upstream/emscripten/emar rc libz.a adler32.o crc32.o deflate.o infback.o inffast.o inflate.o inftrees.o trees.o zutil.o compress.o uncompr.o gzclose.o gzlib.o gzread.o gzwrite.o 
+/src/emsdk/emsdk/upstream/emscripten/emcc -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN -o libz.so.1.2.11 adler32.lo crc32.lo deflate.lo infback.lo inffast.lo inflate.lo inftrees.lo trees.lo zutil.lo compress.lo uncompr.lo gzclose.lo gzlib.lo gzread.lo gzwrite.lo  -lc 
+emcc: warning: generating an executable with an object extension (.so).  If you meant to build an object file please use `-c, `-r`, or `-shared` [-Wemcc]
+rm -f libz.so libz.so.1
+ln -s libz.so.1.2.11 libz.so
+ln -s libz.so.1.2.11 libz.so.1
+rm -f /src/packages/zlib/build/zlib-1.2.11/lib/libz.a
+cp libz.a /src/packages/zlib/build/zlib-1.2.11/lib
+chmod 644 /src/packages/zlib/build/zlib-1.2.11/lib/libz.a
+cp libz.so.1.2.11 /src/packages/zlib/build/zlib-1.2.11/lib
+chmod 755 /src/packages/zlib/build/zlib-1.2.11/lib/libz.so.1.2.11
+rm -f /src/packages/zlib/build/zlib-1.2.11/share/man/man3/zlib.3
+cp zlib.3 /src/packages/zlib/build/zlib-1.2.11/share/man/man3
+chmod 644 /src/packages/zlib/build/zlib-1.2.11/share/man/man3/zlib.3
+rm -f /src/packages/zlib/build/zlib-1.2.11/lib/pkgconfig/zlib.pc
+cp zlib.pc /src/packages/zlib/build/zlib-1.2.11/lib/pkgconfig
+chmod 644 /src/packages/zlib/build/zlib-1.2.11/lib/pkgconfig/zlib.pc
+rm -f /src/packages/zlib/build/zlib-1.2.11/include/zlib.h /src/packages/zlib/build/zlib-1.2.11/include/zconf.h
+cp zlib.h zconf.h /src/packages/zlib/build/zlib-1.2.11/include
+chmod 644 /src/packages/zlib/build/zlib-1.2.11/include/zlib.h /src/packages/zlib/build/zlib-1.2.11/include/zconf.h
+make[1]: Leaving directory '/src/packages/zlib/build/zlib-1.2.11'
+[2021-08-12 03:14:47] Building package zlib...
+[2021-08-12 03:17:04] done building package zlib in 136.8 s.

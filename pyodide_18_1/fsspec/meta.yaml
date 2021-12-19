@@ -1,0 +1,14 @@
+package:
+  name: fsspec
+  version: 2021.11.1
+source:
+  url: https://files.pythonhosted.org/packages/a5/b1/9c247e65c565e863643763020366b492a6bd4b1fd5854cbc8bdc42bd87ff/fsspec-2021.11.1.tar.gz
+  sha256: 03683e606651d5e4bd9180525d57477bd5430e5dc68d2e459835dc14cecc3dd4
+test:
+  imports:
+  - fsspec
+about:
+  home: http://github.com/fsspec/filesystem_spec
+  PyPi: https://pypi.org/project/fsspec
+  summary: File-system specification
+  license: BSD

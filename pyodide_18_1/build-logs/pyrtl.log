@@ -1,0 +1,288 @@
+patching file pyrtl/compilesim.py
+patching file pyrtl/simulation.py
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running bdist_egg
+running egg_info
+writing pyrtl.egg-info/PKG-INFO
+writing dependency_links to pyrtl.egg-info/dependency_links.txt
+writing requirements to pyrtl.egg-info/requires.txt
+writing top-level names to pyrtl.egg-info/top_level.txt
+reading manifest file 'pyrtl.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'pyrtl.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyrtl
+copying pyrtl/simulation.py -> build/lib/pyrtl
+copying pyrtl/analysis.py -> build/lib/pyrtl
+copying pyrtl/helperfuncs.py -> build/lib/pyrtl
+copying pyrtl/memory.py -> build/lib/pyrtl
+copying pyrtl/importexport.py -> build/lib/pyrtl
+copying pyrtl/corecircuits.py -> build/lib/pyrtl
+copying pyrtl/__init__.py -> build/lib/pyrtl
+copying pyrtl/core.py -> build/lib/pyrtl
+copying pyrtl/visualization.py -> build/lib/pyrtl
+copying pyrtl/wire.py -> build/lib/pyrtl
+copying pyrtl/transform.py -> build/lib/pyrtl
+copying pyrtl/compilesim.py -> build/lib/pyrtl
+copying pyrtl/conditional.py -> build/lib/pyrtl
+copying pyrtl/pyrtlexceptions.py -> build/lib/pyrtl
+copying pyrtl/passes.py -> build/lib/pyrtl
+creating build/lib/tests
+copying tests/test_signed.py -> build/lib/tests
+copying tests/test_compilesim.py -> build/lib/tests
+copying tests/test_transform.py -> build/lib/tests
+copying tests/test_visualization.py -> build/lib/tests
+copying tests/test_core.py -> build/lib/tests
+copying tests/test_analysis.py -> build/lib/tests
+copying tests/__init__.py -> build/lib/tests
+copying tests/test_passes.py -> build/lib/tests
+copying tests/test_helperfuncs.py -> build/lib/tests
+copying tests/test_memblock.py -> build/lib/tests
+copying tests/test_importexport.py -> build/lib/tests
+copying tests/test_conditional.py -> build/lib/tests
+copying tests/test_wire.py -> build/lib/tests
+copying tests/test_simulation.py -> build/lib/tests
+copying tests/test_examples.py -> build/lib/tests
+creating build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/matrix.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/multipliers.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/aes.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/__init__.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/muxes.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/testingutils.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/adders.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/libutils.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/barrel.py -> build/lib/pyrtl/rtllib
+copying pyrtl/rtllib/prngs.py -> build/lib/pyrtl/rtllib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/simulation.py -> build/bdist.linux-x86_64/egg/pyrtl
+creating build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/matrix.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/multipliers.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/aes.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/__init__.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/muxes.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/testingutils.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/adders.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/libutils.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/barrel.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/prngs.py -> build/bdist.linux-x86_64/egg/pyrtl/rtllib
+copying build/lib/pyrtl/analysis.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/helperfuncs.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/memory.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/importexport.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/corecircuits.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/__init__.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/core.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/visualization.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/wire.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/transform.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/compilesim.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/conditional.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/pyrtlexceptions.py -> build/bdist.linux-x86_64/egg/pyrtl
+copying build/lib/pyrtl/passes.py -> build/bdist.linux-x86_64/egg/pyrtl
+creating build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_signed.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_compilesim.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_transform.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_visualization.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_core.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_analysis.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_passes.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_helperfuncs.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_memblock.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_importexport.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_conditional.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_wire.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_simulation.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_examples.py -> build/bdist.linux-x86_64/egg/tests
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/simulation.py to simulation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/matrix.py to matrix.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/multipliers.py to multipliers.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/aes.py to aes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/muxes.py to muxes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/testingutils.py to testingutils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/adders.py to adders.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/libutils.py to libutils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/barrel.py to barrel.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/rtllib/prngs.py to prngs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/analysis.py to analysis.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/helperfuncs.py to helperfuncs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/memory.py to memory.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/importexport.py to importexport.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/corecircuits.py to corecircuits.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/core.py to core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/visualization.py to visualization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/wire.py to wire.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/transform.py to transform.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/compilesim.py to compilesim.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/conditional.py to conditional.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/pyrtlexceptions.py to pyrtlexceptions.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyrtl/passes.py to passes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_signed.py to test_signed.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_compilesim.py to test_compilesim.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_transform.py to test_transform.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_visualization.py to test_visualization.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_core.py to test_core.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_analysis.py to test_analysis.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_passes.py to test_passes.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_helperfuncs.py to test_helperfuncs.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_memblock.py to test_memblock.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_importexport.py to test_importexport.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_conditional.py to test_conditional.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_wire.py to test_wire.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_simulation.py to test_simulation.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_examples.py to test_examples.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyrtl.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyrtl.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyrtl.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyrtl.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyrtl.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+pyrtl.__pycache__.compilesim.cpython-39: module MAY be using inspect.trace
+pyrtl.__pycache__.core.cpython-39: module MAY be using inspect.stack
+pyrtl.__pycache__.simulation.cpython-39: module MAY be using inspect.trace
+tests.__pycache__.test_examples.cpython-39: module references __file__
+tests.__pycache__.test_helperfuncs.cpython-39: module MAY be using inspect.trace
+tests.__pycache__.test_importexport.cpython-39: module MAY be using inspect.trace
+tests.__pycache__.test_passes.cpython-39: module MAY be using inspect.trace
+tests.__pycache__.test_simulation.cpython-39: module MAY be using inspect.trace
+creating dist
+creating 'dist/pyrtl-0.10.0-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pyrtl-0.10.0-py3.9.egg
+creating /src/packages/.artifacts/lib/python/pyrtl-0.10.0-py3.9.egg
+Extracting pyrtl-0.10.0-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding pyrtl 0.10.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/pyrtl-0.10.0-py3.9.egg
+Processing dependencies for pyrtl==0.10.0
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for pyrtl==0.10.0
+/usr/local/lib/python3.9/site-packages/setuptools/dist.py:691: UserWarning: Usage of dash-separated 'description-file' will not be supported in future versions. Please use the underscore name 'description_file' instead
+  warnings.warn(
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/simulation.py -> install/lib/python3.9/site-packages/pyrtl
+creating install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/matrix.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/multipliers.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/aes.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/__init__.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/muxes.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/testingutils.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/adders.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/libutils.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/barrel.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/rtllib/prngs.py -> install/lib/python3.9/site-packages/pyrtl/rtllib
+copying build/lib/pyrtl/analysis.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/helperfuncs.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/memory.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/importexport.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/corecircuits.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/__init__.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/core.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/visualization.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/wire.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/transform.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/compilesim.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/conditional.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/pyrtlexceptions.py -> install/lib/python3.9/site-packages/pyrtl
+copying build/lib/pyrtl/passes.py -> install/lib/python3.9/site-packages/pyrtl
+creating install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_signed.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_compilesim.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_transform.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_visualization.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_core.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_analysis.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/__init__.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_passes.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_helperfuncs.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_memblock.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_importexport.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_conditional.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_wire.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_simulation.py -> install/lib/python3.9/site-packages/tests
+copying build/lib/tests/test_examples.py -> install/lib/python3.9/site-packages/tests
+byte-compiling install/lib/python3.9/site-packages/pyrtl/simulation.py to simulation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/matrix.py to matrix.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/multipliers.py to multipliers.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/aes.py to aes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/muxes.py to muxes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/testingutils.py to testingutils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/adders.py to adders.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/libutils.py to libutils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/barrel.py to barrel.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/rtllib/prngs.py to prngs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/analysis.py to analysis.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/helperfuncs.py to helperfuncs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/memory.py to memory.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/importexport.py to importexport.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/corecircuits.py to corecircuits.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/core.py to core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/visualization.py to visualization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/wire.py to wire.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/transform.py to transform.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/compilesim.py to compilesim.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/conditional.py to conditional.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/pyrtlexceptions.py to pyrtlexceptions.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/pyrtl/passes.py to passes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_signed.py to test_signed.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_compilesim.py to test_compilesim.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_transform.py to test_transform.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_visualization.py to test_visualization.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_core.py to test_core.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_analysis.py to test_analysis.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_passes.py to test_passes.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_helperfuncs.py to test_helperfuncs.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_memblock.py to test_memblock.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_importexport.py to test_importexport.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_conditional.py to test_conditional.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_wire.py to test_wire.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_simulation.py to test_simulation.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/tests/test_examples.py to test_examples.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing pyrtl.egg-info/PKG-INFO
+writing dependency_links to pyrtl.egg-info/dependency_links.txt
+writing requirements to pyrtl.egg-info/requires.txt
+writing top-level names to pyrtl.egg-info/top_level.txt
+reading manifest file 'pyrtl.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file 'pyrtl.egg-info/SOURCES.txt'
+Copying pyrtl.egg-info to install/lib/python3.9/site-packages/pyrtl-0.10.0-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 859321
+compressed package into 449302
+compressed in 94 ms
+[2021-12-18 07:56:28] Building package pyrtl...
+[2021-12-18 07:57:29] done building package pyrtl in 60.8 s.

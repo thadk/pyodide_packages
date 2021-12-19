@@ -1,0 +1,195 @@
+running install
+running bdist_egg
+running egg_info
+writing parso.egg-info/PKG-INFO
+writing dependency_links to parso.egg-info/dependency_links.txt
+writing requirements to parso.egg-info/requires.txt
+writing top-level names to parso.egg-info/top_level.txt
+reading manifest file 'parso.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+adding license file 'LICENSE.txt'
+adding license file 'AUTHORS.txt'
+writing manifest file 'parso.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/parso
+copying parso/tree.py -> build/lib/parso
+copying parso/cache.py -> build/lib/parso
+copying parso/__init__.py -> build/lib/parso
+copying parso/grammar.py -> build/lib/parso
+copying parso/parser.py -> build/lib/parso
+copying parso/utils.py -> build/lib/parso
+copying parso/file_io.py -> build/lib/parso
+copying parso/normalizer.py -> build/lib/parso
+copying parso/_compatibility.py -> build/lib/parso
+creating build/lib/parso/python
+copying parso/python/prefix.py -> build/lib/parso/python
+copying parso/python/tree.py -> build/lib/parso/python
+copying parso/python/token.py -> build/lib/parso/python
+copying parso/python/__init__.py -> build/lib/parso/python
+copying parso/python/parser.py -> build/lib/parso/python
+copying parso/python/pep8.py -> build/lib/parso/python
+copying parso/python/diff.py -> build/lib/parso/python
+copying parso/python/errors.py -> build/lib/parso/python
+copying parso/python/tokenize.py -> build/lib/parso/python
+creating build/lib/parso/pgen2
+copying parso/pgen2/__init__.py -> build/lib/parso/pgen2
+copying parso/pgen2/generator.py -> build/lib/parso/pgen2
+copying parso/pgen2/grammar_parser.py -> build/lib/parso/pgen2
+copying parso/python/grammar37.txt -> build/lib/parso/python
+copying parso/python/grammar36.txt -> build/lib/parso/python
+copying parso/python/grammar310.txt -> build/lib/parso/python
+copying parso/python/grammar38.txt -> build/lib/parso/python
+copying parso/python/grammar39.txt -> build/lib/parso/python
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/tree.py -> build/bdist.linux-x86_64/egg/parso
+creating build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/prefix.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/grammar37.txt -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/tree.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/grammar36.txt -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/token.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/grammar310.txt -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/__init__.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/parser.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/pep8.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/diff.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/errors.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/tokenize.py -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/grammar38.txt -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/python/grammar39.txt -> build/bdist.linux-x86_64/egg/parso/python
+copying build/lib/parso/cache.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/__init__.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/grammar.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/parser.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/utils.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/file_io.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/normalizer.py -> build/bdist.linux-x86_64/egg/parso
+copying build/lib/parso/_compatibility.py -> build/bdist.linux-x86_64/egg/parso
+creating build/bdist.linux-x86_64/egg/parso/pgen2
+copying build/lib/parso/pgen2/__init__.py -> build/bdist.linux-x86_64/egg/parso/pgen2
+copying build/lib/parso/pgen2/generator.py -> build/bdist.linux-x86_64/egg/parso/pgen2
+copying build/lib/parso/pgen2/grammar_parser.py -> build/bdist.linux-x86_64/egg/parso/pgen2
+byte-compiling build/bdist.linux-x86_64/egg/parso/tree.py to tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/prefix.py to prefix.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/tree.py to tree.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/token.py to token.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/parser.py to parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/pep8.py to pep8.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/diff.py to diff.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/errors.py to errors.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/python/tokenize.py to tokenize.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/cache.py to cache.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/grammar.py to grammar.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/parser.py to parser.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/utils.py to utils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/file_io.py to file_io.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/normalizer.py to normalizer.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/_compatibility.py to _compatibility.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/pgen2/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/pgen2/generator.py to generator.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/parso/pgen2/grammar_parser.py to grammar_parser.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying parso.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying parso.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying parso.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying parso.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying parso.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+parso.__pycache__.grammar.cpython-39: module references __file__
+creating dist
+creating 'dist/parso-0.8.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing parso-0.8.2-py3.9.egg
+creating /src/packages/.artifacts/lib/python/parso-0.8.2-py3.9.egg
+Extracting parso-0.8.2-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding parso 0.8.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/parso-0.8.2-py3.9.egg
+Processing dependencies for parso==0.8.2
+Finished processing dependencies for parso==0.8.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/parso
+copying build/lib/parso/tree.py -> install/lib/python3.9/site-packages/parso
+creating install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/prefix.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/grammar37.txt -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/tree.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/grammar36.txt -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/token.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/grammar310.txt -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/__init__.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/parser.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/pep8.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/diff.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/errors.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/tokenize.py -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/grammar38.txt -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/python/grammar39.txt -> install/lib/python3.9/site-packages/parso/python
+copying build/lib/parso/cache.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/__init__.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/grammar.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/parser.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/utils.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/file_io.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/normalizer.py -> install/lib/python3.9/site-packages/parso
+copying build/lib/parso/_compatibility.py -> install/lib/python3.9/site-packages/parso
+creating install/lib/python3.9/site-packages/parso/pgen2
+copying build/lib/parso/pgen2/__init__.py -> install/lib/python3.9/site-packages/parso/pgen2
+copying build/lib/parso/pgen2/generator.py -> install/lib/python3.9/site-packages/parso/pgen2
+copying build/lib/parso/pgen2/grammar_parser.py -> install/lib/python3.9/site-packages/parso/pgen2
+byte-compiling install/lib/python3.9/site-packages/parso/tree.py to tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/prefix.py to prefix.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/tree.py to tree.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/token.py to token.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/parser.py to parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/pep8.py to pep8.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/diff.py to diff.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/errors.py to errors.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/python/tokenize.py to tokenize.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/cache.py to cache.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/grammar.py to grammar.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/parser.py to parser.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/utils.py to utils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/file_io.py to file_io.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/normalizer.py to normalizer.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/_compatibility.py to _compatibility.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/pgen2/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/pgen2/generator.py to generator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/parso/pgen2/grammar_parser.py to grammar_parser.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing parso.egg-info/PKG-INFO
+writing dependency_links to parso.egg-info/dependency_links.txt
+writing requirements to parso.egg-info/requires.txt
+writing top-level names to parso.egg-info/top_level.txt
+reading manifest file 'parso.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+adding license file 'LICENSE.txt'
+adding license file 'AUTHORS.txt'
+writing manifest file 'parso.egg-info/SOURCES.txt'
+Copying parso.egg-info to install/lib/python3.9/site-packages/parso-0.8.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 309872
+compressed package into 177836
+compressed in 87 ms
+[2021-12-18 02:01:07] Building package parso...
+[2021-12-18 02:02:42] done building package parso in 94.9 s.

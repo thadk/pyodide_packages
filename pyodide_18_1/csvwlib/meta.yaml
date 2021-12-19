@@ -1,0 +1,22 @@
+package:
+  name: csvwlib
+  version: 0.3.2
+source:
+  url: https://files.pythonhosted.org/packages/3f/08/1181e6a57dd4ef439ee449a171f6902f5404ca12be22c66035fa74dc0238/csvwlib-0.3.2.tar.gz
+  sha256: d3299db86017b79f164d4e3e9d7df1447b70a3be5690164f19ebdc48e620cfdb
+test:
+  imports:
+  - csvwlib
+requirements:
+  run:
+  # - language-tags
+  - python-dateutil
+  - rdflib
+  # - rdflib-jsonld
+  - requests
+  # - uritemplate
+about:
+  home: https://github.com/DerwenAI/csvwlib
+  PyPi: https://pypi.org/project/csvwlib
+  summary: Python implementation of CSV on the Web
+  license: MIT

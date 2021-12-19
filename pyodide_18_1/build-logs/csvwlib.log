@@ -1,0 +1,327 @@
+running install
+running bdist_egg
+running egg_info
+writing csvwlib.egg-info/PKG-INFO
+writing dependency_links to csvwlib.egg-info/dependency_links.txt
+writing requirements to csvwlib.egg-info/requires.txt
+writing top-level names to csvwlib.egg-info/top_level.txt
+reading manifest file 'csvwlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'csvwlib.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/csvwlib
+copying csvwlib/__init__.py -> build/lib/csvwlib
+creating build/lib/csvwlib/converter
+copying csvwlib/converter/CSVWConverter.py -> build/lib/csvwlib/converter
+copying csvwlib/converter/ToRDFConverter.py -> build/lib/csvwlib/converter
+copying csvwlib/converter/__init__.py -> build/lib/csvwlib/converter
+copying csvwlib/converter/ToJSONConverter.py -> build/lib/csvwlib/converter
+copying csvwlib/converter/ModelConverter.py -> build/lib/csvwlib/converter
+creating build/lib/csvwlib/utils
+copying csvwlib/utils/metadata.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/NumericUtils.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/datatypeutils.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/ATDMUtils.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/TypeConverter.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/__init__.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/MetadataLocator.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/CSVUtils.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/DialectUtils.py -> build/lib/csvwlib/utils
+copying csvwlib/utils/DOPUtils.py -> build/lib/csvwlib/utils
+creating build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/RDFGraphUtils.py -> build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/RDFUtils.py -> build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/__init__.py -> build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/OntologyUtils.py -> build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/CSVW.py -> build/lib/csvwlib/utils/rdf
+copying csvwlib/utils/rdf/Namespaces.py -> build/lib/csvwlib/utils/rdf
+creating build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/WellKnownUriResolver.py -> build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/PropertyUrlUtils.py -> build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/UriTemplateUtils.py -> build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/__init__.py -> build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/ValueUrlUtils.py -> build/lib/csvwlib/utils/url
+copying csvwlib/utils/url/AboutUrlutils.py -> build/lib/csvwlib/utils/url
+creating build/lib/csvwlib/utils/json
+copying csvwlib/utils/json/__init__.py -> build/lib/csvwlib/utils/json
+copying csvwlib/utils/json/CommonProperties.py -> build/lib/csvwlib/utils/json
+copying csvwlib/utils/json/JSONLDUtils.py -> build/lib/csvwlib/utils/json
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/csvwlib
+creating build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/converter/CSVWConverter.py -> build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/converter/ToRDFConverter.py -> build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/converter/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/converter/ToJSONConverter.py -> build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/converter/ModelConverter.py -> build/bdist.linux-x86_64/egg/csvwlib/converter
+copying build/lib/csvwlib/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib
+creating build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/metadata.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/NumericUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/datatypeutils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/ATDMUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/TypeConverter.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/MetadataLocator.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+creating build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/WellKnownUriResolver.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/PropertyUrlUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/UriTemplateUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/ValueUrlUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/AboutUrlutils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/url
+creating build/bdist.linux-x86_64/egg/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/CommonProperties.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/JSONLDUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/json
+copying build/lib/csvwlib/utils/CSVUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/DialectUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+copying build/lib/csvwlib/utils/DOPUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils
+creating build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/RDFGraphUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/RDFUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/__init__.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/OntologyUtils.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/CSVW.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/Namespaces.py -> build/bdist.linux-x86_64/egg/csvwlib/utils/rdf
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/converter/CSVWConverter.py to CSVWConverter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/converter/ToRDFConverter.py to ToRDFConverter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/converter/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/converter/ToJSONConverter.py to ToJSONConverter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/converter/ModelConverter.py to ModelConverter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/metadata.py to metadata.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/NumericUtils.py to NumericUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/datatypeutils.py to datatypeutils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/ATDMUtils.py to ATDMUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/TypeConverter.py to TypeConverter.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/MetadataLocator.py to MetadataLocator.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/WellKnownUriResolver.py to WellKnownUriResolver.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/PropertyUrlUtils.py to PropertyUrlUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/UriTemplateUtils.py to UriTemplateUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/ValueUrlUtils.py to ValueUrlUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/url/AboutUrlutils.py to AboutUrlutils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/json/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/json/CommonProperties.py to CommonProperties.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/json/JSONLDUtils.py to JSONLDUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/CSVUtils.py to CSVUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/DialectUtils.py to DialectUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/DOPUtils.py to DOPUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/RDFGraphUtils.py to RDFGraphUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/RDFUtils.py to RDFUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/__init__.py to __init__.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/OntologyUtils.py to OntologyUtils.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/CSVW.py to CSVW.cpython-39.pyc
+byte-compiling build/bdist.linux-x86_64/egg/csvwlib/utils/rdf/Namespaces.py to Namespaces.cpython-39.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying csvwlib.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/csvwlib-0.3.2-py3.9.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing csvwlib-0.3.2-py3.9.egg
+creating /src/packages/.artifacts/lib/python/csvwlib-0.3.2-py3.9.egg
+Extracting csvwlib-0.3.2-py3.9.egg to /src/packages/.artifacts/lib/python
+Adding csvwlib 0.3.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/csvwlib-0.3.2-py3.9.egg
+Processing dependencies for csvwlib==0.3.2
+Searching for language-tags>=0.4.3
+Reading https://pypi.org/simple/language-tags/
+Downloading https://files.pythonhosted.org/packages/cb/1e/aecdf6121f33cc86bdd81336a22cbbb57a02eea1cb702b57fed932bb00a1/language_tags-1.1.0-py2.py3-none-any.whl#sha256=2b6493f0733ab2fb70db284dd8231ba86b2ada5afa6974a7f89af52bab2a9658
+Best match: language-tags 1.1.0
+Processing language_tags-1.1.0-py2.py3-none-any.whl
+Installing language_tags-1.1.0-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding language-tags 1.1.0 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/language_tags-1.1.0-py3.9.egg
+Searching for uritemplate>=3.0.0
+Reading https://pypi.org/simple/uritemplate/
+Downloading https://files.pythonhosted.org/packages/81/c0/7461b49cd25aeece13766f02ee576d1db528f1c37ce69aee300e075b485b/uritemplate-4.1.1-py2.py3-none-any.whl#sha256=830c08b8d99bdd312ea4ead05994a38e8936266f84b9a7878232db50b044e02e
+Best match: uritemplate 4.1.1
+Processing uritemplate-4.1.1-py2.py3-none-any.whl
+Installing uritemplate-4.1.1-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding uritemplate 4.1.1 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/uritemplate-4.1.1-py3.9.egg
+Searching for rdflib-jsonld>=0.4.0
+Reading https://pypi.org/simple/rdflib-jsonld/
+Downloading https://files.pythonhosted.org/packages/29/92/da92898b2aab0da78207afc9c035a71bedef3544966374c44e9627d761c5/rdflib_jsonld-0.6.2-py2.py3-none-any.whl#sha256=011afe67672353ca9978ab9a4bee964dff91f14042f2d8a28c22a573779d2f8b
+Best match: rdflib-jsonld 0.6.2
+Processing rdflib_jsonld-0.6.2-py2.py3-none-any.whl
+Installing rdflib_jsonld-0.6.2-py2.py3-none-any.whl to /src/packages/.artifacts/lib/python
+Adding rdflib-jsonld 0.6.2 to easy-install.pth file
+
+Installed /src/packages/.artifacts/lib/python/rdflib_jsonld-0.6.2-py3.9.egg
+Searching for requests==2.26.0
+Best match: requests 2.26.0
+Processing requests-2.26.0-py3.9.egg
+Adding requests 2.26.0 to easy-install.pth file
+
+Using /src/packages/.artifacts/lib/python/requests-2.26.0-py3.9.egg
+Searching for rdflib==6.0.2
+Best match: rdflib 6.0.2
+Processing rdflib-6.0.2-py3.9.egg
+rdflib 6.0.2 is already the active version in easy-install.pth
+Installing csv2rdf script to /src/packages/.artifacts/bin
+Installing rdf2dot script to /src/packages/.artifacts/bin
+Installing rdfgraphisomorphism script to /src/packages/.artifacts/bin
+Installing rdfpipe script to /src/packages/.artifacts/bin
+Installing rdfs2dot script to /src/packages/.artifacts/bin
+
+Using /src/packages/.artifacts/lib/python/rdflib-6.0.2-py3.9.egg
+Searching for python-dateutil==2.8.1
+Best match: python-dateutil 2.8.1
+Processing python_dateutil-2.8.1-py3.9.egg
+python-dateutil 2.8.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/python_dateutil-2.8.1-py3.9.egg
+Searching for idna==3.2
+Best match: idna 3.2
+Adding idna 3.2 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for charset-normalizer==2.0.3
+Best match: charset-normalizer 2.0.3
+Adding charset-normalizer 2.0.3 to easy-install.pth file
+Installing normalizer script to /src/packages/.artifacts/bin
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for certifi==2021.5.30
+Best match: certifi 2021.5.30
+Adding certifi 2021.5.30 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for urllib3==1.26.6
+Best match: urllib3 1.26.6
+Adding urllib3 1.26.6 to easy-install.pth file
+
+Using /usr/local/lib/python3.9/site-packages
+Searching for setuptools==57.1.0
+Best match: setuptools 57.1.0
+Processing setuptools-57.1.0-py3.9.egg
+setuptools 57.1.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/setuptools-57.1.0-py3.9.egg
+Searching for pyparsing==2.4.7
+Best match: pyparsing 2.4.7
+Processing pyparsing-2.4.7-py3.9.egg
+pyparsing 2.4.7 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/pyparsing-2.4.7-py3.9.egg
+Searching for isodate==0.6.1
+Best match: isodate 0.6.1
+Processing isodate-0.6.1-py3.9.egg
+isodate 0.6.1 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/isodate-0.6.1-py3.9.egg
+Searching for six==1.16.0
+Best match: six 1.16.0
+Processing six-1.16.0-py3.9.egg
+six 1.16.0 is already the active version in easy-install.pth
+
+Using /src/packages/.artifacts/lib/python/six-1.16.0-py3.9.egg
+Finished processing dependencies for csvwlib==0.3.2
+running install
+running install_lib
+creating install
+creating install/lib
+creating install/lib/python3.9
+creating install/lib/python3.9/site-packages
+creating install/lib/python3.9/site-packages/csvwlib
+creating install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/converter/CSVWConverter.py -> install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/converter/ToRDFConverter.py -> install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/converter/__init__.py -> install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/converter/ToJSONConverter.py -> install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/converter/ModelConverter.py -> install/lib/python3.9/site-packages/csvwlib/converter
+copying build/lib/csvwlib/__init__.py -> install/lib/python3.9/site-packages/csvwlib
+creating install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/metadata.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/NumericUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/datatypeutils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/ATDMUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/TypeConverter.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/__init__.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/MetadataLocator.py -> install/lib/python3.9/site-packages/csvwlib/utils
+creating install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/WellKnownUriResolver.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/PropertyUrlUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/UriTemplateUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/__init__.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/ValueUrlUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+copying build/lib/csvwlib/utils/url/AboutUrlutils.py -> install/lib/python3.9/site-packages/csvwlib/utils/url
+creating install/lib/python3.9/site-packages/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/__init__.py -> install/lib/python3.9/site-packages/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/CommonProperties.py -> install/lib/python3.9/site-packages/csvwlib/utils/json
+copying build/lib/csvwlib/utils/json/JSONLDUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/json
+copying build/lib/csvwlib/utils/CSVUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/DialectUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+copying build/lib/csvwlib/utils/DOPUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils
+creating install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/RDFGraphUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/RDFUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/__init__.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/OntologyUtils.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/CSVW.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+copying build/lib/csvwlib/utils/rdf/Namespaces.py -> install/lib/python3.9/site-packages/csvwlib/utils/rdf
+byte-compiling install/lib/python3.9/site-packages/csvwlib/converter/CSVWConverter.py to CSVWConverter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/converter/ToRDFConverter.py to ToRDFConverter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/converter/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/converter/ToJSONConverter.py to ToJSONConverter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/converter/ModelConverter.py to ModelConverter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/metadata.py to metadata.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/NumericUtils.py to NumericUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/datatypeutils.py to datatypeutils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/ATDMUtils.py to ATDMUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/TypeConverter.py to TypeConverter.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/MetadataLocator.py to MetadataLocator.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/WellKnownUriResolver.py to WellKnownUriResolver.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/PropertyUrlUtils.py to PropertyUrlUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/UriTemplateUtils.py to UriTemplateUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/ValueUrlUtils.py to ValueUrlUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/url/AboutUrlutils.py to AboutUrlutils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/json/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/json/CommonProperties.py to CommonProperties.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/json/JSONLDUtils.py to JSONLDUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/CSVUtils.py to CSVUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/DialectUtils.py to DialectUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/DOPUtils.py to DOPUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/RDFGraphUtils.py to RDFGraphUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/RDFUtils.py to RDFUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/__init__.py to __init__.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/OntologyUtils.py to OntologyUtils.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/CSVW.py to CSVW.cpython-39.pyc
+byte-compiling install/lib/python3.9/site-packages/csvwlib/utils/rdf/Namespaces.py to Namespaces.cpython-39.pyc
+running install_egg_info
+running egg_info
+writing csvwlib.egg-info/PKG-INFO
+writing dependency_links to csvwlib.egg-info/dependency_links.txt
+writing requirements to csvwlib.egg-info/requires.txt
+writing top-level names to csvwlib.egg-info/top_level.txt
+reading manifest file 'csvwlib.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'csvwlib.egg-info/SOURCES.txt'
+Copying csvwlib.egg-info to install/lib/python3.9/site-packages/csvwlib-0.3.2-py3.9.egg-info
+running install_scripts
+Remember to build the main file with  -s FORCE_FILESYSTEM=1  so that it includes support for loading this file package
+converting to ArrayBuffer
+compressing package of size 102065
+compressed package into 53574
+compressed in 105 ms
+[2021-12-19 01:55:54] Building package csvwlib...
+[2021-12-19 01:56:32] done building package csvwlib in 38.7 s.
